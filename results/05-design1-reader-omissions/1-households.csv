@@ -1,0 +1,13 @@
+row,state,orig_kind,target_group,l3_clarity,verified_earned,verified_unearned,verified_shelter,verified_utilities,remaining_income,l2_lease_plus_bills,omission_impact
+5744,Vermont,error,earned,clear,1646,100,900,1020,100.0,1101.82,162.0
+14542,Georgia,error,earned,clear,4167,0,1250,415,0.0,1419.06,512.0
+28402,Louisiana,error,earned,clear,1161,664,800,0,664.0,800.0,384.0
+42865,Nevada,error,earned,ambiguous,2534,0,600,412,0.0,783.29,515.0
+42777,Nevada,comparison,earned,ambiguous,3484,1061,1589,412,1061.0,1756.06,748.0
+28066,Arkansas,error,unearned,clear,382,943,650,0,382.0,650.0,268.0
+30966,Oklahoma,error,unearned,clear,0,1035,450,388,0.0,618.09,126.0
+21739,Iowa,error,unearned,clear,0,1716,500,530,0.0,759.75,312.0
+43456,Oregon,error,unearned,ambiguous,0,3491,1475,469,0.0,1621.21,268.0
+41978,Nevada,error,unearned,ambiguous,0,1039,200,0,0.0,200.0,211.0
+34791,Kansas,comparison,unearned,ambiguous,0,1572,467,462,0.0,628.44,268.0
+30269,New Mexico,error,unearned,ambiguous,0,1558,850,417,0.0,1050.14,232.0
