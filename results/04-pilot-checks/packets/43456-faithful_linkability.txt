@@ -1,0 +1,50 @@
+# household 43456 (error, unearned), variant faithful_linkability; undocumented groups: none
+
+Note A:
+Hi, my name is Finley Duarte. There are 1 of us applying for food assistance. I get unemployment benefits. We rent our home at 8634 Washington St, Apt 16 from Elm Ridge Apartments LLC. We pay for heat and electricity ourselves.
+
+Note B:
+Hi, my name is Finley Duarte. There are 1 of us applying for food assistance. I get unemployment benefits. We rent our home at 8634 Washington St, Apt 16 from Elm Ridge Apartments LLC. We pay for heat and electricity ourselves.
+
+Connector results:
+
+payroll connector returned 0 pay stubs.
+
+bank connector returned 8 transactions for checking account ****4304, 2026-09-01 to 2026-10-31:
+[doc-01] 2026-09-01 | debit $1,475.00 | RENT PAYMENT ELM RIDGE APARTMENTS LLC
+[doc-02] 2026-09-03 | debit $29.85 | GROCERY NEIGHBORHOOD PANTRY MARKET
+[doc-03] 2026-09-05 | credit $3,491.00 | STATE UNEMPLOYMENT INSURANCE AGENCY PAYMENT
+[doc-04] 2026-09-24 | debit $99.99 | GROCERY CORNER GROCERY
+[doc-05] 2026-10-01 | debit $1,475.00 | RENT PAYMENT ELM RIDGE APARTMENTS LLC
+[doc-06] 2026-10-01 | credit $29.51 | REFUND VALUE CLOTHING
+[doc-07] 2026-10-05 | credit $3,491.00 | STATE UNEMPLOYMENT INSURANCE AGENCY PAYMENT
+[doc-08] 2026-10-31 | credit $156.78 | TRANSFER FROM SAVINGS ****4304 (OWN ACCOUNT)
+
+drive search returned 4 documents:
+[doc-09] Benefit notice
+    From: State unemployment insurance agency
+    Recipient: Finley Duarte
+    Benefit: unemployment benefits
+    Monthly amount: $3,491.00
+    Date of notice: 2026-08-14
+[doc-10] Lease agreement
+    Landlord: Elm Ridge Apartments LLC
+    Tenant: Finley Duarte
+    Address: 8634 Washington St, Apt 16
+    Monthly rent: $1,475.00
+    Lease start: 2026-03-01
+    Lease term: 12 months
+[doc-11] Utility bill
+    Company: Metro Electric
+    Account holder: Finley Duarte
+    Service: Electricity
+    Service address: 8634 Washington St, Apt 16
+    Billing period: 2026-09-15 to 2026-10-14
+    Amount due: $62.95
+[doc-12] Utility bill
+    Company: Regional Gas Co.
+    Account holder: Finley Duarte
+    Service: Heat
+    Service address: 8634 Washington St, Apt 16
+    Billing period: 2026-09-15 to 2026-10-14
+    Amount due: $83.26

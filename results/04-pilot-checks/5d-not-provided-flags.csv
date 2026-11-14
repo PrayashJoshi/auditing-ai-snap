@@ -1,0 +1,7 @@
+reader,group has a fact,not-provided groups,flagged
+checker,False,29,29
+checker,True,29,25
+deepseek-v4-flash,False,29,0
+deepseek-v4-flash,True,29,0
+qwen3.5-397b,False,29,1
+qwen3.5-397b,True,29,0

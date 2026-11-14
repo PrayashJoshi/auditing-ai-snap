@@ -1,0 +1,5 @@
+features,classifier,inputs,AI-filed,accuracy (leave one household out),chance (majority share),predicted human,distinct feature rows
+format only,logistic regression (defaults),120,80,0.667,0.667,0,1
+format only,lookup by feature row,120,80,0.667,0.667,0,1
+format + blank pattern,logistic regression (defaults),120,80,0.667,0.667,0,8
+format + blank pattern,lookup by feature row,120,80,0.733,0.667,72,8

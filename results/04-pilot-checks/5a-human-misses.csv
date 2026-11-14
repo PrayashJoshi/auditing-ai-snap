@@ -1,0 +1,13 @@
+variant,reader,row,group in error,in_151,undocumented
+faithful,checker,14542,earned,True,True
+faithful,deepseek-v4-flash,14542,earned,True,True
+faithful,qwen3.5-397b,14542,earned,True,True
+faithful,checker,15436,unearned,True,True
+faithful,deepseek-v4-flash,15436,unearned,True,True
+faithful,qwen3.5-397b,15436,unearned,True,True
+faithful,checker,15847,earned,True,True
+faithful,deepseek-v4-flash,15847,earned,True,True
+faithful,qwen3.5-397b,15847,earned,True,True
+faithful,qwen3.5-397b,23521,utilities,False,False
+complete,qwen3.5-397b,37360,utilities,False,False
+faithful,qwen3.5-397b,37360,utilities,False,False

@@ -1,0 +1,50 @@
+# household 9749 (error, shelter), variant faithful_linkability; undocumented groups: earned, unearned
+
+Note A:
+Hi, my name is Robin Moreau. I live with Logan (22). There are 2 of us applying for food assistance. I do self-employed work (rideshare driving). I get Social Security benefits. I get other income. We rent our home at 1612 Maple Ave, Apt 2 from Elm Ridge Apartments LLC. We pay for heat and electricity ourselves.
+
+Note B:
+Hi, my name is Robin Moreau. I live with Logan (22). There are 2 of us applying for food assistance. I do self-employed work (rideshare driving). I get Social Security benefits. I get other income. We rent our home at 1612 Maple Ave, Apt 2 from Elm Ridge Apartments LLC. We pay for heat and electricity ourselves. I'd put the self-employment income (net of business costs) at about $100 a month. I'd put the other income at about $750 a month.
+
+Connector results:
+
+payroll connector returned 0 pay stubs.
+
+bank connector returned 8 transactions for checking account ****2589, 2026-09-01 to 2026-10-31:
+[doc-01] 2026-09-01 | debit $859.00 | RENT PAYMENT ELM RIDGE APARTMENTS LLC
+[doc-02] 2026-09-01 | debit $94.21 | GROCERY FRESH MARKET
+[doc-03] 2026-09-03 | credit $1,439.00 | SOC SEC BENEFIT SSA
+[doc-04] 2026-09-20 | debit $49.58 | GROCERY SAVE-MART FOODS
+[doc-05] 2026-10-01 | debit $859.00 | RENT PAYMENT ELM RIDGE APARTMENTS LLC
+[doc-06] 2026-10-03 | credit $1,439.00 | SOC SEC BENEFIT SSA
+[doc-07] 2026-10-03 | credit $72.25 | TRANSFER FROM SAVINGS ****2589 (OWN ACCOUNT)
+[doc-08] 2026-10-27 | credit $47.67 | REFUND VALUE CLOTHING
+
+drive search returned 4 documents:
+[doc-09] Benefit award letter
+    From: Social Security Administration
+    Beneficiary: Robin Moreau
+    Benefit: Social Security benefits
+    Monthly benefit amount: $1,439.00
+    Date of letter: 2025-12-03
+[doc-10] Lease agreement
+    Landlord: Elm Ridge Apartments LLC
+    Tenant: Robin Moreau
+    Address: 1612 Maple Ave, Apt 2
+    Monthly rent: $859.00
+    Lease start: 2026-03-01
+    Lease term: 12 months
+[doc-11] Utility bill
+    Company: Metro Electric
+    Account holder: Robin Moreau
+    Service: Electricity
+    Service address: 1612 Maple Ave, Apt 2
+    Billing period: 2026-09-15 to 2026-10-14
+    Amount due: $120.31
+[doc-12] Utility bill
+    Company: Regional Gas Co.
+    Account holder: Robin Moreau
+    Service: Heat
+    Service address: 1612 Maple Ave, Apt 2
+    Billing period: 2026-09-15 to 2026-10-14
+    Amount due: $128.58

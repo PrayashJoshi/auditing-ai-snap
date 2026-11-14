@@ -1,0 +1,21 @@
+# household 15847 (error, earned), variant faithful; undocumented groups: earned
+
+Note A:
+Hi, my name is Alex Mendez. I live with Avery (19) and Harper (14). There are 3 of us applying for food assistance. Avery works at Brightpath Call Center. I get child support.
+
+Note B:
+Hi, my name is Alex Mendez. I live with Avery (19) and Harper (14). There are 3 of us applying for food assistance. Avery works at Brightpath Call Center. I get child support. I'd put the wages at about $1,150 a month before taxes.
+
+Connector results:
+
+payroll connector returned 0 pay stubs.
+
+bank connector returned 6 transactions for checking account ****9027, 2026-09-01 to 2026-10-31:
+[doc-01] 2026-09-03 | credit $69.17 | TRANSFER FROM SAVINGS ****9027 (OWN ACCOUNT)
+[doc-02] 2026-09-07 | debit $87.56 | GROCERY CORNER GROCERY
+[doc-03] 2026-09-10 | credit $187.00 | STATE CHILD SUPPORT DISBURSEMENT UNIT
+[doc-04] 2026-10-10 | credit $187.00 | STATE CHILD SUPPORT DISBURSEMENT UNIT
+[doc-05] 2026-10-22 | debit $109.63 | GROCERY SAVE-MART FOODS
+[doc-06] 2026-10-27 | credit $35.72 | REFUND CITY PHARMACY
+
+drive search returned 0 documents.

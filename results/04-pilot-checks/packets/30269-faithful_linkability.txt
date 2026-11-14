@@ -1,0 +1,53 @@
+# household 30269 (error, unearned), variant faithful_linkability; undocumented groups: unearned
+
+Note A:
+Hi, my name is Riley Kowalski. I live with Jesse (17) and Marlow (13). There are 3 of us applying for food assistance. Jesse gets Supplemental Security Income (SSI). I get help with money from a relative. I get child support. We rent our home at 8885 Hillcrest Dr, Apt 19 from Elm Ridge Apartments LLC. We pay for heat and electricity ourselves.
+
+Note B:
+Hi, my name is Riley Kowalski. I live with Jesse (17) and Marlow (13). There are 3 of us applying for food assistance. Jesse gets Supplemental Security Income (SSI). I get help with money from a relative. I get child support. We rent our home at 8885 Hillcrest Dr, Apt 19 from Elm Ridge Apartments LLC. We pay for heat and electricity ourselves. I'd put the help with money from a relative at about $300 a month.
+
+Connector results:
+
+payroll connector returned 0 pay stubs.
+
+bank connector returned 11 transactions for checking account ****1369, 2026-09-01 to 2026-10-31:
+[doc-01] 2026-09-01 | debit $850.00 | RENT PAYMENT ELM RIDGE APARTMENTS LLC
+[doc-02] 2026-09-01 | credit $797.00 | SSI BENEFIT SSA
+[doc-03] 2026-09-02 | credit $212.32 | TRANSFER FROM SAVINGS ****1369 (OWN ACCOUNT)
+[doc-04] 2026-09-10 | credit $461.00 | STATE CHILD SUPPORT DISBURSEMENT UNIT
+[doc-05] 2026-09-11 | debit $127.73 | GROCERY CORNER GROCERY
+[doc-06] 2026-09-15 | debit $84.63 | GROCERY NEIGHBORHOOD PANTRY MARKET
+[doc-07] 2026-09-15 | credit $47.87 | REFUND CITY PHARMACY
+[doc-08] 2026-10-01 | debit $850.00 | RENT PAYMENT ELM RIDGE APARTMENTS LLC
+[doc-09] 2026-10-01 | credit $797.00 | SSI BENEFIT SSA
+[doc-10] 2026-10-04 | debit $32.56 | GROCERY CORNER GROCERY
+[doc-11] 2026-10-10 | credit $461.00 | STATE CHILD SUPPORT DISBURSEMENT UNIT
+
+drive search returned 4 documents:
+[doc-12] Benefit award letter
+    From: Social Security Administration
+    Beneficiary: Jesse Kowalski
+    Benefit: Supplemental Security Income (SSI)
+    Monthly benefit amount: $797.00
+    Date of letter: 2025-12-03
+[doc-13] Lease agreement
+    Landlord: Elm Ridge Apartments LLC
+    Tenant: Riley Kowalski
+    Address: 8885 Hillcrest Dr, Apt 19
+    Monthly rent: $850.00
+    Lease start: 2026-03-01
+    Lease term: 12 months
+[doc-14] Utility bill
+    Company: Regional Gas Co.
+    Account holder: Riley Kowalski
+    Service: Heat
+    Service address: 8885 Hillcrest Dr, Apt 19
+    Billing period: 2026-09-15 to 2026-10-14
+    Amount due: $109.73
+[doc-15] Utility bill
+    Company: Metro Electric
+    Account holder: Riley Kowalski
+    Service: Electricity
+    Service address: 8885 Hillcrest Dr, Apt 19
+    Billing period: 2026-09-15 to 2026-10-14
+    Amount due: $90.41

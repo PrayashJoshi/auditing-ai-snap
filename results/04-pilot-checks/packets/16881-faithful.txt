@@ -1,0 +1,39 @@
+# household 16881 (error, shelter), variant faithful; undocumented groups: none
+
+Note A:
+Hi, my name is Noel Ferreira. I live with Riley (0) and Drew (35). There are 3 of us applying for food assistance. I get help with money from a relative. We pay for heat and electricity ourselves.
+
+Note B:
+Hi, my name is Noel Ferreira. I live with Riley (0) and Drew (35). There are 3 of us applying for food assistance. I get help with money from a relative. We pay for heat and electricity ourselves.
+
+Connector results:
+
+payroll connector returned 0 pay stubs.
+
+bank connector returned 5 transactions for checking account ****6409, 2026-09-01 to 2026-10-31:
+[doc-01] 2026-09-05 | credit $34.95 | REFUND CITY PHARMACY
+[doc-02] 2026-09-13 | debit $139.96 | GROCERY SAVE-MART FOODS
+[doc-03] 2026-09-14 | debit $43.41 | GROCERY FRESH MARKET
+[doc-04] 2026-10-15 | credit $150.42 | TRANSFER FROM SAVINGS ****6409 (OWN ACCOUNT)
+[doc-05] 2026-10-18 | debit $110.72 | GROCERY CORNER GROCERY
+
+drive search returned 3 documents:
+[doc-06] Monthly income record
+    Person: Noel Ferreira
+    Income: help with money from a relative
+    Average monthly amount: $700.00
+    Months covered: September and October 2026
+[doc-07] Utility bill
+    Company: Regional Gas Co.
+    Account holder: Noel Ferreira
+    Service: Heat
+    Service address: 6931 Maple Ave, Apt 25
+    Billing period: 2026-09-15 to 2026-10-14
+    Amount due: $74.90
+[doc-08] Utility bill
+    Company: Metro Electric
+    Account holder: Noel Ferreira
+    Service: Electricity
+    Service address: 6931 Maple Ave, Apt 25
+    Billing period: 2026-09-15 to 2026-10-14
+    Amount due: $83.51

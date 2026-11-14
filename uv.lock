@@ -170,6 +170,7 @@ source = { editable = "." }
 dependencies = [
     { name = "adaption" },
     { name = "ipykernel" },
+    { name = "jsonschema" },
     { name = "jupyterlab" },
     { name = "jupytext" },
     { name = "matplotlib" },
@@ -187,6 +188,7 @@ dependencies = [
 requires-dist = [
     { name = "adaption", specifier = ">=0.16.0" },
     { name = "ipykernel", specifier = ">=6.29.0" },
+    { name = "jsonschema", specifier = ">=4.26.0" },
     { name = "jupyterlab", specifier = ">=4.3.0" },
     { name = "jupytext", specifier = ">=1.16.0" },
     { name = "matplotlib", specifier = ">=3.9.0" },

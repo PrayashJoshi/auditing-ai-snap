@@ -1,0 +1,102 @@
+# household 28066 (error, earned), variant faithful_linkability; undocumented groups: none
+
+Note A:
+Hi, my name is Emerson Osei. There are 1 of us applying for food assistance. I work at Greenway Landscaping. I get Supplemental Security Income (SSI). We rent our home at 9105 River Rd, Apt 1 from Maple Court Properties.
+
+Note B:
+Hi, my name is Emerson Osei. There are 1 of us applying for food assistance. I work at Greenway Landscaping. I get Supplemental Security Income (SSI). We rent our home at 9105 River Rd, Apt 1 from Maple Court Properties.
+
+Connector results:
+
+payroll connector returned 5 pay stubs:
+[doc-01] Pay stub
+    Employer: Greenway Landscaping
+    Employee: Emerson Osei
+    Pay date: 2026-09-04
+    Pay frequency: Biweekly
+    Gross pay: $177.67
+    Federal income tax: $14.87
+    State income tax: $6.68
+    Social Security and Medicare: $13.59
+    Health insurance: $0.00
+    Net pay: $142.53
+    Year-to-date gross pay: $3,198.06
+[doc-02] Pay stub
+    Employer: Greenway Landscaping
+    Employee: Emerson Osei
+    Pay date: 2026-09-18
+    Pay frequency: Biweekly
+    Gross pay: $177.67
+    Federal income tax: $14.87
+    State income tax: $6.68
+    Social Security and Medicare: $13.59
+    Health insurance: $0.00
+    Net pay: $142.53
+    Year-to-date gross pay: $3,375.73
+[doc-03] Pay stub
+    Employer: Greenway Landscaping
+    Employee: Emerson Osei
+    Pay date: 2026-10-02
+    Pay frequency: Biweekly
+    Gross pay: $177.67
+    Federal income tax: $14.87
+    State income tax: $6.68
+    Social Security and Medicare: $13.59
+    Health insurance: $0.00
+    Net pay: $142.53
+    Year-to-date gross pay: $3,553.40
+[doc-04] Pay stub
+    Employer: Greenway Landscaping
+    Employee: Emerson Osei
+    Pay date: 2026-10-16
+    Pay frequency: Biweekly
+    Gross pay: $177.67
+    Federal income tax: $14.87
+    State income tax: $6.68
+    Social Security and Medicare: $13.59
+    Health insurance: $0.00
+    Net pay: $142.53
+    Year-to-date gross pay: $3,731.07
+[doc-05] Pay stub
+    Employer: Greenway Landscaping
+    Employee: Emerson Osei
+    Pay date: 2026-10-30
+    Pay frequency: Biweekly
+    Gross pay: $177.67
+    Federal income tax: $14.87
+    State income tax: $6.68
+    Social Security and Medicare: $13.59
+    Health insurance: $0.00
+    Net pay: $142.53
+    Year-to-date gross pay: $3,908.74
+
+bank connector returned 14 transactions for checking account ****3788, 2026-09-01 to 2026-10-31:
+[doc-06] 2026-09-01 | debit $650.00 | RENT PAYMENT MAPLE COURT PROPERTIES
+[doc-07] 2026-09-01 | credit $943.00 | SSI BENEFIT SSA
+[doc-08] 2026-09-04 | credit $142.53 | PAYROLL DEP GREENWAY LANDSCAPING
+[doc-09] 2026-09-15 | debit $139.88 | GROCERY NEIGHBORHOOD PANTRY MARKET
+[doc-10] 2026-09-17 | credit $222.20 | TRANSFER FROM SAVINGS ****3788 (OWN ACCOUNT)
+[doc-11] 2026-09-18 | credit $142.53 | PAYROLL DEP GREENWAY LANDSCAPING
+[doc-12] 2026-09-25 | debit $109.51 | GROCERY CORNER GROCERY
+[doc-13] 2026-10-01 | debit $650.00 | RENT PAYMENT MAPLE COURT PROPERTIES
+[doc-14] 2026-10-01 | credit $943.00 | SSI BENEFIT SSA
+[doc-15] 2026-10-02 | credit $142.53 | PAYROLL DEP GREENWAY LANDSCAPING
+[doc-16] 2026-10-03 | credit $48.74 | REFUND HOME GOODS OUTLET
+[doc-17] 2026-10-16 | credit $142.53 | PAYROLL DEP GREENWAY LANDSCAPING
+[doc-18] 2026-10-17 | debit $42.53 | GROCERY NEIGHBORHOOD PANTRY MARKET
+[doc-19] 2026-10-30 | credit $142.53 | PAYROLL DEP GREENWAY LANDSCAPING
+
+drive search returned 2 documents:
+[doc-20] Benefit award letter
+    From: Social Security Administration
+    Beneficiary: Emerson Osei
+    Benefit: Supplemental Security Income (SSI)
+    Monthly benefit amount: $943.00
+    Date of letter: 2025-12-03
+[doc-21] Lease agreement
+    Landlord: Maple Court Properties
+    Tenant: Emerson Osei
+    Address: 9105 River Rd, Apt 1
+    Monthly rent: $650.00
+    Lease start: 2026-03-01
+    Lease term: 12 months

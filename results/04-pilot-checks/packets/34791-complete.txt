@@ -1,0 +1,51 @@
+# household 34791 (comparison), variant complete; undocumented groups: none
+
+Note A:
+Hi, my name is Finley Brennan. There are 1 of us applying for food assistance. I get workers' compensation. We rent our home at 2691 Lincoln St, Apt 28 from Fairview Homes LLC. We pay for heat and electricity ourselves.
+
+Note B:
+Hi, my name is Finley Brennan. There are 1 of us applying for food assistance. I get workers' compensation. We rent our home at 2691 Lincoln St, Apt 28 from Fairview Homes LLC. We pay for heat and electricity ourselves.
+
+Connector results:
+
+payroll connector returned 0 pay stubs.
+
+bank connector returned 9 transactions for checking account ****6073, 2026-09-01 to 2026-10-31:
+[doc-01] 2026-09-01 | debit $467.00 | RENT PAYMENT FAIRVIEW HOMES LLC
+[doc-02] 2026-09-05 | credit $1,572.00 | WORKERS' COMPENSATION INSURER PAYMENT
+[doc-03] 2026-09-12 | credit $51.07 | TRANSFER FROM SAVINGS ****6073 (OWN ACCOUNT)
+[doc-04] 2026-09-28 | debit $85.54 | GROCERY SAVE-MART FOODS
+[doc-05] 2026-09-29 | credit $19.26 | REFUND HOME GOODS OUTLET
+[doc-06] 2026-10-01 | debit $467.00 | RENT PAYMENT FAIRVIEW HOMES LLC
+[doc-07] 2026-10-05 | credit $1,572.00 | WORKERS' COMPENSATION INSURER PAYMENT
+[doc-08] 2026-10-20 | debit $50.57 | GROCERY NEIGHBORHOOD PANTRY MARKET
+[doc-09] 2026-10-29 | debit $64.37 | GROCERY NEIGHBORHOOD PANTRY MARKET
+
+drive search returned 4 documents:
+[doc-10] Benefit notice
+    From: Workers' compensation insurer
+    Recipient: Finley Brennan
+    Benefit: workers' compensation
+    Monthly amount: $1,572.00
+    Date of notice: 2026-08-14
+[doc-11] Lease agreement
+    Landlord: Fairview Homes LLC
+    Tenant: Finley Brennan
+    Address: 2691 Lincoln St, Apt 28
+    Monthly rent: $467.00
+    Lease start: 2026-03-01
+    Lease term: 12 months
+[doc-12] Utility bill
+    Company: Metro Electric
+    Account holder: Finley Brennan
+    Service: Electricity
+    Service address: 2691 Lincoln St, Apt 28
+    Billing period: 2026-09-15 to 2026-10-14
+    Amount due: $71.73
+[doc-13] Utility bill
+    Company: Regional Gas Co.
+    Account holder: Finley Brennan
+    Service: Heat
+    Service address: 2691 Lincoln St, Apt 28
+    Billing period: 2026-09-15 to 2026-10-14
+    Amount due: $89.71

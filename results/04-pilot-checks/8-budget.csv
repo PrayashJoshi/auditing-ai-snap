@@ -1,0 +1,7 @@
+,task,calls,hours at pilot rate,"hours at 03 part 1 rate (2,283/h)","hours at ceiling (3,000/h)"
+pilot,filer,360,0.3,0.2,0.1
+pilot,reader,280,0.2,0.1,0.1
+pilot,all,640,0.5,0.3,0.2
+full run,filer,13796,11.1,6.0,4.6
+full run,reader,26328,21.3,11.5,8.8
+full run,all,40124,32.4,17.6,13.4

@@ -1,0 +1,25 @@
+schema,model,group,no fact: $0,no fact: abstained,no fact: number
+escape,deepseek-v4-flash,earned,33,0,0
+escape,deepseek-v4-flash,shelter,18,0,0
+escape,deepseek-v4-flash,unearned,9,0,0
+escape,deepseek-v4-flash,utilities,0,21,0
+escape,qwen3.5-397b,earned,33,0,0
+escape,qwen3.5-397b,shelter,17,1,0
+escape,qwen3.5-397b,unearned,9,0,0
+escape,qwen3.5-397b,utilities,0,21,0
+provenance,deepseek-v4-flash,earned,44,0,0
+provenance,deepseek-v4-flash,shelter,24,0,0
+provenance,deepseek-v4-flash,unearned,12,0,0
+provenance,deepseek-v4-flash,utilities,0,28,0
+provenance,qwen3.5-397b,earned,44,0,0
+provenance,qwen3.5-397b,shelter,23,1,0
+provenance,qwen3.5-397b,unearned,12,0,0
+provenance,qwen3.5-397b,utilities,0,28,0
+required,deepseek-v4-flash,earned,22,0,0
+required,deepseek-v4-flash,shelter,12,0,0
+required,deepseek-v4-flash,unearned,6,0,0
+required,deepseek-v4-flash,utilities,14,0,0
+required,qwen3.5-397b,earned,22,0,0
+required,qwen3.5-397b,shelter,12,0,0
+required,qwen3.5-397b,unearned,6,0,0
+required,qwen3.5-397b,utilities,14,0,0

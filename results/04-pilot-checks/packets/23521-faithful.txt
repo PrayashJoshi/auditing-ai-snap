@@ -1,0 +1,27 @@
+# household 23521 (error, utilities), variant faithful; undocumented groups: none
+
+Note A:
+Hi, my name is Parker Kowalski. There are 1 of us applying for food assistance. I get Social Security benefits.
+
+Note B:
+Hi, my name is Parker Kowalski. There are 1 of us applying for food assistance. I get Social Security benefits.
+
+Connector results:
+
+payroll connector returned 0 pay stubs.
+
+bank connector returned 6 transactions for checking account ****8024, 2026-09-01 to 2026-10-31:
+[doc-01] 2026-09-03 | credit $771.00 | SOC SEC BENEFIT SSA
+[doc-02] 2026-09-08 | debit $94.76 | GROCERY FRESH MARKET
+[doc-03] 2026-09-17 | credit $39.14 | REFUND HOME GOODS OUTLET
+[doc-04] 2026-09-27 | debit $65.66 | GROCERY CORNER GROCERY
+[doc-05] 2026-10-03 | credit $771.00 | SOC SEC BENEFIT SSA
+[doc-06] 2026-10-28 | credit $87.46 | TRANSFER FROM SAVINGS ****8024 (OWN ACCOUNT)
+
+drive search returned 1 document:
+[doc-07] Benefit award letter
+    From: Social Security Administration
+    Beneficiary: Parker Kowalski
+    Benefit: Social Security benefits
+    Monthly benefit amount: $771.00
+    Date of letter: 2025-12-03

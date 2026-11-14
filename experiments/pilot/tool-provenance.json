@@ -1,0 +1,429 @@
+{
+ "type": "function",
+ "name": "submit_application",
+ "description": "Submit the completed SNAP application form.",
+ "parameters": {
+  "type": "object",
+  "properties": {
+   "household_size": {
+    "type": "integer",
+    "minimum": 1
+   },
+   "employment": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "who": {
+       "type": "string"
+      },
+      "employer": {
+       "type": "string"
+      },
+      "avg_hours_per_week": {
+       "type": "object",
+       "properties": {
+        "value": {
+         "anyOf": [
+          {
+           "type": "number",
+           "minimum": 0
+          },
+          {
+           "type": "string",
+           "enum": [
+            "insufficient_evidence"
+           ]
+          }
+         ]
+        },
+        "source": {
+         "type": "string",
+         "enum": [
+          "retrieved_record",
+          "applicant_stated",
+          "agent_inferred"
+         ]
+        },
+        "document_ids": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        }
+       },
+       "required": [
+        "value",
+        "source",
+        "document_ids"
+       ],
+       "additionalProperties": false
+      },
+      "wages_before_tax": {
+       "type": "object",
+       "properties": {
+        "value": {
+         "anyOf": [
+          {
+           "type": "number",
+           "minimum": 0
+          },
+          {
+           "type": "string",
+           "enum": [
+            "insufficient_evidence"
+           ]
+          }
+         ]
+        },
+        "source": {
+         "type": "string",
+         "enum": [
+          "retrieved_record",
+          "applicant_stated",
+          "agent_inferred"
+         ]
+        },
+        "document_ids": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        }
+       },
+       "required": [
+        "value",
+        "source",
+        "document_ids"
+       ],
+       "additionalProperties": false
+      },
+      "per": {
+       "type": "string",
+       "enum": [
+        "Hr",
+        "Wk",
+        "2Wks",
+        "2x/Mo",
+        "Mo",
+        "Yr"
+       ]
+      }
+     },
+     "required": [
+      "who",
+      "employer",
+      "avg_hours_per_week",
+      "wages_before_tax",
+      "per"
+     ],
+     "additionalProperties": false
+    }
+   },
+   "self_employment": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "who": {
+       "type": "string"
+      },
+      "type_of_work": {
+       "type": "string"
+      },
+      "monthly_income_before_expenses": {
+       "type": "object",
+       "properties": {
+        "value": {
+         "anyOf": [
+          {
+           "type": "number",
+           "minimum": 0
+          },
+          {
+           "type": "string",
+           "enum": [
+            "insufficient_evidence"
+           ]
+          }
+         ]
+        },
+        "source": {
+         "type": "string",
+         "enum": [
+          "retrieved_record",
+          "applicant_stated",
+          "agent_inferred"
+         ]
+        },
+        "document_ids": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        }
+       },
+       "required": [
+        "value",
+        "source",
+        "document_ids"
+       ],
+       "additionalProperties": false
+      },
+      "monthly_expenses": {
+       "type": "object",
+       "properties": {
+        "value": {
+         "anyOf": [
+          {
+           "type": "number",
+           "minimum": 0
+          },
+          {
+           "type": "string",
+           "enum": [
+            "insufficient_evidence"
+           ]
+          }
+         ]
+        },
+        "source": {
+         "type": "string",
+         "enum": [
+          "retrieved_record",
+          "applicant_stated",
+          "agent_inferred"
+         ]
+        },
+        "document_ids": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        }
+       },
+       "required": [
+        "value",
+        "source",
+        "document_ids"
+       ],
+       "additionalProperties": false
+      }
+     },
+     "required": [
+      "who",
+      "type_of_work",
+      "monthly_income_before_expenses",
+      "monthly_expenses"
+     ],
+     "additionalProperties": false
+    }
+   },
+   "additional_income": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "who": {
+       "type": "string"
+      },
+      "type_of_income": {
+       "type": "string"
+      },
+      "amount": {
+       "type": "object",
+       "properties": {
+        "value": {
+         "anyOf": [
+          {
+           "type": "number",
+           "minimum": 0
+          },
+          {
+           "type": "string",
+           "enum": [
+            "insufficient_evidence"
+           ]
+          }
+         ]
+        },
+        "source": {
+         "type": "string",
+         "enum": [
+          "retrieved_record",
+          "applicant_stated",
+          "agent_inferred"
+         ]
+        },
+        "document_ids": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        }
+       },
+       "required": [
+        "value",
+        "source",
+        "document_ids"
+       ],
+       "additionalProperties": false
+      },
+      "per": {
+       "type": "string",
+       "enum": [
+        "Wk",
+        "2Wks",
+        "2x/Mo",
+        "Mo",
+        "Yr"
+       ]
+      }
+     },
+     "required": [
+      "who",
+      "type_of_income",
+      "amount",
+      "per"
+     ],
+     "additionalProperties": false
+    }
+   },
+   "housing_expenses": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "type_of_expense": {
+       "type": "string",
+       "enum": [
+        "Rent",
+        "Mortgage",
+        "Land Contract",
+        "Mobile Home Lot Rent",
+        "Homeowner's Insurance",
+        "Property Tax",
+        "Other"
+       ]
+      },
+      "amount": {
+       "type": "object",
+       "properties": {
+        "value": {
+         "anyOf": [
+          {
+           "type": "number",
+           "minimum": 0
+          },
+          {
+           "type": "string",
+           "enum": [
+            "insufficient_evidence"
+           ]
+          }
+         ]
+        },
+        "source": {
+         "type": "string",
+         "enum": [
+          "retrieved_record",
+          "applicant_stated",
+          "agent_inferred"
+         ]
+        },
+        "document_ids": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        }
+       },
+       "required": [
+        "value",
+        "source",
+        "document_ids"
+       ],
+       "additionalProperties": false
+      },
+      "how_often": {
+       "type": "string",
+       "enum": [
+        "Wk",
+        "2Wks",
+        "2x/Mo",
+        "Mo",
+        "Yr"
+       ]
+      }
+     },
+     "required": [
+      "type_of_expense",
+      "amount",
+      "how_often"
+     ],
+     "additionalProperties": false
+    }
+   },
+   "utilities_paid": {
+    "type": "object",
+    "properties": {
+     "value": {
+      "anyOf": [
+       {
+        "type": "array",
+        "items": {
+         "type": "string",
+         "enum": [
+          "Heat",
+          "Cooking Fuel",
+          "Electricity",
+          "Trash Pickup",
+          "Air Conditioning",
+          "Water/Sewer",
+          "Phone"
+         ]
+        },
+        "uniqueItems": true
+       },
+       {
+        "type": "string",
+        "enum": [
+         "insufficient_evidence"
+        ]
+       }
+      ]
+     },
+     "source": {
+      "type": "string",
+      "enum": [
+       "retrieved_record",
+       "applicant_stated",
+       "agent_inferred"
+      ]
+     },
+     "document_ids": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    },
+    "required": [
+     "value",
+     "source",
+     "document_ids"
+    ],
+    "additionalProperties": false
+   }
+  },
+  "required": [
+   "household_size",
+   "employment",
+   "self_employment",
+   "additional_income",
+   "housing_expenses",
+   "utilities_paid"
+  ],
+  "additionalProperties": false
+ }
+}

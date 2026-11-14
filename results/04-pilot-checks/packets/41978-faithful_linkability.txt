@@ -1,0 +1,36 @@
+# household 41978 (error, utilities), variant faithful_linkability; undocumented groups: none
+
+Note A:
+Hi, my name is Harper Okafor. There are 1 of us applying for food assistance. I get Social Security benefits. We rent our home at 5379 Park Blvd, Apt 3 from Willow Park Housing.
+
+Note B:
+Hi, my name is Harper Okafor. There are 1 of us applying for food assistance. I get Social Security benefits. We rent our home at 5379 Park Blvd, Apt 3 from Willow Park Housing.
+
+Connector results:
+
+payroll connector returned 0 pay stubs.
+
+bank connector returned 8 transactions for checking account ****7108, 2026-09-01 to 2026-10-31:
+[doc-01] 2026-09-01 | debit $200.00 | RENT PAYMENT WILLOW PARK HOUSING
+[doc-02] 2026-09-03 | credit $1,039.00 | SOC SEC BENEFIT SSA
+[doc-03] 2026-09-26 | debit $79.99 | GROCERY NEIGHBORHOOD PANTRY MARKET
+[doc-04] 2026-10-01 | debit $200.00 | RENT PAYMENT WILLOW PARK HOUSING
+[doc-05] 2026-10-03 | credit $1,039.00 | SOC SEC BENEFIT SSA
+[doc-06] 2026-10-19 | credit $243.14 | TRANSFER FROM SAVINGS ****7108 (OWN ACCOUNT)
+[doc-07] 2026-10-23 | credit $44.55 | REFUND CITY PHARMACY
+[doc-08] 2026-10-25 | debit $108.86 | GROCERY NEIGHBORHOOD PANTRY MARKET
+
+drive search returned 2 documents:
+[doc-09] Benefit award letter
+    From: Social Security Administration
+    Beneficiary: Harper Okafor
+    Benefit: Social Security benefits
+    Monthly benefit amount: $1,039.00
+    Date of letter: 2025-12-03
+[doc-10] Lease agreement
+    Landlord: Willow Park Housing
+    Tenant: Harper Okafor
+    Address: 5379 Park Blvd, Apt 3
+    Monthly rent: $200.00
+    Lease start: 2026-03-01
+    Lease term: 12 months

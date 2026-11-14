@@ -1,0 +1,35 @@
+income type,record,label,in the pilot ledger
+WAGES,payroll,wages,True
+SOCSEC,award_letter,Social Security benefits,True
+SSI,award_letter,Supplemental Security Income (SSI),True
+CSUPRT,state_disbursement,child support,True
+SLFEMP,none,self-employment income (net of business costs),True
+OTHERN,none,pay for odd jobs,False
+RENTMINC,none,income from renting out a room,False
+CONT,none,help with money from a relative,True
+DEEM,none,money from a relative's income,False
+OTHUN,none,other income,True
+UNK,none,other income,False
+VET,benefit_notice,veterans benefits,False
+UNEMP,benefit_notice,unemployment benefits,True
+WCOMP,benefit_notice,workers' compensation,True
+OTHGOV,benefit_notice,a government benefit,False
+GA,benefit_notice,general assistance,False
+EDLOAN,benefit_notice,student aid,False
+TANF,benefit_notice,cash assistance (TANF),False
+ENERGY,benefit_notice,energy assistance,False
+WGESUP,benefit_notice,a wage supplement,False
+DIVER,benefit_notice,a diversion payment,False
+FOSTER,benefit_notice,foster care payments,False
+INTER,benefit_notice,interest and dividends,False
+ANNUITY,benefit_notice,annuity payments,False
+PENSION,benefit_notice,a pension,False
+OLDAGE,benefit_notice,old-age assistance,False
+SURV,benefit_notice,survivor benefits,False
+STRIKE,benefit_notice,strike benefits,False
+RENTINC,benefit_notice,rental income,False
+ALIMNY,benefit_notice,alimony,False
+GOVROY,benefit_notice,royalties,False
+GOVDIV,benefit_notice,dividends,False
+GOVINTER,benefit_notice,interest,False
+TRUST,benefit_notice,trust income,False

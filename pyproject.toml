@@ -16,6 +16,7 @@ dependencies = [
     "rdata>=0.11",
     "scikit-learn>=1.5",
     "adaption>=0.16.0",
+    "jsonschema>=4.26.0",
 ]
 
 [build-system]

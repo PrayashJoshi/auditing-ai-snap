@@ -1,0 +1,11 @@
+scope,variant,note,schema,A,Z,R,M,S,G,groups
+documented,complete,A,escape,2,0,104,0,0,0,106
+documented,complete,A,provenance,2,0,104,0,0,0,106
+documented,faithful,A,escape,2,0,78,0,0,0,80
+documented,faithful,A,provenance,2,0,78,0,0,0,80
+documented,faithful,B,escape,2,0,78,0,0,0,80
+documented,faithful,B,provenance,2,0,78,0,0,0,80
+undocumented,faithful,A,escape,25,1,0,0,0,0,26
+undocumented,faithful,A,provenance,25,1,0,0,0,0,26
+undocumented,faithful,B,escape,4,0,0,0,21,1,26
+undocumented,faithful,B,provenance,2,0,0,0,24,0,26

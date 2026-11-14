@@ -1,0 +1,41 @@
+# household 30966 (error, shelter), variant faithful; undocumented groups: shelter
+
+Note A:
+Hi, my name is Morgan Nguyen. There are 1 of us applying for food assistance. I get Social Security benefits. We rent our home at 1715 River Rd, Apt 3 from Maple Court Properties. We pay for heat and electricity ourselves.
+
+Note B:
+Hi, my name is Morgan Nguyen. There are 1 of us applying for food assistance. I get Social Security benefits. We rent our home at 1715 River Rd, Apt 3 from Maple Court Properties. We pay for heat and electricity ourselves. The rent is about $450 a month.
+
+Connector results:
+
+payroll connector returned 0 pay stubs.
+
+bank connector returned 6 transactions for checking account ****2302, 2026-09-01 to 2026-10-31:
+[doc-01] 2026-09-03 | credit $1,035.00 | SOC SEC BENEFIT SSA
+[doc-02] 2026-10-03 | credit $1,035.00 | SOC SEC BENEFIT SSA
+[doc-03] 2026-10-04 | credit $194.68 | TRANSFER FROM SAVINGS ****2302 (OWN ACCOUNT)
+[doc-04] 2026-10-06 | debit $122.72 | GROCERY SAVE-MART FOODS
+[doc-05] 2026-10-16 | debit $54.89 | GROCERY SAVE-MART FOODS
+[doc-06] 2026-10-31 | credit $15.21 | REFUND HOME GOODS OUTLET
+
+drive search returned 3 documents:
+[doc-07] Benefit award letter
+    From: Social Security Administration
+    Beneficiary: Morgan Nguyen
+    Benefit: Social Security benefits
+    Monthly benefit amount: $1,035.00
+    Date of letter: 2025-12-03
+[doc-08] Utility bill
+    Company: Metro Electric
+    Account holder: Morgan Nguyen
+    Service: Electricity
+    Service address: 1715 River Rd, Apt 3
+    Billing period: 2026-09-15 to 2026-10-14
+    Amount due: $130.16
+[doc-09] Utility bill
+    Company: Regional Gas Co.
+    Account holder: Morgan Nguyen
+    Service: Heat
+    Service address: 1715 River Rd, Apt 3
+    Billing period: 2026-09-15 to 2026-10-14
+    Amount due: $37.93

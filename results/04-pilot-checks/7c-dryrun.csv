@@ -1,0 +1,9 @@
+task,schema,request_model,max_output_tokens,status,output_tokens,reasoning_tokens,valid,invalid_reason
+filer,required,deepseek-v4-flash,2048,completed,906,738,True,
+filer,provenance,deepseek-v4-flash,2048,incomplete,2048,2048,False,status_incomplete
+reader,,qwen3.5-397b,2048,completed,1518,1490,True,
+filer,escape,qwen3.5-397b,2048,incomplete,2048,1934,False,status_incomplete
+filer,required,deepseek-v4-flash,8192,completed,865,695,True,
+filer,provenance,deepseek-v4-flash,8192,completed,1855,1550,False,"schema_error: utilities_paid: '{""value"": ""insufficient_evidence"", ""source"": ""agent_inferred"", ""document_ids"": []}}' is not of type 'object'"
+reader,,qwen3.5-397b,8192,completed,3162,3131,True,
+filer,escape,qwen3.5-397b,8192,completed,2883,2705,True,

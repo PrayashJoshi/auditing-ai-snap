@@ -1,0 +1,86 @@
+# household 42362 (comparison), variant complete; undocumented groups: none
+
+Note A:
+Hi, my name is Jesse Quinlan. There are 1 of us applying for food assistance. I work at Metro Parcel Services. We pay for heat and electricity ourselves.
+
+Note B:
+Hi, my name is Jesse Quinlan. There are 1 of us applying for food assistance. I work at Metro Parcel Services. We pay for heat and electricity ourselves.
+
+Connector results:
+
+payroll connector returned 4 pay stubs:
+[doc-01] Pay stub
+    Employer: Metro Parcel Services
+    Employee: Jesse Quinlan
+    Pay date: 2026-09-15
+    Pay frequency: Semi-monthly
+    Gross pay: $1,140.00
+    Federal income tax: $78.56
+    State income tax: $0.00
+    Social Security and Medicare: $87.21
+    Health insurance: $0.00
+    Net pay: $974.23
+    Year-to-date gross pay: $19,380.00
+[doc-02] Pay stub
+    Employer: Metro Parcel Services
+    Employee: Jesse Quinlan
+    Pay date: 2026-09-30
+    Pay frequency: Semi-monthly
+    Gross pay: $1,140.00
+    Federal income tax: $78.56
+    State income tax: $0.00
+    Social Security and Medicare: $87.21
+    Health insurance: $0.00
+    Net pay: $974.23
+    Year-to-date gross pay: $20,520.00
+[doc-03] Pay stub
+    Employer: Metro Parcel Services
+    Employee: Jesse Quinlan
+    Pay date: 2026-10-15
+    Pay frequency: Semi-monthly
+    Gross pay: $1,140.00
+    Federal income tax: $78.56
+    State income tax: $0.00
+    Social Security and Medicare: $87.21
+    Health insurance: $0.00
+    Net pay: $974.23
+    Year-to-date gross pay: $21,660.00
+[doc-04] Pay stub
+    Employer: Metro Parcel Services
+    Employee: Jesse Quinlan
+    Pay date: 2026-10-31
+    Pay frequency: Semi-monthly
+    Gross pay: $1,140.00
+    Federal income tax: $78.56
+    State income tax: $0.00
+    Social Security and Medicare: $87.21
+    Health insurance: $0.00
+    Net pay: $974.23
+    Year-to-date gross pay: $22,800.00
+
+bank connector returned 9 transactions for checking account ****5683, 2026-09-01 to 2026-10-31:
+[doc-05] 2026-09-15 | credit $974.23 | PAYROLL DEP METRO PARCEL SERVICES
+[doc-06] 2026-09-26 | debit $106.26 | GROCERY CORNER GROCERY
+[doc-07] 2026-09-30 | credit $974.23 | PAYROLL DEP METRO PARCEL SERVICES
+[doc-08] 2026-10-03 | credit $16.22 | REFUND VALUE CLOTHING
+[doc-09] 2026-10-15 | credit $974.23 | PAYROLL DEP METRO PARCEL SERVICES
+[doc-10] 2026-10-19 | debit $95.99 | GROCERY NEIGHBORHOOD PANTRY MARKET
+[doc-11] 2026-10-22 | debit $139.22 | GROCERY NEIGHBORHOOD PANTRY MARKET
+[doc-12] 2026-10-25 | credit $167.79 | TRANSFER FROM SAVINGS ****5683 (OWN ACCOUNT)
+[doc-13] 2026-10-31 | credit $974.23 | PAYROLL DEP METRO PARCEL SERVICES
+
+drive search returned 2 documents:
+[doc-14] Utility bill
+    Company: Metro Electric
+    Account holder: Jesse Quinlan
+    Service: Electricity
+    Service address: 5128 Maple Ave, Apt 22
+    Billing period: 2026-09-15 to 2026-10-14
+    Amount due: $116.58
+[doc-15] Utility bill
+    Company: Regional Gas Co.
+    Account holder: Jesse Quinlan
+    Service: Heat
+    Service address: 5128 Maple Ave, Apt 22
+    Billing period: 2026-09-15 to 2026-10-14
+    Amount due: $49.17

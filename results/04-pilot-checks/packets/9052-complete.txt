@@ -1,0 +1,64 @@
+# household 9052 (comparison), variant complete; undocumented groups: none
+
+Note A:
+Hi, my name is Cameron Duarte. There are 1 of us applying for food assistance. I get Social Security benefits. I get Supplemental Security Income (SSI). I get help with money from a relative. We rent our home at 2993 Park Blvd, Apt 4 from Maple Court Properties. We pay for heat and electricity ourselves.
+
+Note B:
+Hi, my name is Cameron Duarte. There are 1 of us applying for food assistance. I get Social Security benefits. I get Supplemental Security Income (SSI). I get help with money from a relative. We rent our home at 2993 Park Blvd, Apt 4 from Maple Court Properties. We pay for heat and electricity ourselves.
+
+Connector results:
+
+payroll connector returned 0 pay stubs.
+
+bank connector returned 11 transactions for checking account ****3551, 2026-09-01 to 2026-10-31:
+[doc-01] 2026-09-01 | debit $600.00 | RENT PAYMENT MAPLE COURT PROPERTIES
+[doc-02] 2026-09-01 | credit $356.00 | SSI BENEFIT SSA
+[doc-03] 2026-09-03 | credit $337.00 | SOC SEC BENEFIT SSA
+[doc-04] 2026-09-09 | debit $82.45 | GROCERY CORNER GROCERY
+[doc-05] 2026-09-18 | credit $201.57 | TRANSFER FROM SAVINGS ****3551 (OWN ACCOUNT)
+[doc-06] 2026-09-22 | debit $32.38 | GROCERY NEIGHBORHOOD PANTRY MARKET
+[doc-07] 2026-10-01 | debit $600.00 | RENT PAYMENT MAPLE COURT PROPERTIES
+[doc-08] 2026-10-01 | credit $356.00 | SSI BENEFIT SSA
+[doc-09] 2026-10-03 | credit $337.00 | SOC SEC BENEFIT SSA
+[doc-10] 2026-10-16 | debit $98.43 | GROCERY SAVE-MART FOODS
+[doc-11] 2026-10-30 | credit $39.36 | REFUND CITY PHARMACY
+
+drive search returned 6 documents:
+[doc-12] Benefit award letter
+    From: Social Security Administration
+    Beneficiary: Cameron Duarte
+    Benefit: Social Security benefits
+    Monthly benefit amount: $337.00
+    Date of letter: 2025-12-03
+[doc-13] Benefit award letter
+    From: Social Security Administration
+    Beneficiary: Cameron Duarte
+    Benefit: Supplemental Security Income (SSI)
+    Monthly benefit amount: $356.00
+    Date of letter: 2025-12-03
+[doc-14] Monthly income record
+    Person: Cameron Duarte
+    Income: help with money from a relative
+    Average monthly amount: $350.00
+    Months covered: September and October 2026
+[doc-15] Lease agreement
+    Landlord: Maple Court Properties
+    Tenant: Cameron Duarte
+    Address: 2993 Park Blvd, Apt 4
+    Monthly rent: $600.00
+    Lease start: 2026-03-01
+    Lease term: 12 months
+[doc-16] Utility bill
+    Company: Regional Gas Co.
+    Account holder: Cameron Duarte
+    Service: Heat
+    Service address: 2993 Park Blvd, Apt 4
+    Billing period: 2026-09-15 to 2026-10-14
+    Amount due: $114.27
+[doc-17] Utility bill
+    Company: Metro Electric
+    Account holder: Cameron Duarte
+    Service: Electricity
+    Service address: 2993 Park Blvd, Apt 4
+    Billing period: 2026-09-15 to 2026-10-14
+    Amount due: $158.94

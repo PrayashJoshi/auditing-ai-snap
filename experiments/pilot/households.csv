@@ -1,0 +1,21 @@
+row,kind,group,in_151,DISCOV1,AGENCY1,state,size,qc_benefit,FSBEN,RAWBEN,AMTERR,filed_value,verified_value,utility_tier,verified_earned,verified_unearned,verified_shelter,verified_utilities,depcare,medical,child_support,std_ded,homeless_ded,shelter_cap,uncapped,benmax,min_ben
+5744,error,earned,False,1,1,Vermont,4,811.0,811,961,150,1023.0,1646.0,HCSUA,1646,100,900,1020,0.0,0.0,0.0,208.0,0.0,672,False,973,23
+15847,error,earned,True,3,1,Mississippi,3,496.0,495,766,271,0.0,1139.0,none,1139,187,0,0,0.0,0.0,0.0,198.0,0.0,672,False,766,23
+28066,error,earned,False,3,1,Arkansas,1,23.0,23,124,101,73.0,382.0,none,382,943,650,0,0.0,0.0,0.0,198.0,0.0,672,True,291,23
+28402,error,earned,False,4,1,Louisiana,4,589.0,589,773,184,650.0,1161.0,none,1161,664,800,0,0.0,0.0,0.0,208.0,0.0,672,False,973,23
+14542,error,earned,True,3,1,Georgia,2,23.0,23,535,512,0.0,4167.0,HCSUA,4167,0,1250,415,0.0,0.0,0.0,198.0,0.0,672,False,535,23
+9749,error,shelter,False,3,4,Pennsylvania,2,152.0,152,315,163,1402.0,859.0,HCSUA,100,2181,859,750,0.0,140.0,0.0,198.0,0.0,672,True,535,23
+42865,error,shelter,False,6,4,Nevada,4,458.0,457,618,160,1134.0,600.0,HCSUA,2534,0,600,412,0.0,0.0,0.0,208.0,0.0,672,False,973,23
+30966,error,shelter,False,3,4,Oklahoma,1,165.0,165,225,60,648.0,450.0,HCSUA,0,1035,450,388,0.0,0.0,0.0,198.0,0.0,672,True,291,23
+21739,error,shelter,False,6,4,Iowa,2,223.0,223,294,71,735.0,500.0,HCSUA,0,1716,500,530,0.0,140.0,0.0,198.0,0.0,672,True,535,23
+16881,error,shelter,False,6,2,Mississippi,3,626.0,626,690,64,214.0,0.0,HCSUA,0,700,0,287,0.0,0.0,0.0,198.0,0.0,672,False,766,23
+43456,error,unearned,True,2,1,Oregon,1,23.0,23,291,268,0.0,3491.0,HCSUA,0,3491,1475,469,0.0,0.0,0.0,198.0,0.0,672,False,291,23
+30269,error,unearned,False,2,4,New Mexico,3,534.0,534,719,185,1146.0,1558.0,HCSUA,0,1558,850,417,0.0,0.0,0.0,198.0,0.0,672,True,766,23
+15436,error,unearned,True,3,1,Kentucky,4,755.0,755,973,218,0.0,933.0,none,0,933,0,0,0.0,0.0,0.0,208.0,0.0,672,False,973,23
+37360,error,utilities,False,9,4,Nebraska,1,70.0,70,133,63,579.0,0.0,none,0,934,0,0,0.0,0.0,0.0,198.0,0.0,672,True,291,23
+23521,error,utilities,False,3,2,Michigan,1,119.0,119,237,118,680.0,0.0,none,0,771,0,0,0.0,0.0,0.0,198.0,0.0,672,False,291,23
+41978,error,utilities,False,3,4,Nevada,1,80.0,80,154,74,396.0,0.0,none,0,1039,200,0,0.0,140.0,0.0,198.0,0.0,672,True,291,23
+34791,comparison,,False,,10,Kansas,1,23.0,23,50,27,,,HCSUA,0,1572,467,462,0.0,0.0,0.0,198.0,0.0,672,True,291,23
+9052,comparison,,False,,,New Jersey,1,291.0,291,285,6,,,HCSUA,0,1043,600,850,0.0,0.0,0.0,198.0,0.0,672,True,291,23
+42777,comparison,,False,,1,Nevada,4,225.0,225,252,27,,,HCSUA,3484,1061,1589,412,645.0,0.0,0.0,208.0,0.0,672,False,973,23
+42362,comparison,,False,,,Nevada,1,23.0,23,23,0,,,HCSUA,2280,0,0,412,0.0,0.0,0.0,198.0,0.0,672,False,291,23

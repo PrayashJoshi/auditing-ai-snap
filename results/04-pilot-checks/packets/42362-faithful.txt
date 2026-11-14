@@ -1,0 +1,34 @@
+# household 42362 (comparison), variant faithful; undocumented groups: earned
+
+Note A:
+Hi, my name is Jesse Quinlan. There are 1 of us applying for food assistance. I work at Metro Parcel Services. We pay for heat and electricity ourselves.
+
+Note B:
+Hi, my name is Jesse Quinlan. There are 1 of us applying for food assistance. I work at Metro Parcel Services. We pay for heat and electricity ourselves. I'd put the wages at about $2,300 a month before taxes.
+
+Connector results:
+
+payroll connector returned 0 pay stubs.
+
+bank connector returned 5 transactions for checking account ****5683, 2026-09-01 to 2026-10-31:
+[doc-01] 2026-09-26 | debit $106.26 | GROCERY CORNER GROCERY
+[doc-02] 2026-10-03 | credit $16.22 | REFUND VALUE CLOTHING
+[doc-03] 2026-10-19 | debit $95.99 | GROCERY NEIGHBORHOOD PANTRY MARKET
+[doc-04] 2026-10-22 | debit $139.22 | GROCERY NEIGHBORHOOD PANTRY MARKET
+[doc-05] 2026-10-25 | credit $167.79 | TRANSFER FROM SAVINGS ****5683 (OWN ACCOUNT)
+
+drive search returned 2 documents:
+[doc-06] Utility bill
+    Company: Metro Electric
+    Account holder: Jesse Quinlan
+    Service: Electricity
+    Service address: 5128 Maple Ave, Apt 22
+    Billing period: 2026-09-15 to 2026-10-14
+    Amount due: $116.58
+[doc-07] Utility bill
+    Company: Regional Gas Co.
+    Account holder: Jesse Quinlan
+    Service: Heat
+    Service address: 5128 Maple Ave, Apt 22
+    Billing period: 2026-09-15 to 2026-10-14
+    Amount due: $49.17

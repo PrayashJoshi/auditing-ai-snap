@@ -1,0 +1,8 @@
+call type,model,reason,calls
+"filer, provenance",deepseek-v4-flash,"schema_error: utilities_paid: '{""value"": ""insufficient_evidence"", ""source"": ""agent_inferred"", ""document_ids"": ",1
+"filer, provenance",deepseek-v4-flash,"schema_error: utilities_paid: '{""value"": ""insufficient_evidence"", ""source"": ""applicant_stated"", ""document_ids""",1
+"filer, provenance",deepseek-v4-flash,"schema_error: utilities_paid: '{""value"": [""Heat"", ""Electricity""], ""source"": ""applicant_stated"", ""document_ids""",1
+"filer, provenance",deepseek-v4-flash,"schema_error: utilities_paid: '{""value"": [""Heat"", ""Electricity""], ""source"": ""retrieved_record"", ""document_ids""",5
+"filer, provenance",qwen3.5-397b,schema_error: housing_expenses/0: 'how_often' is a required property,1
+"filer, provenance",qwen3.5-397b,"schema_error: housing_expenses/1/type_of_expense: 'Heat' is not one of ['Rent', 'Mortgage', 'Land Contract', '",1
+"filer, required",qwen3.5-397b,"schema_error: housing_expenses/0/type_of_expense: 'Electricity' is not one of ['Rent', 'Mortgage', 'Land Contr",1

@@ -1,0 +1,12 @@
+,,,applications,above $56,over,under,share over among above $56,mean |error|,max |error|
+escape,complete,A,40.0,0.0,0.0,0.0,,1.8,36.0
+escape,faithful,A,40.0,24.0,14.0,10.0,0.583,135.6,512.0
+escape,faithful,B,40.0,5.0,4.0,1.0,0.8,44.7,575.0
+provenance,complete,A,40.0,0.0,0.0,0.0,,1.8,36.0
+provenance,faithful,A,40.0,24.0,14.0,10.0,0.583,135.6,512.0
+provenance,faithful,B,40.0,2.0,2.0,0.0,1.0,11.0,218.0
+provenance,faithful_linkability,A,40.0,6.0,6.0,0.0,1.0,37.5,383.0
+required,complete,A,40.0,0.0,0.0,0.0,,0.0,1.0
+required,faithful,A,40.0,24.0,14.0,10.0,0.583,134.0,512.0
+human-filed,issued,-,20.0,16.0,16.0,0.0,1.0,136.0,512.0
+human arm of 616,01 part 3d,-,616.0,616.0,563.0,53.0,0.914,,

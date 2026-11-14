@@ -1,0 +1,7 @@
+variant,reader,applications,true groups,flags,true flags,false flags,recall,precision
+complete,checker,40.0,0.0,14.0,0.0,14.0,,0.0
+complete,deepseek-v4-flash,40.0,0.0,0.0,0.0,0.0,,
+complete,qwen3.5-397b,40.0,0.0,3.0,0.0,3.0,,0.0
+faithful,checker,40.0,24.0,40.0,23.0,17.0,0.9583333333333334,0.575
+faithful,deepseek-v4-flash,40.0,24.0,0.0,0.0,0.0,0.0,
+faithful,qwen3.5-397b,40.0,24.0,3.0,0.0,3.0,0.0,0.0

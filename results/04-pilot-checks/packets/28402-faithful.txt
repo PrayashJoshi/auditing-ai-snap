@@ -1,0 +1,45 @@
+# household 28402 (error, earned), variant faithful; undocumented groups: earned
+
+Note A:
+Hi, my name is Lane Sato. I live with Quinn (14), Rowan (11) and Avery (2). There are 4 of us applying for food assistance. I work at Pinecrest Warehouse. Rowan gets Social Security benefits. Avery gets Social Security benefits. We rent our home at 531 River Rd, Apt 18 from Elm Ridge Apartments LLC.
+
+Note B:
+Hi, my name is Lane Sato. I live with Quinn (14), Rowan (11) and Avery (2). There are 4 of us applying for food assistance. I work at Pinecrest Warehouse. Rowan gets Social Security benefits. Avery gets Social Security benefits. We rent our home at 531 River Rd, Apt 18 from Elm Ridge Apartments LLC. I'd put the wages at about $1,150 a month before taxes.
+
+Connector results:
+
+payroll connector returned 0 pay stubs.
+
+bank connector returned 11 transactions for checking account ****1897, 2026-09-01 to 2026-10-31:
+[doc-01] 2026-09-01 | debit $800.00 | RENT PAYMENT ELM RIDGE APARTMENTS LLC
+[doc-02] 2026-09-03 | credit $332.00 | SOC SEC BENEFIT SSA
+[doc-03] 2026-09-03 | credit $332.00 | SOC SEC BENEFIT SSA
+[doc-04] 2026-09-07 | debit $83.55 | GROCERY SAVE-MART FOODS
+[doc-05] 2026-09-16 | credit $44.85 | TRANSFER FROM SAVINGS ****1897 (OWN ACCOUNT)
+[doc-06] 2026-10-01 | debit $800.00 | RENT PAYMENT ELM RIDGE APARTMENTS LLC
+[doc-07] 2026-10-03 | credit $332.00 | SOC SEC BENEFIT SSA
+[doc-08] 2026-10-03 | credit $332.00 | SOC SEC BENEFIT SSA
+[doc-09] 2026-10-05 | credit $40.36 | REFUND CITY PHARMACY
+[doc-10] 2026-10-12 | debit $109.93 | GROCERY FRESH MARKET
+[doc-11] 2026-10-24 | debit $63.31 | GROCERY NEIGHBORHOOD PANTRY MARKET
+
+drive search returned 3 documents:
+[doc-12] Benefit award letter
+    From: Social Security Administration
+    Beneficiary: Avery Sato
+    Benefit: Social Security benefits
+    Monthly benefit amount: $332.00
+    Date of letter: 2025-12-03
+[doc-13] Benefit award letter
+    From: Social Security Administration
+    Beneficiary: Rowan Sato
+    Benefit: Social Security benefits
+    Monthly benefit amount: $332.00
+    Date of letter: 2025-12-03
+[doc-14] Lease agreement
+    Landlord: Elm Ridge Apartments LLC
+    Tenant: Lane Sato
+    Address: 531 River Rd, Apt 18
+    Monthly rent: $800.00
+    Lease start: 2026-03-01
+    Lease term: 12 months

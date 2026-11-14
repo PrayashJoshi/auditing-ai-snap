@@ -1,0 +1,4 @@
+variant,count,min,50%,max,max approx. tokens (chars / 4)
+complete,40.0,964.0,2373.5,6537.0,1634.0
+faithful,40.0,825.0,1618.5,6537.0,1634.0
+faithful_linkability,40.0,964.0,2165.0,6537.0,1634.0

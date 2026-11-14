@@ -1,0 +1,9 @@
+variant,note,outcome,agent_inferred,applicant_stated,no field with a number,retrieved_record
+complete,A,R,0,1,0,103
+faithful,A,R,0,2,0,76
+faithful,A,Z,0,0,1,0
+faithful,B,R,0,3,0,75
+faithful,B,S,1,23,0,0
+faithful_linkability,A,G,0,0,0,1
+faithful_linkability,A,R,0,3,0,93
+faithful_linkability,A,Z,0,0,1,0

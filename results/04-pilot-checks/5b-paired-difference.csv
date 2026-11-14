@@ -1,0 +1,19 @@
+packet,reader,measure,households,reader value,checker value,reader minus checker,95% low,95% high
+complete,deepseek-v4-flash,recall (16),16,1.0,1.0,0.0,0.0,0.0
+complete,deepseek-v4-flash,false flags per application (20),20,0.0,0.0,0.0,0.0,0.0
+complete,deepseek-v4-flash,precision (20),20,1.0,1.0,0.0,0.0,0.0
+complete,qwen3.5-397b,recall (16),16,0.938,1.0,-0.062,-0.188,0.0
+complete,qwen3.5-397b,false flags per application (20),20,0.05,0.0,0.05,0.0,0.15
+complete,qwen3.5-397b,precision (20),20,0.938,1.0,-0.062,-0.176,0.0
+faithful,deepseek-v4-flash,recall (16),16,0.812,0.812,0.0,0.0,0.0
+faithful,deepseek-v4-flash,false flags per application (20),20,0.2,0.2,0.0,0.0,0.0
+faithful,deepseek-v4-flash,precision (20),20,0.765,0.765,0.0,0.0,0.0
+faithful,qwen3.5-397b,recall (16),16,0.688,0.812,-0.125,-0.312,0.0
+faithful,qwen3.5-397b,false flags per application (20),20,0.25,0.2,0.05,0.0,0.15
+faithful,qwen3.5-397b,precision (20),20,0.688,0.765,-0.077,-0.176,0.0
+both,deepseek-v4-flash,recall (16),16,0.906,0.906,0.0,0.0,0.0
+both,deepseek-v4-flash,false flags per application (20),20,0.1,0.1,0.0,0.0,0.0
+both,deepseek-v4-flash,precision (20),20,0.879,0.879,0.0,0.0,0.0
+both,qwen3.5-397b,recall (16),16,0.812,0.906,-0.094,-0.25,0.0
+both,qwen3.5-397b,false flags per application (20),20,0.15,0.1,0.05,0.0,0.125
+both,qwen3.5-397b,precision (20),20,0.812,0.879,-0.066,-0.147,0.0

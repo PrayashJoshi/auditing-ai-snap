@@ -1,0 +1,20 @@
+# household 15436 (error, unearned), variant faithful; undocumented groups: unearned
+
+Note A:
+Hi, my name is Kendall Kowalski. I live with Jesse (14), Dana (13) and Sage (11). There are 4 of us applying for food assistance. Jesse gets Social Security benefits. Dana gets Social Security benefits. Sage gets Social Security benefits.
+
+Note B:
+Hi, my name is Kendall Kowalski. I live with Jesse (14), Dana (13) and Sage (11). There are 4 of us applying for food assistance. Jesse gets Social Security benefits. Dana gets Social Security benefits. Sage gets Social Security benefits. I'd put the Social Security benefits at about $950 a month.
+
+Connector results:
+
+payroll connector returned 0 pay stubs.
+
+bank connector returned 5 transactions for checking account ****3592, 2026-09-01 to 2026-10-31:
+[doc-01] 2026-09-03 | credit $146.50 | TRANSFER FROM SAVINGS ****3592 (OWN ACCOUNT)
+[doc-02] 2026-09-27 | debit $65.49 | GROCERY CORNER GROCERY
+[doc-03] 2026-10-15 | debit $38.15 | GROCERY CORNER GROCERY
+[doc-04] 2026-10-28 | credit $12.98 | REFUND VALUE CLOTHING
+[doc-05] 2026-10-31 | debit $81.35 | GROCERY CORNER GROCERY
+
+drive search returned 0 documents.

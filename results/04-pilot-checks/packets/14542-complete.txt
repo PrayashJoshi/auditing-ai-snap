@@ -1,0 +1,95 @@
+# household 14542 (error, earned), variant complete; undocumented groups: none
+
+Note A:
+Hi, my name is Parker Chen. I live with Avery (6). There are 2 of us applying for food assistance. I work at Harbor View Care Center. We rent our home at 8551 Oak Ln, Apt 9 from Elm Ridge Apartments LLC. We pay for heat and electricity ourselves.
+
+Note B:
+Hi, my name is Parker Chen. I live with Avery (6). There are 2 of us applying for food assistance. I work at Harbor View Care Center. We rent our home at 8551 Oak Ln, Apt 9 from Elm Ridge Apartments LLC. We pay for heat and electricity ourselves.
+
+Connector results:
+
+payroll connector returned 4 pay stubs:
+[doc-01] Pay stub
+    Employer: Harbor View Care Center
+    Employee: Parker Chen
+    Pay date: 2026-09-15
+    Pay frequency: Semi-monthly
+    Gross pay: $2,083.50
+    Federal income tax: $167.60
+    State income tax: $80.78
+    Social Security and Medicare: $159.39
+    Health insurance: $36.12
+    Net pay: $1,639.61
+    Year-to-date gross pay: $35,419.50
+[doc-02] Pay stub
+    Employer: Harbor View Care Center
+    Employee: Parker Chen
+    Pay date: 2026-09-30
+    Pay frequency: Semi-monthly
+    Gross pay: $2,083.50
+    Federal income tax: $167.60
+    State income tax: $80.78
+    Social Security and Medicare: $159.39
+    Health insurance: $36.12
+    Net pay: $1,639.61
+    Year-to-date gross pay: $37,503.00
+[doc-03] Pay stub
+    Employer: Harbor View Care Center
+    Employee: Parker Chen
+    Pay date: 2026-10-15
+    Pay frequency: Semi-monthly
+    Gross pay: $2,083.50
+    Federal income tax: $167.60
+    State income tax: $80.78
+    Social Security and Medicare: $159.39
+    Health insurance: $36.12
+    Net pay: $1,639.61
+    Year-to-date gross pay: $39,586.50
+[doc-04] Pay stub
+    Employer: Harbor View Care Center
+    Employee: Parker Chen
+    Pay date: 2026-10-31
+    Pay frequency: Semi-monthly
+    Gross pay: $2,083.50
+    Federal income tax: $167.60
+    State income tax: $80.78
+    Social Security and Medicare: $159.39
+    Health insurance: $36.12
+    Net pay: $1,639.61
+    Year-to-date gross pay: $41,670.00
+
+bank connector returned 11 transactions for checking account ****5543, 2026-09-01 to 2026-10-31:
+[doc-05] 2026-09-01 | debit $1,250.00 | RENT PAYMENT ELM RIDGE APARTMENTS LLC
+[doc-06] 2026-09-11 | debit $87.05 | GROCERY NEIGHBORHOOD PANTRY MARKET
+[doc-07] 2026-09-11 | credit $11.34 | REFUND CITY PHARMACY
+[doc-08] 2026-09-15 | credit $1,639.61 | PAYROLL DEP HARBOR VIEW CARE CENTER
+[doc-09] 2026-09-29 | debit $98.24 | GROCERY SAVE-MART FOODS
+[doc-10] 2026-09-30 | credit $1,639.61 | PAYROLL DEP HARBOR VIEW CARE CENTER
+[doc-11] 2026-10-01 | debit $1,250.00 | RENT PAYMENT ELM RIDGE APARTMENTS LLC
+[doc-12] 2026-10-07 | credit $175.07 | TRANSFER FROM SAVINGS ****5543 (OWN ACCOUNT)
+[doc-13] 2026-10-15 | credit $1,639.61 | PAYROLL DEP HARBOR VIEW CARE CENTER
+[doc-14] 2026-10-25 | debit $127.51 | GROCERY NEIGHBORHOOD PANTRY MARKET
+[doc-15] 2026-10-31 | credit $1,639.61 | PAYROLL DEP HARBOR VIEW CARE CENTER
+
+drive search returned 3 documents:
+[doc-16] Lease agreement
+    Landlord: Elm Ridge Apartments LLC
+    Tenant: Parker Chen
+    Address: 8551 Oak Ln, Apt 9
+    Monthly rent: $1,250.00
+    Lease start: 2026-03-01
+    Lease term: 12 months
+[doc-17] Utility bill
+    Company: Regional Gas Co.
+    Account holder: Parker Chen
+    Service: Heat
+    Service address: 8551 Oak Ln, Apt 9
+    Billing period: 2026-09-15 to 2026-10-14
+    Amount due: $102.24
+[doc-18] Utility bill
+    Company: Metro Electric
+    Account holder: Parker Chen
+    Service: Electricity
+    Service address: 8551 Oak Ln, Apt 9
+    Billing period: 2026-09-15 to 2026-10-14
+    Amount due: $66.82

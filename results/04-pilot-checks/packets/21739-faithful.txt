@@ -1,0 +1,42 @@
+# household 21739 (error, shelter), variant faithful; undocumented groups: shelter
+
+Note A:
+Hi, my name is Robin Chen. I live with Kendall (37). There are 2 of us applying for food assistance. I get Social Security benefits. We rent our home at 3456 Oak Ln, Apt 2 from Maple Court Properties. We pay for heat and electricity ourselves.
+
+Note B:
+Hi, my name is Robin Chen. I live with Kendall (37). There are 2 of us applying for food assistance. I get Social Security benefits. We rent our home at 3456 Oak Ln, Apt 2 from Maple Court Properties. We pay for heat and electricity ourselves. The rent is about $500 a month.
+
+Connector results:
+
+payroll connector returned 0 pay stubs.
+
+bank connector returned 7 transactions for checking account ****4959, 2026-09-01 to 2026-10-31:
+[doc-01] 2026-09-03 | credit $1,716.00 | SOC SEC BENEFIT SSA
+[doc-02] 2026-09-16 | credit $97.05 | TRANSFER FROM SAVINGS ****4959 (OWN ACCOUNT)
+[doc-03] 2026-09-18 | debit $87.23 | GROCERY NEIGHBORHOOD PANTRY MARKET
+[doc-04] 2026-09-27 | debit $116.03 | GROCERY FRESH MARKET
+[doc-05] 2026-10-03 | credit $1,716.00 | SOC SEC BENEFIT SSA
+[doc-06] 2026-10-03 | credit $41.58 | REFUND VALUE CLOTHING
+[doc-07] 2026-10-29 | debit $122.49 | GROCERY SAVE-MART FOODS
+
+drive search returned 3 documents:
+[doc-08] Benefit award letter
+    From: Social Security Administration
+    Beneficiary: Robin Chen
+    Benefit: Social Security benefits
+    Monthly benefit amount: $1,716.00
+    Date of letter: 2025-12-03
+[doc-09] Utility bill
+    Company: Regional Gas Co.
+    Account holder: Robin Chen
+    Service: Heat
+    Service address: 3456 Oak Ln, Apt 2
+    Billing period: 2026-09-15 to 2026-10-14
+    Amount due: $113.45
+[doc-10] Utility bill
+    Company: Metro Electric
+    Account holder: Robin Chen
+    Service: Electricity
+    Service address: 3456 Oak Ln, Apt 2
+    Billing period: 2026-09-15 to 2026-10-14
+    Amount due: $146.30

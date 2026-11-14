@@ -1,0 +1,73 @@
+# household 15847 (error, earned), variant complete; undocumented groups: none
+
+Note A:
+Hi, my name is Alex Mendez. I live with Avery (19) and Harper (14). There are 3 of us applying for food assistance. Avery works at Brightpath Call Center. I get child support.
+
+Note B:
+Hi, my name is Alex Mendez. I live with Avery (19) and Harper (14). There are 3 of us applying for food assistance. Avery works at Brightpath Call Center. I get child support.
+
+Connector results:
+
+payroll connector returned 4 pay stubs:
+[doc-01] Pay stub
+    Employer: Brightpath Call Center
+    Employee: Avery Mendez
+    Pay date: 2026-09-11
+    Pay frequency: Biweekly
+    Gross pay: $529.77
+    Federal income tax: $30.16
+    State income tax: $12.22
+    Social Security and Medicare: $40.53
+    Health insurance: $0.00
+    Net pay: $446.86
+    Year-to-date gross pay: $10,065.63
+[doc-02] Pay stub
+    Employer: Brightpath Call Center
+    Employee: Avery Mendez
+    Pay date: 2026-09-25
+    Pay frequency: Biweekly
+    Gross pay: $529.77
+    Federal income tax: $30.16
+    State income tax: $12.22
+    Social Security and Medicare: $40.53
+    Health insurance: $0.00
+    Net pay: $446.86
+    Year-to-date gross pay: $10,595.40
+[doc-03] Pay stub
+    Employer: Brightpath Call Center
+    Employee: Avery Mendez
+    Pay date: 2026-10-09
+    Pay frequency: Biweekly
+    Gross pay: $529.77
+    Federal income tax: $30.16
+    State income tax: $12.22
+    Social Security and Medicare: $40.53
+    Health insurance: $0.00
+    Net pay: $446.86
+    Year-to-date gross pay: $11,125.17
+[doc-04] Pay stub
+    Employer: Brightpath Call Center
+    Employee: Avery Mendez
+    Pay date: 2026-10-23
+    Pay frequency: Biweekly
+    Gross pay: $529.77
+    Federal income tax: $30.16
+    State income tax: $12.22
+    Social Security and Medicare: $40.53
+    Health insurance: $0.00
+    Net pay: $446.86
+    Year-to-date gross pay: $11,654.94
+
+bank connector returned 10 transactions for checking account ****9027, 2026-09-01 to 2026-10-31:
+[doc-05] 2026-09-03 | credit $69.17 | TRANSFER FROM SAVINGS ****9027 (OWN ACCOUNT)
+[doc-06] 2026-09-07 | debit $87.56 | GROCERY CORNER GROCERY
+[doc-07] 2026-09-10 | credit $187.00 | STATE CHILD SUPPORT DISBURSEMENT UNIT
+[doc-08] 2026-09-11 | credit $446.86 | PAYROLL DEP BRIGHTPATH CALL CENTER
+[doc-09] 2026-09-25 | credit $446.86 | PAYROLL DEP BRIGHTPATH CALL CENTER
+[doc-10] 2026-10-09 | credit $446.86 | PAYROLL DEP BRIGHTPATH CALL CENTER
+[doc-11] 2026-10-10 | credit $187.00 | STATE CHILD SUPPORT DISBURSEMENT UNIT
+[doc-12] 2026-10-22 | debit $109.63 | GROCERY SAVE-MART FOODS
+[doc-13] 2026-10-23 | credit $446.86 | PAYROLL DEP BRIGHTPATH CALL CENTER
+[doc-14] 2026-10-27 | credit $35.72 | REFUND CITY PHARMACY
+
+drive search returned 0 documents.

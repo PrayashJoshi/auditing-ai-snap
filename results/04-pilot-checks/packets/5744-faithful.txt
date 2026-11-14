@@ -1,0 +1,188 @@
+# household 5744 (error, earned), variant faithful; undocumented groups: none
+
+Note A:
+Hi, my name is Emerson Nguyen. I live with Jordan (18), Dana (13) and Quinn (3). There are 4 of us applying for food assistance. I work at Northside Logistics. Jordan works at Cedar Hill School District. I get child support. We rent our home at 9422 River Rd, Apt 18 from Elm Ridge Apartments LLC. We pay for heat and electricity ourselves.
+
+Note B:
+Hi, my name is Emerson Nguyen. I live with Jordan (18), Dana (13) and Quinn (3). There are 4 of us applying for food assistance. I work at Northside Logistics. Jordan works at Cedar Hill School District. I get child support. We rent our home at 9422 River Rd, Apt 18 from Elm Ridge Apartments LLC. We pay for heat and electricity ourselves.
+
+Connector results:
+
+payroll connector returned 11 pay stubs:
+[doc-01] Pay stub
+    Employer: Northside Logistics
+    Employee: Emerson Nguyen
+    Pay date: 2026-09-30
+    Pay frequency: Monthly
+    Gross pay: $1,171.00
+    Federal income tax: $89.57
+    State income tax: $42.06
+    Social Security and Medicare: $89.58
+    Health insurance: $17.26
+    Net pay: $932.53
+    Year-to-date gross pay: $10,539.00
+[doc-02] Pay stub
+    Employer: Northside Logistics
+    Employee: Emerson Nguyen
+    Pay date: 2026-10-31
+    Pay frequency: Monthly
+    Gross pay: $1,171.00
+    Federal income tax: $89.57
+    State income tax: $42.06
+    Social Security and Medicare: $89.58
+    Health insurance: $17.26
+    Net pay: $932.53
+    Year-to-date gross pay: $11,710.00
+[doc-03] Pay stub
+    Employer: Cedar Hill School District
+    Employee: Jordan Nguyen
+    Pay date: 2026-09-04
+    Pay frequency: Weekly
+    Gross pay: $110.47
+    Federal income tax: $10.92
+    State income tax: $3.42
+    Social Security and Medicare: $8.45
+    Health insurance: $0.00
+    Net pay: $87.68
+    Year-to-date gross pay: $3,976.92
+[doc-04] Pay stub
+    Employer: Cedar Hill School District
+    Employee: Jordan Nguyen
+    Pay date: 2026-09-11
+    Pay frequency: Weekly
+    Gross pay: $110.47
+    Federal income tax: $10.92
+    State income tax: $3.42
+    Social Security and Medicare: $8.45
+    Health insurance: $0.00
+    Net pay: $87.68
+    Year-to-date gross pay: $4,087.39
+[doc-05] Pay stub
+    Employer: Cedar Hill School District
+    Employee: Jordan Nguyen
+    Pay date: 2026-09-18
+    Pay frequency: Weekly
+    Gross pay: $110.47
+    Federal income tax: $10.92
+    State income tax: $3.42
+    Social Security and Medicare: $8.45
+    Health insurance: $0.00
+    Net pay: $87.68
+    Year-to-date gross pay: $4,197.86
+[doc-06] Pay stub
+    Employer: Cedar Hill School District
+    Employee: Jordan Nguyen
+    Pay date: 2026-09-25
+    Pay frequency: Weekly
+    Gross pay: $110.47
+    Federal income tax: $10.92
+    State income tax: $3.42
+    Social Security and Medicare: $8.45
+    Health insurance: $0.00
+    Net pay: $87.68
+    Year-to-date gross pay: $4,308.33
+[doc-07] Pay stub
+    Employer: Cedar Hill School District
+    Employee: Jordan Nguyen
+    Pay date: 2026-10-02
+    Pay frequency: Weekly
+    Gross pay: $110.47
+    Federal income tax: $10.92
+    State income tax: $3.42
+    Social Security and Medicare: $8.45
+    Health insurance: $0.00
+    Net pay: $87.68
+    Year-to-date gross pay: $4,418.80
+[doc-08] Pay stub
+    Employer: Cedar Hill School District
+    Employee: Jordan Nguyen
+    Pay date: 2026-10-09
+    Pay frequency: Weekly
+    Gross pay: $110.47
+    Federal income tax: $10.92
+    State income tax: $3.42
+    Social Security and Medicare: $8.45
+    Health insurance: $0.00
+    Net pay: $87.68
+    Year-to-date gross pay: $4,529.27
+[doc-09] Pay stub
+    Employer: Cedar Hill School District
+    Employee: Jordan Nguyen
+    Pay date: 2026-10-16
+    Pay frequency: Weekly
+    Gross pay: $110.47
+    Federal income tax: $10.92
+    State income tax: $3.42
+    Social Security and Medicare: $8.45
+    Health insurance: $0.00
+    Net pay: $87.68
+    Year-to-date gross pay: $4,639.74
+[doc-10] Pay stub
+    Employer: Cedar Hill School District
+    Employee: Jordan Nguyen
+    Pay date: 2026-10-23
+    Pay frequency: Weekly
+    Gross pay: $110.47
+    Federal income tax: $10.92
+    State income tax: $3.42
+    Social Security and Medicare: $8.45
+    Health insurance: $0.00
+    Net pay: $87.68
+    Year-to-date gross pay: $4,750.21
+[doc-11] Pay stub
+    Employer: Cedar Hill School District
+    Employee: Jordan Nguyen
+    Pay date: 2026-10-30
+    Pay frequency: Weekly
+    Gross pay: $110.47
+    Federal income tax: $10.92
+    State income tax: $3.42
+    Social Security and Medicare: $8.45
+    Health insurance: $0.00
+    Net pay: $87.68
+    Year-to-date gross pay: $4,860.68
+
+bank connector returned 20 transactions for checking account ****1825, 2026-09-01 to 2026-10-31:
+[doc-12] 2026-09-01 | debit $900.00 | RENT PAYMENT ELM RIDGE APARTMENTS LLC
+[doc-13] 2026-09-04 | credit $87.68 | PAYROLL DEP CEDAR HILL SCHOOL DISTRICT
+[doc-14] 2026-09-10 | credit $100.00 | STATE CHILD SUPPORT DISBURSEMENT UNIT
+[doc-15] 2026-09-11 | credit $87.68 | PAYROLL DEP CEDAR HILL SCHOOL DISTRICT
+[doc-16] 2026-09-16 | credit $15.81 | REFUND VALUE CLOTHING
+[doc-17] 2026-09-18 | credit $87.68 | PAYROLL DEP CEDAR HILL SCHOOL DISTRICT
+[doc-18] 2026-09-25 | credit $87.68 | PAYROLL DEP CEDAR HILL SCHOOL DISTRICT
+[doc-19] 2026-09-30 | credit $932.53 | PAYROLL DEP NORTHSIDE LOGISTICS
+[doc-20] 2026-10-01 | debit $900.00 | RENT PAYMENT ELM RIDGE APARTMENTS LLC
+[doc-21] 2026-10-02 | debit $133.17 | GROCERY SAVE-MART FOODS
+[doc-22] 2026-10-02 | credit $87.68 | PAYROLL DEP CEDAR HILL SCHOOL DISTRICT
+[doc-23] 2026-10-09 | credit $87.68 | PAYROLL DEP CEDAR HILL SCHOOL DISTRICT
+[doc-24] 2026-10-10 | credit $100.00 | STATE CHILD SUPPORT DISBURSEMENT UNIT
+[doc-25] 2026-10-15 | debit $112.96 | GROCERY CORNER GROCERY
+[doc-26] 2026-10-15 | debit $27.56 | GROCERY NEIGHBORHOOD PANTRY MARKET
+[doc-27] 2026-10-16 | credit $87.68 | PAYROLL DEP CEDAR HILL SCHOOL DISTRICT
+[doc-28] 2026-10-23 | credit $40.77 | TRANSFER FROM SAVINGS ****1825 (OWN ACCOUNT)
+[doc-29] 2026-10-23 | credit $87.68 | PAYROLL DEP CEDAR HILL SCHOOL DISTRICT
+[doc-30] 2026-10-30 | credit $87.68 | PAYROLL DEP CEDAR HILL SCHOOL DISTRICT
+[doc-31] 2026-10-31 | credit $932.53 | PAYROLL DEP NORTHSIDE LOGISTICS
+
+drive search returned 3 documents:
+[doc-32] Lease agreement
+    Landlord: Elm Ridge Apartments LLC
+    Tenant: Emerson Nguyen
+    Address: 9422 River Rd, Apt 18
+    Monthly rent: $900.00
+    Lease start: 2026-03-01
+    Lease term: 12 months
+[doc-33] Utility bill
+    Company: Metro Electric
+    Account holder: Emerson Nguyen
+    Service: Electricity
+    Service address: 9422 River Rd, Apt 18
+    Billing period: 2026-09-15 to 2026-10-14
+    Amount due: $109.71
+[doc-34] Utility bill
+    Company: Regional Gas Co.
+    Account holder: Emerson Nguyen
+    Service: Heat
+    Service address: 9422 River Rd, Apt 18
+    Billing period: 2026-09-15 to 2026-10-14
+    Amount due: $92.11

@@ -1,0 +1,61 @@
+row,variant,kind,group in error,flagged,reasons,group in error flagged,other groups flagged
+5744,complete,error,earned,earned,earned: documented amount changes the benefit by $-150,True,0
+5744,faithful,error,earned,earned,earned: documented amount changes the benefit by $-150,True,0
+5744,faithful_linkability,error,earned,earned,earned: documented amount changes the benefit by $-150,True,0
+15847,complete,error,earned,earned,earned: documented amount changes the benefit by $-271,True,0
+15847,faithful,error,earned,,,False,0
+15847,faithful_linkability,error,earned,earned,earned: documented amount changes the benefit by $-271,True,0
+28066,complete,error,earned,earned,earned: documented amount changes the benefit by $-101,True,0
+28066,faithful,error,earned,earned,earned: no document,True,0
+28066,faithful_linkability,error,earned,earned,earned: documented amount changes the benefit by $-101,True,0
+28402,complete,error,earned,earned,earned: documented amount changes the benefit by $-184,True,0
+28402,faithful,error,earned,earned,earned: no document,True,0
+28402,faithful_linkability,error,earned,earned,earned: documented amount changes the benefit by $-184,True,0
+14542,complete,error,earned,earned,earned: documented amount changes the benefit by $-512,True,0
+14542,faithful,error,earned,,,False,0
+14542,faithful_linkability,error,earned,earned,earned: documented amount changes the benefit by $-512,True,0
+9749,complete,error,shelter,shelter,shelter: documented amount changes the benefit by $-163,True,0
+9749,faithful,error,shelter,shelter,shelter: no document,True,0
+9749,faithful_linkability,error,shelter,"earned, unearned, shelter",earned: no document; unearned: documented amount changes the benefit by $+220; shelter: documented amount changes the benefit by $-163,True,2
+42865,complete,error,shelter,shelter,shelter: documented amount changes the benefit by $-160,True,0
+42865,faithful,error,shelter,shelter,shelter: no document,True,0
+42865,faithful_linkability,error,shelter,shelter,shelter: documented amount changes the benefit by $-160,True,0
+30966,complete,error,shelter,shelter,shelter: documented amount changes the benefit by $-60,True,0
+30966,faithful,error,shelter,shelter,shelter: no document,True,0
+30966,faithful_linkability,error,shelter,shelter,shelter: documented amount changes the benefit by $-60,True,0
+21739,complete,error,shelter,shelter,shelter: documented amount changes the benefit by $-71,True,0
+21739,faithful,error,shelter,shelter,shelter: no document,True,0
+21739,faithful_linkability,error,shelter,shelter,shelter: documented amount changes the benefit by $-71,True,0
+16881,complete,error,shelter,shelter,shelter: no document,True,0
+16881,faithful,error,shelter,shelter,shelter: no document,True,0
+16881,faithful_linkability,error,shelter,"unearned, shelter",unearned: no document; shelter: no document,True,1
+43456,complete,error,unearned,unearned,unearned: documented amount changes the benefit by $-268,True,0
+43456,faithful,error,unearned,unearned,unearned: documented amount changes the benefit by $-268,True,0
+43456,faithful_linkability,error,unearned,unearned,unearned: documented amount changes the benefit by $-268,True,0
+30269,complete,error,unearned,unearned,unearned: documented amount changes the benefit by $-185,True,0
+30269,faithful,error,unearned,unearned,unearned: documented amount changes the benefit by $-185,True,0
+30269,faithful_linkability,error,unearned,,,False,0
+15436,complete,error,unearned,unearned,unearned: documented amount changes the benefit by $-218,True,0
+15436,faithful,error,unearned,,,False,0
+15436,faithful_linkability,error,unearned,unearned,unearned: documented amount changes the benefit by $-218,True,0
+37360,complete,error,utilities,utilities,utilities: no document,True,0
+37360,faithful,error,utilities,utilities,utilities: no document,True,0
+37360,faithful_linkability,error,utilities,utilities,utilities: no document,True,0
+23521,complete,error,utilities,utilities,utilities: no document,True,0
+23521,faithful,error,utilities,utilities,utilities: no document,True,0
+23521,faithful_linkability,error,utilities,utilities,utilities: no document,True,0
+41978,complete,error,utilities,utilities,utilities: no document,True,0
+41978,faithful,error,utilities,utilities,utilities: no document,True,0
+41978,faithful_linkability,error,utilities,utilities,utilities: no document,True,0
+34791,complete,comparison,,,,,0
+34791,faithful,comparison,,unearned,unearned: no document,,1
+34791,faithful_linkability,comparison,,,,,0
+9052,complete,comparison,,,,,0
+9052,faithful,comparison,,shelter,shelter: no document,,1
+9052,faithful_linkability,comparison,,,,,0
+42777,complete,comparison,,,,,0
+42777,faithful,comparison,,shelter,shelter: no document,,1
+42777,faithful_linkability,comparison,,,,,0
+42362,complete,comparison,,,,,0
+42362,faithful,comparison,,earned,earned: no document,,1
+42362,faithful_linkability,comparison,,,,,0

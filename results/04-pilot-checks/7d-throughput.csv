@@ -1,0 +1,7 @@
+phase,records,jobs,wall minutes,calls per hour
+core-filers,200,200,7.2,1667.0
+core-readers,80,80,4.13,1161.0
+proposed-filers,161,160,11.25,853.0
+proposed-readers,160,160,7.49,1282.0
+rereads,40,40,0.95,2524.0
+all phases,641,640,31.02,1238.0

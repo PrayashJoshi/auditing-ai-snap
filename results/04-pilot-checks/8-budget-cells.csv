@@ -1,0 +1,16 @@
+,,task,cell,calls
+pilot,0,filer,"required, complete + faithful, note A",80
+pilot,1,filer,"escape, complete + faithful, note A",80
+pilot,2,filer,"escape, faithful, note B",40
+pilot,3,filer,"provenance, complete + faithful, note A",80
+pilot,4,filer,"provenance, faithful, note B",40
+pilot,5,filer,"provenance, faithful_linkability, note A",40
+pilot,6,reader,"human-filed, 2 packets",80
+pilot,7,reader,"AI provenance, 2 packets x 2 filer models",160
+pilot,8,reader,re-reads,40
+full run,0,filer,provenance x 2 packets x 2 models,8376
+full run,1,filer,escape x faithful x 2 models,4188
+full run,2,filer,required x faithful x 2 models (the 616),1232
+full run,3,reader,human-filed x 2 packets,8376
+full run,4,reader,AI provenance x 2 packets x 2 filer models,16752
+full run,5,reader,re-reads,1200

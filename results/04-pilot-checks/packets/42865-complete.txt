@@ -1,0 +1,160 @@
+# household 42865 (error, shelter), variant complete; undocumented groups: none
+
+Note A:
+Hi, my name is Robin Lindqvist. I live with Parker (35), Morgan (12) and Jesse (8). There are 4 of us applying for food assistance. I work at Oak Street Bakery. We rent our home at 5463 Lincoln St, Apt 2 from Willow Park Housing. We pay for heat and electricity ourselves.
+
+Note B:
+Hi, my name is Robin Lindqvist. I live with Parker (35), Morgan (12) and Jesse (8). There are 4 of us applying for food assistance. I work at Oak Street Bakery. We rent our home at 5463 Lincoln St, Apt 2 from Willow Park Housing. We pay for heat and electricity ourselves.
+
+Connector results:
+
+payroll connector returned 9 pay stubs:
+[doc-01] Pay stub
+    Employer: Oak Street Bakery
+    Employee: Robin Lindqvist
+    Pay date: 2026-09-04
+    Pay frequency: Weekly
+    Gross pay: $589.30
+    Federal income tax: $58.47
+    State income tax: $0.00
+    Social Security and Medicare: $45.08
+    Health insurance: $0.00
+    Net pay: $485.75
+    Year-to-date gross pay: $21,214.80
+[doc-02] Pay stub
+    Employer: Oak Street Bakery
+    Employee: Robin Lindqvist
+    Pay date: 2026-09-11
+    Pay frequency: Weekly
+    Gross pay: $589.30
+    Federal income tax: $58.47
+    State income tax: $0.00
+    Social Security and Medicare: $45.08
+    Health insurance: $0.00
+    Net pay: $485.75
+    Year-to-date gross pay: $21,804.10
+[doc-03] Pay stub
+    Employer: Oak Street Bakery
+    Employee: Robin Lindqvist
+    Pay date: 2026-09-18
+    Pay frequency: Weekly
+    Gross pay: $589.30
+    Federal income tax: $58.47
+    State income tax: $0.00
+    Social Security and Medicare: $45.08
+    Health insurance: $0.00
+    Net pay: $485.75
+    Year-to-date gross pay: $22,393.40
+[doc-04] Pay stub
+    Employer: Oak Street Bakery
+    Employee: Robin Lindqvist
+    Pay date: 2026-09-25
+    Pay frequency: Weekly
+    Gross pay: $589.30
+    Federal income tax: $58.47
+    State income tax: $0.00
+    Social Security and Medicare: $45.08
+    Health insurance: $0.00
+    Net pay: $485.75
+    Year-to-date gross pay: $22,982.70
+[doc-05] Pay stub
+    Employer: Oak Street Bakery
+    Employee: Robin Lindqvist
+    Pay date: 2026-10-02
+    Pay frequency: Weekly
+    Gross pay: $589.30
+    Federal income tax: $58.47
+    State income tax: $0.00
+    Social Security and Medicare: $45.08
+    Health insurance: $0.00
+    Net pay: $485.75
+    Year-to-date gross pay: $23,572.00
+[doc-06] Pay stub
+    Employer: Oak Street Bakery
+    Employee: Robin Lindqvist
+    Pay date: 2026-10-09
+    Pay frequency: Weekly
+    Gross pay: $589.30
+    Federal income tax: $58.47
+    State income tax: $0.00
+    Social Security and Medicare: $45.08
+    Health insurance: $0.00
+    Net pay: $485.75
+    Year-to-date gross pay: $24,161.30
+[doc-07] Pay stub
+    Employer: Oak Street Bakery
+    Employee: Robin Lindqvist
+    Pay date: 2026-10-16
+    Pay frequency: Weekly
+    Gross pay: $589.30
+    Federal income tax: $58.47
+    State income tax: $0.00
+    Social Security and Medicare: $45.08
+    Health insurance: $0.00
+    Net pay: $485.75
+    Year-to-date gross pay: $24,750.60
+[doc-08] Pay stub
+    Employer: Oak Street Bakery
+    Employee: Robin Lindqvist
+    Pay date: 2026-10-23
+    Pay frequency: Weekly
+    Gross pay: $589.30
+    Federal income tax: $58.47
+    State income tax: $0.00
+    Social Security and Medicare: $45.08
+    Health insurance: $0.00
+    Net pay: $485.75
+    Year-to-date gross pay: $25,339.90
+[doc-09] Pay stub
+    Employer: Oak Street Bakery
+    Employee: Robin Lindqvist
+    Pay date: 2026-10-30
+    Pay frequency: Weekly
+    Gross pay: $589.30
+    Federal income tax: $58.47
+    State income tax: $0.00
+    Social Security and Medicare: $45.08
+    Health insurance: $0.00
+    Net pay: $485.75
+    Year-to-date gross pay: $25,929.20
+
+bank connector returned 16 transactions for checking account ****6768, 2026-09-01 to 2026-10-31:
+[doc-10] 2026-09-01 | debit $600.00 | RENT PAYMENT WILLOW PARK HOUSING
+[doc-11] 2026-09-04 | credit $485.75 | PAYROLL DEP OAK STREET BAKERY
+[doc-12] 2026-09-11 | credit $485.75 | PAYROLL DEP OAK STREET BAKERY
+[doc-13] 2026-09-12 | debit $31.97 | GROCERY SAVE-MART FOODS
+[doc-14] 2026-09-18 | credit $485.75 | PAYROLL DEP OAK STREET BAKERY
+[doc-15] 2026-09-24 | debit $127.57 | GROCERY FRESH MARKET
+[doc-16] 2026-09-25 | credit $485.75 | PAYROLL DEP OAK STREET BAKERY
+[doc-17] 2026-09-29 | debit $84.38 | GROCERY SAVE-MART FOODS
+[doc-18] 2026-10-01 | debit $600.00 | RENT PAYMENT WILLOW PARK HOUSING
+[doc-19] 2026-10-02 | credit $485.75 | PAYROLL DEP OAK STREET BAKERY
+[doc-20] 2026-10-07 | credit $170.36 | TRANSFER FROM SAVINGS ****6768 (OWN ACCOUNT)
+[doc-21] 2026-10-09 | credit $485.75 | PAYROLL DEP OAK STREET BAKERY
+[doc-22] 2026-10-16 | credit $485.75 | PAYROLL DEP OAK STREET BAKERY
+[doc-23] 2026-10-19 | credit $29.75 | REFUND CITY PHARMACY
+[doc-24] 2026-10-23 | credit $485.75 | PAYROLL DEP OAK STREET BAKERY
+[doc-25] 2026-10-30 | credit $485.75 | PAYROLL DEP OAK STREET BAKERY
+
+drive search returned 3 documents:
+[doc-26] Lease agreement
+    Landlord: Willow Park Housing
+    Tenant: Robin Lindqvist
+    Address: 5463 Lincoln St, Apt 2
+    Monthly rent: $600.00
+    Lease start: 2026-03-01
+    Lease term: 12 months
+[doc-27] Utility bill
+    Company: Metro Electric
+    Account holder: Robin Lindqvist
+    Service: Electricity
+    Service address: 5463 Lincoln St, Apt 2
+    Billing period: 2026-09-15 to 2026-10-14
+    Amount due: $128.02
+[doc-28] Utility bill
+    Company: Regional Gas Co.
+    Account holder: Robin Lindqvist
+    Service: Heat
+    Service address: 5463 Lincoln St, Apt 2
+    Billing period: 2026-09-15 to 2026-10-14
+    Amount due: $55.27
