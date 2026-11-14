@@ -1,0 +1,16 @@
+table,row,certification,recertification,gap (points)
+four groups,earned,40.3,31.8,-8.5
+four groups,shelter,25.6,33.2,7.6
+four groups,unearned,27.3,18.9,-8.4
+four groups,utilities,5.7,13.2,7.5
+four groups,outside,1.1,3.0,1.8
+shelter + utilities merged,earned,40.3,31.8,-8.5
+shelter + utilities merged,unearned,27.3,18.9,-8.4
+shelter + utilities merged,housing,31.2,46.4,15.1
+shelter + utilities merged,outside,1.1,3.0,1.8
+three cells,"income, empty",37.5,27.0,-10.5
+three cells,"income, wrong number",30.1,23.6,-6.5
+three cells,housing (shelter + utilities),31.2,46.4,15.1
+three cells,outside,1.1,3.0,1.8
+error type,empty,38.6,27.3,-11.4
+error type,wrong number,61.4,72.7,11.4

@@ -1,0 +1,10 @@
+group,error_type,NATURE 35,other NATURE,All
+earned,empty,119,3,122
+earned,wrong number,44,45,89
+outside,wrong number,0,15,15
+shelter,empty,0,3,3
+shelter,wrong number,0,188,188
+unearned,empty,63,0,63
+unearned,wrong number,51,17,68
+utilities,wrong number,0,68,68
+All,,277,339,616

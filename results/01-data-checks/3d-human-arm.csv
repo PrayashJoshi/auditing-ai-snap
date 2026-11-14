@@ -1,0 +1,617 @@
+row,state,group,element,amount,filed_value,verified_value,in_151,NATURE1,DISCOV1,VERIF1,ACTNTYPE,STATUS,AMTERR,FYWGT,error_type,n_sources
+12,Connecticut,earned,311,earned,3397.0,3911.0,False,38,9,9,1,2,123,202.92071008,wrong number,1
+150,Connecticut,earned,311,earned,1390.0,0.0,False,41,4,4,2,3,134,252.84189502,wrong number,0
+247,Connecticut,unearned,350,unearned,915.0,1236.0,False,35,3,9,1,2,145,238.93198086,wrong number,2
+276,Connecticut,earned,311,earned,2695.0,2930.0,False,38,4,4,2,2,57,302.48628972,wrong number,1
+277,Connecticut,shelter,363,rent,336.0,0.0,False,99,3,3,2,2,101,257.35835399,wrong number,
+316,Connecticut,shelter,363,rent,963.0,602.0,False,57,5,5,2,2,108,240.4920141,wrong number,
+568,Connecticut,earned,311,earned,3740.0,3223.0,False,44,4,4,1,3,124,403.64555916,wrong number,1
+602,Connecticut,shelter,363,rent,935.0,603.0,False,56,6,6,2,2,100,267.57615578,wrong number,
+653,Connecticut,earned,311,earned,2311.0,3056.0,False,38,3,4,2,2,196,198.04124419,wrong number,1
+690,Connecticut,earned,311,earned,3218.0,2437.0,False,41,4,4,2,3,187,273.11952734,wrong number,2
+693,Connecticut,unearned,332,unearned,0.0,3181.0,True,35,3,7,2,2,268,193.53856484,empty,2
+729,Connecticut,unearned,350,unearned,0.0,199.0,False,35,3,3,2,2,60,306.42910713,empty,1
+875,Connecticut,unearned,346,unearned,2173.0,2324.0,False,35,3,3,2,2,68,244.46490227,wrong number,3
+877,Connecticut,unearned,350,unearned,0.0,390.0,False,35,3,7,2,2,118,205.71773445,empty,1
+911,Connecticut,unearned,346,unearned,1362.0,1762.0,False,35,3,3,1,2,156,203.05380548,wrong number,2
+985,Maine,utilities,364,util,341.0,1011.0,False,52,3,3,2,3,201,105.14504091,wrong number,
+988,Maine,utilities,364,util,341.0,1011.0,False,54,3,3,2,3,171,116.00933753,wrong number,
+994,Maine,earned,311,earned,1990.0,3034.0,False,38,4,4,2,2,250,95.756853542,wrong number,1
+1086,Maine,earned,311,earned,0.0,1333.0,True,35,2,4,2,2,116,87.371122178,empty,1
+1115,Maine,shelter,363,rent,708.0,300.0,False,56,5,5,1,2,123,87.908156723,wrong number,
+1131,Maine,utilities,364,util,1014.0,341.0,False,53,3,6,2,2,202,90.932509159,wrong number,
+1153,Maine,earned,311,earned,0.0,1334.0,True,35,7,4,2,2,228,90.536799494,empty,1
+1164,Maine,unearned,335,unearned,562.0,2818.0,False,35,4,5,2,2,264,91.667398536,wrong number,3
+1404,Maine,shelter,363,rent,599.0,324.0,False,56,3,6,2,2,83,95.08319191,wrong number,
+1434,Maine,earned,311,earned,3268.0,4868.0,False,35,8,4,2,2,575,148.75286138,wrong number,2
+1445,Maine,shelter,363,rent,649.0,300.0,False,56,6,6,2,2,105,107.3460824,wrong number,
+1449,Maine,utilities,364,util,340.0,15.0,False,54,1,9,2,2,61,112.63611621,wrong number,
+1525,Maine,earned,311,earned,100.0,430.0,False,35,3,4,2,2,79,108.79009641,wrong number,1
+1527,Maine,shelter,363,rent,249.0,0.0,False,53,3,6,2,2,75,100.15222981,wrong number,
+1535,Maine,earned,311,earned,0.0,1143.0,True,35,3,9,1,2,215,95.897767758,empty,1
+1621,Maine,shelter,363,rent,699.0,350.0,False,56,9,3,2,2,88,107.69032845,wrong number,
+1679,Maine,shelter,363,rent,660.0,440.0,False,56,3,7,2,2,66,108.95395414,wrong number,
+1697,Maine,unearned,332,unearned,1622.0,1388.0,False,44,3,3,1,3,70,91.160331367,wrong number,1
+1722,Maine,shelter,363,rent,600.0,330.0,False,56,3,6,2,2,81,85.916793438,wrong number,
+1748,Maine,shelter,363,rent,31.0,491.0,False,52,9,3,1,3,138,114.31089793,wrong number,
+1770,Maine,unearned,342,unearned,1000.0,0.0,False,98,3,3,1,3,241,103.63522098,wrong number,0
+1813,Maine,utilities,364,util,240.0,0.0,False,53,3,3,2,2,72,88.048794446,wrong number,
+1873,Maine,utilities,364,util,547.0,1011.0,False,54,3,6,2,3,87,163.93744688,wrong number,
+1874,Maine,unearned,350,unearned,2.0,600.0,False,35,3,9,2,2,180,66.707741332,empty,1
+1909,Massachusetts,earned,311,earned,0.0,3056.0,True,35,3,8,2,2,268,674.51924172,empty,1
+1910,Massachusetts,shelter,363,rent,1203.0,233.0,False,53,3,3,2,2,262,674.51924172,wrong number,
+1922,Massachusetts,shelter,363,rent,900.0,475.0,False,56,3,6,1,2,100,674.51924172,wrong number,
+1940,Massachusetts,unearned,346,unearned,0.0,2316.0,True,35,3,3,2,2,268,674.51924171,empty,1
+1993,Massachusetts,shelter,363,rent,1410.0,1079.0,False,53,3,3,2,2,99,775.0425314,wrong number,
+2006,Massachusetts,unearned,346,unearned,0.0,1236.0,True,35,3,9,1,2,132,704.5663738,empty,1
+2009,Massachusetts,earned,311,earned,0.0,3726.0,True,35,4,4,2,2,268,762.27640321,empty,1
+2020,Massachusetts,unearned,332,unearned,1354.0,3197.0,False,35,8,7,1,2,252,762.27640321,wrong number,2
+2046,Massachusetts,unearned,331,unearned,1198.0,1516.0,False,35,8,8,2,2,143,727.51662486,wrong number,3
+2050,Massachusetts,earned,311,earned,0.0,3120.0,True,35,3,4,2,2,268,762.27640283,empty,1
+2146,Massachusetts,outside,323,depcare,410.0,30.0,False,56,3,3,1,2,114,749.59034688,wrong number,
+2147,Massachusetts,outside,323,depcare,612.0,376.0,False,56,3,3,2,2,71,529.78379403,wrong number,
+2154,Massachusetts,earned,311,earned,1125.0,2339.0,False,35,3,4,2,2,355,758.1970821,wrong number,2
+2177,Massachusetts,earned,311,earned,0.0,3194.0,True,35,2,2,2,2,268,805.23588181,empty,1
+2222,Massachusetts,earned,311,earned,1713.0,2146.0,False,35,3,9,2,2,155,394.13231382,wrong number,2
+2235,Massachusetts,earned,311,earned,0.0,3822.0,True,35,3,4,2,2,512,681.58308708,empty,1
+2256,Massachusetts,outside,365,medical,155.0,0.0,False,53,3,3,2,2,70,731.40402909,wrong number,
+2280,Massachusetts,shelter,363,rent,585.0,370.0,False,56,6,6,2,2,65,621.84371256,wrong number,
+2290,Massachusetts,unearned,346,unearned,0.0,1908.0,True,35,3,3,1,2,268,478.01422678,empty,2
+2302,Massachusetts,earned,311,earned,0.0,3113.0,True,35,3,4,2,2,268,478.01422678,empty,1
+2306,Massachusetts,earned,311,earned,53.0,867.0,False,35,3,4,1,2,81,478.01422678,wrong number,1
+2310,Massachusetts,earned,311,earned,2433.0,2867.0,False,35,3,4,2,2,157,943.75385831,wrong number,1
+2316,Massachusetts,utilities,364,util,852.0,59.0,False,54,3,6,2,2,217,1548.384903,wrong number,
+2376,Massachusetts,earned,311,earned,0.0,3240.0,True,35,3,7,1,2,268,573.74019351,empty,1
+2433,Massachusetts,shelter,363,rent,2953.0,158.0,False,56,3,3,1,2,114,762.20911216,wrong number,
+2442,Massachusetts,unearned,346,unearned,1570.0,2199.0,False,35,3,5,1,2,90,748.4586051,wrong number,2
+2482,Massachusetts,earned,312,earned,2736.0,3948.0,False,35,3,3,2,2,291,1024.1997017,wrong number,3
+2487,Massachusetts,earned,311,earned,0.0,1381.0,True,35,3,4,2,2,71,763.28655707,empty,1
+2567,Massachusetts,utilities,364,util,893.0,0.0,False,53,3,9,2,2,141,679.17673125,wrong number,
+2575,Massachusetts,unearned,346,unearned,0.0,2114.0,True,35,3,5,2,2,268,679.17673125,empty,1
+2577,Massachusetts,unearned,346,unearned,0.0,1820.0,True,35,3,9,2,2,268,679.17673125,empty,2
+2580,Massachusetts,unearned,346,unearned,0.0,2152.0,True,35,3,3,2,2,268,679.17673125,empty,1
+2583,Massachusetts,shelter,363,rent,237.0,651.0,False,57,3,3,1,3,76,626.03813455,wrong number,
+2617,Massachusetts,shelter,363,rent,521.0,280.0,False,53,3,3,1,2,72,788.89190532,wrong number,
+2619,Massachusetts,earned,311,earned,0.0,4766.0,True,35,3,5,2,2,512,1128.7063189,empty,1
+2627,Massachusetts,unearned,350,unearned,0.0,1053.0,False,35,3,3,2,2,316,1357.4326713,empty,1
+2629,Massachusetts,outside,323,depcare,805.0,433.0,False,56,3,3,2,2,112,1108.2302392,wrong number,
+2728,Massachusetts,earned,311,earned,0.0,2562.0,True,35,3,5,2,2,556,983.36597264,empty,1
+2753,Massachusetts,earned,311,earned,0.0,1706.0,True,35,3,4,2,2,207,773.78222962,empty,1
+2832,New Hampshire,unearned,336,unearned,1072.0,1526.0,False,35,3,3,1,2,205,73.055640562,wrong number,2
+2856,New Hampshire,unearned,334,unearned,0.0,3148.0,True,35,8,2,1,2,268,61.634461951,empty,2
+2972,New Hampshire,unearned,342,unearned,0.0,1000.0,True,35,3,9,1,2,92,60.747283068,empty,1
+2994,New Hampshire,earned,311,earned,1553.0,1721.0,False,99,1,1,2,2,61,37.340178917,wrong number,1
+3134,New Hampshire,unearned,332,unearned,0.0,4566.0,True,35,3,7,2,2,268,41.106900435,empty,2
+3444,New Hampshire,earned,311,earned,62.0,728.0,False,35,7,7,2,2,160,58.207541728,wrong number,1
+5472,Vermont,earned,311,earned,3402.0,3658.0,False,35,4,4,1,2,92,102.45756336,wrong number,1
+5744,Vermont,earned,311,earned,1023.0,1646.0,False,35,1,4,1,2,150,32.700140272,wrong number,2
+5908,Vermont,shelter,363,rent,701.0,450.0,False,56,6,6,1,2,75,93.430633943,wrong number,
+6356,Delaware,earned,311,earned,0.0,2069.0,False,35,3,9,2,2,391,74.336431701,empty,1
+6509,Delaware,earned,311,earned,2483.0,3149.0,False,38,7,7,2,2,160,60.567802917,wrong number,1
+6559,Delaware,unearned,342,unearned,0.0,2609.0,True,35,3,3,2,2,180,76.85859805,empty,2
+6563,Delaware,earned,311,earned,0.0,3091.0,True,35,2,2,2,2,268,61.532262964,empty,1
+6644,Delaware,earned,311,earned,0.0,1811.0,True,35,3,3,2,2,181,87.900949399,empty,1
+6700,Delaware,earned,311,earned,0.0,1081.0,True,35,8,4,2,2,201,71.820212932,empty,1
+6786,Delaware,unearned,350,unearned,1.0,500.0,False,35,3,3,2,2,150,74.071142614,empty,1
+6798,Delaware,earned,311,earned,0.0,881.0,True,35,3,4,2,2,153,73.351190305,empty,1
+6875,Delaware,earned,312,earned,1443.0,1695.0,False,38,3,3,2,2,60,71.905527155,wrong number,2
+6924,Delaware,unearned,334,unearned,0.0,2438.0,True,35,3,3,1,2,268,63.50327136,empty,1
+6949,Delaware,earned,311,earned,0.0,2501.0,True,35,9,8,2,2,541,86.166048973,empty,1
+7150,District of Columbia,earned,311,earned,1493.0,930.0,False,35,1,4,2,3,98,94.725410142,wrong number,1
+7323,District of Columbia,earned,312,earned,0.0,1644.0,True,35,3,3,2,2,268,82.568223025,empty,1
+7361,District of Columbia,shelter,363,rent,498.0,0.0,False,57,3,6,2,2,146,81.718533071,wrong number,
+7377,District of Columbia,unearned,350,unearned,1547.0,1812.0,False,35,7,7,2,2,79,25.277699488,wrong number,2
+7505,District of Columbia,earned,311,earned,0.0,5084.0,True,35,3,3,2,2,268,71.640371061,empty,1
+7589,District of Columbia,utilities,364,util,858.0,360.0,False,53,1,1,2,2,143,68.455081687,wrong number,
+7674,District of Columbia,earned,311,earned,0.0,5211.0,True,35,8,8,1,2,268,73.347717462,empty,1
+7678,District of Columbia,earned,311,earned,0.0,2321.0,False,35,2,2,2,2,444,65.744937504,empty,1
+7685,District of Columbia,earned,311,earned,2108.0,2574.0,False,38,4,4,2,2,65,65.744937504,wrong number,1
+7751,District of Columbia,earned,311,earned,0.0,1922.0,True,35,3,2,1,2,268,83.683570694,empty,1
+7864,District of Columbia,earned,311,earned,0.0,3437.0,True,35,3,9,2,2,268,95.723750741,empty,1
+7877,District of Columbia,shelter,363,rent,595.0,179.0,False,56,6,6,2,2,125,97.23246084,wrong number,
+7901,District of Columbia,earned,311,earned,0.0,2960.0,True,35,4,4,1,2,268,95.723750741,empty,1
+8936,New Jersey,earned,311,earned,1233.0,1564.0,False,35,9,8,1,2,119,675.39687541,wrong number,1
+9042,New Jersey,earned,311,earned,0.0,867.0,True,35,3,3,1,2,87,477.36022024,empty,1
+9124,New Jersey,unearned,331,unearned,2175.0,2449.0,False,38,3,6,1,2,123,488.92895874,wrong number,1
+9186,New Jersey,shelter,363,rent,0.0,950.0,False,52,6,6,2,3,60,774.21323042,empty,
+9247,New Jersey,shelter,363,rent,1502.0,491.0,False,56,6,6,2,2,303,526.7741895,wrong number,
+9253,New Jersey,earned,311,earned,1622.0,1809.0,False,41,3,3,2,2,68,657.79147947,wrong number,1
+9365,New Jersey,shelter,363,rent,0.0,273.0,False,52,3,6,1,3,82,980.38414403,empty,
+9469,Pennsylvania,shelter,363,rent,560.0,285.0,False,56,3,6,2,2,82,1340.747464,wrong number,
+9534,Pennsylvania,unearned,342,unearned,1408.0,2046.0,False,35,3,7,2,2,263,1290.5053522,wrong number,2
+9619,Pennsylvania,shelter,363,rent,198.0,0.0,False,53,3,6,2,2,60,1171.376137,wrong number,
+9646,Pennsylvania,shelter,363,rent,248.0,0.0,False,53,3,3,2,2,75,1175.5959379,wrong number,
+9652,Pennsylvania,shelter,363,rent,495.0,81.0,False,53,3,3,2,2,124,1116.0498531,wrong number,
+9702,Pennsylvania,earned,311,earned,0.0,5669.0,True,35,2,4,2,2,268,1462.6120979,empty,1
+9746,Pennsylvania,earned,312,earned,0.0,307.0,False,39,3,3,2,2,111,1332.9805497,empty,1
+9749,Pennsylvania,shelter,363,rent,1402.0,859.0,False,53,3,5,2,2,163,2170.1153075,wrong number,
+9818,Pennsylvania,utilities,364,util,933.0,401.0,False,54,3,6,2,2,160,1547.0743607,wrong number,
+9904,Pennsylvania,shelter,363,rent,770.0,527.0,False,56,3,3,2,2,73,1786.6394078,wrong number,
+9984,Pennsylvania,earned,311,earned,1877.0,4136.0,False,35,3,4,1,2,542,1061.3848595,wrong number,2
+10112,Pennsylvania,shelter,363,rent,969.0,100.0,False,56,3,3,2,2,171,486.88543092,wrong number,
+10117,Pennsylvania,earned,311,earned,1121.0,2558.0,False,33,3,3,1,2,345,743.15192067,wrong number,2
+10147,Pennsylvania,utilities,364,util,635.0,34.0,False,53,3,6,1,2,154,1182.8934911,wrong number,
+10174,Pennsylvania,shelter,363,rent,1350.0,900.0,False,56,3,3,1,2,135,1248.9308988,wrong number,
+10210,Pennsylvania,unearned,350,unearned,52.0,400.0,False,35,3,3,2,2,104,1136.4417741,wrong number,1
+10246,Pennsylvania,shelter,363,rent,1225.0,1025.0,False,56,3,3,1,2,60,1108.5964296,wrong number,
+11063,West Virginia,shelter,363,rent,655.0,258.0,False,56,3,6,2,2,103,162.30432444,wrong number,
+11245,West Virginia,unearned,346,unearned,1310.0,1460.0,False,35,3,3,2,2,68,165.39713972,wrong number,3
+11540,West Virginia,earned,311,earned,0.0,1483.0,True,35,3,3,1,2,186,256.69807817,empty,1
+11573,West Virginia,earned,311,earned,0.0,2150.0,True,35,3,3,1,2,457,204.82182777,empty,1
+11579,West Virginia,earned,311,earned,1966.0,4273.0,False,38,3,4,1,2,141,201.45867265,wrong number,2
+11711,West Virginia,unearned,346,unearned,2266.0,3209.0,False,38,3,7,2,2,282,116.25418527,wrong number,4
+11880,Alabama,shelter,363,rent,347.0,0.0,False,53,3,6,2,2,105,417.43971724,wrong number,
+11906,Alabama,utilities,364,util,748.0,0.0,False,53,3,6,2,2,190,308.73073599,wrong number,
+11976,Alabama,shelter,363,rent,424.0,0.0,False,53,3,3,1,2,128,335.71098026,wrong number,
+11978,Alabama,unearned,333,unearned,0.0,1550.0,True,35,7,7,1,2,268,313.79825536,empty,1
+11997,Alabama,earned,311,earned,0.0,2012.0,False,35,4,4,2,2,483,321.83403781,empty,2
+12010,Alabama,earned,311,earned,1160.0,816.0,False,35,1,7,2,3,124,308.93882019,wrong number,1
+12054,Alabama,shelter,363,rent,848.0,0.0,False,53,9,9,2,2,125,315.30416799,wrong number,
+12064,Alabama,unearned,332,unearned,1193.0,1830.0,False,35,3,7,2,2,150,315.49297068,wrong number,2
+12138,Alabama,earned,311,earned,3378.0,3644.0,False,35,3,3,1,2,96,428.36061952,wrong number,2
+12164,Alabama,utilities,364,util,600.0,0.0,False,53,6,6,1,2,175,354.09034084,wrong number,
+12168,Alabama,shelter,363,rent,307.0,8.0,False,53,3,3,1,2,90,334.13103535,wrong number,
+12172,Alabama,shelter,363,rent,506.0,188.0,False,56,6,6,1,2,95,324.96604825,wrong number,
+12193,Alabama,earned,311,earned,1050.0,2697.0,False,35,2,4,2,2,406,262.49181181,wrong number,1
+12218,Alabama,unearned,331,unearned,0.0,1094.0,True,35,3,8,1,2,269,346.68696458,empty,2
+12229,Alabama,unearned,332,unearned,0.0,1075.0,True,35,3,5,1,2,215,379.31292597,empty,1
+12270,Alabama,unearned,332,unearned,1705.0,5568.0,False,35,7,7,2,2,335,280.12313019,wrong number,2
+12290,Alabama,earned,311,earned,966.0,1559.0,False,35,4,4,1,2,95,306.3079035,wrong number,1
+12296,Alabama,unearned,350,unearned,0.0,400.0,False,35,7,7,1,2,120,264.3052691,empty,1
+12308,Alabama,earned,311,earned,1773.0,2473.0,False,38,4,4,2,2,168,265.7860426,wrong number,1
+12321,Alabama,unearned,350,unearned,0.0,400.0,False,35,3,3,1,2,120,291.28749719,empty,1
+12500,Alabama,unearned,346,unearned,2128.0,6052.0,False,35,3,3,1,2,236,275.32236516,wrong number,2
+12554,Alabama,shelter,363,rent,798.0,600.0,False,56,9,9,1,2,60,336.25404552,wrong number,
+12559,Alabama,shelter,363,rent,1098.0,250.0,False,53,3,6,2,2,218,330.12028735,wrong number,
+12612,Alabama,utilities,364,util,898.0,0.0,False,53,3,6,2,2,155,330.43746667,wrong number,
+12616,Alabama,earned,311,earned,0.0,2527.0,True,35,3,3,1,2,548,329.32309421,empty,1
+12695,Alabama,earned,311,earned,0.0,658.0,True,35,4,4,1,2,132,348.9922695,empty,1
+12728,Alabama,unearned,331,unearned,1386.0,3219.0,False,35,7,7,1,2,157,341.05752178,wrong number,2
+12731,Alabama,shelter,363,rent,755.0,362.0,False,53,3,3,1,2,118,345.12986755,wrong number,
+12742,Alabama,shelter,363,rent,800.0,0.0,False,53,3,6,2,2,64,366.78359449,wrong number,
+12743,Alabama,unearned,350,unearned,344.0,850.0,False,35,9,9,1,2,228,350.17225143,wrong number,1
+12762,Alabama,earned,311,earned,1582.0,2456.0,False,38,4,4,1,2,315,411.14579684,wrong number,1
+12780,Alabama,earned,311,earned,992.0,771.0,False,43,1,1,2,3,79,283.96762469,wrong number,1
+12783,Alabama,earned,311,earned,4104.0,3109.0,False,41,3,4,1,3,354,285.78340988,wrong number,2
+12785,Alabama,utilities,364,util,328.0,0.0,False,53,3,6,2,2,73,409.33001252,wrong number,
+12786,Alabama,shelter,363,rent,435.0,121.0,False,99,6,6,2,2,94,285.20399,wrong number,
+12812,Alabama,shelter,363,rent,469.0,255.0,False,56,3,3,2,2,65,403.55215348,wrong number,
+12884,Alabama,unearned,342,unearned,914.0,1314.0,False,35,3,9,2,2,180,350.62804119,wrong number,2
+12887,Alabama,shelter,363,rent,551.0,0.0,False,53,3,6,2,2,98,349.64418909,wrong number,
+12893,Alabama,utilities,364,util,600.0,0.0,False,53,3,6,2,2,145,351.50648013,wrong number,
+12924,Florida,unearned,350,unearned,0.0,200.0,False,35,3,9,2,2,60,1970.0998471,empty,1
+12936,Florida,shelter,363,rent,1166.0,521.0,False,53,3,3,2,2,193,1935.771034,wrong number,
+12946,Florida,shelter,363,rent,922.0,41.0,False,53,3,3,2,2,80,1984.9282691,wrong number,
+12956,Florida,utilities,364,util,286.0,0.0,False,53,3,6,2,2,86,2082.084599,wrong number,
+12961,Florida,shelter,363,rent,661.0,421.0,False,56,5,3,2,2,72,2093.0535687,wrong number,
+12978,Florida,shelter,363,rent,1629.0,404.0,False,99,1,3,2,2,367,2336.1358848,wrong number,
+12984,Florida,shelter,363,rent,1402.0,1200.0,False,53,3,6,2,2,61,2159.6060144,wrong number,
+13005,Florida,earned,311,earned,0.0,1290.0,True,35,3,4,1,2,199,1775.8975142,empty,1
+13007,Florida,shelter,363,rent,547.0,347.0,False,99,3,6,2,2,60,2114.0594341,wrong number,
+13015,Florida,earned,312,earned,0.0,2500.0,True,35,3,3,1,2,268,2229.8522103,empty,1
+13027,Florida,utilities,364,util,427.0,0.0,False,53,3,3,2,2,71,2195.6434929,wrong number,
+13032,Florida,outside,366,child_support,383.0,0.0,False,52,7,7,2,2,152,2214.0037074,wrong number,
+13043,Florida,utilities,364,util,339.0,49.0,False,54,3,6,1,2,72,1788.3992503,wrong number,
+13060,Florida,shelter,363,rent,2064.0,322.0,False,56,1,3,2,2,406,1518.9809828,wrong number,
+13080,Florida,earned,311,earned,0.0,688.0,False,35,3,3,2,2,248,1843.1036803,empty,1
+13135,Florida,unearned,346,unearned,1682.0,2172.0,False,38,3,7,2,2,147,1861.5761925,wrong number,3
+13138,Florida,shelter,363,rent,1240.0,401.0,False,56,3,3,2,2,190,1958.1751403,wrong number,
+13141,Florida,utilities,364,util,717.0,0.0,False,53,3,6,2,2,116,1999.2360652,wrong number,
+13144,Florida,outside,323,depcare,200.0,873.0,False,99,9,3,2,3,202,1744.7481102,wrong number,
+13168,Florida,earned,311,earned,0.0,1347.0,True,35,3,7,2,2,264,1870.7057734,empty,1
+13182,Florida,shelter,363,rent,586.0,86.0,False,53,1,7,2,2,150,1607.3263771,wrong number,
+13199,Florida,earned,311,earned,1167.0,1912.0,False,35,3,9,2,2,240,1518.4297031,wrong number,1
+13212,Florida,unearned,331,unearned,638.0,980.0,False,35,8,8,2,2,154,1634.260271,wrong number,2
+13227,Florida,shelter,363,rent,808.0,540.0,False,53,3,3,2,2,81,1686.7665407,wrong number,
+13230,Florida,utilities,364,util,325.0,49.0,False,53,3,3,2,2,83,1826.8376128,wrong number,
+13242,Florida,shelter,363,rent,749.0,130.0,False,56,3,3,2,2,118,1306.9753616,wrong number,
+13254,Florida,shelter,363,rent,412.0,621.0,False,57,3,6,2,3,62,1691.5974086,wrong number,
+13265,Florida,shelter,363,rent,1677.0,0.0,False,53,3,3,2,2,193,1520.5063178,wrong number,
+13315,Florida,shelter,363,rent,1140.0,792.0,False,56,1,1,2,2,84,1667.297855,wrong number,
+13320,Florida,unearned,342,unearned,1732.0,960.0,False,99,3,3,2,3,287,1688.1227425,wrong number,1
+13328,Florida,shelter,363,rent,549.0,231.0,False,56,3,3,2,2,96,1722.7477611,wrong number,
+13332,Florida,unearned,331,unearned,0.0,1414.0,True,35,3,7,2,2,164,1673.1276593,empty,1
+13334,Florida,shelter,363,rent,1123.0,438.0,False,56,3,3,2,2,137,1667.297855,wrong number,
+13348,Florida,earned,311,earned,2665.0,3903.0,False,35,3,3,2,2,445,1207.2764924,wrong number,2
+13365,Florida,earned,311,earned,0.0,1323.0,True,35,3,4,2,2,256,1524.3949786,empty,1
+13385,Florida,shelter,363,rent,1660.0,1395.0,False,56,3,6,2,2,79,1010.0864516,wrong number,
+13390,Florida,earned,311,earned,1806.0,3012.0,False,38,4,4,2,2,289,1177.2509663,wrong number,1
+13401,Florida,earned,311,earned,0.0,1897.0,True,35,3,4,2,2,393,1104.4821925,empty,1
+13421,Florida,shelter,363,rent,409.0,200.0,False,56,6,6,2,2,63,1474.7840128,wrong number,
+13425,Florida,earned,311,earned,0.0,1707.0,True,35,4,4,2,2,146,1259.1250208,empty,1
+13452,Florida,shelter,363,rent,1505.0,1300.0,False,99,3,6,2,2,61,1028.8689814,wrong number,
+13471,Florida,utilities,364,util,425.0,0.0,False,53,3,3,2,2,128,1525.0137504,wrong number,
+13507,Florida,unearned,331,unearned,713.0,0.0,False,44,3,3,2,3,155,2131.4926827,wrong number,0
+13542,Florida,unearned,331,unearned,0.0,1036.0,True,35,7,7,2,2,210,144.45596491,empty,1
+13554,Florida,shelter,363,rent,1565.0,634.0,False,56,3,6,2,2,96,144.45596491,wrong number,
+13559,Florida,unearned,342,unearned,0.0,1000.0,True,35,3,3,1,2,61,1612.7151931,empty,1
+13564,Florida,unearned,346,unearned,1403.0,943.0,False,58,3,3,2,3,138,1483.3103967,wrong number,1
+13584,Florida,shelter,363,rent,1698.0,1474.0,False,56,6,6,2,2,67,923.53261887,wrong number,
+13597,Florida,utilities,364,util,425.0,49.0,False,54,3,6,1,2,113,1046.0010553,wrong number,
+13622,Florida,shelter,363,rent,625.0,200.0,False,53,6,6,2,2,71,1452.0929521,wrong number,
+13633,Florida,shelter,363,rent,539.0,41.0,False,56,7,7,2,2,150,1498.2512284,wrong number,
+13636,Florida,shelter,363,rent,1501.0,500.0,False,56,6,6,2,2,98,1064.9441238,wrong number,
+13655,Florida,unearned,350,unearned,950.0,1644.0,False,35,7,7,2,2,237,1020.0433082,wrong number,3
+13685,Florida,shelter,363,rent,1800.0,1500.0,False,56,6,6,2,2,90,1205.5820128,wrong number,
+13696,Florida,outside,365,medical,190.0,0.0,False,53,3,3,2,2,86,1593.3891403,wrong number,
+13734,Florida,unearned,331,unearned,0.0,963.0,True,35,7,3,2,2,76,1375.5802393,empty,2
+13739,Florida,shelter,363,rent,489.0,983.0,False,57,3,3,2,3,87,1304.756637,wrong number,
+13740,Florida,shelter,363,rent,1459.0,958.0,False,53,3,3,2,2,150,1764.1066444,wrong number,
+13755,Florida,shelter,363,rent,1954.0,1740.0,False,53,3,3,2,2,64,1694.2149317,wrong number,
+13769,Florida,utilities,364,util,463.0,49.0,False,53,3,3,2,2,87,1554.503024,wrong number,
+13775,Florida,earned,312,earned,2498.0,2113.0,False,44,3,3,1,3,92,1550.5609124,wrong number,1
+13807,Florida,earned,311,earned,2827.0,4704.0,False,35,3,3,2,2,450,2130.1961836,wrong number,2
+13813,Florida,shelter,363,rent,998.0,0.0,False,53,9,9,1,2,176,2229.8522103,wrong number,
+13880,Georgia,unearned,346,unearned,1000.0,1213.0,False,35,3,5,2,2,96,796.36180671,wrong number,2
+14164,Georgia,earned,311,earned,0.0,785.0,True,35,3,4,1,2,129,563.45874879,empty,1
+14188,Georgia,earned,311,earned,0.0,1400.0,True,35,3,9,1,2,126,632.06089987,empty,1
+14236,Georgia,earned,312,earned,0.0,300.0,False,35,3,3,2,2,72,627.58910563,empty,1
+14343,Georgia,earned,311,earned,0.0,1366.0,True,35,1,1,2,2,269,673.43761256,empty,1
+14542,Georgia,earned,311,earned,0.0,4167.0,True,35,3,4,1,2,512,662.33961484,empty,1
+14774,Georgia,shelter,363,rent,650.0,333.0,False,53,3,6,2,2,95,597.47193184,wrong number,
+14942,Kentucky,shelter,363,rent,450.0,0.0,False,53,6,6,1,2,135,223.86822543,wrong number,
+15075,Kentucky,earned,311,earned,2.0,2370.0,False,35,2,2,1,2,568,385.89100046,empty,1
+15082,Kentucky,unearned,331,unearned,0.0,963.0,True,35,2,2,2,2,209,265.51173907,empty,2
+15170,Kentucky,earned,312,earned,0.0,1385.0,True,35,3,3,1,2,282,255.50847718,empty,1
+15185,Kentucky,unearned,350,unearned,523.0,924.0,False,35,3,3,1,2,120,245.92413795,wrong number,3
+15253,Kentucky,unearned,342,unearned,0.0,500.0,True,35,3,3,2,2,91,254.49370338,empty,1
+15282,Kentucky,earned,311,earned,3468.0,4047.0,False,35,3,4,1,2,209,233.39479854,wrong number,1
+15288,Kentucky,earned,311,earned,0.0,888.0,True,35,2,2,2,2,95,254.76812562,empty,1
+15431,Kentucky,shelter,363,rent,849.0,305.0,False,56,6,6,2,2,152,279.77548949,wrong number,
+15434,Kentucky,earned,311,earned,0.0,2052.0,True,35,3,3,1,2,232,278.99727392,empty,1
+15436,Kentucky,unearned,331,unearned,0.0,933.0,True,35,3,3,2,2,218,195.88413234,empty,3
+15448,Kentucky,earned,312,earned,1343.0,2024.0,False,35,3,3,2,2,175,169.39030827,wrong number,2
+15471,Kentucky,earned,311,earned,0.0,3824.0,True,35,7,7,1,2,834,154.91558555,empty,2
+15677,Kentucky,earned,311,earned,828.0,0.0,False,40,3,2,2,3,140,221.33969214,wrong number,0
+15761,Kentucky,earned,311,earned,1725.0,2658.0,False,35,4,4,2,2,309,361.32440989,wrong number,2
+15847,Mississippi,earned,311,earned,0.0,1139.0,True,35,3,4,2,2,271,193.17645949,empty,1
+15961,Mississippi,earned,311,earned,0.0,2020.0,True,35,4,4,2,2,423,150.64765843,empty,1
+16008,Mississippi,earned,312,earned,0.0,1429.0,True,35,3,3,2,2,268,171.80492477,empty,1
+16011,Mississippi,earned,311,earned,0.0,2580.0,True,35,3,4,2,2,560,158.84814138,empty,1
+16048,Mississippi,earned,311,earned,1084.0,1892.0,False,35,3,4,2,2,291,198.62309909,wrong number,1
+16058,Mississippi,unearned,350,unearned,0.0,488.0,True,35,7,7,2,2,84,174.23427334,empty,3
+16061,Mississippi,earned,311,earned,0.0,1508.0,True,35,3,4,1,2,101,158.54448217,empty,1
+16069,Mississippi,unearned,350,unearned,873.0,1334.0,False,35,3,7,2,2,65,156.71945066,wrong number,2
+16181,Mississippi,earned,311,earned,0.0,680.0,True,35,3,9,2,2,104,150.21794989,empty,1
+16259,Mississippi,unearned,350,unearned,954.0,704.0,False,38,3,8,2,3,75,173.93530429,wrong number,1
+16276,Mississippi,earned,311,earned,0.0,903.0,True,35,5,5,1,2,158,164.47786685,empty,1
+16334,Mississippi,unearned,342,unearned,1557.0,1943.0,False,35,9,9,1,2,174,181.7764837,wrong number,2
+16351,Mississippi,earned,311,earned,0.0,548.0,False,35,3,5,2,2,132,168.90946925,empty,1
+16428,Mississippi,earned,311,earned,1729.0,2157.0,False,38,7,4,2,2,140,179.75366485,wrong number,1
+16530,Mississippi,earned,311,earned,912.0,1561.0,False,38,4,4,2,2,233,170.46133925,wrong number,2
+16545,Mississippi,earned,311,earned,0.0,1101.0,True,35,3,5,2,2,205,179.65376599,empty,1
+16580,Mississippi,earned,311,earned,2932.0,3728.0,False,41,4,4,1,2,191,177.88375748,wrong number,1
+16582,Mississippi,earned,311,earned,775.0,1435.0,False,35,3,9,2,2,218,167.86289948,wrong number,1
+16610,Mississippi,earned,311,earned,0.0,1862.0,True,35,3,5,2,2,437,179.41521427,empty,1
+16723,Mississippi,earned,311,earned,2032.0,2637.0,False,35,4,4,2,2,145,149.50553852,wrong number,2
+16739,Mississippi,earned,311,earned,2250.0,1492.0,False,41,4,4,1,3,232,157.98845651,wrong number,1
+16746,Mississippi,earned,311,earned,0.0,2025.0,True,35,7,9,2,2,424,156.48836876,empty,1
+16802,Mississippi,earned,311,earned,0.0,1846.0,True,35,9,4,1,2,384,150.2078176,empty,1
+16805,Mississippi,earned,311,earned,0.0,607.0,True,35,9,9,1,2,87,156.72096369,empty,1
+16809,Mississippi,earned,311,earned,0.0,1401.0,True,35,3,5,2,2,264,170.20719367,empty,1
+16814,Mississippi,unearned,350,unearned,194.0,437.0,False,38,7,7,2,2,73,149.2762684,wrong number,1
+16825,Mississippi,earned,311,earned,0.0,1653.0,True,35,4,4,2,2,335,163.26218939,empty,2
+16881,Mississippi,shelter,363,rent,214.0,0.0,False,53,6,6,2,2,64,155.5719936,wrong number,
+16963,Mississippi,unearned,331,unearned,0.0,790.0,True,35,3,7,2,2,177,160.56181194,empty,1
+17928,South Carolina,shelter,363,rent,478.0,0.0,False,53,3,3,2,2,83,345.70750238,wrong number,
+17948,South Carolina,unearned,342,unearned,0.0,1000.0,True,35,1,1,2,2,241,329.06524909,empty,1
+17991,South Carolina,utilities,364,util,367.0,0.0,False,53,9,9,2,2,92,345.70750238,wrong number,
+18015,South Carolina,earned,311,earned,247.0,2467.0,False,35,4,4,2,2,568,425.91909171,wrong number,2
+18194,South Carolina,earned,311,earned,1287.0,3533.0,False,38,3,4,2,2,668,281.30611828,wrong number,1
+18207,South Carolina,earned,312,earned,0.0,775.0,True,35,3,3,2,2,127,295.34435062,empty,1
+18236,South Carolina,unearned,346,unearned,998.0,1158.0,False,35,9,9,2,2,65,319.40330493,wrong number,2
+18270,South Carolina,earned,311,earned,2.0,913.0,False,35,4,4,2,2,219,255.17160968,empty,2
+18352,South Carolina,shelter,363,rent,501.0,200.0,False,56,6,6,2,2,90,279.86677808,wrong number,
+18377,South Carolina,shelter,363,rent,1398.0,0.0,False,53,3,6,2,2,299,269.33143632,wrong number,
+18421,South Carolina,shelter,363,rent,947.0,0.0,False,53,3,9,2,2,70,243.3626733,wrong number,
+18425,South Carolina,shelter,363,rent,590.0,0.0,False,53,6,6,2,2,96,293.42151452,wrong number,
+18432,South Carolina,unearned,342,unearned,943.0,1143.0,False,35,3,9,2,2,90,291.27602617,wrong number,2
+18457,South Carolina,unearned,331,unearned,1272.0,3627.0,False,35,2,2,1,2,179,343.73004893,wrong number,2
+18535,South Carolina,unearned,346,unearned,1294.0,1530.0,False,35,3,3,2,2,106,262.44985268,wrong number,2
+18577,South Carolina,unearned,346,unearned,1210.0,1906.0,False,35,3,3,1,2,257,191.52735964,wrong number,6
+18633,South Carolina,shelter,363,rent,947.0,118.0,False,56,3,7,2,2,209,227.01961389,wrong number,
+18634,South Carolina,earned,311,earned,2027.0,3166.0,False,38,4,4,1,2,274,199.23004842,wrong number,1
+18723,South Carolina,unearned,350,unearned,0.0,866.0,True,35,3,3,2,2,201,259.50575204,empty,1
+18735,South Carolina,unearned,350,unearned,398.0,649.0,False,38,9,9,2,2,110,264.68467794,wrong number,1
+18773,South Carolina,unearned,331,unearned,1660.0,2440.0,False,35,8,8,1,2,144,267.62716346,wrong number,2
+18774,South Carolina,earned,311,earned,0.0,807.0,True,35,4,4,2,2,91,255.33755515,empty,1
+18796,South Carolina,unearned,350,unearned,0.0,1100.0,True,35,9,9,2,2,67,258.9628804,empty,1
+19857,Illinois,earned,311,earned,0.0,832.0,True,35,3,4,2,2,118,891.91020692,empty,1
+19884,Illinois,shelter,363,rent,282.0,500.0,False,57,3,6,2,3,66,1004.1380344,wrong number,
+19972,Illinois,earned,311,earned,0.0,1853.0,True,35,3,4,2,2,268,1272.5814716,empty,1
+19975,Illinois,shelter,363,rent,1248.0,626.0,False,56,6,6,2,2,160,1272.5814716,wrong number,
+20234,Illinois,earned,311,earned,1424.0,1677.0,False,37,1,4,2,2,90,1170.318342,wrong number,1
+20263,Illinois,earned,311,earned,0.0,1457.0,True,35,1,4,2,2,268,1157.8413953,empty,1
+20282,Illinois,earned,311,earned,0.0,2172.0,True,35,3,4,1,2,305,1208.7819949,empty,2
+20284,Illinois,earned,311,earned,0.0,3804.0,True,35,4,4,1,2,268,1157.8413953,empty,1
+20316,Illinois,earned,311,earned,0.0,3809.0,True,35,4,4,1,2,268,1283.3318259,empty,1
+20324,Illinois,utilities,364,util,581.0,0.0,False,52,6,6,2,2,108,1249.8210644,wrong number,
+20415,Illinois,utilities,364,util,580.0,0.0,False,53,3,6,2,2,82,1227.6357427,wrong number,
+20599,Illinois,earned,311,earned,0.0,4547.0,True,35,3,4,2,2,268,1206.8717251,empty,1
+20703,Illinois,shelter,363,rent,290.0,620.0,False,57,3,7,1,3,67,1218.4617269,wrong number,
+21712,Iowa,earned,311,earned,0.0,2138.0,True,35,3,4,2,2,335,144.5945723,empty,1
+21739,Iowa,shelter,363,rent,735.0,500.0,False,56,6,6,2,2,71,143.09160473,wrong number,
+21830,Iowa,earned,311,earned,0.0,1612.0,True,35,4,4,2,2,145,132.60844597,empty,2
+21858,Iowa,earned,314,earned,84.0,1075.0,False,35,3,3,1,2,230,127.76222439,wrong number,1
+21865,Iowa,earned,311,earned,1229.0,2774.0,False,35,3,4,1,2,164,127.76222431,wrong number,1
+22137,Iowa,earned,311,earned,0.0,1120.0,True,35,4,4,2,2,210,129.8300374,empty,1
+22159,Iowa,earned,311,earned,2561.0,3086.0,False,35,4,4,2,2,163,134.13926022,wrong number,2
+22362,Iowa,earned,311,earned,0.0,1789.0,True,35,4,4,1,2,268,127.36742249,empty,1
+22395,Iowa,shelter,363,rent,391.0,170.0,False,56,9,9,1,2,66,138.4507916,wrong number,
+22500,Iowa,earned,311,earned,0.0,1824.0,True,35,8,4,1,2,268,123.5281168,empty,1
+22512,Iowa,earned,312,earned,0.0,3475.0,True,35,9,9,2,2,268,123.5281168,empty,1
+23062,Michigan,shelter,363,rent,395.0,0.0,False,53,6,6,2,2,118,923.85192972,wrong number,
+23313,Michigan,shelter,363,rent,601.0,400.0,False,56,6,6,1,2,60,907.06230117,wrong number,
+23333,Michigan,earned,311,earned,3759.0,4940.0,False,35,2,4,2,2,348,859.02095124,wrong number,2
+23359,Michigan,earned,311,earned,0.0,2083.0,True,35,4,4,1,2,268,1150.4457937,empty,1
+23384,Michigan,earned,311,earned,0.0,2700.0,True,35,3,4,1,2,268,924.0661233,empty,1
+23436,Michigan,earned,311,earned,0.0,2150.0,True,35,3,4,2,2,252,1163.5380932,empty,1
+23494,Michigan,shelter,363,rent,774.0,0.0,False,53,3,3,2,2,144,983.97281314,wrong number,
+23521,Michigan,utilities,364,util,680.0,0.0,False,53,3,3,2,2,118,733.42915706,wrong number,
+23679,Minnesota,utilities,364,util,294.0,651.0,False,54,3,6,2,3,107,211.22429723,wrong number,
+23726,Minnesota,utilities,364,util,53.0,651.0,False,52,3,9,2,3,178,190.44730832,wrong number,
+23786,Minnesota,unearned,346,unearned,943.0,2081.0,False,35,3,7,2,2,435,334.957122,wrong number,2
+23853,Minnesota,utilities,364,util,265.0,651.0,False,54,3,9,2,3,115,252.10180488,wrong number,
+23937,Minnesota,unearned,333,unearned,0.0,1920.0,True,35,7,7,2,2,503,419.29316115,empty,3
+23958,Minnesota,utilities,364,util,261.0,651.0,False,54,3,9,2,3,72,219.44242721,wrong number,
+24033,Minnesota,earned,311,earned,0.0,553.0,False,35,3,4,1,2,57,224.0714646,empty,1
+24191,Minnesota,earned,311,earned,0.0,3318.0,True,35,3,9,2,2,512,189.38688009,empty,1
+24290,Minnesota,utilities,364,util,155.0,651.0,False,52,3,6,2,3,149,217.17264675,wrong number,
+24433,Minnesota,utilities,364,util,651.0,0.0,False,53,3,6,2,2,163,276.28715979,wrong number,
+24459,Minnesota,utilities,364,util,651.0,54.0,False,54,6,6,1,2,154,222.24348518,wrong number,
+24559,Ohio,earned,311,earned,1318.0,2076.0,False,35,3,3,1,2,181,683.52815157,wrong number,1
+24667,Ohio,earned,311,earned,0.0,2936.0,True,35,2,4,2,2,268,502.59573812,empty,1
+25180,Ohio,unearned,350,unearned,943.0,1222.0,False,35,3,3,2,2,125,721.13185264,wrong number,2
+25299,Ohio,unearned,350,unearned,848.0,1112.0,False,35,7,7,2,2,119,776.28729727,wrong number,2
+25752,Wisconsin,utilities,364,util,401.0,30.0,False,54,9,9,2,2,110,369.57124175,wrong number,
+25840,Wisconsin,outside,323,depcare,886.0,372.0,False,56,3,5,2,2,231,390.65149425,wrong number,
+25865,Wisconsin,shelter,363,rent,1150.0,679.0,False,53,3,7,2,2,73,398.77302925,wrong number,
+26052,Wisconsin,earned,311,earned,4248.0,4688.0,False,38,3,4,1,2,106,704.49733059,wrong number,2
+26149,Wisconsin,earned,311,earned,2633.0,3754.0,False,38,1,1,2,2,309,239.52892623,wrong number,1
+26345,Wisconsin,earned,311,earned,0.0,300.0,False,38,3,4,2,2,108,374.67564485,empty,1
+27629,Arkansas,shelter,363,rent,539.0,350.0,False,56,3,6,2,2,57,98.099326755,wrong number,
+27660,Arkansas,shelter,363,rent,413.0,0.0,False,53,5,5,2,2,95,82.745156542,wrong number,
+27794,Arkansas,earned,311,earned,0.0,2052.0,True,35,2,2,2,2,364,144.28823899,empty,1
+27946,Arkansas,shelter,363,rent,436.0,198.0,False,56,3,6,2,2,72,132.58689061,wrong number,
+28011,Arkansas,unearned,346,unearned,918.0,500.0,False,44,3,8,2,3,91,108.83356684,wrong number,1
+28066,Arkansas,earned,311,earned,73.0,382.0,False,35,3,4,2,2,101,150.94094724,wrong number,1
+28203,Arkansas,shelter,363,rent,249.0,0.0,False,53,3,3,2,2,62,130.6827404,wrong number,
+28266,Arkansas,unearned,342,unearned,1886.0,2140.0,False,35,5,2,2,2,76,112.41815664,wrong number,3
+28357,Arkansas,shelter,363,rent,598.0,202.0,False,53,3,6,2,2,119,125.1717535,wrong number,
+28402,Louisiana,earned,311,earned,650.0,1161.0,False,38,4,4,2,2,184,462.87002893,wrong number,1
+28459,Louisiana,earned,311,earned,1044.0,1309.0,False,38,3,3,2,2,95,435.21906961,wrong number,1
+28544,Louisiana,shelter,363,rent,321.0,27.0,False,56,3,3,2,2,88,390.59550568,wrong number,
+28642,Louisiana,earned,311,earned,1736.0,3244.0,False,38,4,4,2,2,447,841.85652724,wrong number,1
+28690,Louisiana,shelter,363,rent,101.0,725.0,False,57,3,3,1,3,187,450.24047867,wrong number,
+28716,Louisiana,earned,311,earned,0.0,4224.0,True,35,3,4,2,2,512,433.42284072,empty,1
+28759,Louisiana,earned,311,earned,1042.0,2709.0,False,38,4,4,1,2,537,492.48798055,wrong number,1
+28923,Louisiana,shelter,363,rent,598.0,100.0,False,56,3,3,2,2,150,528.94620126,wrong number,
+29253,Louisiana,earned,311,earned,326.0,1584.0,False,38,4,4,2,2,253,399.10748014,wrong number,1
+29307,New Mexico,earned,311,earned,0.0,1143.0,True,35,3,4,2,2,215,221.37689252,empty,1
+29354,New Mexico,shelter,363,rent,602.0,0.0,False,53,1,3,2,2,181,223.00694691,wrong number,
+29392,New Mexico,unearned,342,unearned,1.0,400.0,False,35,5,3,1,2,121,189.64253959,empty,1
+29413,New Mexico,unearned,346,unearned,1241.0,1875.0,False,35,3,3,2,2,143,154.01596564,wrong number,3
+29515,New Mexico,earned,311,earned,0.0,432.0,False,35,3,4,2,2,156,163.67935209,empty,1
+29556,New Mexico,utilities,364,util,418.0,0.0,False,53,6,6,2,2,72,214.88702301,wrong number,
+29716,New Mexico,outside,323,depcare,448.0,0.0,False,53,3,3,2,2,202,59.774853322,wrong number,
+29730,New Mexico,earned,311,earned,1888.0,3397.0,False,38,3,4,2,2,250,131.22342683,wrong number,2
+29766,New Mexico,shelter,363,rent,801.0,0.0,False,53,3,6,2,2,125,137.37014057,wrong number,
+29780,New Mexico,unearned,342,unearned,0.0,1050.0,True,35,3,9,1,2,110,229.3304337,empty,1
+29785,New Mexico,shelter,363,rent,318.0,52.0,False,53,3,3,2,2,80,199.93187274,wrong number,
+29811,New Mexico,earned,311,earned,1802.0,3032.0,False,38,3,4,2,2,404,106.70689156,wrong number,1
+29895,New Mexico,shelter,363,rent,686.0,22.0,False,56,3,3,2,2,170,151.40184823,wrong number,
+30002,New Mexico,unearned,342,unearned,427.0,630.0,False,35,3,3,2,2,70,241.24903935,wrong number,2
+30016,New Mexico,shelter,363,rent,328.0,0.0,False,53,3,3,2,2,98,257.89931499,wrong number,
+30029,New Mexico,shelter,363,rent,501.0,13.0,False,53,3,9,1,2,146,254.13589799,wrong number,
+30032,New Mexico,unearned,346,unearned,1463.0,2199.0,False,35,2,2,1,2,221,242.50818256,wrong number,2
+30037,New Mexico,shelter,363,rent,1042.0,364.0,False,56,3,6,2,2,204,250.59916043,wrong number,
+30054,New Mexico,unearned,350,unearned,0.0,600.0,True,35,9,9,1,2,118,249.46481479,empty,1
+30065,New Mexico,shelter,363,rent,448.0,133.0,False,56,3,3,2,2,95,257.72357648,wrong number,
+30066,New Mexico,shelter,363,rent,486.0,0.0,False,53,6,6,1,2,146,251.8223237,wrong number,
+30079,New Mexico,earned,311,earned,293.0,2784.0,False,35,3,4,1,2,229,269.00264815,wrong number,1
+30201,New Mexico,earned,311,earned,0.0,645.0,True,35,4,4,2,2,96,247.43617591,empty,1
+30223,New Mexico,earned,311,earned,0.0,1879.0,True,35,3,4,2,2,308,295.22109145,empty,1
+30239,New Mexico,shelter,363,rent,401.0,0.0,False,53,3,6,1,2,83,236.4184244,wrong number,
+30269,New Mexico,unearned,350,unearned,1146.0,1558.0,False,37,2,2,2,2,185,225.08687141,wrong number,3
+30287,New Mexico,utilities,364,util,418.0,0.0,False,53,3,6,2,2,104,295.77876131,wrong number,
+30291,New Mexico,shelter,363,rent,901.0,659.0,False,56,3,6,2,2,73,254.16176761,wrong number,
+30310,New Mexico,unearned,346,unearned,320.0,1884.0,False,35,3,5,1,2,231,303.87556776,wrong number,2
+30344,Oklahoma,unearned,346,unearned,1632.0,1815.0,False,38,5,5,1,2,82,384.6861249,wrong number,2
+30390,Oklahoma,shelter,363,rent,452.0,800.0,False,57,3,6,2,3,104,301.25767983,wrong number,
+30425,Oklahoma,earned,311,earned,591.0,886.0,False,35,7,4,1,2,71,391.56087932,wrong number,1
+30459,Oklahoma,utilities,364,util,400.0,0.0,False,53,3,9,1,2,120,389.6044875,wrong number,
+30477,Oklahoma,earned,311,earned,1075.0,2659.0,False,37,3,3,2,2,380,281.44449935,wrong number,1
+30485,Oklahoma,shelter,363,rent,500.0,0.0,False,53,3,6,2,2,146,358.79957983,wrong number,
+30487,Oklahoma,unearned,342,unearned,0.0,860.0,True,35,3,9,1,2,177,382.74092855,empty,1
+30502,Oklahoma,unearned,342,unearned,732.0,1732.0,False,35,3,9,2,2,256,321.07191289,wrong number,2
+30587,Oklahoma,shelter,363,rent,549.0,168.0,False,53,6,6,2,2,113,360.10179254,wrong number,
+30603,Oklahoma,shelter,363,rent,399.0,0.0,False,53,3,3,2,2,118,364.41492789,wrong number,
+30607,Oklahoma,shelter,363,rent,399.0,195.0,False,56,3,6,2,2,61,359.07039072,wrong number,
+30629,Oklahoma,earned,311,earned,1452.0,2806.0,False,38,4,4,2,2,454,335.35251278,wrong number,1
+30632,Oklahoma,earned,312,earned,1566.0,704.0,False,44,3,3,2,3,91,286.87591871,wrong number,1
+30749,Oklahoma,shelter,363,rent,1197.0,1000.0,False,56,3,3,1,2,60,271.83768026,wrong number,
+30802,Oklahoma,shelter,363,rent,747.0,0.0,False,53,3,3,1,2,148,307.69374881,wrong number,
+30840,Oklahoma,shelter,363,rent,684.0,338.0,False,53,3,6,1,2,104,307.26750933,wrong number,
+30843,Oklahoma,shelter,363,rent,266.0,64.0,False,56,3,6,2,2,61,307.07946251,wrong number,
+30944,Oklahoma,unearned,350,unearned,1.0,300.0,False,35,3,9,2,2,90,339.32627145,empty,1
+30966,Oklahoma,shelter,363,rent,648.0,450.0,False,56,3,6,2,2,60,407.15569286,wrong number,
+31006,Oklahoma,shelter,363,rent,750.0,520.0,False,56,6,6,2,2,69,413.46024451,wrong number,
+31026,Oklahoma,earned,311,earned,0.0,658.0,True,35,3,3,2,2,99,333.24368775,empty,1
+31031,Oklahoma,shelter,363,rent,599.0,300.0,False,56,3,6,2,2,90,433.05882215,wrong number,
+31035,Oklahoma,shelter,363,rent,699.0,302.0,False,56,3,3,2,2,119,331.07780894,wrong number,
+31036,Oklahoma,unearned,336,unearned,0.0,475.0,False,35,9,7,2,2,193,272.72331438,empty,2
+31093,Oklahoma,shelter,363,rent,855.0,104.0,False,56,3,7,2,2,142,387.52429687,wrong number,
+31105,Oklahoma,shelter,363,rent,1598.0,1077.0,False,56,3,6,2,2,156,317.8885422,wrong number,
+31128,Oklahoma,shelter,363,rent,399.0,0.0,False,56,3,6,2,2,103,359.18072645,wrong number,
+31247,Oklahoma,shelter,363,rent,680.0,200.0,False,56,3,6,1,2,144,342.95897585,wrong number,
+31304,Texas,shelter,363,rent,496.0,159.0,False,56,3,6,2,2,101,1391.394864,wrong number,
+31407,Texas,earned,311,earned,1.0,1905.0,False,35,3,4,2,2,457,1079.0330715,empty,1
+31670,Texas,shelter,363,rent,1.0,192.0,False,52,3,6,1,3,58,1592.4855057,empty,
+31763,Texas,earned,311,earned,0.0,1439.0,True,35,4,4,1,2,268,1624.9989306,empty,2
+31774,Texas,earned,311,earned,0.0,1573.0,True,35,7,4,1,2,316,1375.2108015,empty,1
+31802,Texas,unearned,342,unearned,0.0,2200.0,True,35,3,9,2,2,399,1312.4910837,empty,1
+31947,Texas,outside,365,medical,135.0,0.0,False,53,3,3,2,2,61,1315.5101364,wrong number,
+31993,Texas,shelter,363,rent,205.0,1150.0,False,99,3,3,2,3,103,1600.7988559,wrong number,
+32062,Texas,unearned,350,unearned,0.0,728.0,True,35,3,3,2,2,159,1457.2042241,empty,1
+32120,Texas,earned,311,earned,0.0,1124.0,True,35,3,4,2,2,93,1090.4848638,empty,1
+32145,Texas,earned,311,earned,0.0,1965.0,False,35,3,4,1,2,472,1602.2811913,empty,1
+32233,Utah,shelter,363,rent,987.0,400.0,False,56,3,3,1,2,176,72.38638608,wrong number,
+32300,Utah,utilities,364,util,503.0,0.0,False,53,3,6,2,2,119,92.277282586,wrong number,
+32303,Utah,shelter,363,rent,562.0,287.0,False,53,3,3,2,2,83,84.317508808,wrong number,
+32338,Utah,unearned,350,unearned,0.0,400.0,False,35,5,5,2,2,120,71.058847224,empty,2
+32451,Utah,shelter,363,rent,956.0,742.0,False,53,3,3,2,2,64,74.026697841,wrong number,
+32538,Utah,earned,312,earned,0.0,700.0,True,35,3,3,1,2,109,82.51336864,empty,1
+32646,Utah,utilities,364,util,503.0,55.0,False,53,6,6,2,2,134,78.257588395,wrong number,
+33178,Utah,unearned,350,unearned,420.0,624.0,False,35,3,3,2,2,61,106.67561393,wrong number,3
+33285,Colorado,utilities,364,util,559.0,356.0,False,53,3,3,2,2,57,360.48437892,wrong number,
+33365,Colorado,shelter,363,rent,325.0,600.0,False,57,3,6,2,3,66,398.47139599,wrong number,
+33426,Colorado,earned,311,earned,0.0,443.0,False,35,4,4,2,2,106,375.02963432,empty,1
+33611,Colorado,utilities,364,util,560.0,0.0,False,53,3,3,2,2,83,402.14156107,wrong number,
+33618,Colorado,utilities,364,util,558.0,91.0,False,54,3,6,1,2,63,364.9087262,wrong number,
+33624,Colorado,shelter,363,rent,1820.0,2116.0,False,52,3,5,2,3,89,374.20570178,wrong number,
+33692,Colorado,shelter,363,rent,570.0,300.0,False,56,3,5,2,2,81,337.77344918,wrong number,
+33880,Colorado,unearned,350,unearned,0.0,700.0,True,35,3,9,2,2,151,316.43852202,empty,1
+33957,Colorado,unearned,346,unearned,0.0,1940.0,True,35,3,3,2,2,321,291.30073761,empty,2
+33991,Colorado,unearned,342,unearned,936.0,736.0,False,44,3,3,2,3,60,291.25964708,wrong number,1
+34014,Colorado,earned,311,earned,2231.0,3272.0,False,35,3,3,2,2,250,297.66854951,wrong number,1
+34069,Colorado,shelter,363,rent,331.0,82.0,False,56,3,6,2,2,75,332.10051913,wrong number,
+34139,Kansas,shelter,363,rent,530.0,158.0,False,56,6,6,2,2,112,100.75300607,wrong number,
+34253,Kansas,unearned,342,unearned,0.0,1417.0,True,35,3,3,1,2,119,84.04684423,empty,2
+34262,Kansas,utilities,364,util,463.0,42.0,False,53,3,6,2,2,95,84.261021606,wrong number,
+34327,Kansas,shelter,363,rent,599.0,300.0,False,56,6,6,2,2,90,102.41906397,wrong number,
+34331,Kansas,shelter,363,rent,310.0,0.0,False,53,3,6,2,2,93,109.51127144,wrong number,
+34447,Kansas,earned,311,earned,0.0,1677.0,True,35,4,4,1,2,127,72.230647369,empty,1
+34532,Kansas,unearned,346,unearned,964.0,1450.0,False,35,9,9,2,2,144,103.75175128,wrong number,3
+34543,Kansas,utilities,364,util,462.0,0.0,False,53,6,6,2,2,117,103.14390851,wrong number,
+34614,Kansas,unearned,346,unearned,0.0,400.0,True,35,3,9,1,2,61,103.27118296,empty,1
+34691,Kansas,utilities,364,util,326.0,42.0,False,53,6,6,2,2,77,83.474751999,wrong number,
+34789,Kansas,utilities,364,util,612.0,0.0,False,53,3,3,2,2,72,89.889731939,wrong number,
+34838,Kansas,shelter,363,rent,905.0,668.0,False,53,5,5,1,2,71,88.064791376,wrong number,
+34889,Kansas,earned,311,earned,3790.0,4452.0,False,35,4,4,2,2,159,39.794001437,wrong number,2
+34900,Kansas,shelter,363,rent,600.0,300.0,False,56,6,6,1,2,90,91.211357728,wrong number,
+35039,Kansas,shelter,363,rent,378.0,0.0,False,53,6,6,1,2,114,92.752433642,wrong number,
+35171,Missouri,shelter,363,rent,424.0,213.0,False,56,3,3,2,2,64,316.65684348,wrong number,
+35322,Missouri,shelter,363,rent,669.0,292.0,False,56,3,8,2,2,113,447.06481771,wrong number,
+35343,Missouri,earned,311,earned,0.0,1518.0,True,35,4,4,1,2,306,435.79526276,empty,1
+35413,Missouri,shelter,363,rent,368.0,0.0,False,53,6,6,2,2,57,516.15990799,wrong number,
+35436,Missouri,shelter,363,rent,357.0,0.0,False,53,6,6,1,2,107,303.43356594,wrong number,
+35489,Missouri,earned,311,earned,0.0,2339.0,True,35,4,4,1,2,396,340.01776293,empty,1
+35496,Missouri,shelter,363,rent,650.0,0.0,False,53,3,3,2,2,125,369.91708476,wrong number,
+35622,Missouri,unearned,342,unearned,0.0,759.0,True,35,3,9,1,2,169,396.25385895,empty,1
+35682,Missouri,shelter,363,rent,427.0,228.0,False,56,3,6,2,2,60,349.51389643,wrong number,
+35715,Missouri,outside,323,depcare,405.0,622.0,False,57,3,3,2,3,65,364.07401286,wrong number,
+35727,Missouri,utilities,364,util,350.0,0.0,False,53,3,6,2,2,105,414.2153279,wrong number,
+35728,Missouri,shelter,363,rent,650.0,275.0,False,56,3,6,1,2,112,410.97859011,wrong number,
+35741,Missouri,earned,312,earned,0.0,2052.0,True,35,3,3,1,2,241,408.43696322,empty,1
+35805,Missouri,outside,323,depcare,726.0,471.0,False,56,9,9,1,2,115,447.2628912,wrong number,
+35815,Missouri,unearned,342,unearned,0.0,450.0,True,35,3,9,1,2,76,358.99284112,empty,1
+36167,Montana,shelter,363,rent,301.0,600.0,False,57,6,6,1,3,90,67.955245732,wrong number,
+36321,Montana,shelter,363,rent,562.0,295.0,False,56,3,3,2,2,80,64.892624833,wrong number,
+36378,Montana,unearned,332,unearned,1328.0,1498.0,False,35,3,3,2,2,77,59.688715717,wrong number,3
+36420,Montana,shelter,363,rent,1561.0,900.0,False,56,6,6,1,2,100,90.889555456,wrong number,
+36503,Nebraska,earned,311,earned,0.0,2334.0,False,35,4,4,2,2,606,56.687778993,empty,1
+36781,Nebraska,unearned,350,unearned,2.0,350.0,False,35,3,9,2,2,105,68.821783012,empty,1
+36846,Nebraska,shelter,363,rent,322.0,128.0,False,56,6,6,2,2,58,86.860811039,wrong number,
+36865,Nebraska,shelter,363,rent,862.0,1096.0,False,57,3,5,2,3,70,77.255966039,wrong number,
+36941,Nebraska,shelter,363,rent,973.0,412.0,False,56,3,3,2,2,168,62.480273037,wrong number,
+37013,Nebraska,earned,312,earned,2.0,400.0,False,35,3,7,2,2,96,88.648649867,empty,1
+37082,Nebraska,earned,311,earned,1443.0,1768.0,False,38,3,3,2,2,78,73.65965617,wrong number,1
+37120,Nebraska,outside,366,child_support,609.0,0.0,False,53,3,9,2,2,274,57.285042202,wrong number,
+37175,Nebraska,unearned,346,unearned,0.0,1120.0,True,35,3,9,1,2,253,64.620138501,empty,1
+37288,Nebraska,shelter,363,rent,749.0,550.0,False,56,6,6,1,2,60,53.312783415,wrong number,
+37360,Nebraska,utilities,364,util,579.0,0.0,False,53,9,9,2,2,63,84.254278452,wrong number,
+37520,North Dakota,earned,311,earned,0.0,3316.0,True,35,3,4,2,2,786,63.631040562,empty,1
+37606,North Dakota,unearned,344,unearned,0.0,474.0,True,35,7,3,2,2,83,54.460181058,empty,1
+37661,North Dakota,shelter,363,rent,1143.0,1391.0,False,57,5,5,1,3,74,50.970979313,wrong number,
+37820,North Dakota,unearned,344,unearned,473.0,0.0,False,44,7,7,2,3,83,56.333712134,wrong number,0
+38107,South Dakota,earned,311,earned,2249.0,3001.0,False,35,4,4,2,2,271,60.896847944,wrong number,1
+38193,South Dakota,earned,311,earned,0.0,1446.0,True,35,4,4,1,2,150,54.684943874,empty,1
+38445,South Dakota,earned,311,earned,1775.0,2222.0,False,38,4,4,1,2,161,47.387593216,wrong number,1
+38476,South Dakota,unearned,335,unearned,0.0,1003.0,True,35,5,5,1,2,130,51.169770189,empty,1
+38622,Wyoming,shelter,363,rent,1018.0,600.0,False,53,6,6,2,2,126,55.590394387,wrong number,
+39391,California,shelter,363,rent,682.0,401.0,False,56,3,7,2,2,84,3513.552343,wrong number,
+39490,California,utilities,364,util,595.0,0.0,False,53,3,3,1,2,77,3226.1355334,wrong number,
+39541,California,utilities,364,util,567.0,19.0,False,53,3,3,2,2,94,3789.4989654,wrong number,
+39599,California,shelter,363,rent,1215.0,500.0,False,56,3,3,1,2,215,3729.8282931,wrong number,
+39709,California,unearned,350,unearned,215.0,507.0,False,35,3,3,2,2,87,4117.9529549,wrong number,1
+39797,California,utilities,364,util,595.0,0.0,False,53,3,3,2,2,127,3756.8055611,wrong number,
+39800,California,earned,311,earned,0.0,2055.0,False,35,2,7,2,2,678,1536.5905543,empty,1
+39842,California,unearned,332,unearned,874.0,1159.0,False,35,3,3,2,2,129,4029.7775547,wrong number,3
+39849,California,shelter,363,rent,1292.0,2694.0,False,57,3,5,2,3,184,4076.3526859,wrong number,
+39984,California,earned,311,earned,1681.0,2468.0,False,35,3,8,2,2,189,3021.3914214,wrong number,2
+40046,California,unearned,335,unearned,1342.0,2599.0,False,35,3,5,1,2,377,3724.559976,wrong number,3
+40111,California,unearned,346,unearned,0.0,1000.0,True,35,3,9,1,2,183,4013.4654297,empty,1
+40199,California,earned,311,earned,0.0,3021.0,True,35,3,3,2,2,512,3407.5130689,empty,1
+40200,California,unearned,335,unearned,1548.0,4328.0,False,35,3,5,1,2,470,3407.5130689,wrong number,2
+40201,California,earned,311,earned,186.0,864.0,False,35,3,9,1,2,163,2904.7923741,wrong number,1
+40830,Idaho,shelter,363,rent,782.0,358.0,False,99,6,6,2,2,127,49.901985012,wrong number,
+40966,Idaho,shelter,363,rent,548.0,125.0,False,99,6,6,2,2,127,57.111502123,wrong number,
+41004,Idaho,utilities,364,util,172.0,375.0,False,99,6,6,1,3,61,46.057654931,wrong number,
+41200,Idaho,earned,311,earned,0.0,268.0,False,99,3,6,2,2,97,58.67410104,empty,1
+41496,Idaho,utilities,364,util,376.0,42.0,False,99,3,9,1,2,100,67.049629891,wrong number,
+41579,Idaho,utilities,364,util,142.0,376.0,False,99,6,6,2,3,70,53.910585088,wrong number,
+41696,Idaho,shelter,363,rent,649.0,225.0,False,99,6,6,2,2,127,61.906584903,wrong number,
+41748,Idaho,utilities,364,util,375.0,42.0,False,99,6,6,2,2,100,64.139932046,wrong number,
+41777,Idaho,earned,311,earned,1792.0,2038.0,False,99,4,4,2,2,89,50.622513703,wrong number,1
+41835,Idaho,utilities,364,util,375.0,0.0,False,99,3,6,2,2,113,61.635905185,wrong number,
+41978,Nevada,utilities,364,util,396.0,0.0,False,52,3,6,2,2,74,259.69460122,wrong number,
+41980,Nevada,utilities,364,util,442.0,0.0,False,53,3,3,2,2,75,261.73315805,wrong number,
+41991,Nevada,utilities,364,util,353.0,0.0,False,53,6,6,2,2,77,260.1348049,wrong number,
+42029,Nevada,utilities,364,util,366.0,27.0,False,54,3,6,2,2,102,251.47746586,wrong number,
+42052,Nevada,shelter,363,rent,299.0,750.0,False,57,6,6,1,3,91,136.07196678,wrong number,
+42065,Nevada,earned,311,earned,2198.0,2743.0,False,35,2,9,2,2,163,311.96586151,wrong number,2
+42165,Nevada,shelter,363,rent,1385.0,600.0,False,64,3,6,2,2,191,287.42544353,wrong number,
+42168,Nevada,unearned,331,unearned,0.0,1070.0,True,35,3,7,2,2,259,219.4297246,empty,2
+42192,Nevada,unearned,332,unearned,1236.0,3465.0,False,35,7,7,2,2,423,423.72609075,wrong number,2
+42221,Nevada,unearned,342,unearned,0.0,388.0,True,35,3,9,1,2,57,238.3965445,empty,1
+42273,Nevada,earned,311,earned,0.0,2989.0,True,35,1,4,2,2,268,387.35491136,empty,1
+42297,Nevada,shelter,363,rent,658.0,350.0,False,56,3,1,2,2,92,303.57566117,wrong number,
+42430,Nevada,shelter,363,rent,1285.0,1071.0,False,56,3,6,2,2,64,822.32326556,wrong number,
+42457,Nevada,earned,312,earned,43.0,284.0,False,35,3,3,2,2,87,273.96620937,wrong number,1
+42458,Nevada,earned,311,earned,0.0,3581.0,True,35,3,4,2,2,268,426.86870993,empty,1
+42460,Nevada,shelter,363,rent,601.0,0.0,False,53,3,9,2,2,89,349.02743674,wrong number,
+42464,Nevada,earned,311,earned,0.0,4204.0,True,35,3,4,2,2,512,330.36950905,empty,1
+42486,Nevada,utilities,364,util,412.0,0.0,False,52,3,3,2,2,124,281.75252119,wrong number,
+42548,Nevada,shelter,363,rent,1058.0,1260.0,False,57,6,6,2,3,60,265.992823,wrong number,
+42553,Nevada,shelter,363,rent,645.0,354.0,False,56,9,9,2,2,87,221.03697377,wrong number,
+42627,Nevada,shelter,363,rent,1698.0,0.0,False,53,3,7,1,2,169,178.76211889,wrong number,
+42653,Nevada,utilities,364,util,499.0,0.0,False,53,1,9,2,2,129,265.93761802,wrong number,
+42745,Nevada,unearned,346,unearned,1496.0,2079.0,False,35,3,5,2,2,167,215.42030311,wrong number,2
+42865,Nevada,shelter,363,rent,1134.0,600.0,False,53,6,6,2,2,160,260.18836158,wrong number,
+42874,Nevada,shelter,363,rent,1342.0,1126.0,False,52,3,5,2,2,65,263.04768131,wrong number,
+42930,Nevada,unearned,350,unearned,1.0,300.0,False,35,3,9,2,2,90,260.68770486,empty,1
+42936,Nevada,earned,311,earned,2180.0,3031.0,False,35,3,3,1,2,293,442.78789087,wrong number,2
+42948,Nevada,shelter,363,rent,650.0,101.0,False,53,3,9,2,2,165,305.07201451,wrong number,
+42949,Nevada,utilities,364,util,413.0,27.0,False,53,3,6,2,2,116,293.11991624,wrong number,
+43106,Oregon,shelter,363,rent,739.0,1.0,False,64,3,6,2,2,116,606.75994196,wrong number,
+43245,Oregon,earned,311,earned,0.0,2810.0,True,35,3,3,2,2,512,493.49678233,empty,1
+43263,Oregon,earned,311,earned,0.0,2242.0,True,35,4,4,2,2,268,468.21977655,empty,2
+43288,Oregon,shelter,363,rent,1274.0,0.0,False,53,9,9,2,2,141,468.21977655,wrong number,
+43332,Oregon,utilities,364,util,467.0,0.0,False,53,3,6,2,2,78,429.5017936,wrong number,
+43334,Oregon,shelter,363,rent,656.0,221.0,False,56,6,6,2,2,130,477.74199477,wrong number,
+43356,Oregon,shelter,363,rent,199.0,0.0,False,53,3,3,2,2,60,504.79027441,wrong number,
+43359,Oregon,utilities,364,util,468.0,0.0,False,53,9,9,2,2,141,509.47536381,wrong number,
+43363,Oregon,shelter,363,rent,608.0,402.0,False,53,3,6,2,2,62,521.9689356,wrong number,
+43456,Oregon,unearned,334,unearned,0.0,3491.0,True,35,2,2,1,2,268,431.77796161,empty,1
+43518,Oregon,earned,312,earned,0.0,744.0,True,35,3,3,1,2,120,500.90004636,empty,1
+43554,Oregon,outside,323,depcare,794.0,200.0,False,56,3,3,2,2,268,613.14476896,wrong number,
+43570,Oregon,shelter,363,rent,697.0,450.0,False,53,6,6,2,2,75,574.84107725,wrong number,
+43591,Oregon,outside,365,medical,170.0,0.0,False,53,3,1,2,2,77,594.38623644,wrong number,
+43623,Oregon,unearned,335,unearned,0.0,2357.0,True,35,3,5,2,2,268,465.45736435,empty,1
+43637,Oregon,earned,311,earned,0.0,2173.0,True,35,4,4,2,2,448,491.65763777,empty,1
+43685,Oregon,earned,311,earned,2956.0,3992.0,False,38,4,4,1,2,63,504.94345278,wrong number,1
+43692,Oregon,earned,311,earned,1356.0,4741.0,False,35,2,2,1,2,203,482.00831072,wrong number,1
+43697,Oregon,earned,311,earned,2168.0,3254.0,False,38,4,4,2,2,300,435.95624559,wrong number,1
+43716,Oregon,utilities,364,util,467.0,76.0,False,53,3,6,2,2,118,482.31817619,wrong number,
+43833,Washington,shelter,363,rent,1265.0,900.0,False,52,3,6,2,2,110,644.51957125,wrong number,
+43979,Washington,shelter,363,rent,1421.0,923.0,False,53,3,9,1,2,57,746.95507768,wrong number,
+44018,Washington,unearned,335,unearned,972.0,1148.0,False,35,5,5,2,2,79,634.54221677,wrong number,4
+44024,Washington,unearned,346,unearned,1617.0,1940.0,False,35,9,5,1,2,70,634.68282189,wrong number,3
+44326,Washington,shelter,363,rent,209.0,460.0,False,99,3,9,1,3,75,562.72234866,wrong number,
+44345,Washington,unearned,342,unearned,0.0,1050.0,True,35,3,9,2,2,256,1041.4126194,empty,1
+44465,Washington,shelter,363,rent,1176.0,966.0,False,56,6,6,1,2,63,626.25789233,wrong number,
+44504,Washington,shelter,363,rent,600.0,402.0,False,56,3,6,2,2,60,644.72703853,wrong number,
+44638,Washington,unearned,346,unearned,1.0,356.0,False,35,5,5,1,2,107,808.12899815,empty,1
+44650,Washington,unearned,342,unearned,2386.0,2686.0,False,35,3,9,2,2,135,817.29540749,wrong number,3
+44667,Washington,unearned,350,unearned,1276.0,1685.0,False,38,7,7,1,2,123,1077.1513908,wrong number,3
+44689,Washington,shelter,363,rent,459.0,210.0,False,56,3,6,2,2,75,551.78697877,wrong number,

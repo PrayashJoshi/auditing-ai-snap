@@ -1,0 +1,4 @@
+pool,households in pool,with error above $56,share,needed for 150 background errors
+all 41-state households outside the 616,35543,3608,0.1015,1478
+"the same, without the 301",35242,3307,0.0938,1599
+"without the 301, errors not caused by the client only",35242,2607,0.074,2028

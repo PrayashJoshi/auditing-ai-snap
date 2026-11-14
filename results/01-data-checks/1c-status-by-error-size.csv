@@ -1,0 +1,5 @@
+STATUS,$0,$1 to $56,above $56,All
+1 correct,27055,0,0,27055
+2 overissuance,0,6829,3905,10734
+3 underissuance,0,5574,1528,7102
+All,27055,12403,5433,44891

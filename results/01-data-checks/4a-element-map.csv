@@ -1,0 +1,24 @@
+ELEMENT,label,fact group,in the 917,in the 616
+111,Student status,none (not a dollar amount),8,0
+150,Unit composition,none (not a dollar amount),71,0
+151,Recipient disqualification,none (not a dollar amount),1,0
+160,Employment and training programs,none (not a dollar amount),1,0
+311,Wages and salaries,earned,245,192
+312,Self-employment,earned,22,18
+314,Other earned income,earned,2,1
+323,Dependent care deduction,outside,10,9
+331,RSDI benefits,unearned,21,15
+332,(label not found in the code list),unearned,10,10
+333,SSI and/or State SSI supplement,unearned,2,2
+334,Unemployment compensation,unearned,3,3
+335,(label not found in the code list),unearned,6,6
+336,Other government benefits,unearned,2,2
+342,Contributions,unearned,29,25
+343,Deemed income,unearned,1,0
+344,"TANF, PA, or GA",unearned,2,2
+346,Other unearned income,unearned,34,32
+350,Child support payments received from absent parent,unearned,49,34
+363,Shelter deduction,shelter,283,191
+364,Standard utility allowance,utilities,107,68
+365,Medical expense deductions,outside,5,4
+366,Child support payment deduction,outside,3,2

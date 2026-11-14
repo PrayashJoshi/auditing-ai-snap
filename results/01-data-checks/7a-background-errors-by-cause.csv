@@ -1,0 +1,9 @@
+cause,households with error above $56,share of pool,weighted share of pool (FYWGT)
+"client, in the 917 but not in the 616 (the 301)",301,0.0085,0.0098
+"client, outside the 917",700,0.0197,0.0214
+agency,1951,0.0549,0.0645
+not required to be reported (26),10,0.0003,0.0002
+other (99),39,0.0011,0.001
+mixed,597,0.0168,0.0187
+no variance detail,10,0.0003,0.0008
+any cause,3608,0.1015,0.1164

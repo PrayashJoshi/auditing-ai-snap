@@ -1,0 +1,10 @@
+subset,n,Kish n (FYWGT),"half-width, unweighted (points)","half-width, weighted (points)",binomial 1.96 x sqrt(0.25/n) (points)
+all 616,616,257.4,3.8,6.0,3.9
+group: earned,211,95.6,6.5,9.6,6.7
+group: shelter,191,88.6,6.9,10.1,7.1
+group: unearned,131,45.7,8.4,13.5,8.6
+group: utilities,68,25.2,11.6,17.8,11.9
+group: outside,15,9.8,25.1,29.5,25.3
+"cell: income, empty",185,81.8,7.0,10.5,7.2
+"cell: income, wrong number",157,56.1,7.6,12.6,7.8
+cell: housing (shelter + utilities),259,112.6,5.9,8.9,6.1

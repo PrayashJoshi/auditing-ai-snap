@@ -1,0 +1,11 @@
+outcome,households,share of 917
+dropped: element is not a dollar amount,81,0.088
+dropped: calculator misses FSBEN (MFIP or SSI-CAP unit),9,0.01
+dropped: FSBEN differs from the QC-correct benefit,72,0.079
+no inverse: no value reaches the issued benefit,27,0.029
+not unique: issued benefit at the maximum (net income zero),238,0.26
+not unique: issued benefit at the minimum,5,0.005
+not unique: shelter cap binding,14,0.015
+not unique: shelter cost below half of income,6,0.007
+not unique: other,0,0.0
+unique inverse,465,0.507

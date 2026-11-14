@@ -1,0 +1,8 @@
+step,n,expected,match
+all households,44891,44891,True
+error case (STATUS 2 or 3),17836,,
+exactly one variance,13585,,
+client-caused,3289,,
+at or before the most recent action,2096,2096,True
+error above $56,1098,1098,True
+in the 41 single-row-SUA states,917,917,True

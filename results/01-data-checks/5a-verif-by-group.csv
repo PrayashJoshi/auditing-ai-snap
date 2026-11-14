@@ -1,0 +1,11 @@
+VERIF1,earned,shelter,unearned,utilities,outside,all
+1 From case record (not automated match),4,2,1,1,1,9
+2 From case record (automated match),9,0,7,0,0,16
+3 From information provided by recipient,39,57,41,16,10,163
+4 Employer (present or former),123,0,0,0,0,123
+"5 Financial institution, insurance company, or other business",7,11,16,0,1,35
+6 Landlord,1,99,1,39,0,140
+"7 Government agency or public records, not automated match",8,9,28,0,1,46
+"8 Government agency or public records, automated match",5,1,6,0,0,12
+9 Other,15,12,31,12,2,72
+all,211,191,131,68,15,616
