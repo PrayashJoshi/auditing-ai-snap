@@ -6,6 +6,8 @@ Experiment repo for an Apart Research AI x Epistemics sprint submission (Nov 13-
 |---|---|
 | `AGENTS.md` | Rules for agents working here |
 | `rq.md` | Overarching idea and the three research questions |
+| `literature-review.md` | Annotated literature review, summaries, and excerpts tied to `rq.md` |
+| `literature/` | Local PDF copies of papers covered in `literature-review.md` |
 | `sprint-log.md` | Running log of decisions, newest first (copy) |
 | `data/` | `README.md` (sources), `fetch.sh`, `SHA256SUMS`, `raw/` (not committed), `processed/` (small derived tables) |
 | `src/snapqc/` | Check scripts for the QC funnel |

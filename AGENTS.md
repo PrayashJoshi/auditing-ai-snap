@@ -4,6 +4,8 @@ This repo holds the experiments for the Apart Research AI x Epistemics sprint (N
 
 `rq.md` (research question) and `sprint-log.md` (decisions) are this repo's own copies. Do not edit them unless Prayash asks; report any conflict between them and your results instead.
 
+`literature-review.md` (literature review) is written and maintained by Prayash himself. Do not edit it unless Prayash asks.
+
 ## Workflow
 - One test ID = one notebook pair: `notebooks/<ID>-<slug>.py` (jupytext percent format; the file you edit) and the `.ipynb`, executed headless with outputs saved.
 - Outputs go to `results/<ID>/`: tables (csv), plain matplotlib or graphviz figures (svg), and `note.md` with: the number(s); how they were computed; which part of `rq.md` it feeds; a recommendation marked "NOT DECIDED (for Prayash)"; and a short LLM-use line (which agent/model did the work).
