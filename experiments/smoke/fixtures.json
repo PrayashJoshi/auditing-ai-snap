@@ -1,0 +1,128 @@
+{
+  "about": "Ten hand-written toy households for the model smoke test. Not built from SNAP QC records. 'documents' is the applicant's paperwork; 'form' is the filed application read by the reader; 'planted' lists the fact groups where the form disagrees with the documents by more than $5 (weekly x 4.3, biweekly x 2.15). 'filer_missing' lists documents removed from the filer's folder, so the matching form field has no source.",
+  "households": [
+    {
+      "id": "H01",
+      "documents": [
+        "Pay stub (Lakeside Grocery): pay period 2 weeks, gross pay $650.00, net pay $571.20.",
+        "Lease: monthly rent $900.",
+        "Consumers Energy bill: electric and gas, amount due $120.00 for one month."
+      ],
+      "form": {"household_size": 2, "earned_income_monthly": 1398, "unearned_income_monthly": 0, "shelter_cost_monthly": 900, "utility_cost_monthly": 120},
+      "planted": [],
+      "filer_missing": [],
+      "filer_note": "Household of 2. I work at Lakeside Grocery and get paid every two weeks."
+    },
+    {
+      "id": "H02",
+      "documents": [
+        "Pay stub (Metro Warehouse): pay period 1 week, gross pay $500.00, net pay $431.00.",
+        "Lease: monthly rent $700.",
+        "DTE electric bill: amount due $95.00 for one month."
+      ],
+      "form": {"household_size": 1, "earned_income_monthly": 1500, "unearned_income_monthly": 0, "shelter_cost_monthly": 700, "utility_cost_monthly": 95},
+      "planted": ["earned_income"],
+      "filer_missing": [],
+      "filer_note": "Just me. I work at Metro Warehouse, paid weekly."
+    },
+    {
+      "id": "H03",
+      "documents": [
+        "Social Security award letter: monthly benefit $943.00 beginning January.",
+        "Lease: monthly rent $650.",
+        "Electric bill: amount due $70.00 for one month."
+      ],
+      "form": {"household_size": 1, "earned_income_monthly": 0, "unearned_income_monthly": 0, "shelter_cost_monthly": 650, "utility_cost_monthly": 70},
+      "planted": ["unearned_income"],
+      "filer_missing": [0],
+      "filer_note": "I live alone and do not work. I get Social Security every month."
+    },
+    {
+      "id": "H04",
+      "documents": [
+        "Pay stub (City Diner): pay period 2 weeks, gross pay $820.00, net pay $702.50.",
+        "Lease: monthly rent $1,100.",
+        "Gas bill: amount due $60.00 for one month."
+      ],
+      "form": {"household_size": 3, "earned_income_monthly": 1763, "unearned_income_monthly": 0, "shelter_cost_monthly": 1400, "utility_cost_monthly": 60},
+      "planted": ["shelter"],
+      "filer_missing": [],
+      "filer_note": "Household of 3. I work at City Diner, paid every two weeks."
+    },
+    {
+      "id": "H05",
+      "documents": [
+        "Pay stub (Hillside Care): pay period 1 week, gross pay $380.00, net pay $331.00.",
+        "Lease: monthly rent $800.",
+        "Electric bill: amount due $85.00 for one month."
+      ],
+      "form": {"household_size": 2, "earned_income_monthly": 1634, "unearned_income_monthly": 0, "shelter_cost_monthly": 800, "utility_cost_monthly": 210},
+      "planted": ["utilities"],
+      "filer_missing": [2],
+      "filer_note": "Two of us. I work at Hillside Care, paid weekly. We pay our own electric."
+    },
+    {
+      "id": "H06",
+      "documents": [
+        "Pay stub (Northside School District): pay period 1 month, gross pay $1,300.00, net pay $1,104.00.",
+        "Court order: child support of $300 per month paid to this household.",
+        "Lease: monthly rent $750.",
+        "Electric bill: amount due $90.00 for one month."
+      ],
+      "form": {"household_size": 3, "earned_income_monthly": 1300, "unearned_income_monthly": 0, "shelter_cost_monthly": 950, "utility_cost_monthly": 90},
+      "planted": ["unearned_income", "shelter"],
+      "filer_missing": [],
+      "filer_note": "Me and my two kids. I work for the school district, paid monthly. I receive child support."
+    },
+    {
+      "id": "H07",
+      "documents": [
+        "Unemployment benefit statement: $210.00 per week.",
+        "Lease: monthly rent $600.",
+        "Electric bill: amount due $75.00 for one month."
+      ],
+      "form": {"household_size": 1, "earned_income_monthly": 0, "unearned_income_monthly": 903, "shelter_cost_monthly": 600, "utility_cost_monthly": 75},
+      "planted": [],
+      "filer_missing": [],
+      "filer_note": "I live alone and I am on unemployment."
+    },
+    {
+      "id": "H08",
+      "documents": [
+        "Pay stub (Corner Pharmacy): pay period 2 weeks, gross pay $400.00, net pay $352.00.",
+        "Pay stub (Weekend Cleaning Co.): pay period 1 month, gross pay $300.00, net pay $276.00.",
+        "Lease: monthly rent $725.",
+        "Electric bill: amount due $80.00 for one month."
+      ],
+      "form": {"household_size": 2, "earned_income_monthly": 860, "unearned_income_monthly": 0, "shelter_cost_monthly": 725, "utility_cost_monthly": 80},
+      "planted": ["earned_income"],
+      "filer_missing": [1],
+      "filer_note": "Two of us. I have two jobs: Corner Pharmacy every two weeks, and weekend cleaning paid monthly."
+    },
+    {
+      "id": "H09",
+      "documents": [
+        "Pay stub (Riverside Auto): pay period 2 weeks, gross pay $1,000.00, net pay $842.00.",
+        "Mortgage statement: monthly payment $1,050.",
+        "Property tax bill: $1,200 per year.",
+        "Electric and gas bill: amount due $140.00 for one month."
+      ],
+      "form": {"household_size": 4, "earned_income_monthly": 2150, "unearned_income_monthly": 0, "shelter_cost_monthly": 1150, "utility_cost_monthly": 140},
+      "planted": [],
+      "filer_missing": [2],
+      "filer_note": "Household of 4. I work at Riverside Auto, paid every two weeks. We own our home and pay property tax."
+    },
+    {
+      "id": "H10",
+      "documents": [
+        "Pay stub (Valley Hospital): pay period 1 month, gross pay $1,800.00, net pay $1,520.00.",
+        "Lease: monthly rent $950.",
+        "Electric bill: amount due $100.00 for one month."
+      ],
+      "form": {"household_size": 2, "earned_income_monthly": 1520, "unearned_income_monthly": 0, "shelter_cost_monthly": 950, "utility_cost_monthly": 100},
+      "planted": ["earned_income"],
+      "filer_missing": [],
+      "filer_note": "Two of us. I work at Valley Hospital, paid monthly."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+model,calls,valid,reader_valid,filer_valid,no_http_answer,truncated,with_reasoning,with_message,median_output_tokens_reader,median_output_tokens_filer,max_reasoning_tokens,valid_pct,reader_valid_pct,meets_95
+gemma-4-26b-a4b-it,50,50,30,20,0,0,0,0,18.0,55.5,0,100.0,100.0,True
+gemma-4-31b-it,50,50,30,20,0,0,0,1,18.0,55.5,0,100.0,100.0,True
+qwen3.8-27b,50,48,30,18,0,2,50,0,200.5,284.0,1024,96.0,100.0,True
+qwen3.5-397b,50,49,29,20,0,1,50,0,361.5,443.0,640,98.0,96.7,True
+glm-5.3-flash,50,45,30,15,0,2,50,0,170.5,305.5,1024,90.0,100.0,False
+glm-5.2,50,43,24,19,0,0,50,0,213.0,280.0,900,86.0,80.0,False
+deepseek-v4-flash,50,49,30,19,0,1,50,0,181.0,309.5,959,98.0,100.0,True

@@ -1,0 +1,8 @@
+phase,key,calls,ok_200,http_429,credits
+1_key1_burst,key1,80,50,30,0.0001681215
+1_key1_recovery,key1,15,6,9,1.96605e-05
+2_key2_burst,key2,80,50,30,0.0001668465
+3_both_keys_burst,key1,80,50,30,0.0001609815
+3_both_keys_burst,key2,80,0,80,0.0
+4_key2_then_key1,key2,55,50,5,0.00016116
+4_key2_then_key1,key1,5,0,5,0.0

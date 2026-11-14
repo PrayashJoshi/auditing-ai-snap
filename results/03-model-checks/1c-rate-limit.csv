@@ -1,0 +1,3 @@
+run,calls,answered,http_429,wall_min,max_ok_in_any_60s,ok_before_first_429,calls_per_hour_achieved
+first pass (2-8 s backoff),350,308,257,6.8,60,50,2718.0
+main run (waits retry-after),350,350,30,9.2,50,50,2283.0

@@ -1,0 +1,9 @@
+model,task,variant,reason,calls
+qwen3.8-27b,filer,nullable_unknown,status_incomplete,2
+qwen3.5-397b,reader,forced_flags,status_incomplete,1
+glm-5.3-flash,filer,nullable_unknown,schema_error,3
+glm-5.3-flash,filer,nullable_unknown,status_incomplete,1
+glm-5.3-flash,filer,required,status_incomplete,1
+glm-5.2,filer,required,schema_error,1
+glm-5.2,reader,forced_flags,schema_error,6
+deepseek-v4-flash,filer,nullable_unknown,status_incomplete,1

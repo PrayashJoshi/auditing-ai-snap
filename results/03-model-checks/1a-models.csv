@@ -1,0 +1,8 @@
+model,display_name,max_input_tokens,max_output_tokens,calls,answered,price_in,price_in_cached,price_out
+gemma-4-26b-a4b-it,Gemma 4 26B A4B Instruct,256000,256000,50,50,0.077,0.043,0.26
+gemma-4-31b-it,Gemma 4 31B Instruct,256000,256000,50,50,0.09,0.05,0.34
+qwen3.8-27b,Qwen 3.8 27B,262144,262144,50,50,0.039,0.0039,1.25
+qwen3.5-397b,Qwen 3.5 397B,131072,131072,50,50,0.55,0.23,3.5
+glm-5.3-flash,GLM 5.3 Flash,1048576,1048576,50,50,0.15,0.03,0.5
+glm-5.2,GLM 5.2,1048575,1048575,50,50,1.4,0.26,4.4
+deepseek-v4-flash,DeepSeek V4 Flash,1048576,1048576,50,50,0.045,0.0015,0.14
