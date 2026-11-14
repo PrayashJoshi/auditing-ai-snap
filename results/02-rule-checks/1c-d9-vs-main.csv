@@ -1,0 +1,9 @@
+,value
+reached: main combined,26
+reached: D.9,27
+D.9 reaches DC,True
+D.9 cost in DC ($/year),1989558
+both reach,26
+D.9 costs more than main,26
+median cost ratio D.9 / main,5.7
+D.9 costs less than risk only (both reach),25

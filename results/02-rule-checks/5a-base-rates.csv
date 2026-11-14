@@ -1,0 +1,17 @@
+mix of applications,flags,fact group,share of applications with an error in the group,flagged share of fact groups,precision,miss rate
+one comparison household per error household,80/80 on every error,earned,0.17127,0.17127,0.8,0.04133
+one comparison household per error household,80/80 on every error,unearned,0.10633,0.10633,0.8,0.0238
+one comparison household per error household,80/80 on every error,shelter,0.15503,0.15503,0.8,0.0367
+one comparison household per error household,80/80 on every error,utilities,0.05519,0.05519,0.8,0.01168
+one comparison household per error household,80/80 on detectable causes only,earned,0.17127,0.01062,0.8,0.16452
+one comparison household per error household,80/80 on detectable causes only,unearned,0.10633,0.00489,0.8,0.10292
+one comparison household per error household,80/80 on detectable causes only,shelter,0.15503,0.05271,0.8,0.11914
+one comparison household per error household,80/80 on detectable causes only,utilities,0.05519,0.02351,0.8,0.03726
+41-state caseload (weighted share),80/80 on every error,earned,0.00617,0.00617,0.8,0.00124
+41-state caseload (weighted share),80/80 on every error,unearned,0.00444,0.00444,0.8,0.00089
+41-state caseload (weighted share),80/80 on every error,shelter,0.00714,0.00714,0.8,0.00144
+41-state caseload (weighted share),80/80 on every error,utilities,0.00258,0.00258,0.8,0.00052
+41-state caseload (weighted share),80/80 on detectable causes only,earned,0.00617,0.00038,0.8,0.00587
+41-state caseload (weighted share),80/80 on detectable causes only,unearned,0.00444,0.0002,0.8,0.00427
+41-state caseload (weighted share),80/80 on detectable causes only,shelter,0.00714,0.00243,0.8,0.00521
+41-state caseload (weighted share),80/80 on detectable causes only,utilities,0.00258,0.0011,0.8,0.0017

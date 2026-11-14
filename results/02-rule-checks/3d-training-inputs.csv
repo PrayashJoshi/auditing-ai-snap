@@ -1,0 +1,4 @@
+training label,amounts as QC verified,amounts moved by BGL's reconstruction,All,share moved
+error above tolerance,124,8345,8469,0.985
+no error above tolerance,48963,20242,69205,0.292
+All,49087,28587,77674,0.368

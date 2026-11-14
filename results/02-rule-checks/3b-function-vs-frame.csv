@@ -1,0 +1,20 @@
+feature,households,equal,differ,missing in one only,largest difference,share equal
+HH_size_n,24908,24908,0,0,0.0,1.0
+children_i,24908,24908,0,0,0.0,1.0
+elderly_disabled_i,24908,24908,0,0,0.0,1.0
+total_deductions_by_hh_size,24908,24908,0,0,0.0,1.0
+expedited_i,24908,24908,0,0,0.0,1.0
+bbce_state_i,24908,24908,0,0,0.0,1.0
+rawben_rel_max,24908,24908,0,0,0.0,1.0
+medical_deductions,24908,24908,0,0,0.0,1.0
+shelter_expenses_by_hh_size,24908,24908,0,0,0.0,1.0
+utilities,24908,24908,0,0,0.0,1.0
+married,24908,24908,0,0,0.0,1.0
+homeless,24908,24908,0,0,0.0,1.0
+earned_by_hh_size,24908,24908,0,0,0.0,1.0
+unearned_by_hh_size,24908,24908,0,0,0.0,1.0
+gross_by_hh_size,24908,24908,0,0,0.0,1.0
+percent_abawd,24908,24908,0,0,0.0,1.0
+unc_rawben_rel_max,24908,24908,0,0,0.0,1.0
+months_since_cert_n,24908,24908,0,0,0.0,1.0
+count_divisible_by_100,24908,24826,82,0,1.0,0.9967

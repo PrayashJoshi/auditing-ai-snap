@@ -1,0 +1,20 @@
+feature,filed = BGL frame (share of households),filed = QC-verified (share),"mean, filed","mean, BGL frame","mean, QC-verified","mean, comparison households (BGL frame)"
+HH_size_n,1.0,1.0,2.334,2.339,2.334,1.832
+children_i,1.0,1.0,0.476,0.477,0.476,0.328
+elderly_disabled_i,1.0,1.0,0.516,0.515,0.516,0.494
+total_deductions_by_hh_size,0.454,0.094,512.852,508.248,411.581,480.437
+expedited_i,1.0,1.0,0.093,0.093,0.093,0.151
+bbce_state_i,1.0,1.0,0.869,0.868,0.869,0.834
+rawben_rel_max,0.912,0.0,0.734,0.732,0.418,0.705
+medical_deductions,1.0,0.994,8.123,8.15,7.01,12.623
+shelter_expenses_by_hh_size,0.669,0.581,614.873,614.161,502.815,538.331
+utilities,0.964,0.891,431.539,431.407,394.692,390.932
+married,1.0,1.0,0.153,0.153,0.153,0.099
+homeless,1.0,1.0,0.023,0.023,0.023,0.07
+earned_by_hh_size,0.824,0.657,177.01,192.692,494.262,160.69
+unearned_by_hh_size,0.85,0.787,487.317,504.333,622.168,532.468
+gross_by_hh_size,0.674,0.445,664.327,697.025,1116.43,693.158
+percent_abawd,1.0,1.0,0.058,0.058,0.058,0.081
+unc_rawben_rel_max,0.826,0.0,0.835,0.795,0.273,0.779
+months_since_cert_n,1.0,1.0,5.651,5.58,5.651,6.529
+count_divisible_by_100,0.923,0.924,0.071,0.127,0.127,0.058

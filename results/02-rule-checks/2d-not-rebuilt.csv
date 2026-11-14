@@ -1,0 +1,10 @@
+outcome in 01-data-checks part 3b,households,with a section 1 score
+not unique: issued benefit at the maximum (net income zero),87,85
+dropped: element is not a dollar amount,81,62
+dropped: FSBEN differs from the QC-correct benefit,72,22
+no inverse: no value reaches the issued benefit,27,27
+not unique: shelter cap binding,14,14
+dropped: calculator misses FSBEN (MFIP or SSI-CAP unit),9,0
+not unique: shelter cost below half of income,6,6
+not unique: issued benefit at the minimum,5,5
+total,301,221

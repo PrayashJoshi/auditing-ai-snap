@@ -1,0 +1,5 @@
+minutes per application,budget share (budget / minutes to check everything),random order: share of its everything-checked dollars,random order: capture (divided by the oracle),oracle: capture,highest capture of any rule but the oracle
+0.5,0.0128,0.0124,0.0172,1.0,0.6979
+1.0,0.0256,0.0256,0.0267,1.0,0.88
+2.0,0.0513,0.0507,0.0507,1.0,0.8874
+10.0,0.2564,0.2566,0.2566,1.0,0.9479

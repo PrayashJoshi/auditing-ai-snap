@@ -1,0 +1,9 @@
+rule,0.5 min,1 min,2 min,10 min
+Random order,0.017,0.027,0.051,0.257
+Risk score only,0.049,0.07,0.117,0.367
+Flag checks only,0.63,0.868,0.863,0.863
+Gold standard (combined),0.668,0.877,0.887,0.948
+"Combined, risk order (D.9)",0.086,0.116,0.19,0.567
+"Dollars per minute, true rates",0.691,0.878,0.881,0.92
+"Dollars per minute, rates by risk score",0.698,0.88,0.881,0.941
+Oracle,1.0,1.0,1.0,1.0

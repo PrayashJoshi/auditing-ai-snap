@@ -1,0 +1,9 @@
+gap between filers,rate,pooled error with no sampling noise (points),filer-specific at least 5% better than pooled from n,shrunk at least 5% better than pooled from n,largest n where filer-specific is worse than pooled,worst shrunk / pooled at any n
+no gap,precision,0.0,above 12800,above 12800,12800,1.027
+no gap,miss rate,0.0,above 12800,above 12800,12800,1.035
+"precision -10 points, miss rate x1.5",precision,5.0,above 12800,12800,12800,1.002
+"precision -10 points, miss rate x1.5",miss rate,0.77,12800,6400,3200,1.017
+"precision -20 points, miss rate x2",precision,10.0,6400,3200,1600,1.000
+"precision -20 points, miss rate x2",miss rate,1.53,3200,1600,1600,1.015
+"precision -40 points, miss rate x3",precision,20.0,800,800,400,0.999
+"precision -40 points, miss rate x3",miss rate,3.06,800,800,400,1.008

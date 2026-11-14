@@ -1,0 +1,5 @@
+choice,reached: Risk only,reached: AI only,reached: Combined,"reached: Combined, risk order (D.9)",combined cheaper,median ratio,"ratio, California","ratio, Massachusetts",expected flags per scored household,AI only cheaper than combined
+as run in 1b,25,19,26,27,25 of 25,8.98,14.97,1.73,0.298,"Arizona, Delaware, Mississippi, North Dakota, Texas"
+variances at or below the tolerance draw no flag,25,19,26,27,25 of 25,19.97,31.35,1.99,0.12,"Alabama, Arizona, California, Delaware, Mississippi, North Dakota"
+category ranking from above-tolerance dollars only,25,19,26,27,25 of 25,8.98,14.66,1.73,0.298,"Arizona, California, Delaware, Mississippi, North Dakota, Texas"
+both changes,25,19,26,27,25 of 25,19.97,30.71,1.99,0.12,"Alabama, Arizona, California, Delaware, Mississippi, North Dakota"

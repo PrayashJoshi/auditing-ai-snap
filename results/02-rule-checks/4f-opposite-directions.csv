@@ -1,0 +1,9 @@
+,value
+"error $ per 1,000 applications before review",34879
+rule-by-budget cells (oracle included),32
+price moved to the category price: capture rises while more dollars remain,4
+  rules where that happens,"Combined, risk order (D.9), Random order"
+"budget raised one step: capture falls while fewer dollars remain, flag-check price",1
+"budget raised one step: capture falls while fewer dollars remain, category-check price",1
+  rules where that happens (either price),Flag checks only
+same budget and price: rules ordered differently by capture and by dollars remaining,0

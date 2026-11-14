@@ -1,0 +1,19 @@
+figure,paper,this run
+Jurisdictions at or above 6% PER,27 (p. 9),27
+Reached: combined,26 (p. 9),26
+Reached: risk only,25 (p. 9),25
+Reached: AI only,19 (p. 9),19
+"Reached: combined, risk order (D.9)",27 (p. 28),27
+Not reached: risk only,"DC, RI (Fig. 2)","District of Columbia, Rhode Island"
+Not reached: AI only,"CT, DC, IL, MA, NM, OK, OR, RI (Fig. 2)","Connecticut, District of Columbia, Illinois, Massachusetts, New Mexico, Oklahoma, Oregon, Rhode Island"
+Not reached: combined,DC (Fig. 2),District of Columbia
+Both risk only and combined reach,25 (p. 9),25
+... combined cheaper,22 of 25 (p. 9),25 of 25
+"... median cost ratio, risk only / combined",about 7 (p. 9; abstract),8.98
+"Cost ratio risk only / combined, California","2-11, CA and MA (p. 9)",14.97
+"Cost ratio risk only / combined, Massachusetts","2-11, CA and MA (p. 9)",1.73
+California: risk only cost / AI only cost,"about 10 (staff time, p. 9)",14.22
+States where AI only costs less than combined,"DE, MS, NV, AL, AZ (p. 10)","Arizona, Delaware, Mississippi, North Dakota, Texas"
+DC: share of error dollars to remove to reach 6%,about 57% (p. 10),56.9%
+DC: share combined removes at most,55% (p. 10),54.9%
+Median within-state AUC of the risk score,"0.77 (App. D.7, p. 25)",0.752

@@ -1,0 +1,17 @@
+price of an undocumented-group flag,queue,minutes per application,"capture, queue minus gold standard",95% interval
+"flag check (5 min, 0.8)","Dollars per minute, true rates",0.5,0.023,+0.014 to +0.031
+"flag check (5 min, 0.8)","Dollars per minute, true rates",1.0,0.001,-0.002 to +0.003
+"flag check (5 min, 0.8)","Dollars per minute, true rates",2.0,-0.007,-0.009 to -0.005
+"flag check (5 min, 0.8)","Dollars per minute, true rates",10.0,-0.028,-0.031 to -0.024
+"flag check (5 min, 0.8)","Dollars per minute, rates by risk score",0.5,0.03,+0.022 to +0.036
+"flag check (5 min, 0.8)","Dollars per minute, rates by risk score",1.0,0.003,+0.000 to +0.005
+"flag check (5 min, 0.8)","Dollars per minute, rates by risk score",2.0,-0.007,-0.008 to -0.005
+"flag check (5 min, 0.8)","Dollars per minute, rates by risk score",10.0,-0.007,-0.009 to -0.005
+"category check (10 min, 0.5)","Dollars per minute, true rates",0.5,-0.009,-0.025 to +0.007
+"category check (10 min, 0.5)","Dollars per minute, true rates",1.0,-0.012,-0.024 to -0.000
+"category check (10 min, 0.5)","Dollars per minute, true rates",2.0,-0.004,-0.006 to -0.001
+"category check (10 min, 0.5)","Dollars per minute, true rates",10.0,-0.036,-0.041 to -0.031
+"category check (10 min, 0.5)","Dollars per minute, rates by risk score",0.5,-0.002,-0.017 to +0.012
+"category check (10 min, 0.5)","Dollars per minute, rates by risk score",1.0,-0.002,-0.011 to +0.006
+"category check (10 min, 0.5)","Dollars per minute, rates by risk score",2.0,-0.003,-0.005 to -0.001
+"category check (10 min, 0.5)","Dollars per minute, rates by risk score",10.0,-0.011,-0.013 to -0.008

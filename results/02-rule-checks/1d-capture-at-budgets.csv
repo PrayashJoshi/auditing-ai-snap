@@ -1,0 +1,6 @@
+minutes per scored household,"hours per 1,000",median share of error $ removed: Risk only,median share of error $ removed: AI only,median share of error $ removed: Combined,"median share of error $ removed: Combined, risk order (D.9)",states where combined PER < risk only PER,states where combined PER < AI only PER,states where D.9 PER < combined PER,states where D.9 PER < risk only PER
+0.5,8.3,0.03,0.13,0.141,0.038,27,18,0,24
+1.0,16.7,0.051,0.2,0.247,0.067,27,26,0,26
+2.0,33.3,0.1,0.325,0.354,0.12,27,26,0,27
+10.0,166.7,0.25,0.335,0.464,0.318,27,27,0,27
+60.0,1000.0,0.446,0.335,0.542,0.559,26,27,18,27

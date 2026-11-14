@@ -1,0 +1,28 @@
+state,risk,ai,combined,combined_d9
+Mississippi,1.0,12.0,1.0,1
+Nevada,2.0,12.0,1.0,2
+Alabama,2.0,12.0,1.0,1
+North Dakota,1.0,12.0,1.0,1
+Texas,2.0,12.0,1.0,2
+Delaware,1.0,12.0,1.0,1
+Arizona,1.0,12.0,1.0,1
+Maine,2.0,12.0,1.0,2
+North Carolina,1.0,12.0,1.0,2
+Colorado,3.0,12.0,1.0,2
+Virginia,2.0,12.0,1.0,1
+Pennsylvania,2.0,12.0,1.0,2
+New York,2.0,12.0,1.0,1
+Florida,3.0,12.0,1.0,2
+Minnesota,3.0,12.0,1.0,2
+California,3.0,12.0,1.0,3
+Michigan,2.0,12.0,1.0,2
+Oklahoma,3.0,,2.0,2
+Connecticut,4.0,,1.0,3
+Maryland,4.0,12.0,1.0,4
+Illinois,2.0,,1.0,2
+New Mexico,4.0,,4.0,5
+Georgia,4.0,12.0,1.0,3
+Massachusetts,4.0,,3.0,3
+Oregon,7.0,,2.0,3
+Rhode Island,,,6.0,5
+District of Columbia,,,,6

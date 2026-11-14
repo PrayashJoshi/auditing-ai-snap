@@ -1,0 +1,9 @@
+rule,"queue length, first caseload","share of error $ corrected, everything checked",best scope at 1 minute
+Random order,1600,0.738,
+Risk score only,1600,0.494,2
+Flag checks only,80,0.637,
+Gold standard (combined),1360,0.735,4
+"Combined, risk order (D.9)",1600,0.738,2
+"Dollars per minute, true rates",1600,0.738,
+"Dollars per minute, rates by risk score",1600,0.738,
+Oracle,79,0.738,

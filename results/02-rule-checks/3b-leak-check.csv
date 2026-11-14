@@ -1,0 +1,8 @@
+,households
+human-arm households,616
+QC file columns the application builder reads,75
+"of which totals QC derives from the verified amounts (FSGRINC, FSNETINC, FSBEN, FSSLTDED, FSERNDED, FSTOTDED) or review outcomes",0
+filed-application features that move when the verified amount is changed (must be 0),0
+QC-verified-application features that move under the same change,614
+households whose filed features differ from their QC-verified features,616
+households whose filed features equal their QC-verified features,0

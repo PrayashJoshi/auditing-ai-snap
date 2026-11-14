@@ -1,0 +1,9 @@
+,value
+repository,https://github.com/giannella/snap_qc
+commit,c9b2e7f226ef8b09bf70d60371f9916b827b9416
+commit date,2026-11-12 20:11:39 -0800
+commits in history,568
+reg_model_data.rds sha256,08e0e8259543daa7e9bd1c1e94d45580719cf91aa12dfc66882ab4e74e5ac09c
+files naming Chohlas or preauthorization,methods/munging_drop_diagnosis/wa_rules.R
+risk engine used here,scikit-learn HistGradientBoostingClassifier (xgboost not loadable: no OpenMP runtime)
+simulation code,not public; rebuilt from the paper text in src/snapqc/review_sim.py

@@ -1,0 +1,16 @@
+,value
+households per caseload,400
+caseloads drawn,400
+fact-group order used by the rules,"earned, shelter, unearned, utilities"
+share of households with an error,0.2
+"error dollars per 1,000 applications",34879
+mean error dollars,174.3
+flags per application,0.199
+flag recall (share of errors flagged),0.798
+flag precision (share of flags on an error),0.801
+miss rate (share of unflagged household-groups with an error),0.0106
+share of flags on an undocumented fact group,0.788
+share of errors in an undocumented fact group,0.93
+"risk score AUC (error household vs not), first caseload",0.758
+minutes per application to make every flag check,1.0
+minutes per application to check every household-group,39.0

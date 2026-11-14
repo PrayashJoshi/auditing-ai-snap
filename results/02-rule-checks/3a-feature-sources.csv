@@ -1,0 +1,20 @@
+feature,application fields,QC file source,held by,also needs,moves with the filed amount of
+HH_size_n,size,FSUSIZE,application,,none
+children_i,children,FSNKID > 0,application,,none
+elderly_disabled_i,elderly_or_disabled,FSNELDER > 0 or FSNDIS > 0,application,,none
+total_deductions_by_hh_size,"earned, unearned, rent, util, medical, depcare, child_support, homeless_ded, elderly_or_disabled, size",FSEARN; FSUNEARN; RENT; UTIL; FSMEDDED; FSDEPDED; FSCSEXP when a child-support deduction or exclusion applies; HOMELESS_DED; FSNELDER > 0 or FSNDIS > 0; FSUSIZE,application,"benefit formula; CPI; FY2026 standard deduction, shelter cap, utility and medical standards; homeless shelter deduction if the agency granted one","earned, unearned, shelter, utilities, outside (medical), outside (dependent care), outside (child support)"
+expedited_i,expedited,EXPEDSER < 3,agency,,none
+bbce_state_i,bbce_state,state share of CAT_ELIG >= 1 at least 0.5,state policy,,none
+rawben_rel_max,"earned, unearned, rent, util, medical, depcare, child_support, homeless_ded, elderly_or_disabled, size, benmax, min_ben",FSEARN; FSUNEARN; RENT; UTIL; FSMEDDED; FSDEPDED; FSCSEXP when a child-support deduction or exclusion applies; HOMELESS_DED; FSNELDER > 0 or FSNDIS > 0; FSUSIZE,application,benefit formula; review-year standard deduction and shelter cap; homeless shelter deduction if the agency granted one,"earned, unearned, shelter, utilities, outside (medical), outside (dependent care), outside (child support)"
+medical_deductions,medical,FSMEDDED,application,CPI; state medical standard,outside (medical)
+shelter_expenses_by_hh_size,"rent, util, size",RENT; UTIL; FSUSIZE,application,CPI; state utility standard,"shelter, utilities"
+utilities,util,UTIL,application,CPI; state utility standard,utilities
+married,married,any REL1..REL16 == 2 (spouse),application,,none
+homeless,homeless,HOMEDED != 1,application,,none
+earned_by_hh_size,"earned, size",FSEARN; FSUSIZE,application,CPI,earned
+unearned_by_hh_size,"unearned, size",FSUNEARN; FSUSIZE,application,CPI,unearned
+gross_by_hh_size,"earned, unearned, size",FSEARN; FSUNEARN; FSUSIZE,application,CPI,"earned, unearned"
+percent_abawd,"n_abawd, size",count of ABWDST1..18 in 2..5; FSUSIZE,agency + application,,none
+unc_rawben_rel_max,"earned, unearned, rent, util, medical, depcare, child_support, homeless_ded, elderly_or_disabled, size, benmax",FSEARN; FSUNEARN; RENT; UTIL; FSMEDDED; FSDEPDED; FSCSEXP when a child-support deduction or exclusion applies; HOMELESS_DED; FSNELDER > 0 or FSNDIS > 0; FSUSIZE,application,benefit formula; review-year standard deduction and shelter cap; homeless shelter deduction if the agency granted one,"earned, unearned, shelter, utilities, outside (medical), outside (dependent care), outside (child support)"
+months_since_cert_n,months_since_cert,LASTCERT,agency,,none
+count_divisible_by_100,"income by type (21 fields), earned, unearned, rent, util, medical, depcare, child_support, homeless_ded",FSWAGES ... FSFOSTER; FSEARN; FSUNEARN; RENT; UTIL; FSMEDDED; FSDEPDED; FSCSEXP when a child-support deduction or exclusion applies; HOMELESS_DED,application,benefit formula (the deductions counted are computed); homeless shelter deduction if the agency granted one,"earned, unearned, shelter, utilities, outside (medical), outside (dependent care), outside (child support)"

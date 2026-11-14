@@ -1,0 +1,4 @@
+inputs,households,mean score,median score,correlation with the filed-application score,"mean score, the 151","mean score, the 465"
+filed application,616,0.155,0.137,1.0,0.08,0.179
+section 1 score (BGL frame),614,0.162,0.147,0.931,0.111,0.179
+QC-verified application,616,0.132,0.113,0.425,0.133,0.132

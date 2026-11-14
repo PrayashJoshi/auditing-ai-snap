@@ -1,0 +1,5 @@
+share of households with an error,minutes per application to make every flag check,"gold standard capture, 0.5 min","gold standard capture, 1 min","gold standard capture, 2 min","gold standard capture, 10 min"
+0.1,0.5,0.857,0.878,0.898,0.963
+0.2,1.02,0.66,0.882,0.895,0.961
+0.3,1.5,0.565,0.761,0.882,0.958
+0.5,2.51,0.445,0.576,0.8,0.952

@@ -1,0 +1,20 @@
+feature,from the filed form,held by,also needs
+expedited_i,no: needs an agency or state record,agency,
+bbce_state_i,no: needs an agency or state record,state policy,
+percent_abawd,no: needs an agency or state record,agency + application,
+months_since_cert_n,no: needs an agency or state record,agency,
+HH_size_n,"yes, form alone",application,
+children_i,"yes, form alone",application,
+elderly_disabled_i,"yes, form alone",application,
+married,"yes, form alone",application,
+homeless,"yes, form alone",application,
+total_deductions_by_hh_size,"yes, with published tables (CPI, standards, benefit formula)",application,"benefit formula; CPI; FY2026 standard deduction, shelter cap, utility and medical standards; homeless shelter deduction if the agency granted one"
+rawben_rel_max,"yes, with published tables (CPI, standards, benefit formula)",application,benefit formula; review-year standard deduction and shelter cap; homeless shelter deduction if the agency granted one
+medical_deductions,"yes, with published tables (CPI, standards, benefit formula)",application,CPI; state medical standard
+shelter_expenses_by_hh_size,"yes, with published tables (CPI, standards, benefit formula)",application,CPI; state utility standard
+utilities,"yes, with published tables (CPI, standards, benefit formula)",application,CPI; state utility standard
+earned_by_hh_size,"yes, with published tables (CPI, standards, benefit formula)",application,CPI
+unearned_by_hh_size,"yes, with published tables (CPI, standards, benefit formula)",application,CPI
+gross_by_hh_size,"yes, with published tables (CPI, standards, benefit formula)",application,CPI
+unc_rawben_rel_max,"yes, with published tables (CPI, standards, benefit formula)",application,benefit formula; review-year standard deduction and shelter cap; homeless shelter deduction if the agency granted one
+count_divisible_by_100,"yes, with published tables (CPI, standards, benefit formula)",application,benefit formula (the deductions counted are computed); homeless shelter deduction if the agency granted one

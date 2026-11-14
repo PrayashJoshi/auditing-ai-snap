@@ -1,0 +1,9 @@
+total n,fact group,"SE of miss rate, formula","SE of miss rate, simulated","SE of precision, formula","SE of precision, simulated"
+800,earned,3.13,3.15,23.7,19.7
+800,unearned,2.29,2.32,30.0,24.7
+800,shelter,2.92,2.96,24.9,20.6
+800,utilities,1.57,1.58,41.7,32.7
+3200,earned,1.56,1.55,11.8,11.3
+3200,unearned,1.15,1.14,15.0,14.1
+3200,shelter,1.46,1.47,12.4,11.8
+3200,utilities,0.78,0.79,20.9,18.1

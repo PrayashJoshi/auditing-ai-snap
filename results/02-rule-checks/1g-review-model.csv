@@ -1,0 +1,23 @@
+item,value,source
+Category check: minutes,10,Section 2.1
+Category check: probability it corrects all errors in the category,0.5,Section 2.1
+Flag check: minutes,5,Section 2.2
+Flag check: probability it corrects the flagged real error,0.8,Section 2.2
+Detectable error flagged with probability,0.8,Section 2.2
+"False flags: Poisson, mean set per state and category so this share of flags is real",0.8,"Sections 2.2, 2.4"
+"Check: share of expected flags that are real, simulation sample",0.8,this run
+Check: expected flags per scored household,0.298,this run
+Draws per household,200,Section 2.4
+"State labour cost, $ per hour",30,Section 2.4
+Review scopes (top-k categories by FY2022-23 error dollars),k = 1..12,Section 2.1
+Error split across a household's variances,"by AMOUNTn, else equal",not stated in the paper
+Tolerance applied to,the household's remaining error in each draw,Section 2.4 says 'individual errors'; Appendix A counts 'case errors above the $56 reporting tolerance'
+Variances in households at or below the tolerance,"can draw flags (cost a flag check, correct no counted error); tested in 1h",not stated in the paper
+Check: share of flaggable variances in households at or below the tolerance,0.624,this run
+Category ranking: FY2022-23 error dollars counted,"all recorded error dollars, including households at or below that year's tolerance; tested in 1h",not stated in the paper
+PER weight,HWGT (see 1e),not stated in the paper
+Cost weight,FYWGT = HWGT/12: one review per household a year,not stated in the paper
+Category ranking ties,national FY2022-23 order,not stated in the paper
+D.9 flags outside the scope's categories,not checked,not stated in the paper
+AI-only flag order,"categories by FY2022-23 error dollars; the two other orders of Appendix D.8 (historical return, random) are not coded",Section 2.2; Appendix D.8
+Risk engine,"scikit-learn gradient-boosted trees, BGL settings, no row subsampling",paper: XGBoost
