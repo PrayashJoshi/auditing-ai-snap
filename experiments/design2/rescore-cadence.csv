@@ -1,0 +1,101 @@
+row,model,schema,level,job_id,line_index,employer,true_cadence,filed_per,per_period_value,line_monthly,monthly_at_true_cadence,copied_value_kind,frequency_error_applicable,frequency_error,frequency_dollar_effect,frequency_benefit_effect,line_class
+14542,gemma-4-31b-it,required,net_deposits,main|t1|14542|net_deposits|required|gemma-4-31b-it,0,Harbor View Care Center,2x/Mo,2x/Mo,1639.61,3279.22,3279.22,mean_deposit,True,False,0.0,0.0,derived_wrong
+14542,gemma-4-31b-it,provenance,net_deposits,main|t1|14542|net_deposits|provenance|gemma-4-31b-it,0,Harbor View Care Center,2x/Mo,2x/Mo,1639.61,3279.22,3279.22,mean_deposit,True,False,0.0,0.0,derived_wrong
+14542,deepseek-v4-flash,provenance,net_deposits,main|t1|14542|net_deposits|provenance|deepseek-v4-flash,0,Harbor View Care Center,2x/Mo,2x/Mo,1639.61,3279.22,3279.22,mean_deposit,True,False,0.0,0.0,derived_wrong
+14542,qwen3.5-397b,required,net_deposits,main|t1|14542|net_deposits|required|qwen3.5-397b,0,Harbor View Care Center,2x/Mo,2Wks,1639.61,3525.1614999999997,3279.22,mean_deposit,True,True,245.9414999999999,0.0,derived_wrong
+14542,gemma-4-31b-it,required,stale_stub,main|t1|14542|stale_stub|required|gemma-4-31b-it,0,Harbor View Care Center,2x/Mo,2x/Mo,1250.1,2500.2,2500.2,stale_gross,True,False,0.0,0.0,derived_wrong
+14542,deepseek-v4-flash,required,stale_stub,main|t1|14542|stale_stub|required|deepseek-v4-flash,0,Harbor View Care Center,2x/Mo,2x/Mo,1250.1,2500.2,2500.2,stale_gross,True,False,0.0,0.0,derived_wrong
+14542,gemma-4-31b-it,provenance,stale_stub,main|t1|14542|stale_stub|provenance|gemma-4-31b-it,0,Harbor View Care Center,2x/Mo,2x/Mo,1250.1,2500.2,2500.2,stale_gross,True,False,0.0,0.0,derived_wrong
+14542,deepseek-v4-flash,required,net_deposits,main|t1|14542|net_deposits|required|deepseek-v4-flash,0,Harbor View Care Center,2x/Mo,2x/Mo,1639.61,3279.22,3279.22,mean_deposit,True,False,0.0,0.0,derived_wrong
+14542,qwen3.5-397b,required,stale_stub,main|t1|14542|stale_stub|required|qwen3.5-397b,0,Harbor View Care Center,2x/Mo,2x/Mo,1250.1,2500.2,2500.2,stale_gross,True,False,0.0,0.0,derived_wrong
+14542,deepseek-v4-flash,provenance,stale_stub,main|t1|14542|stale_stub|provenance|deepseek-v4-flash,0,Harbor View Care Center,2x/Mo,2x/Mo,1250.1,2500.2,2500.2,stale_gross,True,False,0.0,0.0,derived_wrong
+14542,qwen3.5-397b,provenance,stale_stub,main|t1|14542|stale_stub|provenance|qwen3.5-397b,0,Harbor View Care Center,2x/Mo,2x/Mo,1250.1,2500.2,2500.2,stale_gross,True,False,0.0,0.0,derived_wrong
+15847,gemma-4-31b-it,required,net_deposits,main|t1|15847|net_deposits|required|gemma-4-31b-it,0,Brightpath Call Center,2Wks,2Wks,446.86,960.749,960.749,mean_deposit,True,False,0.0,0.0,derived_wrong
+15847,deepseek-v4-flash,required,net_deposits,main|t1|15847|net_deposits|required|deepseek-v4-flash,0,Brightpath Call Center,2Wks,2Wks,446.86,960.749,960.749,mean_deposit,True,False,0.0,0.0,derived_wrong
+15847,gemma-4-31b-it,provenance,net_deposits,main|t1|15847|net_deposits|provenance|gemma-4-31b-it,0,Brightpath Call Center,2Wks,2Wks,446.86,960.749,960.749,mean_deposit,True,False,0.0,0.0,derived_wrong
+15847,qwen3.5-397b,required,net_deposits,main|t1|15847|net_deposits|required|qwen3.5-397b,0,Brightpath Call Center,2Wks,2Wks,446.86,960.749,960.749,mean_deposit,True,False,0.0,0.0,derived_wrong
+15847,gemma-4-31b-it,required,stale_stub,main|t1|15847|stale_stub|required|gemma-4-31b-it,0,Brightpath Call Center,2Wks,2Wks,317.86,683.399,683.399,stale_gross,True,False,0.0,0.0,derived_wrong
+15847,deepseek-v4-flash,provenance,net_deposits,main|t1|15847|net_deposits|provenance|deepseek-v4-flash,0,Brightpath Call Center,2Wks,2Wks,446.86,960.749,960.749,mean_deposit,True,False,0.0,0.0,derived_wrong
+15847,gemma-4-31b-it,provenance,stale_stub,main|t1|15847|stale_stub|provenance|gemma-4-31b-it,0,Brightpath Call Center,2Wks,2Wks,317.86,683.399,683.399,stale_gross,True,False,0.0,0.0,derived_wrong
+15847,deepseek-v4-flash,required,stale_stub,main|t1|15847|stale_stub|required|deepseek-v4-flash,0,Brightpath Call Center,2Wks,2Wks,317.86,683.399,683.399,stale_gross,True,False,0.0,0.0,derived_wrong
+15847,qwen3.5-397b,required,stale_stub,main|t1|15847|stale_stub|required|qwen3.5-397b,0,Brightpath Call Center,2Wks,2Wks,317.86,683.399,683.399,stale_gross,True,False,0.0,0.0,derived_wrong
+15847,deepseek-v4-flash,provenance,stale_stub,main|t1|15847|stale_stub|provenance|deepseek-v4-flash,0,Brightpath Call Center,2Wks,2Wks,317.86,683.399,683.399,stale_gross,True,False,0.0,0.0,derived_wrong
+15847,qwen3.5-397b,provenance,stale_stub,main|t1|15847|stale_stub|provenance|qwen3.5-397b,0,Brightpath Call Center,2Wks,2Wks,317.86,683.399,683.399,stale_gross,True,False,0.0,0.0,derived_wrong
+28066,gemma-4-31b-it,required,net_deposits,main|t1|28066|net_deposits|required|gemma-4-31b-it,0,Greenway Landscaping,2Wks,Wk,142.53,612.879,306.4395,mean_deposit,True,True,306.4395,-17.0,derived_wrong
+28066,gemma-4-31b-it,provenance,net_deposits,main|t1|28066|net_deposits|provenance|gemma-4-31b-it,0,Greenway Landscaping,2Wks,Wk,142.53,612.879,306.4395,mean_deposit,True,True,306.4395,-17.0,derived_wrong
+28066,gemma-4-31b-it,required,stale_stub,main|t1|28066|stale_stub|required|gemma-4-31b-it,0,Greenway Landscaping,2Wks,2Wks,106.6,229.18999999999997,229.18999999999997,stale_gross,True,False,0.0,0.0,derived_wrong
+28066,qwen3.5-397b,required,net_deposits,main|t1|28066|net_deposits|required|qwen3.5-397b,0,Greenway Landscaping,2Wks,2Wks,142.53,306.4395,306.4395,mean_deposit,True,False,0.0,0.0,derived_wrong
+28066,qwen3.5-397b,required,stale_stub,main|t1|28066|stale_stub|required|qwen3.5-397b,0,Greenway Landscaping,2Wks,2Wks,106.6,229.18999999999997,229.18999999999997,stale_gross,True,False,0.0,0.0,derived_wrong
+28066,deepseek-v4-flash,required,net_deposits,main|t1|28066|net_deposits|required|deepseek-v4-flash,0,Greenway Landscaping,2Wks,2Wks,142.53,306.4395,306.4395,mean_deposit,True,False,0.0,0.0,derived_wrong
+28066,gemma-4-31b-it,provenance,stale_stub,main|t1|28066|stale_stub|provenance|gemma-4-31b-it,0,Greenway Landscaping,2Wks,2Wks,106.6,229.18999999999997,229.18999999999997,stale_gross,True,False,0.0,0.0,derived_wrong
+28066,deepseek-v4-flash,required,stale_stub,main|t1|28066|stale_stub|required|deepseek-v4-flash,0,Greenway Landscaping,2Wks,2Wks,106.6,229.18999999999997,229.18999999999997,stale_gross,True,False,0.0,0.0,derived_wrong
+28066,qwen3.5-397b,provenance,stale_stub,main|t1|28066|stale_stub|provenance|qwen3.5-397b,0,Greenway Landscaping,2Wks,2Wks,106.6,229.18999999999997,229.18999999999997,stale_gross,True,False,0.0,0.0,derived_wrong
+28402,deepseek-v4-flash,required,net_deposits,main|t1|28402|net_deposits|required|deepseek-v4-flash,0,Pinecrest Warehouse,2x/Mo,2x/Mo,479.06,958.12,958.12,mean_deposit,True,False,0.0,0.0,derived_wrong
+28402,gemma-4-31b-it,required,net_deposits,main|t1|28402|net_deposits|required|gemma-4-31b-it,0,Pinecrest Warehouse,2x/Mo,2x/Mo,479.06,958.12,958.12,mean_deposit,True,False,0.0,0.0,derived_wrong
+28402,deepseek-v4-flash,provenance,net_deposits,main|t1|28402|net_deposits|provenance|deepseek-v4-flash,0,Pinecrest Warehouse,2x/Mo,2x/Mo,479.06,958.12,958.12,mean_deposit,True,False,0.0,0.0,derived_wrong
+28402,gemma-4-31b-it,provenance,net_deposits,main|t1|28402|net_deposits|provenance|gemma-4-31b-it,0,Pinecrest Warehouse,2x/Mo,2x/Mo,479.06,958.12,958.12,mean_deposit,True,False,0.0,0.0,derived_wrong
+28402,qwen3.5-397b,required,net_deposits,main|t1|28402|net_deposits|required|qwen3.5-397b,0,Pinecrest Warehouse,2x/Mo,2Wks,479.06,1029.979,958.12,mean_deposit,True,True,71.85900000000004,-26.0,derived_wrong
+28066,deepseek-v4-flash,provenance,stale_stub,main|t1|28066|stale_stub|provenance|deepseek-v4-flash,0,Greenway Landscaping,2Wks,2Wks,106.6,229.18999999999997,229.18999999999997,stale_gross,True,False,0.0,0.0,derived_wrong
+28402,gemma-4-31b-it,required,stale_stub,main|t1|28402|stale_stub|required|gemma-4-31b-it,0,Pinecrest Warehouse,2x/Mo,2x/Mo,348.3,696.6,696.6,stale_gross,True,False,0.0,0.0,derived_wrong
+28402,deepseek-v4-flash,required,stale_stub,main|t1|28402|stale_stub|required|deepseek-v4-flash,0,Pinecrest Warehouse,2x/Mo,2x/Mo,348.3,696.6,696.6,stale_gross,True,False,0.0,0.0,derived_wrong
+28402,gemma-4-31b-it,provenance,stale_stub,main|t1|28402|stale_stub|provenance|gemma-4-31b-it,0,Pinecrest Warehouse,2x/Mo,2x/Mo,348.3,696.6,696.6,stale_gross,True,False,0.0,0.0,derived_wrong
+28402,deepseek-v4-flash,provenance,stale_stub,main|t1|28402|stale_stub|provenance|deepseek-v4-flash,0,Pinecrest Warehouse,2x/Mo,2x/Mo,348.3,696.6,696.6,stale_gross,True,False,0.0,0.0,derived_wrong
+28402,qwen3.5-397b,required,stale_stub,main|t1|28402|stale_stub|required|qwen3.5-397b,0,Pinecrest Warehouse,2x/Mo,2x/Mo,348.3,696.6,696.6,stale_gross,True,False,0.0,0.0,derived_wrong
+28402,qwen3.5-397b,provenance,stale_stub,main|t1|28402|stale_stub|provenance|qwen3.5-397b,0,Pinecrest Warehouse,2x/Mo,2x/Mo,348.3,696.6,696.6,stale_gross,True,False,0.0,0.0,derived_wrong
+42362,gemma-4-31b-it,required,net_deposits,main|t1|42362|net_deposits|required|gemma-4-31b-it,0,Metro Parcel Services,2x/Mo,2x/Mo,974.23,1948.46,1948.46,mean_deposit,True,False,0.0,0.0,derived_wrong
+42362,deepseek-v4-flash,required,net_deposits,main|t1|42362|net_deposits|required|deepseek-v4-flash,0,Metro Parcel Services,2x/Mo,2x/Mo,974.23,1948.46,1948.46,mean_deposit,True,False,0.0,0.0,derived_wrong
+42362,qwen3.5-397b,required,net_deposits,main|t1|42362|net_deposits|required|qwen3.5-397b,0,Metro Parcel Services,2x/Mo,2Wks,974.23,2094.5945,1948.46,mean_deposit,True,True,146.13450000000012,0.0,derived_wrong
+42362,gemma-4-31b-it,provenance,net_deposits,main|t1|42362|net_deposits|provenance|gemma-4-31b-it,0,Metro Parcel Services,2x/Mo,2x/Mo,974.23,1948.46,1948.46,mean_deposit,True,False,0.0,0.0,derived_wrong
+42362,gemma-4-31b-it,required,stale_stub,main|t1|42362|stale_stub|required|gemma-4-31b-it,0,Metro Parcel Services,2x/Mo,2x/Mo,684.0,1368.0,1368.0,stale_gross,True,False,0.0,0.0,derived_wrong
+42362,deepseek-v4-flash,required,stale_stub,main|t1|42362|stale_stub|required|deepseek-v4-flash,0,Metro Parcel Services,2x/Mo,2x/Mo,684.0,1368.0,1368.0,stale_gross,True,False,0.0,0.0,derived_wrong
+42362,gemma-4-31b-it,provenance,stale_stub,main|t1|42362|stale_stub|provenance|gemma-4-31b-it,0,Metro Parcel Services,2x/Mo,2x/Mo,684.0,1368.0,1368.0,stale_gross,True,False,0.0,0.0,derived_wrong
+42362,deepseek-v4-flash,provenance,stale_stub,main|t1|42362|stale_stub|provenance|deepseek-v4-flash,0,Metro Parcel Services,2x/Mo,2x/Mo,684.0,1368.0,1368.0,stale_gross,True,False,0.0,0.0,derived_wrong
+42362,qwen3.5-397b,provenance,stale_stub,main|t1|42362|stale_stub|provenance|qwen3.5-397b,0,Metro Parcel Services,2x/Mo,2x/Mo,684.0,1368.0,1368.0,stale_gross,True,False,0.0,0.0,derived_wrong
+42362,qwen3.5-397b,required,stale_stub,main|t1|42362|stale_stub|required|qwen3.5-397b,0,Metro Parcel Services,2x/Mo,2x/Mo,684.0,1368.0,1368.0,stale_gross,True,False,0.0,0.0,derived_wrong
+28402,qwen3.5-397b,provenance,net_deposits,main|t1|28402|net_deposits|provenance|qwen3.5-397b,0,Pinecrest Warehouse,2x/Mo,2Wks,479.06,1029.979,958.12,mean_deposit,True,True,71.85900000000004,-26.0,derived_wrong
+42777,gemma-4-31b-it,required,net_deposits,main|t1|42777|net_deposits|required|gemma-4-31b-it,0,Cedar Hill School District,2x/Mo,2x/Mo,1461.05,2922.1,2922.1,mean_deposit,True,False,0.0,0.0,derived_wrong
+42777,deepseek-v4-flash,required,net_deposits,main|t1|42777|net_deposits|required|deepseek-v4-flash,0,Cedar Hill School District,2x/Mo,2x/Mo,1461.05,2922.1,2922.1,mean_deposit,True,False,0.0,0.0,derived_wrong
+42777,gemma-4-31b-it,provenance,net_deposits,main|t1|42777|net_deposits|provenance|gemma-4-31b-it,0,Cedar Hill School District,2x/Mo,2x/Mo,1461.05,2922.1,2922.1,mean_deposit,True,False,0.0,0.0,derived_wrong
+42777,gemma-4-31b-it,required,stale_stub,main|t1|42777|stale_stub|required|gemma-4-31b-it,0,Cedar Hill School District,2x/Mo,2x/Mo,1045.2,2090.4,2090.4,stale_gross,True,False,0.0,0.0,derived_wrong
+42777,deepseek-v4-flash,required,stale_stub,main|t1|42777|stale_stub|required|deepseek-v4-flash,0,Cedar Hill School District,2x/Mo,2x/Mo,1045.2,2090.4,2090.4,stale_gross,True,False,0.0,0.0,derived_wrong
+42777,qwen3.5-397b,required,net_deposits,main|t1|42777|net_deposits|required|qwen3.5-397b,0,Cedar Hill School District,2x/Mo,2x/Mo,1461.05,2922.1,2922.1,mean_deposit,True,False,0.0,0.0,derived_wrong
+42777,deepseek-v4-flash,provenance,stale_stub,main|t1|42777|stale_stub|provenance|deepseek-v4-flash,0,Cedar Hill School District,2x/Mo,2x/Mo,1045.2,2090.4,2090.4,stale_gross,True,False,0.0,0.0,derived_wrong
+42777,gemma-4-31b-it,provenance,stale_stub,main|t1|42777|stale_stub|provenance|gemma-4-31b-it,0,Cedar Hill School District,2x/Mo,2x/Mo,1045.2,2090.4,2090.4,stale_gross,True,False,0.0,0.0,derived_wrong
+42777,qwen3.5-397b,provenance,net_deposits,main|t1|42777|net_deposits|provenance|qwen3.5-397b,0,Cedar Hill School District,2x/Mo,2x/Mo,1461.05,2922.1,2922.1,mean_deposit,True,False,0.0,0.0,derived_wrong
+28066,qwen3.5-397b,provenance,net_deposits,main|t1|28066|net_deposits|provenance|qwen3.5-397b,0,Greenway Landscaping,2Wks,2Wks,142.53,306.4395,306.4395,mean_deposit,True,False,0.0,0.0,derived_wrong
+42777,qwen3.5-397b,required,stale_stub,main|t1|42777|stale_stub|required|qwen3.5-397b,0,Cedar Hill School District,2x/Mo,2x/Mo,1045.2,2090.4,2090.4,stale_gross,True,False,0.0,0.0,derived_wrong
+42777,qwen3.5-397b,provenance,stale_stub,main|t1|42777|stale_stub|provenance|qwen3.5-397b,0,Cedar Hill School District,2x/Mo,2x/Mo,1045.2,2090.4,2090.4,stale_gross,True,False,0.0,0.0,derived_wrong
+42865,gemma-4-31b-it,required,net_deposits,main|t1|42865|net_deposits|required|gemma-4-31b-it,0,Oak Street Bakery,Wk,Wk,485.75,2088.725,2088.725,mean_deposit,True,False,0.0,0.0,derived_wrong
+42865,gemma-4-31b-it,provenance,net_deposits,main|t1|42865|net_deposits|provenance|gemma-4-31b-it,0,Oak Street Bakery,Wk,Wk,485.75,2088.725,2088.725,mean_deposit,True,False,0.0,0.0,derived_wrong
+42865,gemma-4-31b-it,required,stale_stub,main|t1|42865|stale_stub|required|gemma-4-31b-it,0,Oak Street Bakery,Wk,Wk,353.58,1520.3939999999998,1520.3939999999998,stale_gross,True,False,0.0,0.0,derived_wrong
+42865,deepseek-v4-flash,required,net_deposits,main|t1|42865|net_deposits|required|deepseek-v4-flash,0,Oak Street Bakery,Wk,Wk,485.75,2088.725,2088.725,mean_deposit,True,False,0.0,0.0,derived_wrong
+42865,qwen3.5-397b,required,net_deposits,main|t1|42865|net_deposits|required|qwen3.5-397b,0,Oak Street Bakery,Wk,Wk,485.75,2088.725,2088.725,mean_deposit,True,False,0.0,0.0,derived_wrong
+42865,gemma-4-31b-it,provenance,stale_stub,main|t1|42865|stale_stub|provenance|gemma-4-31b-it,0,Oak Street Bakery,Wk,Wk,353.58,1520.3939999999998,1520.3939999999998,stale_gross,True,False,0.0,0.0,derived_wrong
+42865,deepseek-v4-flash,provenance,stale_stub,main|t1|42865|stale_stub|provenance|deepseek-v4-flash,0,Oak Street Bakery,Wk,Wk,353.58,1520.3939999999998,1520.3939999999998,stale_gross,True,False,0.0,0.0,derived_wrong
+42865,qwen3.5-397b,required,stale_stub,main|t1|42865|stale_stub|required|qwen3.5-397b,0,Oak Street Bakery,Wk,Wk,353.58,1520.3939999999998,1520.3939999999998,stale_gross,True,False,0.0,0.0,derived_wrong
+42865,deepseek-v4-flash,provenance,net_deposits,main|t1|42865|net_deposits|provenance|deepseek-v4-flash,0,Oak Street Bakery,Wk,Wk,485.75,2088.725,2088.725,mean_deposit,True,False,0.0,0.0,derived_wrong
+42865,deepseek-v4-flash,required,stale_stub,main|t1|42865|stale_stub|required|deepseek-v4-flash,0,Oak Street Bakery,Wk,Wk,353.58,1520.3939999999998,1520.3939999999998,stale_gross,True,False,0.0,0.0,derived_wrong
+5744,gemma-4-31b-it,required,net_deposits,main|t1|5744|net_deposits|required|gemma-4-31b-it,0,Northside Logistics,Mo,Mo,932.53,932.53,932.53,mean_deposit,True,False,0.0,0.0,derived_wrong
+5744,gemma-4-31b-it,required,net_deposits,main|t1|5744|net_deposits|required|gemma-4-31b-it,1,Cedar Hill School District,Wk,Wk,87.68,377.024,377.024,mean_deposit,True,False,0.0,0.0,derived_wrong
+5744,qwen3.5-397b,required,net_deposits,main|t1|5744|net_deposits|required|qwen3.5-397b,0,Northside Logistics,Mo,Mo,932.53,932.53,932.53,mean_deposit,True,False,0.0,0.0,derived_wrong
+5744,qwen3.5-397b,required,net_deposits,main|t1|5744|net_deposits|required|qwen3.5-397b,1,Cedar Hill School District,Wk,Wk,87.68,377.024,377.024,mean_deposit,True,False,0.0,0.0,derived_wrong
+42865,qwen3.5-397b,provenance,stale_stub,main|t1|42865|stale_stub|provenance|qwen3.5-397b,0,Oak Street Bakery,Wk,Wk,353.58,1520.3939999999998,1520.3939999999998,stale_gross,True,False,0.0,0.0,derived_wrong
+42865,qwen3.5-397b,provenance,net_deposits,main|t1|42865|net_deposits|provenance|qwen3.5-397b,0,Oak Street Bakery,Wk,Wk,485.75,2088.725,2088.725,mean_deposit,True,False,0.0,0.0,derived_wrong
+5744,gemma-4-31b-it,provenance,net_deposits,main|t1|5744|net_deposits|provenance|gemma-4-31b-it,0,Northside Logistics,Mo,Mo,932.53,932.53,932.53,mean_deposit,True,False,0.0,0.0,derived_wrong
+5744,gemma-4-31b-it,provenance,net_deposits,main|t1|5744|net_deposits|provenance|gemma-4-31b-it,1,Cedar Hill School District,Wk,Wk,87.68,377.024,377.024,mean_deposit,True,False,0.0,0.0,derived_wrong
+5744,gemma-4-31b-it,required,stale_stub,main|t1|5744|stale_stub|required|gemma-4-31b-it,0,Northside Logistics,Mo,Mo,702.6,702.6,702.6,stale_gross,True,False,0.0,0.0,derived_wrong
+5744,gemma-4-31b-it,required,stale_stub,main|t1|5744|stale_stub|required|gemma-4-31b-it,1,Cedar Hill School District,Wk,Wk,66.28,285.004,285.004,stale_gross,True,False,0.0,0.0,derived_wrong
+5744,qwen3.5-397b,required,stale_stub,main|t1|5744|stale_stub|required|qwen3.5-397b,0,Northside Logistics,Mo,Mo,702.6,702.6,702.6,stale_gross,True,False,0.0,0.0,derived_wrong
+5744,qwen3.5-397b,required,stale_stub,main|t1|5744|stale_stub|required|qwen3.5-397b,1,Cedar Hill School District,Wk,Wk,66.28,285.004,285.004,stale_gross,True,False,0.0,0.0,derived_wrong
+5744,deepseek-v4-flash,required,net_deposits,main|t1|5744|net_deposits|required|deepseek-v4-flash,0,Northside Logistics,Mo,Mo,932.53,932.53,932.53,mean_deposit,True,False,0.0,0.0,derived_wrong
+5744,deepseek-v4-flash,required,net_deposits,main|t1|5744|net_deposits|required|deepseek-v4-flash,1,Cedar Hill School District,Wk,Wk,87.68,377.024,377.024,mean_deposit,True,False,0.0,0.0,derived_wrong
+5744,gemma-4-31b-it,provenance,stale_stub,main|t1|5744|stale_stub|provenance|gemma-4-31b-it,0,Northside Logistics,Mo,Mo,702.6,702.6,702.6,stale_gross,True,False,0.0,0.0,derived_wrong
+5744,gemma-4-31b-it,provenance,stale_stub,main|t1|5744|stale_stub|provenance|gemma-4-31b-it,1,Cedar Hill School District,Wk,Wk,66.28,285.004,285.004,stale_gross,True,False,0.0,0.0,derived_wrong
+5744,deepseek-v4-flash,provenance,stale_stub,main|t1|5744|stale_stub|provenance|deepseek-v4-flash,0,Northside Logistics,Mo,Mo,702.6,702.6,702.6,stale_gross,True,False,0.0,0.0,derived_wrong
+5744,deepseek-v4-flash,provenance,stale_stub,main|t1|5744|stale_stub|provenance|deepseek-v4-flash,1,Cedar Hill School District,Wk,Wk,66.28,285.004,285.004,stale_gross,True,False,0.0,0.0,derived_wrong
+5744,deepseek-v4-flash,required,stale_stub,main|t1|5744|stale_stub|required|deepseek-v4-flash,0,Northside Logistics,Mo,Mo,702.6,702.6,702.6,stale_gross,True,False,0.0,0.0,derived_wrong
+5744,deepseek-v4-flash,required,stale_stub,main|t1|5744|stale_stub|required|deepseek-v4-flash,1,Cedar Hill School District,Wk,Wk,66.28,285.004,285.004,stale_gross,True,False,0.0,0.0,derived_wrong
+5744,qwen3.5-397b,provenance,net_deposits,main|t1|5744|net_deposits|provenance|qwen3.5-397b,0,Northside Logistics,Mo,Mo,932.53,932.53,932.53,mean_deposit,True,False,0.0,0.0,derived_wrong
+5744,qwen3.5-397b,provenance,net_deposits,main|t1|5744|net_deposits|provenance|qwen3.5-397b,1,Cedar Hill School District,Wk,Wk,87.68,377.024,377.024,mean_deposit,True,False,0.0,0.0,derived_wrong
+5744,qwen3.5-397b,provenance,stale_stub,main|t1|5744|stale_stub|provenance|qwen3.5-397b,0,Northside Logistics,Mo,Mo,702.6,702.6,702.6,stale_gross,True,False,0.0,0.0,derived_wrong
+5744,qwen3.5-397b,provenance,stale_stub,main|t1|5744|stale_stub|provenance|qwen3.5-397b,1,Cedar Hill School District,Wk,Wk,66.28,285.004,285.004,stale_gross,True,False,0.0,0.0,derived_wrong

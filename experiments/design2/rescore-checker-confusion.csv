@@ -1,0 +1,17 @@
+table,level,schema,household_class,checker_flags_earned,n,deposit_only_citation,stale_citation
+class_by_checker,net_deposits,provenance,abstain,True,7,,
+class_by_checker,net_deposits,provenance,derived_wrong,True,17,,
+class_by_checker,net_deposits,required,derived_wrong,True,24,,
+class_by_checker,none,provenance,abstain,True,23,,
+class_by_checker,none,provenance,zero,False,1,,
+class_by_checker,none,required,zero,False,24,,
+class_by_checker,note_amount,provenance,stated,True,24,,
+class_by_checker,note_amount,required,stated,True,24,,
+class_by_checker,stale_stub,provenance,derived_wrong,False,24,,
+class_by_checker,stale_stub,required,derived_wrong,False,24,,
+class_by_checker_by_citation,net_deposits,provenance,abstain,True,7,,
+class_by_checker_by_citation,net_deposits,provenance,derived_wrong,True,17,True,False
+class_by_checker_by_citation,none,provenance,abstain,True,23,,
+class_by_checker_by_citation,none,provenance,zero,False,1,,
+class_by_checker_by_citation,note_amount,provenance,stated,True,24,False,False
+class_by_checker_by_citation,stale_stub,provenance,derived_wrong,False,24,False,True
