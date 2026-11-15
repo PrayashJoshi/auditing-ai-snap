@@ -1,0 +1,11 @@
+DISCOV,"omissions, human arm (185)","client-caused unreported income, 53 jurisdictions (984)","client-caused unreported income, 41 states (785)"
+1 Variance clearly identified from case record (not automated match),4,36,20
+2 From case record (automated match),12,69,47
+3 From recipient interview,117,619,496
+4 Employer (present or former),25,111,96
+"5 Financial institution, insurance company, or other business",5,25,21
+6 Landlord,0,3,3
+"7 Government agency or public records, not automated match",11,58,48
+"8 Government agency or public records, automated match",4,35,29
+9 Other,7,28,25
+households,185,984,785

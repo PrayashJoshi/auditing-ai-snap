@@ -1,0 +1,5 @@
+comparison,omissions,comparison households,AUC,95% interval low,95% interval high
+all error-free comparison households (notebook 02 figure),151.0,29898.0,0.451,0.41,0.492
+"same face, matched by target group",151.0,18298.0,0.628,0.586,0.67
+"same face, earned omissions only",103.0,10134.0,0.601,0.55,0.653
+"same face, unearned omissions only",48.0,8164.0,0.698,0.629,0.765

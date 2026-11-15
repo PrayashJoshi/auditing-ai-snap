@@ -1,0 +1,4 @@
+cut,households,found from case record,"share, households","share, weighted (FYWGT)","share, weighted error dollars (FYWGT x AMTERR)"
+"omissions, human arm (185)",185.0,16.0,0.0865,0.0883,0.1173
+"client-caused unreported income, 53 jurisdictions (984)",984.0,108.0,0.1098,0.0937,0.097
+"client-caused unreported income, 41 states (785)",785.0,70.0,0.0892,0.0827,0.09
