@@ -1,0 +1,55 @@
+row 20084 | level net_deposits | schema required | tool sha 3827a5afe383049f
+
+=== Instructions ===
+You are filling out a SNAP (food assistance) application for the household below. Use the applicant's note and the records the connectors returned. Submit the form by calling submit_application exactly once.
+
+=== Input ===
+State: Illinois
+
+Applicant's note:
+Hi, my name is Morgan Ibrahim. I live with Skyler (32), Noel (14) and Alex (9). There are 4 of us applying for food assistance. I work at Northside Logistics. We rent our home at 6806 Oak Ln, Apt 26 from Fairview Homes LLC. We pay for heat and electricity ourselves.
+
+Connector results (retrieved for this application):
+
+payroll connector returned 0 pay stubs.
+
+bank connector returned 16 transactions for checking account ****2516, 2026-09-01 to 2026-10-31:
+[doc-01] 2026-09-01 | debit $250.00 | RENT PAYMENT FAIRVIEW HOMES LLC
+[doc-02] 2026-09-01 | debit $94.78 | GROCERY NEIGHBORHOOD PANTRY MARKET
+[doc-03] 2026-09-04 | credit $281.80 | PAYROLL DEP NORTHSIDE LOGISTICS
+[doc-04] 2026-09-11 | credit $281.80 | PAYROLL DEP NORTHSIDE LOGISTICS
+[doc-05] 2026-09-18 | credit $281.80 | PAYROLL DEP NORTHSIDE LOGISTICS
+[doc-06] 2026-09-25 | credit $281.80 | PAYROLL DEP NORTHSIDE LOGISTICS
+[doc-07] 2026-10-01 | debit $250.00 | RENT PAYMENT FAIRVIEW HOMES LLC
+[doc-08] 2026-10-02 | credit $281.80 | PAYROLL DEP NORTHSIDE LOGISTICS
+[doc-09] 2026-10-09 | credit $281.80 | PAYROLL DEP NORTHSIDE LOGISTICS
+[doc-10] 2026-10-12 | credit $47.87 | REFUND HOME GOODS OUTLET
+[doc-11] 2026-10-16 | credit $281.80 | PAYROLL DEP NORTHSIDE LOGISTICS
+[doc-12] 2026-10-20 | debit $112.48 | GROCERY SAVE-MART FOODS
+[doc-13] 2026-10-22 | debit $74.23 | GROCERY CORNER GROCERY
+[doc-14] 2026-10-23 | credit $281.80 | PAYROLL DEP NORTHSIDE LOGISTICS
+[doc-15] 2026-10-24 | credit $44.39 | TRANSFER FROM SAVINGS ****2516 (OWN ACCOUNT)
+[doc-16] 2026-10-30 | credit $281.80 | PAYROLL DEP NORTHSIDE LOGISTICS
+
+drive search returned 3 documents:
+[doc-17] Lease agreement
+    Landlord: Fairview Homes LLC
+    Tenant: Morgan Ibrahim
+    Address: 6806 Oak Ln, Apt 26
+    Monthly rent: $250.00
+    Lease start: 2026-03-01
+    Lease term: 12 months
+[doc-18] Utility bill
+    Company: Metro Electric
+    Account holder: Morgan Ibrahim
+    Service: Electricity
+    Service address: 6806 Oak Ln, Apt 26
+    Billing period: 2026-09-15 to 2026-10-14
+    Amount due: $139.65
+[doc-19] Utility bill
+    Company: Regional Gas Co.
+    Account holder: Morgan Ibrahim
+    Service: Heat
+    Service address: 6806 Oak Ln, Apt 26
+    Billing period: 2026-09-15 to 2026-10-14
+    Amount due: $60.11

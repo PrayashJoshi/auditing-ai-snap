@@ -1,0 +1,35 @@
+row,fact,group,type,person,amount,utility_types,link,employer
+36536,f01,earned,WAGES,1,2082.0,,payroll,Northside Logistics
+36536,f02,shelter,RENT,1,750.0,,lease,
+36536,f03,utilities,HCSUA,1,580.0,"['Heat', 'Electricity']",bills,
+20084,f01,earned,WAGES,1,1474.0,,payroll,Northside Logistics
+20084,f02,shelter,RENT,1,250.0,,lease,
+20084,f03,utilities,HCSUA,1,577.0,"['Heat', 'Electricity']",bills,
+6507,f01,earned,WAGES,1,1990.0,,payroll,Harbor View Care Center
+6507,f02,shelter,RENT,1,600.0,,lease,
+6507,f03,utilities,HCSUA,1,534.0,"['Heat', 'Electricity']",bills,
+27559,f01,earned,WAGES,1,1010.0,,payroll,Riverside Grocery Co.
+27559,f02,shelter,RENT,1,87.0,,lease,
+27559,f03,utilities,HCSUA,1,329.0,"['Heat', 'Electricity']",bills,
+18487,f01,earned,WAGES,1,738.0,,payroll,Lakeshore Home Health
+18487,f02,shelter,RENT,1,200.0,,lease,
+14330,f01,earned,WAGES,1,1654.0,,payroll,Brightpath Call Center
+9628,f01,earned,WAGES,1,3269.0,,payroll,Greenway Landscaping
+9628,f02,unearned,SSI,4,635.0,,award_letter,
+9628,f03,shelter,RENT,1,1841.0,,lease,
+9628,f04,utilities,HCSUA,1,750.0,"['Heat', 'Electricity']",bills,
+31618,f01,earned,WAGES,2,3205.0,,payroll,Cedar Hill School District
+31618,f02,shelter,RENT,1,550.0,,lease,
+31618,f03,utilities,TUA,1,60.0,['Phone'],bills,
+5337,f01,earned,WAGES,1,2594.0,,payroll,Metro Parcel Services
+5337,f02,shelter,RENT,1,975.0,,lease,
+5337,f03,utilities,HCSUA,1,789.0,"['Heat', 'Electricity']",bills,
+43744,f01,earned,WAGES,1,2554.0,,payroll,Oak Street Bakery
+43744,f02,shelter,RENT,1,600.0,,lease,
+43744,f03,utilities,HCSUA,1,469.0,"['Heat', 'Electricity']",bills,
+18312,f01,earned,WAGES,1,2417.0,,payroll,Northside Logistics
+18312,f02,shelter,RENT,1,771.0,,lease,
+18312,f03,utilities,HCSUA,1,369.0,"['Heat', 'Electricity']",bills,
+11629,f01,earned,WAGES,1,1159.0,,payroll,Greenway Landscaping
+11629,f02,shelter,RENT,1,950.0,,lease,
+11629,f03,utilities,HCSUA,1,496.0,"['Heat', 'Electricity']",bills,

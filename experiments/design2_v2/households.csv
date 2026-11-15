@@ -1,0 +1,13 @@
+row,kind,group,in_151,DISCOV1,AGENCY1,state,size,qc_benefit,FSBEN,RAWBEN,AMTERR,filed_value,verified_value,utility_tier,verified_earned,verified_unearned,verified_shelter,verified_utilities,depcare,medical,child_support,std_ded,homeless_ded,shelter_cap,uncapped,benmax,min_ben
+36536,draw,,False,,,Nebraska,5,914.0,914,949,35,,,HCSUA,2082,0,750,580,0.0,0.0,0.0,244.0,0.0,672,False,1155,23
+20084,draw,,False,,26,Illinois,4,781.0,780,712,69,,,HCSUA,1474,0,250,577,0.0,0.0,0.0,201.0,0.0,672,False,973,23
+6507,draw,,False,,,Delaware,2,247.0,247,247,0,,,HCSUA,1990,0,600,534,0.0,0.0,0.0,198.0,0.0,672,False,535,23
+27559,draw,,False,,,Arkansas,2,385.0,385,385,0,,,HCSUA,1010,0,87,329,0.0,0.0,0.0,198.0,0.0,672,False,535,23
+18487,draw,,False,,,South Carolina,2,418.0,418,418,0,,,none,738,0,200,0,0.0,0.0,0.0,198.0,0.0,672,False,535,23
+14330,draw,,False,,1,Georgia,1,23.0,23,98,75,,,none,1654,0,0,0,0.0,0.0,0.0,198.0,0.0,672,False,291,23
+9628,draw,,False,,2,Pennsylvania,5,579.0,579,601,22,,,HCSUA,3269,635,1841,750,0.0,0.0,0.0,244.0,0.0,672,True,1155,23
+31618,draw,,False,,12,Texas,4,266.0,266,267,1,,,TUA,3205,0,550,60,0.0,0.0,0.0,208.0,0.0,672,False,973,23
+5337,draw,,False,,26,Rhode Island,3,404.0,404,375,29,,,HCSUA,2594,0,975,789,0.0,0.0,0.0,198.0,0.0,672,False,766,23
+43744,draw,,False,,,Oregon,1,23.0,23,23,0,,,HCSUA,2554,0,600,469,0.0,0.0,0.0,198.0,0.0,672,False,291,23
+18312,draw,,False,,10,South Carolina,3,326.0,326,362,36,,,HCSUA,2417,0,771,369,0.0,0.0,0.0,198.0,0.0,672,False,766,23
+11629,draw,,False,,26,West Virginia,1,273.0,273,291,18,,,HCSUA,1159,0,950,496,0.0,0.0,0.0,198.0,0.0,672,False,291,23
