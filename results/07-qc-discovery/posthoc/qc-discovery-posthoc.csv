@@ -1,0 +1,8 @@
+measure,k,n,share
+"budget-gap rule fires, omissions where the case record did not show the error",54,169,0.3195
+"budget-gap rule fires, omissions found from the case record",5,16,0.3125
+"budget-gap rule fires, all 185 omissions",59,185,0.3189
+"households with client-caused unreported income found from the case record, first variance, 53 jurisdictions",105,984,0.1067
+"households with client-caused unreported income found from the case record, any variance, 53 jurisdictions",108,984,0.1098
+"households with client-caused unreported income found from the case record, first variance, 41 states",67,785,0.0854
+"households with client-caused unreported income found from the case record, any variance, 41 states",70,785,0.0892

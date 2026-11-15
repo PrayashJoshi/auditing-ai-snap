@@ -1,0 +1,2 @@
+Post hoc, zero model calls: `qc-discovery-posthoc.py` writes `qc-discovery-posthoc.csv` with the budget-gap rule's recall on the 185 omissions split by whether QC found the variance from the case record, and the share of client-caused unreported-income households found from the case record (first variance and any variance; 53 jurisdictions and 41 states).
+Run from the repository root: `PYTHONPATH=src python results/07-qc-discovery/posthoc/qc-discovery-posthoc.py`; it asserts the expected counts.
