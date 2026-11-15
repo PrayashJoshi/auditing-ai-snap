@@ -1,0 +1,4 @@
+reader,calls,valid,valid_share,threshold,retained
+deepseek-v4-flash,24,24,1.0,0.9,True
+qwen3.5-397b,24,24,1.0,0.9,True
+gemma-4-31b-it,24,24,1.0,0.9,True
