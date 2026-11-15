@@ -1,0 +1,17 @@
+reader,cls,evidence_state,n_pairs,target_agree_k,target_agree,set_agree_k,set_agree
+glm-5.3-flash,omission,deposits_ambiguous,22,22,1.0,20,0.9090909090909091
+glm-5.3-flash,omission,deposits_clear,23,23,1.0,22,0.9565217391304348
+glm-5.3-flash,omission,lead,23,23,1.0,19,0.8260869565217391
+glm-5.3-flash,omission,none,20,18,0.9,16,0.8
+glm-5.3-flash,truthful_documented,documented,23,23,1.0,23,1.0
+glm-5.3-flash,zero_rent,none,42,42,1.0,42,1.0
+glm-5.3-flash,zero_stray,stray_clear,45,44,0.9777777777777777,42,0.9333333333333333
+glm-5.3-flash,zero_stray,stray_ambiguous,37,33,0.8918918918918919,27,0.7297297297297297
+gemma-4-26b-a4b-it,omission,none,24,21,0.875,18,0.75
+gemma-4-26b-a4b-it,omission,deposits_clear,24,24,1.0,19,0.7916666666666666
+gemma-4-26b-a4b-it,omission,deposits_ambiguous,24,23,0.9583333333333334,21,0.875
+gemma-4-26b-a4b-it,omission,lead,24,24,1.0,22,0.9166666666666666
+gemma-4-26b-a4b-it,truthful_documented,documented,24,24,1.0,20,0.8333333333333334
+gemma-4-26b-a4b-it,zero_rent,none,48,44,0.9166666666666666,43,0.8958333333333334
+gemma-4-26b-a4b-it,zero_stray,stray_clear,47,44,0.9361702127659575,38,0.8085106382978723
+gemma-4-26b-a4b-it,zero_stray,stray_ambiguous,48,45,0.9375,39,0.8125
