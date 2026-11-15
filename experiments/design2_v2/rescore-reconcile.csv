@@ -1,0 +1,11 @@
+turn,outcome_v1,abstain,zero,correct,stated,derived_wrong,invented,invalid,total
+1,abstain,88,0,0,0,0,0,0,88
+1,correct,0,0,0,36,0,0,0,36
+1,naive,0,0,0,108,213,0,0,321
+1,other,0,0,0,0,59,0,0,59
+1,zero,0,72,0,0,0,0,0,72
+2,abstain,72,0,0,0,0,0,0,72
+2,invalid,0,0,0,0,0,0,1,1
+2,naive,0,0,0,0,5,0,0,5
+2,other,0,0,0,0,11,13,0,24
+2,zero,0,58,0,0,0,0,0,58

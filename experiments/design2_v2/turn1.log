@@ -1,0 +1,35 @@
+Using CPython 3.14.7
+Creating virtual environment at: .venv
+   Building auditing-ai-snap @ file:///Users/prayash/Projects/auditing-ai-snap-d2
+      Built auditing-ai-snap @ file:///Users/prayash/Projects/auditing-ai-snap-d2
+Installed 120 packages in 443ms
+results.jsonl: 576 jobs, 0 already answered, 576 to run
+  20/576 done
+  40/576 done
+  60/576 done
+  80/576 done
+  100/576 done
+  120/576 done
+  140/576 done
+  160/576 done
+  180/576 done
+  200/576 done
+  220/576 done
+  240/576 done
+  260/576 done
+  280/576 done
+  300/576 done
+  320/576 done
+  340/576 done
+  360/576 done
+  380/576 done
+  400/576 done
+  420/576 done
+  440/576 done
+  460/576 done
+  480/576 done
+  500/576 done
+  520/576 done
+  540/576 done
+  560/576 done
+  576/576 done

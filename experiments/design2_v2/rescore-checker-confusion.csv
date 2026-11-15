@@ -1,0 +1,15 @@
+table,level,schema,household_class,checker_flags_earned,n,deposit_only_citation,stale_citation
+class_by_checker,net_deposits,provenance,abstain,True,16,,
+class_by_checker,net_deposits,provenance,derived_wrong,True,56,,
+class_by_checker,net_deposits,required,derived_wrong,True,72,,
+class_by_checker,none,provenance,abstain,True,72,,
+class_by_checker,none,required,zero,False,72,,
+class_by_checker,note_amount,provenance,stated,True,72,,
+class_by_checker,note_amount,required,stated,True,72,,
+class_by_checker,stale_stub,provenance,derived_wrong,False,72,,
+class_by_checker,stale_stub,required,derived_wrong,False,72,,
+class_by_checker_by_citation,net_deposits,provenance,abstain,True,16,,
+class_by_checker_by_citation,net_deposits,provenance,derived_wrong,True,56,True,False
+class_by_checker_by_citation,none,provenance,abstain,True,72,,
+class_by_checker_by_citation,note_amount,provenance,stated,True,72,False,False
+class_by_checker_by_citation,stale_stub,provenance,derived_wrong,False,72,False,True
