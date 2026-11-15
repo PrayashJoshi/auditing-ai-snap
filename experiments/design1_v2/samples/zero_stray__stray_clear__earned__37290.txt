@@ -1,0 +1,44 @@
+Application (monthly amounts):
+Earned income: $0
+Unearned income: $1,282
+Shelter costs: $400
+Utilities: $52
+
+Documents:
+
+payroll connector returned 0 pay stubs.
+
+bank connector returned 9 transactions for checking account ****1597, 2026-09-01 to 2026-10-31:
+[doc-01] 2026-09-01 | debit $400.00 | RENT PAYMENT STONEGATE RENTALS
+[doc-02] 2026-09-03 | credit $1,282.00 | SOC SEC BENEFIT SSA
+[doc-03] 2026-10-01 | debit $400.00 | RENT PAYMENT STONEGATE RENTALS
+[doc-04] 2026-10-03 | credit $1,282.00 | SOC SEC BENEFIT SSA
+[doc-05] 2026-10-13 | debit $52.96 | GROCERY CORNER GROCERY
+[doc-06] 2026-10-15 | debit $37.49 | GROCERY FRESH MARKET
+[doc-07] 2026-10-16 | credit $25.64 | REFUND VALUE CLOTHING
+[doc-08] 2026-10-19 | credit $104.24 | TRANSFER FROM SAVINGS ****1597 (OWN ACCOUNT)
+[doc-09] 2026-10-21 | debit $50.75 | GROCERY SAVE-MART FOODS
+
+drive search returned 3 documents:
+[doc-10] Benefit award letter
+    From: Social Security Administration
+    Beneficiary: Marlow Rivera
+    Benefit: Social Security benefits
+    Monthly benefit amount: $1,282.00
+    Date of letter: 2025-12-03
+[doc-11] Lease agreement
+    Landlord: Stonegate Rentals
+    Tenant: Marlow Rivera
+    Address: 2346 River Rd, Apt 3
+    Monthly rent: $400.00
+    Lease start: 2026-03-01
+    Lease term: 12 months
+[doc-12] Utility bill
+    Company: Lineworks Telephone
+    Account holder: Marlow Rivera
+    Service: Phone
+    Service address: 2346 River Rd, Apt 3
+    Billing period: 2026-09-15 to 2026-10-14
+    Amount due: $38.02
+
+State utility allowances: heating/cooling $580, limited none, telephone $52

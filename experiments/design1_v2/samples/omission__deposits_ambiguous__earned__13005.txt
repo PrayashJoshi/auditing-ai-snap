@@ -1,0 +1,35 @@
+Application (monthly amounts):
+Earned income: $0
+Unearned income: $500
+Shelter costs: $1,375
+Utilities: $0
+
+Documents:
+
+payroll connector returned 0 pay stubs.
+
+bank connector returned 13 transactions for checking account ****2422, 2026-09-01 to 2026-10-31:
+[doc-01] 2026-09-01 | debit $1,375.00 | RENT PAYMENT WILLOW PARK HOUSING
+[doc-02] 2026-09-04 | credit $34.10 | REFUND CITY PHARMACY
+[doc-03] 2026-09-10 | credit $250.00 | STATE CHILD SUPPORT DISBURSEMENT UNIT
+[doc-04] 2026-09-10 | credit $250.00 | STATE CHILD SUPPORT DISBURSEMENT UNIT
+[doc-05] 2026-09-25 | debit $118.49 | GROCERY SAVE-MART FOODS
+[doc-06] 2026-09-30 | credit $1,089.15 | ACH CREDIT ELECTRONIC DEPOSIT
+[doc-07] 2026-10-01 | debit $1,375.00 | RENT PAYMENT WILLOW PARK HOUSING
+[doc-08] 2026-10-09 | debit $61.38 | GROCERY FRESH MARKET
+[doc-09] 2026-10-10 | credit $250.00 | STATE CHILD SUPPORT DISBURSEMENT UNIT
+[doc-10] 2026-10-10 | credit $250.00 | STATE CHILD SUPPORT DISBURSEMENT UNIT
+[doc-11] 2026-10-12 | debit $100.05 | GROCERY NEIGHBORHOOD PANTRY MARKET
+[doc-12] 2026-10-24 | credit $172.24 | TRANSFER FROM SAVINGS ****2422 (OWN ACCOUNT)
+[doc-13] 2026-10-31 | credit $1,089.15 | ACH CREDIT ELECTRONIC DEPOSIT
+
+drive search returned 1 document:
+[doc-14] Lease agreement
+    Landlord: Willow Park Housing
+    Tenant: Skyler Ibrahim
+    Address: 247 Lincoln St, Apt 20
+    Monthly rent: $1,375.00
+    Lease start: 2026-03-01
+    Lease term: 12 months
+
+State utility allowances: heating/cooling $426, limited $340, telephone $49
