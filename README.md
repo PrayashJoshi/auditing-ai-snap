@@ -1,11 +1,16 @@
 # auditing-ai-snap
 
+<p align="center">
+  <img src="assets/fig1-teaser-animated.svg" alt="Auditing AI SNAP Applications: Filer and Reader Pipeline" width="760" />
+</p>
+
 Code, data handling, experiments and results for a submission to the Apart Research AI x Epistemics sprint (Nov 13-15, 2026). The question: can an AI reader catch the mistakes in a SNAP application, and does that change when an AI agent filled it out? The repo holds the research work only: handling of the SNAP Quality Control (QC) public database, the notebooks, the experiments that call models, and their results. Git history records what was done during the sprint. The decisions behind the work are in `sprint-log.md`; the research questions are in `rq.md`.
 
 ## Layout
 
 | Path | Contents |
 |---|---|
+| `assets/` | Self-contained animated teaser SVG (`fig1-teaser-animated.svg`) for this README |
 | `rq.md` | Overarching question and research questions |
 | `sprint-log.md` | Record of decisions, newest first |
 | `literature-review.md` | Annotated literature review |
