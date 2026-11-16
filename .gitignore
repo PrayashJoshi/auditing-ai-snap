@@ -7,3 +7,23 @@ __pycache__/
 data/raw/*
 !data/raw/.gitkeep
 third_party/
+
+# LaTeX build intermediates in submission/
+submission/*.aux
+submission/*.bbl
+submission/*.blg
+submission/*.fdb_latexmk
+submission/*.fls
+submission/*.log
+submission/*.out
+submission/*.synctex.gz
+submission/*.toc
+submission/*.lof
+submission/*.lot
+submission/*.bcf
+submission/*.run.xml
+submission/comment.cut
+
+# Submission backups (not for presentation)
+submission/main-backup.tex
+submission/figures/sampleteaser.pdf
