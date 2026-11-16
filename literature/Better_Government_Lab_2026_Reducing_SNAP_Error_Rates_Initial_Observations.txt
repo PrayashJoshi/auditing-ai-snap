@@ -1,0 +1,359 @@
+SOURCE URL: https://digitalgovernmenthub.org/wp-content/uploads/2026/05/Reducing-SNAP-Error-Rates_-Initial-Observations-from-Modeling-Public-QC-Data.pdf
+ACCESSED: 2026-11-13
+NOTE: Brief dated January 30, 2026 per its first page. Extracted with pypdf layout mode (default mode gave one word per line).
+
+---
+
+
+=== [page 1] ===
+Reducing SNAP Error Rates: Initial Observations
+from Modeling Public QC Data
+
+JANUARY 30,   2026
+
+
+
+
+
+In a typical month, more than 40 million individuals beneﬁt from the Supplement Nutrition Assistance
+Program (SNAP), formerly called food stamps. About 1 in 2 children will receive SNAP beneﬁts at some
+point in their childhood and 1 in 4 children are receiving beneﬁts. Access to SNAP generates large beneﬁts
+in terms of improving education, prosperity, and public safety.
+
+The One Big Beautiful Bill (OBBB) passed in July, 2025  dramatically altered how SNAP is implemented by
+states. The Congressional Research Service estimates that the bill will lead to a $187 billion reduction in
+the SNAP program over the next decade and another estimate indicates that 5.3 million people will lose
+more than $25 monthly in SNAP food aid (Urban 2025).
+
+HR1 requires states to pay large penalties based on their SNAP payment error rate (PER). PER is measured
+using Quality Control (QC) data that states collect and that the federal government audits. Previously,
+states made policy decisions that often prioritized reducing food insecurity such that low-income
+individuals eligible for food aid were able to receive support. With the changes in OBBB, states are now
+required to focus exclusively on reducing payment errors as small as $58 regardless of how changes
+intended to minimize payments errors also lead to exclusion of eligible households without errors.
+Currently, states incur no penalties for improperly denying or terminating SNAP beneﬁts for eligible
+households  (something a proposed change in rules would have addressed).
+
+Based on existing error rates, 43 states will face  penalties. Two thirds of states are facing severe penalties
+of over $100 million a year, even as they receive signiﬁcantly less funding in administrative support from
+the federal government.
+
+Therefore, to support states to lower their PER, while still mitigating disruption of food aid to eligible
+households, we sought to use publicly-available data on error rates to help states as they grapple with
+changes from the OBBB. In the analysis below, we use predictive analytics to describe the primary
+reasons that SNAP cases are ﬂagged as having a payment error. The analysis uses SNAP Quality Control
+(QC) data from 2017 to 2023 across all states. One caveat for understanding the public QC data is that it
+only includes payment errors for those individuals that were still deemed eligible. It does not include
+errors where the household was ineligible for SNAP completely.
+
+
+
+
+
+
+                                                                                                                                1
+
+
+=== [page 2] ===
+The goal of these analyses is to begin to understand best practices for using these data to assess where
+errors come from and to inform a discussion of how they can change their application and processing
+practices in a way that would minimize errors. At the same time, an equally important goal is to mitigate
+the increase in hunger that is likely to occur as changes reduce SNAP access, which can be served by
+avoiding imprecise or incorrect targeting of these efforts.
+
+A summary of our initial observations:
+
+    ●    For states that are modeling error rate predictors, adding a variable to reﬂect beneﬁt amount as a
+         share of max allotment improves model accuracy signiﬁcantly.  Households that have a lower level
+         of SNAP beneﬁts tend to have uncounted, not counted errors. Households close to or at the
+         beneﬁt max tend to have higher rates of counted errors (Figures 1 and 2).
+
+    ●    Some variables are effective because they proxy for missing data (such as a household member or
+         a source of income), use variables that help capture the possibility of key unreported  data, such
+         as the ratio of shelter expenses divided by gross income (Figure 1).
+
+    ●    Self-employment may be less of a problem for generating payment errors than is typically
+         understood: small errors are quite common, but over-threshold errors are less common than with
+         traditional employment (Figure 3). We are seeking to conﬁrm this with states that have access to
+         their full QC data.
+
+    ●    Decision trees provide one way of quickly exploring the data for very targeted criteria that reduce
+         the risks of burdening households that are unlikely to have errors (Figure 4).
+
+    ●    Importantly, the QC data offer opportunities to assess possible prioritization rules, such as a
+         threshold for earned income combined with shelter expenses relative to gross income, for bias
+         before putting them into production systems (Figure 5).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                   bettergovernmentlab.org   |  2
+=== [page 3] ===
+Figure 1: Top Ten Variables for Predicting Above-Threshold Overpayment Errors
+(SNAP QC PER Data, 2017−2023)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Figure 2: Beneﬁt Level Helps Distinguish Small vs. Large Errors at Certiﬁcation (SNAP QC PER Data,
+2017−2023)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                bettergovernmentlab.org   |  3
+=== [page 4] ===
+Figure 3: “Employed by Other” Associated with Income Errors at Certiﬁcation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                    bettergovernmentlab.org   |  4
+=== [page 5] ===
+Figure 4: Decision Tree for Available CA Data (2017−2023)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                      bettergovernmentlab.org   |  5
+=== [page 6] ===
+Figure 5: Assessing Hypothetical Rules based on Decision Tree Criteria for Bias (CA)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                         bettergovernmentlab.org   |  6
