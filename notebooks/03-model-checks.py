@@ -11,22 +11,17 @@
 # ---
 
 # %% [markdown]
-# # 03 Pre-experiment model checks (small LLM runs)
+# # 03 Model checks (small LLM runs)
 #
-# Pre-experiment checks that need model calls: tens of calls each, not the pipeline. This notebook makes no calls itself. Runner scripts write one JSONL file per run under `experiments/<test>/`, and the sections here read and score those files, so re-running the notebook spends no credits.
+# Checks that need model calls: tens of calls each, not the pipeline. This notebook makes no calls itself. Runner scripts write one JSONL file per run under `experiments/<test>/`, and the sections here read and score those files, so re-running the notebook spends no credits.
 # Sections are numbered; letters mark parts of one check. Each section carries its own header (question, expected, method, result, mismatch, feeds, and options or open questions).
 # A mismatch with an expected figure is reported as a mismatch and never adjusted.
 #
-# **Status: section 1 run. Sections 2 to 4 are set up only.**
+# **Status: section 1 run.** The checker-versus-reader and filer runs once planned as further sections here were run as the 20-household pilot in notebook 04.
 #
 # | Section | Test | Parts |
 # |---|---|---|
 # | 1 | Model smoke test | a models reached, b valid-output rate, c calls per hour and credits, d three-read agreement, e filer schema variants: valid output |
-# | 2 | Checker vs reader | a the 20 households and why each was picked, b packets and conversions, c checker, d readers, e paired difference, complete and faithful, f omissions: does any reader flag a missing source? |
-# | 3 | Agents file | a applicant folder, two versions, b behaviour on the undocumented group: guess, blank, unknown, ask, c use of the 'unknown' value by model, d error direction: over- or underpayment, e errors on complete packets, f applicant check: leaked or invented values |
-# | 4 | Filer classifier | a free-text fields on the form, b classifier input, c accuracy and interval, d which fields give the filer away |
-#
-# Order of work: 1 as soon as it is approved. 2 and 3 use the same 20 households. 4 runs on the output of 3. All four wait for a go-ahead.
 
 # %% [markdown]
 # ## 0. Setup
@@ -272,141 +267,3 @@ filer["valid_pct"] = (100 * filer.valid / filer.calls).round(1)
 filer = filer.unstack("variant")
 filer.to_csv(OUT / "1e-filer-validity.csv")
 filer[["valid_pct", "truncated", "schema_errors", "used_null_or_unknown"]]
-
-# %% [markdown]
-# ## 2. Checker vs reader
-#
-# - **Question:** On 20 chosen households, how does the reader compare with the checker on complete and on faithful packets?
-# - **Expected:** None. 20 chosen households give direction only, not rates.
-# - **Method:** The 20 are picked on purpose (some $0 omissions, some wage errors needing conversion) and leave the evaluation set. Documents need real conversions (weekly to monthly, gross vs net). Score reader minus checker as a paired difference, per packet type.
-# - **Result:** _fill after run_
-# - **Mismatch:** _fill after run_
-# - **Feeds:** `rq.md` RQ1 (what the main table reports).
-
-# %%
-runs_checker = load_runs("checker-vs-reader")
-len(runs_checker)
-
-# %% [markdown]
-# ### 2a. The 20 households and why each was picked
-
-# %%
-# TODO
-
-# %% [markdown]
-# ### 2b. Packets and conversions
-
-# %%
-# TODO
-
-# %% [markdown]
-# ### 2c. Checker
-
-# %%
-# TODO
-
-# %% [markdown]
-# ### 2d. Readers
-
-# %%
-# TODO
-
-# %% [markdown]
-# ### 2e. Paired difference, complete and faithful
-
-# %%
-# TODO
-
-# %% [markdown]
-# ### 2f. Omissions: does any reader flag a missing source?
-
-# %%
-# TODO
-
-# %% [markdown]
-# ## 3. Agents file
-#
-# - **Question:** When a fact has no document, does the filing agent guess, leave blank, say 'unknown', or ask?
-# - **Expected:** None.
-# - **Method:** Filer agent asks questions; applicant agent answers from its own folder. Two folder versions: no amount for the fact group lacking a document, and a rounded amount. QC-verified values for that group are absent from the folder.
-# - **Result:** _fill after run_
-# - **Mismatch:** _fill after run_
-# - **Feeds:** `rq.md` RQ1 (AI-filed errors) and RQ2 (missing-fact share).
-
-# %%
-runs_filer = load_runs("agents-file")
-len(runs_filer)
-
-# %% [markdown]
-# ### 3a. Applicant folder, two versions
-
-# %%
-# TODO
-
-# %% [markdown]
-# ### 3b. Behaviour on the undocumented group: guess, blank, unknown, ask
-
-# %%
-# TODO
-
-# %% [markdown]
-# ### 3c. Use of the 'unknown' value by model
-
-# %%
-# TODO
-
-# %% [markdown]
-# ### 3d. Error direction: over- or underpayment
-
-# %%
-# TODO
-
-# %% [markdown]
-# ### 3e. Errors on complete packets
-
-# %%
-# TODO
-
-# %% [markdown]
-# ### 3f. Applicant check: leaked or invented values
-
-# %%
-# TODO
-
-# %% [markdown]
-# ## 4. Filer classifier
-#
-# - **Question:** Can a simple classifier tell human-filed from AI-filed applications from what the reader sees?
-# - **Expected:** Accuracy near chance. On the section 3 output the sample is small, so this is a first look.
-# - **Method:** List the free-text fields on the Michigan MDHHS-1171 form and include their text. Train a simple classifier on reader-visible fields. Check the 'unknown' value on its own: only AI-filed applications can contain it.
-# - **Result:** _fill after run_
-# - **Mismatch:** _fill after run_
-# - **Feeds:** `rq.md` RQ1 (leakage guard).
-
-# %%
-runs_clf = load_runs("filer-classifier")
-len(runs_clf)
-
-# %% [markdown]
-# ### 4a. Free-text fields on the form
-
-# %%
-# TODO
-
-# %% [markdown]
-# ### 4b. Classifier input
-
-# %%
-# TODO
-
-# %% [markdown]
-# ### 4c. Accuracy and interval
-
-# %%
-# TODO
-
-# %% [markdown]
-# ### 4d. Which fields give the filer away
-
-# %%
-# TODO

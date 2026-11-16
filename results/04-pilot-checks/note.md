@@ -13,11 +13,11 @@ Notebook: `notebooks/04-pilot-checks.ipynb` (sections 0 to 8 run, no model calls
   - 4 of the 16 error households have $0 verified in the group in error (all 3 utility errors and 1 shelter error). Their group has no fact, so their faithful packet equals the complete one.
   - The 7 CFR 273.10(c)(2)(i) quote names only weekly (x 4.3) and biweekly (x 2.15). Twice a month (x 2), monthly and yearly (/ 12) are the exact monthly figure; hourly is rate x hours x 4.3, which is our rule, not the CFR text.
 - **How computed:** notebook sections 1 to 3; tables `1-*.csv`, `2-*.csv`, `3*.csv`; packets in `packets/`.
-- **Feeds:** `rq.md` RQ1 (the households and packets the pilot reads); Households; Packets.
+- **Feeds:** `rq.md` RQ1 (the households and packets the pilot reads).
 
 ## Run facts
 
-- **Output cap:** every call ran at `max_output_tokens` 8,192, not the 2,048 of the spec. In the dry run at 2,048, 2 of the 3 filer calls stopped at the cap (provenance on `deepseek-v4-flash`, escape on `qwen3.5-397b`; the reasoning used up to all 2,048 tokens). At 8,192, no call of the 640 was truncated, and 113 of the 640 used more than 2,048 output tokens.
+- **Output cap:** every call ran at `max_output_tokens` 8,192, not the planned 2,048. In the dry run at 2,048, 2 of the 3 filer calls stopped at the cap (provenance on `deepseek-v4-flash`, escape on `qwen3.5-397b`; the reasoning used up to all 2,048 tokens). At 8,192, no call of the 640 was truncated, and 113 of the 640 used more than 2,048 output tokens.
 - **Concurrency 8, temperature 0.** 640 jobs answered. One job (provenance, faithful, note A, household 9749, `qwen3.5-397b`) failed on connection errors and was re-run; its final answered record is used (641 records).
 - **Conversion fix:** `forms._monthly` was changed before any AI-filed application was read, so that escaped hours per week blank earned income only when the wage is hourly (per "Hr"). The fix matters: 124 employment lines in 110 of the 360 AI-filed applications have escaped hours, and only 1 of them is hourly. Under the earlier rule, earned income would have read "not provided" on those 110 applications. The monthly amounts the readers saw equal `forms.to_monthly` as it is now, for all 80 AI-filed applications read.
 - **Repair:** 8 `deepseek-v4-flash` provenance outputs sent `utilities_paid` as a JSON-encoded string. They fail the schema and count as invalid in part 7. Before conversion, the runner decoded them (`run_pilot.decode_strings`, flag `filer_repaired`), and the scoring uses the same repair.
@@ -43,7 +43,7 @@ Notebook: `notebooks/04-pilot-checks.ipynb` (sections 0 to 8 run, no model calls
   - **Groups with no fact:** no filer invents a number for one. Under escape and provenance, both models escape every utilities group of the 7 households without utilities (0 under required), and `qwen3.5-397b` escapes one shelter group.
   - **Benefit:** a group left at "insufficient_evidence" counts as $0. No application on a complete packet is off by more than $56 (largest $36, household 9749). On the faithful packet with note A, 24 of 40 are off by more than $56 under each schema: 14 over and 10 under (58% over), the same 24 each time, because a blank and an abstention both count as $0. With note B: escape 5 (4 over, 1 under), provenance 2 (both over). The 16 human-filed error applications in the pilot are all over. The human arm of 616 has 563 over and 53 under (91% over; STATUS 2 and 3 in `3d-human-arm.csv`, which agrees with the 616 of 01 part 3d; that note does not give the split). With 40 applications per cell, the shares are only indicative.
 - **How computed:** `forms.to_monthly` on each parsed output. Classes: A abstained; Z blank or $0; R documented and within $5; M documented and off by more than $5; S undocumented and within $5 of the note-B amount; G undocumented, other number. Groups with verified $0 are tallied apart. Benefit by `packets.benefit_of`; error against the QC-correct benefit. Tables `4a-filer-groups.csv`, `4b-outcome-mix.csv`, `4b-outcome-mix-undocumented.svg`, `4c-abstention.csv`, `4c-zero-fact-groups.csv`, `4d-benefit-error.csv`, `4d-filer-applications.csv`, `4f-escape-vs-required.csv`, `4f-note-b-vs-a.csv`.
-- **Feeds:** `rq.md` RQ1 (what an AI-filed application looks like; what the reader must catch); Packets.
+- **Feeds:** `rq.md` RQ1 (what an AI-filed application looks like; what the reader must catch).
 - **Open questions:**
   - Whether the documents need to be harder: no model makes a conversion error. Options include stubs that state only a pay period, hourly pay with varying hours, irregular self-employment receipts, and a mid-period rent change.
   - Which note version the full run uses (A, B or both).
@@ -95,11 +95,10 @@ Notebook: `notebooks/04-pilot-checks.ipynb` (sections 0 to 8 run, no model calls
 - **How computed:** final record per job id; `7a-calls.csv`, `7b-invalid-reasons.csv`, `7c-dryrun.csv`, `7d-throughput.csv`.
 - **Feeds:** `rq.md` RQ1 (run cost, time, schema validity).
 - **Open questions:**
-  - The output cap for the full run.
   - Whether an output that fails the schema only on an enum still counts as filed. The scoring here counts it.
   - The hourly conversion rule (rate x hours x 4.3) is ours: the CFR names factors only for weekly and biweekly pay.
 
-## Proposed parts (not decided)
+## Additional measures (exploratory)
 
 ### Provenance schema and honesty measures (part 4g)
 
@@ -126,7 +125,7 @@ Notebook: `notebooks/04-pilot-checks.ipynb` (sections 0 to 8 run, no model calls
 
 - **Numbers:**
   - **Pilot plan:** 640 calls, equal to the run.
-  - **Full-run plan** (2,094 households = 616 + 1,478): 13,796 filer calls (expected about 13,800); 25,128 reader calls (expected about 25,100) plus 1,200 re-reads; 40,124 in all (expected about 40,000).
+  - **Full-run plan** (not run; the full run was cut, see the 2026-11-15 11:10 entry of `sprint-log.md`) (2,094 households = 616 + 1,478): 13,796 filer calls (expected about 13,800); 25,128 reader calls (expected about 25,100) plus 1,200 re-reads; 40,124 in all (expected about 40,000).
   - **Hours:** 17.6 at 2,283 per hour (expected about 17), 13.4 at the 50-per-minute ceiling, and 32.4 at the pilot's measured 1,238 per hour.
   - **Mismatch:** at the rate the pilot actually ran, the plan takes about twice the expected 17 hours.
 - **How computed:** `pilot_score.budget`; `8-budget.csv`, `8-budget-cells.csv`, `8-budget-vs-expected.csv`.

@@ -1,7 +1,7 @@
 Using CPython 3.14.7
 Creating virtual environment at: .venv
-   Building auditing-ai-snap @ file:///Users/prayash/Projects/auditing-ai-snap-d2
-      Built auditing-ai-snap @ file:///Users/prayash/Projects/auditing-ai-snap-d2
+   Building auditing-ai-snap @ file://.
+      Built auditing-ai-snap @ file://.
 Installed 120 packages in 443ms
 results.jsonl: 576 jobs, 0 already answered, 576 to run
   20/576 done

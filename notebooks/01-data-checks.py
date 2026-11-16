@@ -11,13 +11,13 @@
 # ---
 
 # %% [markdown]
-# # 01 Pre-experiment data checks (no LLM calls)
+# # 01 Data checks (no LLM calls)
 #
-# Pre-experiment checks, using data only, on the FY2024 SNAP QC public-use file that fix the human-arm sample, the packets and the interval widths.
+# Checks using data only, on the FY2024 SNAP QC public-use file that fix the human-arm sample, the packets and the interval widths.
 # Sections are numbered; letters mark parts of one check. Each section carries its own header (question, expected, method, result, mismatch, feeds, recommendation).
-# Expected figures for sections 1 to 3 come from the `sprint-log.md` TABULATION entry in this repo; those for sections 4 to 9 come from a scratch run of the 616-household definition (2026-11-14). A mismatch is reported as a mismatch and never adjusted.
+# Expected figures for sections 1 to 3 come from the 2026-11-13 tabulation entry of `sprint-log.md`; those for sections 4 to 9 come from a scratch run of the 616-household definition (2026-11-14). A mismatch is reported as a mismatch and never adjusted.
 #
-# Sections 4 to 9 run on the human arm of 616 households built in part 3d (the decision of 2026-11-14) and read it from `results/01-data-checks/3d-human-arm.csv`.
+# Sections 4 to 9 run on the human arm of 616 households built in part 3d (see the 2026-11-14 07:49 entry of `sprint-log.md`) and read it from `results/01-data-checks/3d-human-arm.csv`.
 #
 # | § | Test | Parts |
 # |---|---|---|
@@ -66,7 +66,7 @@ df[["STATUS", "AMTERR", "ACTNTYPE", "HWGT", "FYWGT"]].describe().T
 # - **Method:** apply each filter in turn from the raw file and print the count after each step.
 # - **Result:** reproduced exactly: 44,891 -> 2,096 -> 1,098 -> 917. The 41 error cases with no variance have STATUS 2 or 3 and a non-zero AMTERR, but every variance detail field is blank, so they carry no cause code and cannot pass the client-caused step. 11 of them are above $56 (10 in the 41 states). The file does not say why the detail is missing. STATUS alone does not define an error above the tolerance: 12,403 of the 17,836 STATUS 2/3 cases (70%) have an error of $56 or less.
 # - **Mismatch:** none.
-# - **Feeds:** `rq.md` Households (human-arm sample size).
+# - **Feeds:** the human-arm sample size.
 
 # %% [markdown]
 # ### 1a. Funnel counts
@@ -142,7 +142,7 @@ status_by_size
 # - **Method:** compare HWGT/FYWGT against HWGT_OLD/FYWGT_OLD; check against the technical documentation's totals if stated.
 # - **Result:** `HWGT` and `FYWGT` are the corrected weights. They reproduce the August 2026 technical documentation: the ranges (HWGT 52.36 to 77,999.84; FYWGT 4.36 to 6,499.99) and the national weighted totals (40,168,146 individuals; $7,366,534 thousand in benefits). `HWGT_OLD` and `FYWGT_OLD` do not (40,772,270 individuals; largest HWGT 45,716). The two sets differ in 44,838 of 44,891 rows (ratio 0.10 to 5.97) and have the same overall sum. The CSV in use is byte-identical to the one inside the zip from the `2026-08` folder.
 # - **Mismatch:** none; no change of file is needed. The 2026-06-26 timestamp on the CSV inside the August zip is not explained by anything in the file.
-# - **Feeds:** `rq.md` Statistics (which weights RQ2 uses).
+# - **Feeds:** which weights the RQ2 comparisons use.
 
 # %% [markdown]
 # ### 2a. Current vs `_OLD` weight columns
@@ -222,7 +222,7 @@ print("zip sha256:", sha_zip)
 # - **Method:** invert for the single erroneous variable; count cases with no inverse or no unique inverse (benefit at max or min, shelter cap binding, net income at zero); rerun the calculator.
 # - **Result:** 465 of the 917 (50.7%) have a unique filed value, and on those the calculator returns the issued benefit within $1 (462 exactly). The other 452: 81 where the element is not a dollar amount (mostly unit composition); 9 MFIP or SSI-CAP units the calculator does not cover; 72 where `FSBEN` differs from the QC-correct benefit by more than $1; 27 where no value reaches the issued benefit; 263 where a range of values gives the issued benefit (238 issued benefit at the maximum, 5 at the minimum, 14 shelter cap binding, 6 shelter cost below half of income). In 173 of the 238 the amount in error is income and $0 is one of the answers; 151 of those are coded as an unreported source of income. Part 3d builds the human arm decided on 2026-11-14: the 465 plus those 151 with a filed value of $0, 616 households. 21 of the 151 have two or more verified income sources in the group in error, so for them "$0 for the whole group" is an assumption.
 # - **Mismatch:** the calculator reproduces the issued benefit within $1 for the 465 only. 452 of the 917 (49.3%) have no identified filed value under this method. The 151 with two or more verified sources: 21, expected 22.
-# - **Feeds:** `rq.md` Applications.
+# - **Feeds:** the rebuild of filed applications.
 # - **Open questions:** how to treat the 21 of the 151 with two or more verified sources (keep at $0 for the whole group, file the largest source only, or drop).
 
 # %% [markdown]
@@ -446,7 +446,7 @@ pd.crosstab(human_arm.loc[human_arm["in_151"], "n_sources"], human_arm.loc[human
 # - **Method:** each ELEMENT code is mapped through the amount it changes in the calculator (3a): earned, unearned, shelter (363), utilities (364), outside (dependent care, medical, child support paid). Error type: "empty" if the filed value for the group is $2 or less (all of the 151 have $0), else "wrong number". Three cells: income empty, income wrong number, housing (shelter + utilities); outside stays its own row.
 # - **Result:** all expected counts reproduced. Earned 211, shelter 191, unearned 131, utilities 68, outside 15 (dependent care 9, medical 4, child support paid 2). NATURE 35 in 277. Group empty on the form in 188 (the 151 plus 37); 6 of the 188 are not NATURE 35 (3 earned, 3 shelter). Three cells: income empty 185, income wrong number 157, housing 259 (outside 15). 95 households coded NATURE 35 have a filed group total above $2 (44 earned, 51 unearned): the unreported source sat next to other income in the same group. Only 3 of the 259 housing errors are empty entries. Utilities (68) and outside (15) are under 100 errors.
 # - **Mismatch:** none.
-# - **Feeds:** `rq.md` Terms (fact group, checker); power for RQ1.
+# - **Feeds:** the fact-group and checker definitions; power for RQ1.
 # - **Open questions:** merge shelter and utilities in tables; table by error type (empty vs wrong number).
 
 # %% [markdown]
@@ -547,7 +547,7 @@ three_cells
 # - **Method:** crosstabs of DISCOV1 and VERIF1 by fact group, code meanings quoted from the FY2024 SNAP QC technical documentation (Chapter V codebook); per-group shares of DISCOV1 in 5b.
 # - **Result:** 38 of the 616 have DISCOV 1 or 2 (case record), 13 of them among the 151; 65 of the 917. The recipient interview is the most common discovery source in every group (387 of 616, 63%). The employer discovers 55 of 211 earned errors (26%); the landlord 46 of 191 shelter errors (24%) and 11 of 68 utility errors (16%). Verification differs from discovery: the employer verifies 123 of 211 earned errors, the landlord 99 of 191 shelter errors; DISCOV equals VERIF in 339 of 616.
 # - **Mismatch:** none.
-# - **Feeds:** `rq.md` Packets (which document the faithful packet leaves out).
+# - **Feeds:** packet design (which document the faithful packet leaves out).
 
 # %% [markdown]
 # ### 5a. DISCOV1 and VERIF1 by fact group
@@ -633,7 +633,7 @@ discov_freq
 # - **Method:** a fact group is non-zero when its verified total (`FSEARN`, `FSUNEARN`, `RENT`, `UTIL`) is above $0. For the 616 the group in error is left out (for the 15 outside errors all four groups count). The comparison pool (35,543 households in the 41 states outside the 616) has no group in error, so all four count.
 # - **Result:** 79 of the 616 have no other non-zero group (69 of the 151, 10 of the 465): 52 earned, 27 unearned errors. 460 (74.7%) have two or more other groups non-zero. Comparison pool: 5,358 (15.1%) have no non-zero group, 3,636 (10.2%) one, 26,549 (74.7%) two or more.
 # - **Mismatch:** none.
-# - **Feeds:** `rq.md` Packets.
+# - **Feeds:** packet design.
 # - **Open questions:** keep or drop the households with nothing else on the form.
 
 # %% [markdown]
@@ -683,7 +683,7 @@ group_shares
 # - **Method:** pool = 41-state households outside the 616 (35,543). Error = STATUS 2 or 3 and AMTERR above $56. Cause from the AGENCY codes of all variances, grouped as in 7a; the 301 are their own row. Weighted error dollars = FYWGT x AMTERR over errors above $56 in all states. Comparison households needed = 150 / share, rounded up.
 # - **Result:** 3,608 of the 35,543 (10.2%; 11.6% weighted) have an error above $56: agency 1,951 (5.5%), client outside the 917 700 (2.0%), mixed causes 597 (1.7%), the 301 (0.8%), other (99) 39, not required to be reported (26) 10, no variance detail 10. The 616 carry 11.9% of weighted error dollars (the 917: 17.5%; the 151: 3.8%; the 465: 8.1%). For 150 background errors: 1,478 comparison households from the whole pool; 1,599 without the 301; 2,028 if errors caused by the client alone do not count either.
 # - **Mismatch:** none.
-# - **Feeds:** `rq.md` Households.
+# - **Feeds:** the comparison households.
 
 # %% [markdown]
 # ### 7a. Error share by cause
@@ -753,7 +753,7 @@ comparison_size
 # - **Method:** crosstab of fact group by ACTNTYPE; shares within each action type over all five groups; gap = recertification minus certification, in points.
 # - **Result:** 440 of the 616 are recertifications (71.4%). Largest gap with four groups: earned, -8.5 points (unearned -8.4, shelter +7.6, utilities +7.5). With shelter and utilities merged: housing, +15.1 points. Empty entries are 38.6% of certification errors and 27.3% of recertification errors (11.4 points).
 # - **Mismatch:** none.
-# - **Feeds:** `rq.md` limitations (share of recertifications).
+# - **Feeds:** limitations (share of recertifications).
 # - **Open questions:** stratify by recertification.
 
 # %% [markdown]
@@ -803,7 +803,7 @@ mixes
 # - **Method:** simulated reader with recall 0.5; whole households resampled within state (2,000 resamples), the 15 states with under 10 cases pooled into one stratum; subgroups as domains; mean over 20 simulated outcome draws; weighted = FYWGT. Paired gap: recall 0.5 vs 0.6 on the same households, at within-household correlation 0 and 0.5 (an assumption).
 # - **Result:** 41 states, 15 with under 10 cases (86 households) pooled, 27 strata. Kish effective sample size under FYWGT 257.4. Half-width for recall 0.5, unweighted / weighted, in points: all 616 3.8 / 6.0; earned 6.5 / 9.6; shelter 6.9 / 10.1; unearned 8.4 / 13.5; utilities 11.6 / 17.8; outside 25.1 / 29.5; income empty 7.0 / 10.5; income wrong number 7.6 / 12.6; housing 5.9 / 8.9. 10-point paired filer gap, all 616: 5.4 / 8.4 with independent outcomes, 3.8 / 5.6 at correlation 0.5. Stratifying by state barely changes the width (3.84 vs 3.93 points unweighted).
 # - **Mismatch:** none.
-# - **Feeds:** `rq.md` Statistics.
+# - **Feeds:** interval widths.
 
 # %% [markdown]
 # ### 9a. Strata and effective sample size

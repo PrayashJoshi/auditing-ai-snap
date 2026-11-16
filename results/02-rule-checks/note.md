@@ -1,4 +1,4 @@
-# 02 Pre-experiment rule checks: note
+# 02 Rule checks: note
 
 Notebook: `notebooks/02-rule-checks.ipynb`. Sections 1 to 5.
 
@@ -48,12 +48,9 @@ Bold marks a mismatch. The rebuilt Figure 1 (`1d-figure1-rebuilt.svg`) matches t
 - **How computed:** `snapqc.review_sim`; per-state costs in `1b-reach-cost-by-state.csv`, paper-versus-run table in `1b-paper-vs-run.csv`, rebuilt Figure 2 in `1b-figure2-rebuilt.svg`, stability in `1h-stability.csv`.
 - **Mismatch causes:** not known. The mismatches are in cost ratios and in which small states favour AI only, not in reach. The two unstated choices tested in 1h do not close them: letting only above-tolerance households draw flags moves the median ratio from 8.98 to 19.97, further from the paper, and changing the category ranking leaves it at 8.98. One unverified guess: the paper reads costs off a grid of budgets. In its Figure 2 the risk-only and combined points coincide for Alabama and Mississippi, and risk only is cheaper in Nevada, while here combined is several times cheaper in all three. The lower AUC may come from the engine change (no xgboost, no row subsampling) or from the frame version.
 - **Feeds:** `rq.md` RQ2 (the baseline rule, and whether "combined beats risk score only" holds on FY2024) and RQ3 (what our rule is compared against).
-- **Options:**
-  - (a) Use `snapqc.review_sim` as the baseline, described as "rebuilt from the paper". It reproduces the paper's reach counts, not-reached sets and Figure 1.
-  - (b) Ask the author for the simulation code first, so the baseline is his code and not a rebuild.
-  - (c) Install an OpenMP runtime (or R) so the risk score uses xgboost itself, which may close the AUC gap.
+- **Outcome:** `snapqc.review_sim` is the baseline rule, described as "rebuilt from the paper". It reproduces the paper's reach counts, not-reached sets and Figure 1. The authors' simulation code was not requested (2026-11-14 15:10 entry of `sprint-log.md`), and no OpenMP runtime or R was installed, so the risk score does not use xgboost itself; that may explain the AUC gap.
 
-  The budget result in 1d bears on which budgets to test.
+The budget result in 1d bears on which budgets to test.
 
 ## 2. Risk score by error source
 

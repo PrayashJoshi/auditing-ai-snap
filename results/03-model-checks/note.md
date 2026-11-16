@@ -1,4 +1,4 @@
-# 03 Pre-experiment model checks: note
+# 03 Model checks: note
 
 Notebook: `notebooks/03-model-checks.ipynb`. Only section 1 has been run. Raw calls: `experiments/smoke/*.jsonl` (main run), `experiments/smoke/run1-short-backoff/` (first pass, kept as evidence of the rate limit), and `experiments/smoke/rate-probe/probe.jsonl` (two-key rate-limit check). Runners: `experiments/smoke/run_smoke.py` and `experiments/smoke/probe_keys.py`. Inputs: 10 hand-written toy households (`experiments/smoke/fixtures.json`, about 200 input tokens each). They are not QC records.
 
