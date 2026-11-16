@@ -1,0 +1,8 @@
+scenario,jurisdictions_affected_53,states_dc_affected_51,annual_cost_53_usd_b,annual_cost_51_usd_b,notes
+Primary baseline: FY2025 PER persistence (Sec. 10105 benefit only),43,42,11.11,11.09,Evaluated on closed FY2025 issuance ($95.76B total) & June 2026 PER release.
+Immediate FY2028 wave (6% <= PER < 13.33%),36,35,9.388,9.368,"Begins Oct 1, 2027 (FY2028) assuming FY2025 PER is elected or persists."
+"Deferred FY2029 wave (1.5 * PER >= 20%, i.e. PER >= 13.33%)",7,7,1.722,1.722,"AK, DC, NM, DE, GA, IL, OR deferred 1 year under Sec. 10105(a)(2)(B)(iii)."
+"Sec. 10106 Admin Match Cut (FY2027+, 50% -> 25% Fed share)",53,51,2.602,2.598,Hits all 53 jurisdictions (+25 pp admin match) using FY2023 non-ARPA Table 8 baseline.
+Combined steady-state annual shift (Sec. 10105 FY25 + Sec. 10106),53,51,13.711,13.688,Full phased-in annual budget burden once FY2029 deferrals expire.
+Sensitivity: 3-year mean PER (FY2023-FY2025) benefit share only,46,44,11.938,11.915,Confirms FY2025 baseline ($11.11B) is conservative vs. 3-year average ($11.94B).
+Sensitivity: FY2024 PER applied to FY2025 benefits (benefit only),44,43,11.803,11.79,Shows 1-year prior error distribution would yield $11.80B benefit liability.
