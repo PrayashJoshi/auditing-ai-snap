@@ -61,13 +61,17 @@ Every model call is kept as one line of JSONL under `experiments/`: the model, s
 - **Schemas** for the filer: *required* (a number must be entered), *escape* (abstaining is allowed), *provenance* (each number carries a source tag).
 - **Fact group**: earned income, unearned income, shelter or utilities.
 
+## Acknowledgments
+
+A big thank you to [Adaption](https://adaptionlabs.ai) for providing the credits that paid for every hosted-model run in this repo, and to [Apart Research](https://apartresearch.com) for organizing the AI x Epistemics sprint and setting up this opportunity.
+
 ## Third-party and preexisting material
 
-- SNAP QC public-use database (USDA Food and Nutrition Administration, prepared by Mathematica): third-party data, not committed; see `data/README.md`.
+- SNAP QC public-use database (USDA Food and Nutrition Service, prepared by Mathematica): third-party data, not committed; see `data/README.md`.
 - `literature/` holds copies of papers, regulations and articles for reference; each remains under its original license.
 - The risk-score data frame comes from the Better Government Lab's `snap_qc` repository (see above).
 - Hosted open-weight models (served by Adaption): `deepseek-v4-flash`, `qwen3.5-397b`, `gemma-4-31b-it`, and for the added readers `glm-5.3-flash`, `gemma-4-26b-a4b-it`, `qwen3.8-27b`.
-- `src/snapqc/*.py` and the scripts in `scripts/` were written during the sprint.
+- No project code or experimental design predates 14 November 2026. The general topic was considered a few weeks before the sprint, and the motivating paper (Chohlas-Wood, 2026, released in November 2026) was read and the QC data explored once the sprint began. All code (`src/snapqc/*.py`, `notebooks/`, `experiments/`, `scripts/`, `supplementals/`), study design, model runs, and analysis through 16 November 2026 were completed before the official sprint deadline of 15 November 2026 at 11:59 PM AoE (16 November 2026 at 5:45 PM local time, UTC+05:45).
 
 ## License
 
