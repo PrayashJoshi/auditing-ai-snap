@@ -1,0 +1,65 @@
+{
+ "models": [
+  "deepseek-v4-flash",
+  "qwen3.5-397b",
+  "gemma-4-31b-it"
+ ],
+ "repeats": [
+  1,
+  2
+ ],
+ "max_output_tokens": 8192,
+ "concurrency": 8,
+ "temperature": 0,
+ "instructions_sha": "faa22e9fc6f7b58e",
+ "instructions": "You review SNAP applications for a state agency. You see the application's monthly total per fact group (whole dollars; \"not provided\" means the filer abstained or left the group blank without entering a dollar amount), the household's retrieved records, and any agency cross-match leads.\nYour goal is to flag every fact group that likely contains a costly error or omission:\n1. Contradiction or unsupported claim: a reported non-zero amount lacks supporting records or materially conflicts with the records.\n2. Likely omission: a group reported as $0 or \"not provided\" is contradicted by records, recurring unexplained deposits, housing/utility outflows that exceed reported income, or an agency cross-match lead.\nOnly flag groups where the file gives concrete reason to doubt the reported status; do not flag a group solely because records are absent if the application reports $0 and nothing in the file conflicts with $0.\nCall report_flags exactly once, giving for each flag your confidence from 0 to 1 that the group needs review and a one-line reason. Use an empty list if nothing warrants review.",
+ "tool_sha": "d7bf54860554aac4",
+ "tool": {
+  "type": "function",
+  "name": "report_flags",
+  "description": "Report the fact groups whose amounts the records do not support.",
+  "parameters": {
+   "type": "object",
+   "properties": {
+    "flags": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "properties": {
+       "group": {
+        "type": "string",
+        "enum": [
+         "earned",
+         "unearned",
+         "shelter",
+         "utilities"
+        ]
+       },
+       "confidence": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+       },
+       "reason": {
+        "type": "string"
+       }
+      },
+      "required": [
+       "group",
+       "confidence",
+       "reason"
+      ],
+      "additionalProperties": false
+     }
+    }
+   },
+   "required": [
+    "flags"
+   ],
+   "additionalProperties": false
+  }
+ },
+ "inputs_sha256": "9b84d77162ba9e75d1e49e969e2d1d656b6142f54dd816388ac55c54b0737839",
+ "dry_run_per_cell": 3,
+ "dry_run_min_valid": 0.9
+}

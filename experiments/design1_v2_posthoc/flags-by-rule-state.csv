@@ -1,0 +1,19 @@
+scope,reader,rule_fires_k,rule_fires_n,rule_silent_k,rule_silent_n,fisher_p
+omission and zero_rent pooled,deepseek-v4-flash,0,18,0,51,1.0
+omission and zero_rent pooled,qwen3.5-397b,1,19,0,53,0.2638888888888889
+omission and zero_rent pooled,gemma-4-31b-it,6,19,0,52,0.0001894441393212084
+omission and zero_rent pooled,glm-5.3-flash,12,14,0,53,1.5174349243717097e-11
+omission and zero_rent pooled,gemma-4-26b-a4b-it,2,19,8,53,1.0
+omission and zero_rent pooled,qwen3.8-27b,2,19,0,53,0.06690140845070423
+omission,deepseek-v4-flash,0,11,0,13,1.0
+omission,qwen3.5-397b,1,11,0,13,0.4583333333333333
+omission,gemma-4-31b-it,4,11,0,13,0.031055900621118012
+omission,glm-5.3-flash,9,10,0,13,1.2237056253747598e-05
+omission,gemma-4-26b-a4b-it,1,11,1,13,1.0
+omission,qwen3.8-27b,2,11,0,13,0.19927536231884058
+zero_rent,deepseek-v4-flash,0,7,0,38,1.0
+zero_rent,qwen3.5-397b,0,8,0,40,1.0
+zero_rent,gemma-4-31b-it,2,8,0,39,0.02590194264569843
+zero_rent,glm-5.3-flash,3,4,0,40,0.00030202355783751127
+zero_rent,gemma-4-26b-a4b-it,1,8,7,40,1.0
+zero_rent,qwen3.8-27b,0,8,0,40,1.0

@@ -1,0 +1,9 @@
+reader,flag_kind,size,mean,min,max
+deepseek-v4-flash,other_income,8,0.775,0.4,0.9
+deepseek-v4-flash,target,46,0.8547826086956521,0.6,0.98
+deepseek-v4-flash,twin_income,4,0.575,0.5,0.6
+qwen3.5-397b,non_income,13,0.6269230769230769,0.5,0.7
+qwen3.5-397b,other_income,8,0.7625,0.4,0.9
+qwen3.5-397b,target,46,0.875,0.35,0.95
+qwen3.5-397b,twin_income,5,0.6,0.35,0.75
+qwen3.5-397b,twin_non_income,10,0.625,0.5,0.9

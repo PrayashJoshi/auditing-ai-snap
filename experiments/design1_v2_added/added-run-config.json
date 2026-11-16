@@ -1,0 +1,31 @@
+{
+ "stage": "main",
+ "models": [
+  "glm-5.3-flash",
+  "gemma-4-26b-a4b-it",
+  "qwen3.8-27b"
+ ],
+ "repeats_per_model": {
+  "glm-5.3-flash": [
+   1,
+   2
+  ],
+  "gemma-4-26b-a4b-it": [
+   1,
+   2
+  ],
+  "qwen3.8-27b": [
+   1
+  ]
+ },
+ "tag": "design1v2added",
+ "max_output_tokens": 8192,
+ "concurrency": 8,
+ "temperature": 0,
+ "instructions_sha": "faa22e9fc6f7b58e",
+ "tool_sha": "d7bf54860554aac4",
+ "inputs_sha256": "9b84d77162ba9e75d1e49e969e2d1d656b6142f54dd816388ac55c54b0737839",
+ "runner_sha256": "d8955e59c46c6b51e8847aa66d4084d6c41962b1bd8420dcbcede1349c5a40f9",
+ "frozen_runner_sha256": "2432b253a1c2283677772946d872bc27e9f9dbf6d6d396b12cf7f8921c2f42b5",
+ "min_valid_frozen24": 22
+}

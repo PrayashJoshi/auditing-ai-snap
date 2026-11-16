@@ -1,0 +1,11 @@
+hypothesis,reader,estimate,lo,hi,rule,holds,target_rate_beside,status
+reader hypothesis 1,glm-5.3-flash,0.3231225296442688,0.11862488659343756,0.5288820316795133,95% interval of hit rate at none minus false-flag rate on rent true zeros includes 0,False,,exploratory
+reader hypothesis 1,gemma-4-26b-a4b-it,-0.08333333333333333,-0.22577905055421416,0.10910650946654972,95% interval of hit rate at none minus false-flag rate on rent true zeros includes 0,True,,exploratory
+reader hypothesis 1,qwen3.8-27b,0.08333333333333333,-0.012122425201368067,0.25848802193210685,95% interval of hit rate at none minus false-flag rate on rent true zeros includes 0,True,,exploratory
+reader hypothesis 2,glm-5.3-flash,1.0,0.8620237953250198,1.0,hit rate at lead >= 0.90,True,,exploratory
+reader hypothesis 2,gemma-4-26b-a4b-it,1.0,0.8620237953250198,1.0,hit rate at lead >= 0.90,True,,exploratory
+reader hypothesis 2,qwen3.8-27b,1.0,0.8620237953250198,1.0,hit rate at lead >= 0.90,True,,exploratory
+reader hypothesis 3 (per reader),glm-5.3-flash,0.7111111111111111,0.5663145942523844,0.8226991751715074,"income-group false-flag rate on stray-credit true zeros, ambiguous label, >= 0.20",True,0.6,exploratory
+reader hypothesis 3 (per reader),gemma-4-26b-a4b-it,0.7083333333333334,0.5682074019042831,0.8175842107348348,"income-group false-flag rate on stray-credit true zeros, ambiguous label, >= 0.20",True,0.4583333333333333,exploratory
+reader hypothesis 3 (per reader),qwen3.8-27b,0.125,0.058570514385719794,0.24700458286386834,"income-group false-flag rate on stray-credit true zeros, ambiguous label, >= 0.20",False,0.10416666666666667,exploratory
+reader hypothesis 3,2 of 3,2.0,,,at least 2 readers meet the per-reader rule,True,,exploratory

@@ -1,0 +1,577 @@
+reader,input_id,row,target_group,trace_level,level_num,state,is_omission,marker,l3_clarity,valid,flagged,n_flags,exact_target_hit,any_income_hit,twin_any_flag,twin_income_flag,reasons,confidences
+frozen_checker,5744|none|omission_zero,5744,earned,none,1,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,5744|none|omission_zero,5744,earned,none,1,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+frozen_checker,5744|none|omission_not_provided,5744,earned,none,1,omission_not_provided,True,not_provided,clear,True,['earned'],1,1.0,1.0,,,earned: no document,{}
+checker_plus_2_rules,5744|none|omission_not_provided,5744,earned,none,1,omission_not_provided,True,not_provided,clear,True,['earned'],1,1.0,1.0,,,earned: no document,{}
+frozen_checker,5744|none|truthful_twin,5744,earned,none,1,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,5744|none|truthful_twin,5744,earned,none,1,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+frozen_checker,5744|budget_gap|omission_zero,5744,earned,budget_gap,2,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,5744|budget_gap|omission_zero,5744,earned,budget_gap,2,omission_zero,True,$0,clear,True,['earned'],1,1.0,1.0,,,"earned: Rule A (budget gap): observed housing $1,101.82 > reported income $100",{}
+frozen_checker,5744|budget_gap|omission_not_provided,5744,earned,budget_gap,2,omission_not_provided,True,not_provided,clear,True,['earned'],1,1.0,1.0,,,earned: no document,{}
+checker_plus_2_rules,5744|budget_gap|omission_not_provided,5744,earned,budget_gap,2,omission_not_provided,True,not_provided,clear,True,['earned'],1,1.0,1.0,,,"earned: no document; Rule A (budget gap): observed housing $1,101.82 > reported income $100",{}
+frozen_checker,5744|budget_gap|truthful_twin,5744,earned,budget_gap,2,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,5744|budget_gap|truthful_twin,5744,earned,budget_gap,2,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+frozen_checker,5744|net_deposits|omission_zero,5744,earned,net_deposits,3,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,5744|net_deposits|omission_zero,5744,earned,net_deposits,3,omission_zero,True,$0,clear,True,['earned'],1,1.0,1.0,,,"earned: Rule B (deposits): >=2 unmatched credit txns >$50 (PAYROLL DEP CEDAR HILL SCHOOL DISTRICT, PAYROLL DEP NORTHSIDE LOGISTICS)",{}
+frozen_checker,5744|net_deposits|omission_not_provided,5744,earned,net_deposits,3,omission_not_provided,True,not_provided,clear,True,['earned'],1,1.0,1.0,,,earned: no document,{}
+checker_plus_2_rules,5744|net_deposits|omission_not_provided,5744,earned,net_deposits,3,omission_not_provided,True,not_provided,clear,True,['earned'],1,1.0,1.0,,,"earned: no document; Rule B (deposits): >=2 unmatched credit txns >$50 (PAYROLL DEP CEDAR HILL SCHOOL DISTRICT, PAYROLL DEP NORTHSIDE LOGISTICS)",{}
+frozen_checker,5744|net_deposits|truthful_twin,5744,earned,net_deposits,3,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,5744|net_deposits|truthful_twin,5744,earned,net_deposits,3,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+frozen_checker,5744|wage_match|omission_zero,5744,earned,wage_match,4,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,5744|wage_match|omission_zero,5744,earned,wage_match,4,omission_zero,True,$0,clear,True,['earned'],1,1.0,1.0,,,earned: Rule B (lead): unmatched IEVS wage lead,{}
+frozen_checker,5744|wage_match|omission_not_provided,5744,earned,wage_match,4,omission_not_provided,True,not_provided,clear,True,['earned'],1,1.0,1.0,,,earned: no document,{}
+checker_plus_2_rules,5744|wage_match|omission_not_provided,5744,earned,wage_match,4,omission_not_provided,True,not_provided,clear,True,['earned'],1,1.0,1.0,,,earned: no document; Rule B (lead): unmatched IEVS wage lead,{}
+frozen_checker,5744|wage_match|truthful_twin,5744,earned,wage_match,4,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,5744|wage_match|truthful_twin,5744,earned,wage_match,4,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+frozen_checker,14542|none|omission_zero,14542,earned,none,1,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,14542|none|omission_zero,14542,earned,none,1,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+frozen_checker,14542|none|omission_not_provided,14542,earned,none,1,omission_not_provided,True,not_provided,clear,True,['earned'],1,1.0,1.0,,,earned: no document,{}
+checker_plus_2_rules,14542|none|omission_not_provided,14542,earned,none,1,omission_not_provided,True,not_provided,clear,True,['earned'],1,1.0,1.0,,,earned: no document,{}
+frozen_checker,14542|none|truthful_twin,14542,earned,none,1,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,14542|none|truthful_twin,14542,earned,none,1,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+frozen_checker,14542|budget_gap|omission_zero,14542,earned,budget_gap,2,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,14542|budget_gap|omission_zero,14542,earned,budget_gap,2,omission_zero,True,$0,clear,True,"['earned', 'unearned']",2,1.0,1.0,,,"earned: Rule A (budget gap): observed housing $1,419.06 > reported income $0; unearned: Rule A (budget gap): observed housing $1,419.06 > reported income $0",{}
+frozen_checker,14542|budget_gap|omission_not_provided,14542,earned,budget_gap,2,omission_not_provided,True,not_provided,clear,True,['earned'],1,1.0,1.0,,,earned: no document,{}
+checker_plus_2_rules,14542|budget_gap|omission_not_provided,14542,earned,budget_gap,2,omission_not_provided,True,not_provided,clear,True,"['earned', 'unearned']",2,1.0,1.0,,,"earned: no document; Rule A (budget gap): observed housing $1,419.06 > reported income $0; unearned: Rule A (budget gap): observed housing $1,419.06 > reported income $0",{}
+frozen_checker,14542|budget_gap|truthful_twin,14542,earned,budget_gap,2,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,14542|budget_gap|truthful_twin,14542,earned,budget_gap,2,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+frozen_checker,14542|net_deposits|omission_zero,14542,earned,net_deposits,3,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,14542|net_deposits|omission_zero,14542,earned,net_deposits,3,omission_zero,True,$0,clear,True,"['earned', 'unearned']",2,1.0,1.0,,,earned: Rule B (deposits): >=2 unmatched credit txns >$50 (PAYROLL DEP HARBOR VIEW CARE CENTER); unearned: Rule B (deposits): >=2 unmatched credit txns >$50 (PAYROLL DEP HARBOR VIEW CARE CENTER),{}
+frozen_checker,14542|net_deposits|omission_not_provided,14542,earned,net_deposits,3,omission_not_provided,True,not_provided,clear,True,['earned'],1,1.0,1.0,,,earned: no document,{}
+checker_plus_2_rules,14542|net_deposits|omission_not_provided,14542,earned,net_deposits,3,omission_not_provided,True,not_provided,clear,True,"['earned', 'unearned']",2,1.0,1.0,,,earned: no document; Rule B (deposits): >=2 unmatched credit txns >$50 (PAYROLL DEP HARBOR VIEW CARE CENTER); unearned: Rule B (deposits): >=2 unmatched credit txns >$50 (PAYROLL DEP HARBOR VIEW CARE CENTER),{}
+frozen_checker,14542|net_deposits|truthful_twin,14542,earned,net_deposits,3,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,14542|net_deposits|truthful_twin,14542,earned,net_deposits,3,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+frozen_checker,14542|wage_match|omission_zero,14542,earned,wage_match,4,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,14542|wage_match|omission_zero,14542,earned,wage_match,4,omission_zero,True,$0,clear,True,['earned'],1,1.0,1.0,,,earned: Rule B (lead): unmatched IEVS wage lead,{}
+frozen_checker,14542|wage_match|omission_not_provided,14542,earned,wage_match,4,omission_not_provided,True,not_provided,clear,True,['earned'],1,1.0,1.0,,,earned: no document,{}
+checker_plus_2_rules,14542|wage_match|omission_not_provided,14542,earned,wage_match,4,omission_not_provided,True,not_provided,clear,True,['earned'],1,1.0,1.0,,,earned: no document; Rule B (lead): unmatched IEVS wage lead,{}
+frozen_checker,14542|wage_match|truthful_twin,14542,earned,wage_match,4,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,14542|wage_match|truthful_twin,14542,earned,wage_match,4,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+frozen_checker,28402|none|omission_zero,28402,earned,none,1,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,28402|none|omission_zero,28402,earned,none,1,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+frozen_checker,28402|none|omission_not_provided,28402,earned,none,1,omission_not_provided,True,not_provided,clear,True,['earned'],1,1.0,1.0,,,earned: no document,{}
+checker_plus_2_rules,28402|none|omission_not_provided,28402,earned,none,1,omission_not_provided,True,not_provided,clear,True,['earned'],1,1.0,1.0,,,earned: no document,{}
+frozen_checker,28402|none|truthful_twin,28402,earned,none,1,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,28402|none|truthful_twin,28402,earned,none,1,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+frozen_checker,28402|budget_gap|omission_zero,28402,earned,budget_gap,2,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,28402|budget_gap|omission_zero,28402,earned,budget_gap,2,omission_zero,True,$0,clear,True,['earned'],1,1.0,1.0,,,earned: Rule A (budget gap): observed housing $800.00 > reported income $664,{}
+frozen_checker,28402|budget_gap|omission_not_provided,28402,earned,budget_gap,2,omission_not_provided,True,not_provided,clear,True,['earned'],1,1.0,1.0,,,earned: no document,{}
+checker_plus_2_rules,28402|budget_gap|omission_not_provided,28402,earned,budget_gap,2,omission_not_provided,True,not_provided,clear,True,['earned'],1,1.0,1.0,,,earned: no document; Rule A (budget gap): observed housing $800.00 > reported income $664,{}
+frozen_checker,28402|budget_gap|truthful_twin,28402,earned,budget_gap,2,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,28402|budget_gap|truthful_twin,28402,earned,budget_gap,2,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+frozen_checker,28402|net_deposits|omission_zero,28402,earned,net_deposits,3,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,28402|net_deposits|omission_zero,28402,earned,net_deposits,3,omission_zero,True,$0,clear,True,['earned'],1,1.0,1.0,,,earned: Rule B (deposits): >=2 unmatched credit txns >$50 (PAYROLL DEP PINECREST WAREHOUSE),{}
+frozen_checker,28402|net_deposits|omission_not_provided,28402,earned,net_deposits,3,omission_not_provided,True,not_provided,clear,True,['earned'],1,1.0,1.0,,,earned: no document,{}
+checker_plus_2_rules,28402|net_deposits|omission_not_provided,28402,earned,net_deposits,3,omission_not_provided,True,not_provided,clear,True,['earned'],1,1.0,1.0,,,earned: no document; Rule B (deposits): >=2 unmatched credit txns >$50 (PAYROLL DEP PINECREST WAREHOUSE),{}
+frozen_checker,28402|net_deposits|truthful_twin,28402,earned,net_deposits,3,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,28402|net_deposits|truthful_twin,28402,earned,net_deposits,3,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+frozen_checker,28402|wage_match|omission_zero,28402,earned,wage_match,4,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,28402|wage_match|omission_zero,28402,earned,wage_match,4,omission_zero,True,$0,clear,True,['earned'],1,1.0,1.0,,,earned: Rule B (lead): unmatched IEVS wage lead,{}
+frozen_checker,28402|wage_match|omission_not_provided,28402,earned,wage_match,4,omission_not_provided,True,not_provided,clear,True,['earned'],1,1.0,1.0,,,earned: no document,{}
+checker_plus_2_rules,28402|wage_match|omission_not_provided,28402,earned,wage_match,4,omission_not_provided,True,not_provided,clear,True,['earned'],1,1.0,1.0,,,earned: no document; Rule B (lead): unmatched IEVS wage lead,{}
+frozen_checker,28402|wage_match|truthful_twin,28402,earned,wage_match,4,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,28402|wage_match|truthful_twin,28402,earned,wage_match,4,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+frozen_checker,42865|none|omission_zero,42865,earned,none,1,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,42865|none|omission_zero,42865,earned,none,1,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+frozen_checker,42865|none|omission_not_provided,42865,earned,none,1,omission_not_provided,True,not_provided,ambiguous,True,['earned'],1,1.0,1.0,,,earned: no document,{}
+checker_plus_2_rules,42865|none|omission_not_provided,42865,earned,none,1,omission_not_provided,True,not_provided,ambiguous,True,['earned'],1,1.0,1.0,,,earned: no document,{}
+frozen_checker,42865|none|truthful_twin,42865,earned,none,1,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,42865|none|truthful_twin,42865,earned,none,1,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+frozen_checker,42865|budget_gap|omission_zero,42865,earned,budget_gap,2,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,42865|budget_gap|omission_zero,42865,earned,budget_gap,2,omission_zero,True,$0,ambiguous,True,"['earned', 'unearned']",2,1.0,1.0,,,earned: Rule A (budget gap): observed housing $783.29 > reported income $0; unearned: Rule A (budget gap): observed housing $783.29 > reported income $0,{}
+frozen_checker,42865|budget_gap|omission_not_provided,42865,earned,budget_gap,2,omission_not_provided,True,not_provided,ambiguous,True,['earned'],1,1.0,1.0,,,earned: no document,{}
+checker_plus_2_rules,42865|budget_gap|omission_not_provided,42865,earned,budget_gap,2,omission_not_provided,True,not_provided,ambiguous,True,"['earned', 'unearned']",2,1.0,1.0,,,earned: no document; Rule A (budget gap): observed housing $783.29 > reported income $0; unearned: Rule A (budget gap): observed housing $783.29 > reported income $0,{}
+frozen_checker,42865|budget_gap|truthful_twin,42865,earned,budget_gap,2,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,42865|budget_gap|truthful_twin,42865,earned,budget_gap,2,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+frozen_checker,42865|net_deposits|omission_zero,42865,earned,net_deposits,3,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,42865|net_deposits|omission_zero,42865,earned,net_deposits,3,omission_zero,True,$0,ambiguous,True,"['earned', 'unearned']",2,1.0,1.0,,,earned: Rule B (deposits): >=2 unmatched credit txns >$50 (ACH CREDIT ELECTRONIC DEPOSIT); unearned: Rule B (deposits): >=2 unmatched credit txns >$50 (ACH CREDIT ELECTRONIC DEPOSIT),{}
+frozen_checker,42865|net_deposits|omission_not_provided,42865,earned,net_deposits,3,omission_not_provided,True,not_provided,ambiguous,True,['earned'],1,1.0,1.0,,,earned: no document,{}
+checker_plus_2_rules,42865|net_deposits|omission_not_provided,42865,earned,net_deposits,3,omission_not_provided,True,not_provided,ambiguous,True,"['earned', 'unearned']",2,1.0,1.0,,,earned: no document; Rule B (deposits): >=2 unmatched credit txns >$50 (ACH CREDIT ELECTRONIC DEPOSIT); unearned: Rule B (deposits): >=2 unmatched credit txns >$50 (ACH CREDIT ELECTRONIC DEPOSIT),{}
+frozen_checker,42865|net_deposits|truthful_twin,42865,earned,net_deposits,3,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,42865|net_deposits|truthful_twin,42865,earned,net_deposits,3,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+frozen_checker,42865|wage_match|omission_zero,42865,earned,wage_match,4,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,42865|wage_match|omission_zero,42865,earned,wage_match,4,omission_zero,True,$0,ambiguous,True,['earned'],1,1.0,1.0,,,earned: Rule B (lead): unmatched IEVS wage lead,{}
+frozen_checker,42865|wage_match|omission_not_provided,42865,earned,wage_match,4,omission_not_provided,True,not_provided,ambiguous,True,['earned'],1,1.0,1.0,,,earned: no document,{}
+checker_plus_2_rules,42865|wage_match|omission_not_provided,42865,earned,wage_match,4,omission_not_provided,True,not_provided,ambiguous,True,['earned'],1,1.0,1.0,,,earned: no document; Rule B (lead): unmatched IEVS wage lead,{}
+frozen_checker,42865|wage_match|truthful_twin,42865,earned,wage_match,4,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,42865|wage_match|truthful_twin,42865,earned,wage_match,4,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+frozen_checker,42777|none|omission_zero,42777,earned,none,1,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,42777|none|omission_zero,42777,earned,none,1,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+frozen_checker,42777|none|omission_not_provided,42777,earned,none,1,omission_not_provided,True,not_provided,ambiguous,True,['earned'],1,1.0,1.0,,,earned: no document,{}
+checker_plus_2_rules,42777|none|omission_not_provided,42777,earned,none,1,omission_not_provided,True,not_provided,ambiguous,True,['earned'],1,1.0,1.0,,,earned: no document,{}
+frozen_checker,42777|none|truthful_twin,42777,earned,none,1,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,42777|none|truthful_twin,42777,earned,none,1,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+frozen_checker,42777|budget_gap|omission_zero,42777,earned,budget_gap,2,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,42777|budget_gap|omission_zero,42777,earned,budget_gap,2,omission_zero,True,$0,ambiguous,True,['earned'],1,1.0,1.0,,,"earned: Rule A (budget gap): observed housing $1,756.06 > reported income $1,061",{}
+frozen_checker,42777|budget_gap|omission_not_provided,42777,earned,budget_gap,2,omission_not_provided,True,not_provided,ambiguous,True,['earned'],1,1.0,1.0,,,earned: no document,{}
+checker_plus_2_rules,42777|budget_gap|omission_not_provided,42777,earned,budget_gap,2,omission_not_provided,True,not_provided,ambiguous,True,['earned'],1,1.0,1.0,,,"earned: no document; Rule A (budget gap): observed housing $1,756.06 > reported income $1,061",{}
+frozen_checker,42777|budget_gap|truthful_twin,42777,earned,budget_gap,2,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,42777|budget_gap|truthful_twin,42777,earned,budget_gap,2,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+frozen_checker,42777|net_deposits|omission_zero,42777,earned,net_deposits,3,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,42777|net_deposits|omission_zero,42777,earned,net_deposits,3,omission_zero,True,$0,ambiguous,True,['earned'],1,1.0,1.0,,,earned: Rule B (deposits): >=2 unmatched credit txns >$50 (ACH CREDIT ELECTRONIC DEPOSIT),{}
+frozen_checker,42777|net_deposits|omission_not_provided,42777,earned,net_deposits,3,omission_not_provided,True,not_provided,ambiguous,True,['earned'],1,1.0,1.0,,,earned: no document,{}
+checker_plus_2_rules,42777|net_deposits|omission_not_provided,42777,earned,net_deposits,3,omission_not_provided,True,not_provided,ambiguous,True,['earned'],1,1.0,1.0,,,earned: no document; Rule B (deposits): >=2 unmatched credit txns >$50 (ACH CREDIT ELECTRONIC DEPOSIT),{}
+frozen_checker,42777|net_deposits|truthful_twin,42777,earned,net_deposits,3,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,42777|net_deposits|truthful_twin,42777,earned,net_deposits,3,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+frozen_checker,42777|wage_match|omission_zero,42777,earned,wage_match,4,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,42777|wage_match|omission_zero,42777,earned,wage_match,4,omission_zero,True,$0,ambiguous,True,['earned'],1,1.0,1.0,,,earned: Rule B (lead): unmatched IEVS wage lead,{}
+frozen_checker,42777|wage_match|omission_not_provided,42777,earned,wage_match,4,omission_not_provided,True,not_provided,ambiguous,True,['earned'],1,1.0,1.0,,,earned: no document,{}
+checker_plus_2_rules,42777|wage_match|omission_not_provided,42777,earned,wage_match,4,omission_not_provided,True,not_provided,ambiguous,True,['earned'],1,1.0,1.0,,,earned: no document; Rule B (lead): unmatched IEVS wage lead,{}
+frozen_checker,42777|wage_match|truthful_twin,42777,earned,wage_match,4,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,42777|wage_match|truthful_twin,42777,earned,wage_match,4,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+frozen_checker,28066|none|omission_zero,28066,unearned,none,1,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,28066|none|omission_zero,28066,unearned,none,1,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+frozen_checker,28066|none|omission_not_provided,28066,unearned,none,1,omission_not_provided,True,not_provided,clear,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+checker_plus_2_rules,28066|none|omission_not_provided,28066,unearned,none,1,omission_not_provided,True,not_provided,clear,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+frozen_checker,28066|none|truthful_twin,28066,unearned,none,1,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,28066|none|truthful_twin,28066,unearned,none,1,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+frozen_checker,28066|budget_gap|omission_zero,28066,unearned,budget_gap,2,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,28066|budget_gap|omission_zero,28066,unearned,budget_gap,2,omission_zero,True,$0,clear,True,['unearned'],1,1.0,1.0,,,unearned: Rule A (budget gap): observed housing $650.00 > reported income $382,{}
+frozen_checker,28066|budget_gap|omission_not_provided,28066,unearned,budget_gap,2,omission_not_provided,True,not_provided,clear,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+checker_plus_2_rules,28066|budget_gap|omission_not_provided,28066,unearned,budget_gap,2,omission_not_provided,True,not_provided,clear,True,['unearned'],1,1.0,1.0,,,unearned: no document; Rule A (budget gap): observed housing $650.00 > reported income $382,{}
+frozen_checker,28066|budget_gap|truthful_twin,28066,unearned,budget_gap,2,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,28066|budget_gap|truthful_twin,28066,unearned,budget_gap,2,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+frozen_checker,28066|net_deposits|omission_zero,28066,unearned,net_deposits,3,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,28066|net_deposits|omission_zero,28066,unearned,net_deposits,3,omission_zero,True,$0,clear,True,['unearned'],1,1.0,1.0,,,unearned: Rule B (deposits): >=2 unmatched credit txns >$50 (SSI BENEFIT SSA),{}
+frozen_checker,28066|net_deposits|omission_not_provided,28066,unearned,net_deposits,3,omission_not_provided,True,not_provided,clear,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+checker_plus_2_rules,28066|net_deposits|omission_not_provided,28066,unearned,net_deposits,3,omission_not_provided,True,not_provided,clear,True,['unearned'],1,1.0,1.0,,,unearned: no document; Rule B (deposits): >=2 unmatched credit txns >$50 (SSI BENEFIT SSA),{}
+frozen_checker,28066|net_deposits|truthful_twin,28066,unearned,net_deposits,3,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,28066|net_deposits|truthful_twin,28066,unearned,net_deposits,3,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+frozen_checker,28066|wage_match|omission_zero,28066,unearned,wage_match,4,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,28066|wage_match|omission_zero,28066,unearned,wage_match,4,omission_zero,True,$0,clear,True,['unearned'],1,1.0,1.0,,,unearned: Rule B (lead): unmatched IEVS/SSA benefit lead,{}
+frozen_checker,28066|wage_match|omission_not_provided,28066,unearned,wage_match,4,omission_not_provided,True,not_provided,clear,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+checker_plus_2_rules,28066|wage_match|omission_not_provided,28066,unearned,wage_match,4,omission_not_provided,True,not_provided,clear,True,['unearned'],1,1.0,1.0,,,unearned: no document; Rule B (lead): unmatched IEVS/SSA benefit lead,{}
+frozen_checker,28066|wage_match|truthful_twin,28066,unearned,wage_match,4,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,28066|wage_match|truthful_twin,28066,unearned,wage_match,4,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+frozen_checker,30966|none|omission_zero,30966,unearned,none,1,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,30966|none|omission_zero,30966,unearned,none,1,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+frozen_checker,30966|none|omission_not_provided,30966,unearned,none,1,omission_not_provided,True,not_provided,clear,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+checker_plus_2_rules,30966|none|omission_not_provided,30966,unearned,none,1,omission_not_provided,True,not_provided,clear,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+frozen_checker,30966|none|truthful_twin,30966,unearned,none,1,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,30966|none|truthful_twin,30966,unearned,none,1,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+frozen_checker,30966|budget_gap|omission_zero,30966,unearned,budget_gap,2,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,30966|budget_gap|omission_zero,30966,unearned,budget_gap,2,omission_zero,True,$0,clear,True,"['earned', 'unearned']",2,1.0,1.0,,,earned: Rule A (budget gap): observed housing $618.09 > reported income $0; unearned: Rule A (budget gap): observed housing $618.09 > reported income $0,{}
+frozen_checker,30966|budget_gap|omission_not_provided,30966,unearned,budget_gap,2,omission_not_provided,True,not_provided,clear,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+checker_plus_2_rules,30966|budget_gap|omission_not_provided,30966,unearned,budget_gap,2,omission_not_provided,True,not_provided,clear,True,"['earned', 'unearned']",2,1.0,1.0,,,unearned: no document; Rule A (budget gap): observed housing $618.09 > reported income $0; earned: Rule A (budget gap): observed housing $618.09 > reported income $0,{}
+frozen_checker,30966|budget_gap|truthful_twin,30966,unearned,budget_gap,2,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,30966|budget_gap|truthful_twin,30966,unearned,budget_gap,2,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+frozen_checker,30966|net_deposits|omission_zero,30966,unearned,net_deposits,3,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,30966|net_deposits|omission_zero,30966,unearned,net_deposits,3,omission_zero,True,$0,clear,True,"['earned', 'unearned']",2,1.0,1.0,,,earned: Rule B (deposits): >=2 unmatched credit txns >$50 (SOC SEC BENEFIT SSA); unearned: Rule B (deposits): >=2 unmatched credit txns >$50 (SOC SEC BENEFIT SSA),{}
+frozen_checker,30966|net_deposits|omission_not_provided,30966,unearned,net_deposits,3,omission_not_provided,True,not_provided,clear,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+checker_plus_2_rules,30966|net_deposits|omission_not_provided,30966,unearned,net_deposits,3,omission_not_provided,True,not_provided,clear,True,"['earned', 'unearned']",2,1.0,1.0,,,unearned: no document; Rule B (deposits): >=2 unmatched credit txns >$50 (SOC SEC BENEFIT SSA); earned: Rule B (deposits): >=2 unmatched credit txns >$50 (SOC SEC BENEFIT SSA),{}
+frozen_checker,30966|net_deposits|truthful_twin,30966,unearned,net_deposits,3,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,30966|net_deposits|truthful_twin,30966,unearned,net_deposits,3,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+frozen_checker,30966|wage_match|omission_zero,30966,unearned,wage_match,4,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,30966|wage_match|omission_zero,30966,unearned,wage_match,4,omission_zero,True,$0,clear,True,['unearned'],1,1.0,1.0,,,unearned: Rule B (lead): unmatched IEVS/SSA benefit lead,{}
+frozen_checker,30966|wage_match|omission_not_provided,30966,unearned,wage_match,4,omission_not_provided,True,not_provided,clear,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+checker_plus_2_rules,30966|wage_match|omission_not_provided,30966,unearned,wage_match,4,omission_not_provided,True,not_provided,clear,True,['unearned'],1,1.0,1.0,,,unearned: no document; Rule B (lead): unmatched IEVS/SSA benefit lead,{}
+frozen_checker,30966|wage_match|truthful_twin,30966,unearned,wage_match,4,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,30966|wage_match|truthful_twin,30966,unearned,wage_match,4,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+frozen_checker,21739|none|omission_zero,21739,unearned,none,1,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,21739|none|omission_zero,21739,unearned,none,1,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+frozen_checker,21739|none|omission_not_provided,21739,unearned,none,1,omission_not_provided,True,not_provided,clear,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+checker_plus_2_rules,21739|none|omission_not_provided,21739,unearned,none,1,omission_not_provided,True,not_provided,clear,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+frozen_checker,21739|none|truthful_twin,21739,unearned,none,1,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,21739|none|truthful_twin,21739,unearned,none,1,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+frozen_checker,21739|budget_gap|omission_zero,21739,unearned,budget_gap,2,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,21739|budget_gap|omission_zero,21739,unearned,budget_gap,2,omission_zero,True,$0,clear,True,"['earned', 'unearned']",2,1.0,1.0,,,earned: Rule A (budget gap): observed housing $759.75 > reported income $0; unearned: Rule A (budget gap): observed housing $759.75 > reported income $0,{}
+frozen_checker,21739|budget_gap|omission_not_provided,21739,unearned,budget_gap,2,omission_not_provided,True,not_provided,clear,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+checker_plus_2_rules,21739|budget_gap|omission_not_provided,21739,unearned,budget_gap,2,omission_not_provided,True,not_provided,clear,True,"['earned', 'unearned']",2,1.0,1.0,,,unearned: no document; Rule A (budget gap): observed housing $759.75 > reported income $0; earned: Rule A (budget gap): observed housing $759.75 > reported income $0,{}
+frozen_checker,21739|budget_gap|truthful_twin,21739,unearned,budget_gap,2,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,21739|budget_gap|truthful_twin,21739,unearned,budget_gap,2,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+frozen_checker,21739|net_deposits|omission_zero,21739,unearned,net_deposits,3,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,21739|net_deposits|omission_zero,21739,unearned,net_deposits,3,omission_zero,True,$0,clear,True,"['earned', 'unearned']",2,1.0,1.0,,,earned: Rule B (deposits): >=2 unmatched credit txns >$50 (SOC SEC BENEFIT SSA); unearned: Rule B (deposits): >=2 unmatched credit txns >$50 (SOC SEC BENEFIT SSA),{}
+frozen_checker,21739|net_deposits|omission_not_provided,21739,unearned,net_deposits,3,omission_not_provided,True,not_provided,clear,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+checker_plus_2_rules,21739|net_deposits|omission_not_provided,21739,unearned,net_deposits,3,omission_not_provided,True,not_provided,clear,True,"['earned', 'unearned']",2,1.0,1.0,,,unearned: no document; Rule B (deposits): >=2 unmatched credit txns >$50 (SOC SEC BENEFIT SSA); earned: Rule B (deposits): >=2 unmatched credit txns >$50 (SOC SEC BENEFIT SSA),{}
+frozen_checker,21739|net_deposits|truthful_twin,21739,unearned,net_deposits,3,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,21739|net_deposits|truthful_twin,21739,unearned,net_deposits,3,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+frozen_checker,21739|wage_match|omission_zero,21739,unearned,wage_match,4,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,21739|wage_match|omission_zero,21739,unearned,wage_match,4,omission_zero,True,$0,clear,True,['unearned'],1,1.0,1.0,,,unearned: Rule B (lead): unmatched IEVS/SSA benefit lead,{}
+frozen_checker,21739|wage_match|omission_not_provided,21739,unearned,wage_match,4,omission_not_provided,True,not_provided,clear,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+checker_plus_2_rules,21739|wage_match|omission_not_provided,21739,unearned,wage_match,4,omission_not_provided,True,not_provided,clear,True,['unearned'],1,1.0,1.0,,,unearned: no document; Rule B (lead): unmatched IEVS/SSA benefit lead,{}
+frozen_checker,21739|wage_match|truthful_twin,21739,unearned,wage_match,4,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,21739|wage_match|truthful_twin,21739,unearned,wage_match,4,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+frozen_checker,43456|none|omission_zero,43456,unearned,none,1,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,43456|none|omission_zero,43456,unearned,none,1,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+frozen_checker,43456|none|omission_not_provided,43456,unearned,none,1,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+checker_plus_2_rules,43456|none|omission_not_provided,43456,unearned,none,1,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+frozen_checker,43456|none|truthful_twin,43456,unearned,none,1,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,43456|none|truthful_twin,43456,unearned,none,1,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+frozen_checker,43456|budget_gap|omission_zero,43456,unearned,budget_gap,2,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,43456|budget_gap|omission_zero,43456,unearned,budget_gap,2,omission_zero,True,$0,ambiguous,True,"['earned', 'unearned']",2,1.0,1.0,,,"earned: Rule A (budget gap): observed housing $1,621.21 > reported income $0; unearned: Rule A (budget gap): observed housing $1,621.21 > reported income $0",{}
+frozen_checker,43456|budget_gap|omission_not_provided,43456,unearned,budget_gap,2,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+checker_plus_2_rules,43456|budget_gap|omission_not_provided,43456,unearned,budget_gap,2,omission_not_provided,True,not_provided,ambiguous,True,"['earned', 'unearned']",2,1.0,1.0,,,"unearned: no document; Rule A (budget gap): observed housing $1,621.21 > reported income $0; earned: Rule A (budget gap): observed housing $1,621.21 > reported income $0",{}
+frozen_checker,43456|budget_gap|truthful_twin,43456,unearned,budget_gap,2,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,43456|budget_gap|truthful_twin,43456,unearned,budget_gap,2,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+frozen_checker,43456|net_deposits|omission_zero,43456,unearned,net_deposits,3,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,43456|net_deposits|omission_zero,43456,unearned,net_deposits,3,omission_zero,True,$0,ambiguous,True,"['earned', 'unearned']",2,1.0,1.0,,,earned: Rule B (deposits): >=2 unmatched credit txns >$50 (ACH CREDIT ELECTRONIC DEPOSIT); unearned: Rule B (deposits): >=2 unmatched credit txns >$50 (ACH CREDIT ELECTRONIC DEPOSIT),{}
+frozen_checker,43456|net_deposits|omission_not_provided,43456,unearned,net_deposits,3,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+checker_plus_2_rules,43456|net_deposits|omission_not_provided,43456,unearned,net_deposits,3,omission_not_provided,True,not_provided,ambiguous,True,"['earned', 'unearned']",2,1.0,1.0,,,unearned: no document; Rule B (deposits): >=2 unmatched credit txns >$50 (ACH CREDIT ELECTRONIC DEPOSIT); earned: Rule B (deposits): >=2 unmatched credit txns >$50 (ACH CREDIT ELECTRONIC DEPOSIT),{}
+frozen_checker,43456|net_deposits|truthful_twin,43456,unearned,net_deposits,3,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,43456|net_deposits|truthful_twin,43456,unearned,net_deposits,3,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+frozen_checker,43456|wage_match|omission_zero,43456,unearned,wage_match,4,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,43456|wage_match|omission_zero,43456,unearned,wage_match,4,omission_zero,True,$0,ambiguous,True,['unearned'],1,1.0,1.0,,,unearned: Rule B (lead): unmatched IEVS/SSA benefit lead,{}
+frozen_checker,43456|wage_match|omission_not_provided,43456,unearned,wage_match,4,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+checker_plus_2_rules,43456|wage_match|omission_not_provided,43456,unearned,wage_match,4,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,unearned: no document; Rule B (lead): unmatched IEVS/SSA benefit lead,{}
+frozen_checker,43456|wage_match|truthful_twin,43456,unearned,wage_match,4,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,43456|wage_match|truthful_twin,43456,unearned,wage_match,4,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+frozen_checker,41978|none|omission_zero,41978,unearned,none,1,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,41978|none|omission_zero,41978,unearned,none,1,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+frozen_checker,41978|none|omission_not_provided,41978,unearned,none,1,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+checker_plus_2_rules,41978|none|omission_not_provided,41978,unearned,none,1,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+frozen_checker,41978|none|truthful_twin,41978,unearned,none,1,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,41978|none|truthful_twin,41978,unearned,none,1,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+frozen_checker,41978|budget_gap|omission_zero,41978,unearned,budget_gap,2,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,41978|budget_gap|omission_zero,41978,unearned,budget_gap,2,omission_zero,True,$0,ambiguous,True,"['earned', 'unearned']",2,1.0,1.0,,,earned: Rule A (budget gap): observed housing $200.00 > reported income $0; unearned: Rule A (budget gap): observed housing $200.00 > reported income $0,{}
+frozen_checker,41978|budget_gap|omission_not_provided,41978,unearned,budget_gap,2,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+checker_plus_2_rules,41978|budget_gap|omission_not_provided,41978,unearned,budget_gap,2,omission_not_provided,True,not_provided,ambiguous,True,"['earned', 'unearned']",2,1.0,1.0,,,unearned: no document; Rule A (budget gap): observed housing $200.00 > reported income $0; earned: Rule A (budget gap): observed housing $200.00 > reported income $0,{}
+frozen_checker,41978|budget_gap|truthful_twin,41978,unearned,budget_gap,2,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,41978|budget_gap|truthful_twin,41978,unearned,budget_gap,2,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+frozen_checker,41978|net_deposits|omission_zero,41978,unearned,net_deposits,3,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,41978|net_deposits|omission_zero,41978,unearned,net_deposits,3,omission_zero,True,$0,ambiguous,True,"['earned', 'unearned']",2,1.0,1.0,,,earned: Rule B (deposits): >=2 unmatched credit txns >$50 (ACH CREDIT ELECTRONIC DEPOSIT); unearned: Rule B (deposits): >=2 unmatched credit txns >$50 (ACH CREDIT ELECTRONIC DEPOSIT),{}
+frozen_checker,41978|net_deposits|omission_not_provided,41978,unearned,net_deposits,3,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+checker_plus_2_rules,41978|net_deposits|omission_not_provided,41978,unearned,net_deposits,3,omission_not_provided,True,not_provided,ambiguous,True,"['earned', 'unearned']",2,1.0,1.0,,,unearned: no document; Rule B (deposits): >=2 unmatched credit txns >$50 (ACH CREDIT ELECTRONIC DEPOSIT); earned: Rule B (deposits): >=2 unmatched credit txns >$50 (ACH CREDIT ELECTRONIC DEPOSIT),{}
+frozen_checker,41978|net_deposits|truthful_twin,41978,unearned,net_deposits,3,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,41978|net_deposits|truthful_twin,41978,unearned,net_deposits,3,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+frozen_checker,41978|wage_match|omission_zero,41978,unearned,wage_match,4,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,41978|wage_match|omission_zero,41978,unearned,wage_match,4,omission_zero,True,$0,ambiguous,True,['unearned'],1,1.0,1.0,,,unearned: Rule B (lead): unmatched IEVS/SSA benefit lead,{}
+frozen_checker,41978|wage_match|omission_not_provided,41978,unearned,wage_match,4,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+checker_plus_2_rules,41978|wage_match|omission_not_provided,41978,unearned,wage_match,4,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,unearned: no document; Rule B (lead): unmatched IEVS/SSA benefit lead,{}
+frozen_checker,41978|wage_match|truthful_twin,41978,unearned,wage_match,4,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,41978|wage_match|truthful_twin,41978,unearned,wage_match,4,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+frozen_checker,34791|none|omission_zero,34791,unearned,none,1,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,34791|none|omission_zero,34791,unearned,none,1,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+frozen_checker,34791|none|omission_not_provided,34791,unearned,none,1,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+checker_plus_2_rules,34791|none|omission_not_provided,34791,unearned,none,1,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+frozen_checker,34791|none|truthful_twin,34791,unearned,none,1,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,34791|none|truthful_twin,34791,unearned,none,1,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+frozen_checker,34791|budget_gap|omission_zero,34791,unearned,budget_gap,2,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,34791|budget_gap|omission_zero,34791,unearned,budget_gap,2,omission_zero,True,$0,ambiguous,True,"['earned', 'unearned']",2,1.0,1.0,,,earned: Rule A (budget gap): observed housing $628.44 > reported income $0; unearned: Rule A (budget gap): observed housing $628.44 > reported income $0,{}
+frozen_checker,34791|budget_gap|omission_not_provided,34791,unearned,budget_gap,2,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+checker_plus_2_rules,34791|budget_gap|omission_not_provided,34791,unearned,budget_gap,2,omission_not_provided,True,not_provided,ambiguous,True,"['earned', 'unearned']",2,1.0,1.0,,,unearned: no document; Rule A (budget gap): observed housing $628.44 > reported income $0; earned: Rule A (budget gap): observed housing $628.44 > reported income $0,{}
+frozen_checker,34791|budget_gap|truthful_twin,34791,unearned,budget_gap,2,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,34791|budget_gap|truthful_twin,34791,unearned,budget_gap,2,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+frozen_checker,34791|net_deposits|omission_zero,34791,unearned,net_deposits,3,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,34791|net_deposits|omission_zero,34791,unearned,net_deposits,3,omission_zero,True,$0,ambiguous,True,"['earned', 'unearned']",2,1.0,1.0,,,earned: Rule B (deposits): >=2 unmatched credit txns >$50 (ACH CREDIT ELECTRONIC DEPOSIT); unearned: Rule B (deposits): >=2 unmatched credit txns >$50 (ACH CREDIT ELECTRONIC DEPOSIT),{}
+frozen_checker,34791|net_deposits|omission_not_provided,34791,unearned,net_deposits,3,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+checker_plus_2_rules,34791|net_deposits|omission_not_provided,34791,unearned,net_deposits,3,omission_not_provided,True,not_provided,ambiguous,True,"['earned', 'unearned']",2,1.0,1.0,,,unearned: no document; Rule B (deposits): >=2 unmatched credit txns >$50 (ACH CREDIT ELECTRONIC DEPOSIT); earned: Rule B (deposits): >=2 unmatched credit txns >$50 (ACH CREDIT ELECTRONIC DEPOSIT),{}
+frozen_checker,34791|net_deposits|truthful_twin,34791,unearned,net_deposits,3,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,34791|net_deposits|truthful_twin,34791,unearned,net_deposits,3,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+frozen_checker,34791|wage_match|omission_zero,34791,unearned,wage_match,4,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,34791|wage_match|omission_zero,34791,unearned,wage_match,4,omission_zero,True,$0,ambiguous,True,['unearned'],1,1.0,1.0,,,unearned: Rule B (lead): unmatched IEVS/SSA benefit lead,{}
+frozen_checker,34791|wage_match|omission_not_provided,34791,unearned,wage_match,4,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+checker_plus_2_rules,34791|wage_match|omission_not_provided,34791,unearned,wage_match,4,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,unearned: no document; Rule B (lead): unmatched IEVS/SSA benefit lead,{}
+frozen_checker,34791|wage_match|truthful_twin,34791,unearned,wage_match,4,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,34791|wage_match|truthful_twin,34791,unearned,wage_match,4,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+frozen_checker,30269|none|omission_zero,30269,unearned,none,1,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,30269|none|omission_zero,30269,unearned,none,1,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+frozen_checker,30269|none|omission_not_provided,30269,unearned,none,1,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+checker_plus_2_rules,30269|none|omission_not_provided,30269,unearned,none,1,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+frozen_checker,30269|none|truthful_twin,30269,unearned,none,1,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,30269|none|truthful_twin,30269,unearned,none,1,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+frozen_checker,30269|budget_gap|omission_zero,30269,unearned,budget_gap,2,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,30269|budget_gap|omission_zero,30269,unearned,budget_gap,2,omission_zero,True,$0,ambiguous,True,"['earned', 'unearned']",2,1.0,1.0,,,"earned: Rule A (budget gap): observed housing $1,050.14 > reported income $0; unearned: Rule A (budget gap): observed housing $1,050.14 > reported income $0",{}
+frozen_checker,30269|budget_gap|omission_not_provided,30269,unearned,budget_gap,2,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+checker_plus_2_rules,30269|budget_gap|omission_not_provided,30269,unearned,budget_gap,2,omission_not_provided,True,not_provided,ambiguous,True,"['earned', 'unearned']",2,1.0,1.0,,,"unearned: no document; Rule A (budget gap): observed housing $1,050.14 > reported income $0; earned: Rule A (budget gap): observed housing $1,050.14 > reported income $0",{}
+frozen_checker,30269|budget_gap|truthful_twin,30269,unearned,budget_gap,2,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,30269|budget_gap|truthful_twin,30269,unearned,budget_gap,2,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+frozen_checker,30269|net_deposits|omission_zero,30269,unearned,net_deposits,3,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,30269|net_deposits|omission_zero,30269,unearned,net_deposits,3,omission_zero,True,$0,ambiguous,True,"['earned', 'unearned']",2,1.0,1.0,,,earned: Rule B (deposits): >=2 unmatched credit txns >$50 (ACH CREDIT ELECTRONIC DEPOSIT); unearned: Rule B (deposits): >=2 unmatched credit txns >$50 (ACH CREDIT ELECTRONIC DEPOSIT),{}
+frozen_checker,30269|net_deposits|omission_not_provided,30269,unearned,net_deposits,3,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+checker_plus_2_rules,30269|net_deposits|omission_not_provided,30269,unearned,net_deposits,3,omission_not_provided,True,not_provided,ambiguous,True,"['earned', 'unearned']",2,1.0,1.0,,,unearned: no document; Rule B (deposits): >=2 unmatched credit txns >$50 (ACH CREDIT ELECTRONIC DEPOSIT); earned: Rule B (deposits): >=2 unmatched credit txns >$50 (ACH CREDIT ELECTRONIC DEPOSIT),{}
+frozen_checker,30269|net_deposits|truthful_twin,30269,unearned,net_deposits,3,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,30269|net_deposits|truthful_twin,30269,unearned,net_deposits,3,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+frozen_checker,30269|wage_match|omission_zero,30269,unearned,wage_match,4,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+checker_plus_2_rules,30269|wage_match|omission_zero,30269,unearned,wage_match,4,omission_zero,True,$0,ambiguous,True,['unearned'],1,1.0,1.0,,,unearned: Rule B (lead): unmatched IEVS/SSA benefit lead,{}
+frozen_checker,30269|wage_match|omission_not_provided,30269,unearned,wage_match,4,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,unearned: no document,{}
+checker_plus_2_rules,30269|wage_match|omission_not_provided,30269,unearned,wage_match,4,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,unearned: no document; Rule B (lead): unmatched IEVS/SSA benefit lead,{}
+frozen_checker,30269|wage_match|truthful_twin,30269,unearned,wage_match,4,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+checker_plus_2_rules,30269|wage_match|truthful_twin,30269,unearned,wage_match,4,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,5744|budget_gap|omission_zero,5744,earned,budget_gap,2,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,5744|none|omission_zero,5744,earned,none,1,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,5744|none|truthful_twin,5744,earned,none,1,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,5744|none|omission_not_provided,5744,earned,none,1,omission_not_provided,True,not_provided,clear,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,5744|budget_gap|omission_zero,5744,earned,budget_gap,2,omission_zero,True,$0,clear,True,['utilities'],1,0.0,0.0,,,"utilities: Reported $1,020 matches state heating/cooling allowance but actual utility bills on file total only ~$202, requiring verification of whether standard allowance or actual costs should apply",{'utilities': 0.7}
+qwen3.5-397b,5744|none|truthful_twin,5744,earned,none,1,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,5744|budget_gap|truthful_twin,5744,earned,budget_gap,2,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,5744|none|omission_zero,5744,earned,none,1,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,5744|net_deposits|omission_zero,5744,earned,net_deposits,3,omission_zero,True,$0,clear,True,['earned'],1,1.0,1.0,,,"earned: Bank records show recurring payroll deposits from Cedar Hill School District ($87.68 x9) and Northside Logistics ($932.53 x2) totaling ~$2,654 over the two-month period, contradicting the reported $0 earned income.",{'earned': 0.97}
+deepseek-v4-flash,5744|budget_gap|omission_not_provided,5744,earned,budget_gap,2,omission_not_provided,True,not_provided,clear,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,5744|net_deposits|omission_zero,5744,earned,net_deposits,3,omission_zero,True,$0,clear,True,['earned'],1,1.0,1.0,,,"earned: Application reports $0 earned income but bank records show 12 payroll deposits totaling approximately $2,742 over two months from Cedar Hill School District and Northside Logistics.",{'earned': 0.95}
+deepseek-v4-flash,5744|net_deposits|truthful_twin,5744,earned,net_deposits,3,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,5744|budget_gap|omission_not_provided,5744,earned,budget_gap,2,omission_not_provided,True,not_provided,clear,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,5744|budget_gap|truthful_twin,5744,earned,budget_gap,2,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,5744|net_deposits|omission_not_provided,5744,earned,net_deposits,3,omission_not_provided,True,not_provided,clear,True,['earned'],1,1.0,1.0,,,earned: Earned income left blank but bank records show recurring payroll deposits from Cedar Hill School District (9 x $87.68) and Northside Logistics (2 x $932.53) in the two-month period.,{'earned': 0.95}
+deepseek-v4-flash,5744|wage_match|omission_zero,5744,earned,wage_match,4,omission_zero,True,$0,clear,True,['earned'],1,1.0,1.0,,,earned: Application reports $0 earned income but IEVS state wage records show recent quarterly wages for a household member.,{'earned': 0.85}
+qwen3.5-397b,5744|none|omission_not_provided,5744,earned,none,1,omission_not_provided,True,not_provided,clear,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,5744|wage_match|omission_not_provided,5744,earned,wage_match,4,omission_not_provided,True,not_provided,clear,True,['earned'],1,1.0,1.0,,,"earned: Earned income left not provided, but IEVS state wage records show recent quarterly wages for a household member, indicating likely omitted earnings.",{'earned': 0.85}
+qwen3.5-397b,5744|net_deposits|omission_not_provided,5744,earned,net_deposits,3,omission_not_provided,True,not_provided,clear,True,"['earned', 'shelter', 'unearned', 'utilities']",4,1.0,1.0,,,"earned: Application reports 'not provided' but bank records show 14 payroll deposits totaling ~$1,841/month from Cedar Hill School District and Northside Logistics.; unearned: Application reports $100 but bank records show $200/month in child support deposits from State Child Support Disbursement Unit.; shelter: Reported $0 shelter costs is unusual for any household; no lease/mortgage documents to verify but zero claim is suspicious.; utilities: Reported $0 utilities contradicts state utility allowances and is unusual for any household with housing.","{'earned': 0.95, 'unearned': 0.85, 'shelter': 0.6, 'utilities': 0.6}"
+qwen3.5-397b,5744|wage_match|omission_not_provided,5744,earned,wage_match,4,omission_not_provided,True,not_provided,clear,True,['earned'],1,1.0,1.0,,,"earned: IEVS cross-match shows state wage records with recent quarterly wages for household member, but earned income was not provided on application",{'earned': 0.9}
+deepseek-v4-flash,14542|none|omission_zero,14542,earned,none,1,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,14542|none|omission_not_provided,14542,earned,none,1,omission_not_provided,True,not_provided,clear,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,5744|net_deposits|truthful_twin,5744,earned,net_deposits,3,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,5744|wage_match|truthful_twin,5744,earned,wage_match,4,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,14542|none|omission_zero,14542,earned,none,1,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,14542|none|truthful_twin,14542,earned,none,1,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,5744|wage_match|omission_zero,5744,earned,wage_match,4,omission_zero,True,$0,clear,True,['earned'],1,1.0,1.0,,,"earned: IEVS state wage records show recent quarterly wages for a household member, contradicting the $0 earned income reported on the application.",{'earned': 0.85}
+deepseek-v4-flash,14542|budget_gap|truthful_twin,14542,earned,budget_gap,2,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,14542|budget_gap|omission_zero,14542,earned,budget_gap,2,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,14542|none|truthful_twin,14542,earned,none,1,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,14542|budget_gap|omission_not_provided,14542,earned,budget_gap,2,omission_not_provided,True,not_provided,clear,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,14542|none|omission_not_provided,14542,earned,none,1,omission_not_provided,True,not_provided,clear,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,14542|budget_gap|omission_zero,14542,earned,budget_gap,2,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,14542|net_deposits|omission_zero,14542,earned,net_deposits,3,omission_zero,True,$0,clear,True,['earned'],1,1.0,1.0,,,"earned: Reported $0 earned income but bank records show four biweekly PAYROLL DEP deposits of $1,639.61 from Harbor View Care Center during the review period.",{'earned': 0.98}
+deepseek-v4-flash,14542|net_deposits|omission_not_provided,14542,earned,net_deposits,3,omission_not_provided,True,not_provided,clear,True,['earned'],1,1.0,1.0,,,"earned: Earned income left blank but bank records show four biweekly PAYROLL DEP deposits of $1,639.61 from Harbor View Care Center (09/15, 09/30, 10/15, 10/31), indicating unreported wages.",{'earned': 0.97}
+deepseek-v4-flash,14542|net_deposits|truthful_twin,14542,earned,net_deposits,3,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,14542|wage_match|omission_zero,14542,earned,wage_match,4,omission_zero,True,$0,clear,True,['earned'],1,1.0,1.0,,,"earned: IEVS state wage records show recent quarterly wages for a household member, contradicting the reported $0 earned income.",{'earned': 0.85}
+qwen3.5-397b,5744|wage_match|truthful_twin,5744,earned,wage_match,4,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,14542|wage_match|omission_not_provided,14542,earned,wage_match,4,omission_not_provided,True,not_provided,clear,True,['earned'],1,1.0,1.0,,,"earned: Earned income was not provided, but IEVS state wage records show recent quarterly wages for a household member, indicating likely omitted earned income.",{'earned': 0.9}
+qwen3.5-397b,14542|net_deposits|omission_not_provided,14542,earned,net_deposits,3,omission_not_provided,True,not_provided,clear,True,['earned'],1,1.0,1.0,,,"earned: Bank records show 4 regular payroll deposits totaling $6,558.44 from HARBOR VIEW CARE CENTER, but earned income was reported as not provided.",{'earned': 0.95}
+qwen3.5-397b,14542|net_deposits|omission_zero,14542,earned,net_deposits,3,omission_zero,True,$0,clear,True,['earned'],1,1.0,1.0,,,"earned: Application reports $0 earned income but bank records show 4 payroll deposits of $1,639.61 each from Harbor View Care Center over the review period, indicating approximately $3,279/month in wages.",{'earned': 0.95}
+qwen3.5-397b,14542|net_deposits|truthful_twin,14542,earned,net_deposits,3,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,14542|wage_match|omission_zero,14542,earned,wage_match,4,omission_zero,True,$0,clear,True,['earned'],1,1.0,1.0,,,"earned: Agency cross-match (IEVS) shows state wage records with recent quarterly wages for a household member, contradicting the $0 earned income reported on the application.",{'earned': 0.95}
+deepseek-v4-flash,14542|wage_match|truthful_twin,14542,earned,wage_match,4,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,28402|none|omission_zero,28402,earned,none,1,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,28402|none|omission_not_provided,28402,earned,none,1,omission_not_provided,True,not_provided,clear,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,28402|none|omission_zero,28402,earned,none,1,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,14542|wage_match|omission_not_provided,14542,earned,wage_match,4,omission_not_provided,True,not_provided,clear,True,['earned'],1,1.0,1.0,,,"earned: IEVS cross-match shows state wage records with recent quarterly wages for a household member, but earned income was reported as not provided on the application.",{'earned': 0.9}
+qwen3.5-397b,14542|budget_gap|truthful_twin,14542,earned,budget_gap,2,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,28402|budget_gap|omission_zero,28402,earned,budget_gap,2,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,28402|none|truthful_twin,28402,earned,none,1,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,28402|budget_gap|omission_zero,28402,earned,budget_gap,2,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,28402|budget_gap|omission_not_provided,28402,earned,budget_gap,2,omission_not_provided,True,not_provided,clear,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,14542|wage_match|truthful_twin,14542,earned,wage_match,4,truthful_twin,False,twin,clear,True,"['shelter', 'utilities']",2,,,1.0,0.0,shelter: Reported $0 shelter costs with no documentation of rent-free living; most households have housing expenses and none appear in bank records.; utilities: Reported $0 utilities with no supporting documentation; utility payments not visible in bank transactions and no indication utilities are included in shelter.,"{'shelter': 0.6, 'utilities': 0.5}"
+qwen3.5-397b,28402|none|omission_not_provided,28402,earned,none,1,omission_not_provided,True,not_provided,clear,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,28402|budget_gap|truthful_twin,28402,earned,budget_gap,2,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,28402|budget_gap|omission_not_provided,28402,earned,budget_gap,2,omission_not_provided,True,not_provided,clear,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,14542|budget_gap|omission_not_provided,14542,earned,budget_gap,2,omission_not_provided,True,not_provided,clear,True,['unearned'],1,0.0,1.0,,,"unearned: Reported $0 unearned income contradicted by sustained housing and living expenses (~$2,800 over 2 months) with no visible income deposits in bank records.",{'unearned': 0.65}
+deepseek-v4-flash,28402|net_deposits|omission_zero,28402,earned,net_deposits,3,omission_zero,True,$0,clear,True,['earned'],1,1.0,1.0,,,"earned: Application reports $0 earned income, but bank records show recurring PAYROLL DEP PINECREST WAREHOUSE deposits of $479.06 four times in the two-month period (~$958/month), contradicting the reported $0.",{'earned': 0.95}
+qwen3.5-397b,28402|none|truthful_twin,28402,earned,none,1,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,28402|net_deposits|truthful_twin,28402,earned,net_deposits,3,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,28402|net_deposits|omission_not_provided,28402,earned,net_deposits,3,omission_not_provided,True,not_provided,clear,True,['earned'],1,1.0,1.0,,,"earned: Earned income left blank but bank records show recurring PAYROLL DEP PINECREST WAREHOUSE deposits of $479.06 twice monthly (~$958/month), indicating omitted earned income.",{'earned': 0.95}
+deepseek-v4-flash,28402|wage_match|omission_zero,28402,earned,wage_match,4,omission_zero,True,$0,clear,True,['earned'],1,1.0,1.0,,,"earned: IEVS cross-match shows recent quarterly wages for a household member, contradicting the reported $0 earned income despite no pay stubs returned.",{'earned': 0.7}
+qwen3.5-397b,28402|net_deposits|omission_zero,28402,earned,net_deposits,3,omission_zero,True,$0,clear,True,['earned'],1,1.0,1.0,,,"earned: Application reports $0 earned income but bank records show 4 payroll deposits from PINECREST WAREHOUSE totaling $1,916.24 over 2 months (approx. $958/month)",{'earned': 0.95}
+deepseek-v4-flash,28402|wage_match|omission_not_provided,28402,earned,wage_match,4,omission_not_provided,True,not_provided,clear,True,['earned'],1,1.0,1.0,,,"earned: Earned income left blank/not provided, but IEVS cross-match shows recent quarterly wages for a household member, indicating a likely omission.",{'earned': 0.85}
+qwen3.5-397b,28402|net_deposits|omission_not_provided,28402,earned,net_deposits,3,omission_not_provided,True,not_provided,clear,True,['earned'],1,1.0,1.0,,,earned: Bank records show recurring payroll deposits from Pinecrest Warehouse (~$958/month) but earned income was reported as 'not provided',{'earned': 0.9}
+deepseek-v4-flash,28402|wage_match|truthful_twin,28402,earned,wage_match,4,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,28402|wage_match|omission_zero,28402,earned,wage_match,4,omission_zero,True,$0,clear,True,['earned'],1,1.0,1.0,,,earned: Application reports $0 earned income but state wage records (IEVS cross-match) show recent quarterly wages for a household member.,{'earned': 0.85}
+qwen3.5-397b,28402|wage_match|omission_not_provided,28402,earned,wage_match,4,omission_not_provided,True,not_provided,clear,True,['earned'],1,1.0,1.0,,,"earned: IEVS cross-match shows recent quarterly wages for household member, but earned income reported as not provided",{'earned': 0.9}
+deepseek-v4-flash,42865|none|omission_zero,42865,earned,none,1,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,42865|none|omission_not_provided,42865,earned,none,1,omission_not_provided,True,not_provided,ambiguous,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,42865|none|truthful_twin,42865,earned,none,1,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,28402|net_deposits|truthful_twin,28402,earned,net_deposits,3,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,28402|budget_gap|truthful_twin,28402,earned,budget_gap,2,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,42865|none|omission_zero,42865,earned,none,1,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,42865|budget_gap|omission_zero,42865,earned,budget_gap,2,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,42865|budget_gap|omission_not_provided,42865,earned,budget_gap,2,omission_not_provided,True,not_provided,ambiguous,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,42865|none|truthful_twin,42865,earned,none,1,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,28402|wage_match|truthful_twin,28402,earned,wage_match,4,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,42865|budget_gap|omission_not_provided,42865,earned,budget_gap,2,omission_not_provided,True,not_provided,ambiguous,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,42865|none|omission_not_provided,42865,earned,none,1,omission_not_provided,True,not_provided,ambiguous,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,42865|net_deposits|omission_zero,42865,earned,net_deposits,3,omission_zero,True,$0,ambiguous,True,['earned'],1,1.0,1.0,,,"earned: Application reports $0 earned income but bank records show 9 recurring ACH electronic deposits of $485.75 (weekly) totaling ~$4,371.75 across Sep-Oct, indicating unreported wages.",{'earned': 0.95}
+deepseek-v4-flash,42865|budget_gap|truthful_twin,42865,earned,budget_gap,2,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,42865|budget_gap|truthful_twin,42865,earned,budget_gap,2,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,42865|net_deposits|omission_not_provided,42865,earned,net_deposits,3,omission_not_provided,True,not_provided,ambiguous,True,['earned'],1,1.0,1.0,,,"earned: Recurring weekly ACH deposits of $485.75 (9 in the two-month bank period) strongly suggest regular wages, but earned income was left blank/not provided.",{'earned': 0.9}
+deepseek-v4-flash,42865|wage_match|omission_zero,42865,earned,wage_match,4,omission_zero,True,$0,ambiguous,True,['earned'],1,1.0,1.0,,,"earned: IEVS state wage records show recent quarterly wages for a household member, contradicting the reported $0 earned income despite 0 pay stubs returned.",{'earned': 0.85}
+deepseek-v4-flash,42865|net_deposits|truthful_twin,42865,earned,net_deposits,3,truthful_twin,False,twin,ambiguous,True,['unearned'],1,,,1.0,1.0,unearned: Reported $0 unearned income but bank shows an unexplained $170.36 ACH credit electronic transfer during the review period.,{'unearned': 0.6}
+deepseek-v4-flash,42865|wage_match|omission_not_provided,42865,earned,wage_match,4,omission_not_provided,True,not_provided,ambiguous,True,['earned'],1,1.0,1.0,,,"earned: IEVS state wage records show recent quarterly wages for a household member, contradicting the not-provided earned income.",{'earned': 0.85}
+qwen3.5-397b,42865|wage_match|omission_zero,42865,earned,wage_match,4,omission_zero,True,$0,ambiguous,True,['earned'],1,1.0,1.0,,,"earned: IEVS cross-match shows state wage records with recent quarterly wages for household member, contradicting $0 earned income claim",{'earned': 0.9}
+qwen3.5-397b,42865|wage_match|omission_not_provided,42865,earned,wage_match,4,omission_not_provided,True,not_provided,ambiguous,True,"['earned', 'shelter', 'utilities']",3,1.0,1.0,,,"earned: State wage records (IEVS) show recent quarterly wages for a household member, but earned income was not provided on the application.; shelter: Shelter costs reported as $0 with no supporting documentation of free housing; bank records show no rent/mortgage payments but this is unusual and unexplained.; utilities: Utilities reported as $0 with no documentation of included utilities or free housing; state utility allowances exist suggesting utilities are typically incurred.","{'earned': 0.9, 'shelter': 0.6, 'utilities': 0.5}"
+qwen3.5-397b,42865|net_deposits|truthful_twin,42865,earned,net_deposits,3,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,42865|net_deposits|omission_zero,42865,earned,net_deposits,3,omission_zero,True,$0,ambiguous,True,['earned'],1,1.0,1.0,,,"earned: Nine recurring ACH electronic deposits of $485.75 each (approximately weekly) over two months contradict the $0 earned income claim, suggesting unreported payroll income.",{'earned': 0.9}
+deepseek-v4-flash,42865|wage_match|truthful_twin,42865,earned,wage_match,4,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,42777|none|omission_not_provided,42777,earned,none,1,omission_not_provided,True,not_provided,ambiguous,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,42777|none|omission_zero,42777,earned,none,1,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,42865|budget_gap|omission_zero,42865,earned,budget_gap,2,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,42777|none|truthful_twin,42777,earned,none,1,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,42865|wage_match|truthful_twin,42865,earned,wage_match,4,truthful_twin,False,twin,ambiguous,True,"['shelter', 'utilities']",2,,,1.0,0.0,shelter: Shelter costs reported as $0 with no supporting documentation; virtually all households have housing expenses and bank records show no rent/mortgage payments.; utilities: Utilities reported as $0 with no supporting documentation; state utility allowances exist and bank records show no utility payments despite regular household expenses.,"{'shelter': 0.9, 'utilities': 0.85}"
+deepseek-v4-flash,42777|budget_gap|omission_zero,42777,earned,budget_gap,2,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,42865|net_deposits|omission_not_provided,42865,earned,net_deposits,3,omission_not_provided,True,not_provided,ambiguous,True,['earned'],1,1.0,1.0,,,"earned: Regular weekly ACH electronic deposits (~$485.75 each, 9 deposits over 2 months totaling ~$4,372) strongly suggest unreported earned income when application states 'not provided'",{'earned': 0.85}
+deepseek-v4-flash,42777|budget_gap|truthful_twin,42777,earned,budget_gap,2,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,42777|budget_gap|omission_zero,42777,earned,budget_gap,2,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,42777|none|truthful_twin,42777,earned,none,1,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,42777|none|omission_not_provided,42777,earned,none,1,omission_not_provided,True,not_provided,ambiguous,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,42777|budget_gap|omission_not_provided,42777,earned,budget_gap,2,omission_not_provided,True,not_provided,ambiguous,True,['utilities'],1,0.0,0.0,,,utilities: Application claims $412 (matching state heating/cooling allowance) but documented utility bills total only $167.06 ($100.28 gas + $66.78 electric) with no evidence of additional utility costs.,{'utilities': 0.7}
+deepseek-v4-flash,42777|budget_gap|omission_not_provided,42777,earned,budget_gap,2,omission_not_provided,True,not_provided,ambiguous,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,42777|none|omission_zero,42777,earned,none,1,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,42777|net_deposits|omission_zero,42777,earned,net_deposits,3,omission_zero,True,$0,ambiguous,True,"['earned', 'unearned']",2,1.0,1.0,,,"earned: Recurring ACH CREDIT ELECTRONIC DEPOSITs of $1,461.05 on 9/15, 9/30, 10/15, and 10/31 appear to be payroll but earned income is reported as $0.; unearned: Reported $1,061 matches child support, but four recurring $1,461.05 ACH deposits are unreported income not explained by the application.","{'earned': 0.85, 'unearned': 0.9}"
+deepseek-v4-flash,42777|wage_match|omission_zero,42777,earned,wage_match,4,omission_zero,True,$0,ambiguous,True,['earned'],1,1.0,1.0,,,"earned: IEVS cross-match shows recent quarterly wages for a household member, contradicting reported $0 earned income with no pay stubs.",{'earned': 0.9}
+qwen3.5-397b,42777|net_deposits|omission_zero,42777,earned,net_deposits,3,omission_zero,True,$0,ambiguous,True,['earned'],1,1.0,1.0,,,"earned: Regular bi-monthly ACH deposits of $1,461.05 appear in bank records but earned income is reported as $0 with no pay stubs provided",{'earned': 0.75}
+deepseek-v4-flash,42777|net_deposits|omission_not_provided,42777,earned,net_deposits,3,omission_not_provided,True,not_provided,ambiguous,True,['earned'],1,1.0,1.0,,,"earned: Earned income left blank but bank records show recurring ACH deposits of $1,461.05 (9/15, 9/30, 10/15, 10/31) consistent with unreported wages.",{'earned': 0.9}
+deepseek-v4-flash,42777|wage_match|omission_not_provided,42777,earned,wage_match,4,omission_not_provided,True,not_provided,ambiguous,True,['earned'],1,1.0,1.0,,,"earned: Earned income was not provided, but IEVS state wage records show recent quarterly wages for a household member, indicating likely omitted earned income.",{'earned': 0.7}
+qwen3.5-397b,42777|net_deposits|omission_not_provided,42777,earned,net_deposits,3,omission_not_provided,True,not_provided,ambiguous,True,"['earned', 'shelter', 'utilities']",3,1.0,1.0,,,"earned: Four recurring ACH credits of $1,461.05 each suggest unreported employment income; payroll connector returned 0 pay stubs but bank shows regular deposits typical of wages.; shelter: Reported $0 shelter costs with no supporting documentation; household has regular income but claims no housing expense which is unusual and unsupported.; utilities: Reported $0 utilities with no supporting documentation; state allowances exist but applicant claims no utility costs despite having income to pay them.","{'earned': 0.9, 'shelter': 0.7, 'utilities': 0.7}"
+deepseek-v4-flash,42777|wage_match|truthful_twin,42777,earned,wage_match,4,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,42777|net_deposits|truthful_twin,42777,earned,net_deposits,3,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,42777|wage_match|omission_zero,42777,earned,wage_match,4,omission_zero,True,$0,ambiguous,True,['earned'],1,1.0,1.0,,,"earned: IEVS cross-match shows state wage records with recent quarterly wages for a household member, contradicting the $0 earned income reported on the application.",{'earned': 0.85}
+qwen3.5-397b,42777|wage_match|omission_not_provided,42777,earned,wage_match,4,omission_not_provided,True,not_provided,ambiguous,True,['earned'],1,1.0,1.0,,,"earned: IEVS cross-match shows state wage records with recent quarterly wages for household member, but application reports earned income as not provided",{'earned': 0.9}
+deepseek-v4-flash,28066|none|omission_zero,28066,unearned,none,1,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,42777|wage_match|truthful_twin,42777,earned,wage_match,4,truthful_twin,False,twin,ambiguous,True,"['shelter', 'utilities']",2,,,1.0,0.0,"shelter: Reported $0 shelter costs is unusual for a household with $4,545 monthly income; no documentation explains free housing or why shelter costs would be zero.; utilities: Reported $0 utilities is unusual; no documentation explains why household would have no utility expenses (e.g., utilities included in rent, living with relatives).","{'shelter': 0.7, 'utilities': 0.6}"
+qwen3.5-397b,42777|net_deposits|truthful_twin,42777,earned,net_deposits,3,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,28066|none|omission_not_provided,28066,unearned,none,1,omission_not_provided,True,not_provided,clear,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,28066|budget_gap|omission_not_provided,28066,unearned,budget_gap,2,omission_not_provided,True,not_provided,clear,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,28066|budget_gap|omission_zero,28066,unearned,budget_gap,2,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,28066|budget_gap|omission_not_provided,28066,unearned,budget_gap,2,omission_not_provided,True,not_provided,clear,True,"['unearned', 'utilities']",2,1.0,1.0,,,"unearned: Unexplained $222.20 transfer from savings on 2026-09-17 could indicate unreported income source, though may be internal transfer.; utilities: Utilities reported as $0 but no documentation confirms utilities are included in rent; household paying $650 rent with only ~$355-533 monthly earned income raises question about how utility costs are covered.","{'unearned': 0.35, 'utilities': 0.55}"
+deepseek-v4-flash,28066|budget_gap|truthful_twin,28066,unearned,budget_gap,2,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,42777|budget_gap|truthful_twin,42777,earned,budget_gap,2,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,28066|budget_gap|omission_zero,28066,unearned,budget_gap,2,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,28066|net_deposits|omission_zero,28066,unearned,net_deposits,3,omission_zero,True,$0,clear,True,['unearned'],1,1.0,1.0,,,"unearned: Bank records show recurring SSI benefit credits of $943 on 09/01 and 10/01, but the application reports $0 unearned income.",{'unearned': 0.97}
+deepseek-v4-flash,28066|none|truthful_twin,28066,unearned,none,1,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,28066|net_deposits|omission_zero,28066,unearned,net_deposits,3,omission_zero,True,$0,clear,True,['unearned'],1,1.0,1.0,,,unearned: Application reports $0 unearned income but bank records show recurring SSI benefit deposits of $943/month (Sept 1 and Oct 1).,{'unearned': 0.95}
+deepseek-v4-flash,28066|net_deposits|omission_not_provided,28066,unearned,net_deposits,3,omission_not_provided,True,not_provided,clear,True,['unearned'],1,1.0,1.0,,,"unearned: Bank records show recurring SSI benefit credits of $943 on 2026-09-01 and 2026-10-01, but the application left unearned income not provided.",{'unearned': 0.97}
+deepseek-v4-flash,28066|wage_match|omission_zero,28066,unearned,wage_match,4,omission_zero,True,$0,clear,True,['unearned'],1,1.0,1.0,,,"unearned: Agency cross-match lead shows recent monthly benefit payments for a household member, contradicting the reported $0 unearned income.",{'unearned': 0.65}
+qwen3.5-397b,28066|net_deposits|omission_not_provided,28066,unearned,net_deposits,3,omission_not_provided,True,not_provided,clear,True,"['shelter', 'unearned', 'utilities']",3,1.0,1.0,,,unearned: Bank records show recurring $943 SSI benefit deposits (9/1 and 10/1) but unearned income reported as not provided; shelter: Shelter costs reported as $0 with no supporting documentation of free housing or living arrangement explanation; utilities: Utilities reported as $0 with no supporting documentation of included utilities or living arrangement explanation,"{'unearned': 0.95, 'shelter': 0.6, 'utilities': 0.6}"
+deepseek-v4-flash,28066|wage_match|omission_not_provided,28066,unearned,wage_match,4,omission_not_provided,True,not_provided,clear,True,['unearned'],1,1.0,1.0,,,unearned: Unearned income left blank but agency cross-match (IEVS/SSA) shows recent monthly benefit payments for a household member.,{'unearned': 0.8}
+deepseek-v4-flash,28066|net_deposits|truthful_twin,28066,unearned,net_deposits,3,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,28066|wage_match|omission_zero,28066,unearned,wage_match,4,omission_zero,True,$0,clear,True,['unearned'],1,1.0,1.0,,,"unearned: Agency cross-match lead shows external benefit records with recent monthly benefit payments for a household member, contradicting the $0 unearned income reported.",{'unearned': 0.9}
+deepseek-v4-flash,28066|wage_match|truthful_twin,28066,unearned,wage_match,4,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,28066|wage_match|omission_not_provided,28066,unearned,wage_match,4,omission_not_provided,True,not_provided,clear,True,"['earned', 'shelter', 'unearned', 'utilities']",4,1.0,1.0,,,"earned: Reported $382 monthly earned income is inconsistent with pay stubs showing $177.67 biweekly gross pay, which would yield approximately $355-$533 per month depending on pay period count; unearned: Reported as 'not provided' but agency cross-match lead indicates external benefit records show recent monthly benefit payments for a household member; shelter: Reported $0 shelter costs is questionable given household has ongoing expenses (grocery purchases in bank records) and no documentation supports zero housing costs; utilities: Reported $0 utilities contradicts state utility allowances (heating/cooling $329, limited $263, telephone $50) and no documentation supports zero utility expenses","{'earned': 0.7, 'unearned': 0.8, 'shelter': 0.6, 'utilities': 0.7}"
+qwen3.5-397b,28066|net_deposits|truthful_twin,28066,unearned,net_deposits,3,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,30966|none|omission_zero,30966,unearned,none,1,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,30966|none|omission_not_provided,30966,unearned,none,1,omission_not_provided,True,not_provided,clear,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,30966|none|truthful_twin,30966,unearned,none,1,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,30966|none|omission_zero,30966,unearned,none,1,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,30966|none|omission_not_provided,30966,unearned,none,1,omission_not_provided,True,not_provided,clear,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,28066|none|omission_not_provided,28066,unearned,none,1,omission_not_provided,True,not_provided,clear,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,30966|budget_gap|omission_zero,30966,unearned,budget_gap,2,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,30966|none|truthful_twin,30966,unearned,none,1,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,30966|budget_gap|omission_zero,30966,unearned,budget_gap,2,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,30966|budget_gap|omission_not_provided,30966,unearned,budget_gap,2,omission_not_provided,True,not_provided,clear,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,30966|budget_gap|truthful_twin,30966,unearned,budget_gap,2,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,28066|none|omission_zero,28066,unearned,none,1,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,30966|net_deposits|omission_zero,30966,unearned,net_deposits,3,omission_zero,True,$0,clear,True,['unearned'],1,1.0,1.0,,,"unearned: Bank records show two monthly Social Security benefit deposits of $1,035 each (Sep and Oct), contradicting the reported $0 unearned income.",{'unearned': 0.97}
+qwen3.5-397b,30966|budget_gap|truthful_twin,30966,unearned,budget_gap,2,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,30966|net_deposits|omission_not_provided,30966,unearned,net_deposits,3,omission_not_provided,True,not_provided,clear,True,['unearned'],1,1.0,1.0,,,"unearned: Bank records show recurring $1,035 Social Security benefit deposits in Sep and Oct, but unearned income was left not provided.",{'unearned': 0.97}
+qwen3.5-397b,30966|budget_gap|omission_not_provided,30966,unearned,budget_gap,2,omission_not_provided,True,not_provided,clear,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,30966|net_deposits|omission_not_provided,30966,unearned,net_deposits,3,omission_not_provided,True,not_provided,clear,True,['unearned'],1,1.0,1.0,,,"unearned: Bank records show two monthly Social Security benefit deposits of $1,035 each that were not reported as unearned income.",{'unearned': 0.95}
+deepseek-v4-flash,30966|net_deposits|truthful_twin,30966,unearned,net_deposits,3,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,30966|wage_match|omission_zero,30966,unearned,wage_match,4,omission_zero,True,$0,clear,True,['unearned'],1,1.0,1.0,,,"unearned: Agency cross-match (IEVS/SSA) shows recent monthly benefit payments for a household member, contradicting the reported $0 unearned income.",{'unearned': 0.85}
+qwen3.5-397b,30966|net_deposits|omission_zero,30966,unearned,net_deposits,3,omission_zero,True,$0,clear,True,['unearned'],1,1.0,1.0,,,"unearned: Bank records show two Social Security benefit deposits ($1,035 each in Sept and Oct 2026) contradicting the $0 unearned income reported",{'unearned': 0.95}
+qwen3.5-397b,30966|wage_match|omission_zero,30966,unearned,wage_match,4,omission_zero,True,$0,clear,True,['unearned'],1,1.0,1.0,,,"unearned: Agency cross-match lead indicates recent monthly benefit payments for household member, contradicting $0 unearned income report",{'unearned': 0.9}
+deepseek-v4-flash,30966|wage_match|omission_not_provided,30966,unearned,wage_match,4,omission_not_provided,True,not_provided,clear,True,['unearned'],1,1.0,1.0,,,"unearned: Agency cross-match (IEVS/SSA) shows recent monthly benefit payments for a household member, but unearned income was left not provided.",{'unearned': 0.85}
+deepseek-v4-flash,30966|wage_match|truthful_twin,30966,unearned,wage_match,4,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,30966|wage_match|omission_not_provided,30966,unearned,wage_match,4,omission_not_provided,True,not_provided,clear,True,['unearned'],1,1.0,1.0,,,"unearned: Agency cross-match lead indicates external benefit records show recent monthly benefit payments for a household member, but unearned income was not provided on application.",{'unearned': 0.85}
+deepseek-v4-flash,21739|none|omission_zero,21739,unearned,none,1,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,28066|budget_gap|truthful_twin,28066,unearned,budget_gap,2,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,30966|net_deposits|truthful_twin,30966,unearned,net_deposits,3,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,21739|none|omission_not_provided,21739,unearned,none,1,omission_not_provided,True,not_provided,clear,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,28066|wage_match|truthful_twin,28066,unearned,wage_match,4,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,30966|wage_match|truthful_twin,30966,unearned,wage_match,4,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,21739|none|truthful_twin,21739,unearned,none,1,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,21739|budget_gap|omission_zero,21739,unearned,budget_gap,2,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,21739|budget_gap|omission_zero,21739,unearned,budget_gap,2,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,21739|budget_gap|omission_not_provided,21739,unearned,budget_gap,2,omission_not_provided,True,not_provided,clear,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,21739|none|omission_not_provided,21739,unearned,none,1,omission_not_provided,True,not_provided,clear,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,21739|net_deposits|omission_zero,21739,unearned,net_deposits,3,omission_zero,True,$0,clear,True,['unearned'],1,1.0,1.0,,,"unearned: Bank records show two $1,716 Social Security benefit deposits (Sep and Oct) contradicting the reported $0 unearned income.",{'unearned': 0.97}
+deepseek-v4-flash,21739|budget_gap|truthful_twin,21739,unearned,budget_gap,2,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,21739|budget_gap|omission_not_provided,21739,unearned,budget_gap,2,omission_not_provided,True,not_provided,clear,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,21739|none|truthful_twin,21739,unearned,none,1,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,21739|net_deposits|omission_not_provided,21739,unearned,net_deposits,3,omission_not_provided,True,not_provided,clear,True,['unearned'],1,1.0,1.0,,,"unearned: Bank records show recurring $1,716/month Social Security benefit deposits (Sep and Oct), contradicting the blank unearned income report.",{'unearned': 0.95}
+qwen3.5-397b,21739|net_deposits|omission_zero,21739,unearned,net_deposits,3,omission_zero,True,$0,clear,True,['unearned'],1,1.0,1.0,,,"unearned: Application reports $0 unearned income but bank records show two monthly Social Security benefit deposits of $1,716 each (Sept 3 and Oct 3, 2026).",{'unearned': 0.95}
+deepseek-v4-flash,21739|wage_match|omission_zero,21739,unearned,wage_match,4,omission_zero,True,$0,clear,True,['unearned'],1,1.0,1.0,,,"unearned: Agency cross-match (IEVS/SSA) shows recent monthly benefit payments for a household member, contradicting the reported $0 unearned income.",{'unearned': 0.85}
+deepseek-v4-flash,21739|net_deposits|truthful_twin,21739,unearned,net_deposits,3,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,21739|wage_match|omission_zero,21739,unearned,wage_match,4,omission_zero,True,$0,clear,True,['unearned'],1,1.0,1.0,,,"unearned: Agency cross-match lead indicates recent monthly benefit payments for household member, contradicting $0 unearned income report",{'unearned': 0.9}
+qwen3.5-397b,21739|net_deposits|omission_not_provided,21739,unearned,net_deposits,3,omission_not_provided,True,not_provided,clear,True,['unearned'],1,1.0,1.0,,,"unearned: Bank records show two recurring SSA Social Security benefit deposits of $1,716 each month that were not reported as unearned income.",{'unearned': 0.95}
+qwen3.5-397b,21739|none|omission_zero,21739,unearned,none,1,omission_zero,True,$0,clear,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,21739|wage_match|omission_not_provided,21739,unearned,wage_match,4,omission_not_provided,True,not_provided,clear,True,['unearned'],1,1.0,1.0,,,"unearned: Agency cross-match (IEVS/SSA) shows recent monthly benefit payments for a household member, but the application reports unearned income as not provided.",{'unearned': 0.8}
+deepseek-v4-flash,21739|wage_match|truthful_twin,21739,unearned,wage_match,4,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,43456|none|omission_zero,43456,unearned,none,1,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,21739|wage_match|omission_not_provided,21739,unearned,wage_match,4,omission_not_provided,True,not_provided,clear,True,['unearned'],1,1.0,1.0,,,"unearned: Agency cross-match lead indicates external benefit payments for household member, but unearned income was not provided on application",{'unearned': 0.85}
+qwen3.5-397b,21739|budget_gap|truthful_twin,21739,unearned,budget_gap,2,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,43456|none|omission_not_provided,43456,unearned,none,1,omission_not_provided,True,not_provided,ambiguous,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,43456|none|truthful_twin,43456,unearned,none,1,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,43456|none|omission_zero,43456,unearned,none,1,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,43456|budget_gap|omission_zero,43456,unearned,budget_gap,2,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,21739|wage_match|truthful_twin,21739,unearned,wage_match,4,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,21739|net_deposits|truthful_twin,21739,unearned,net_deposits,3,truthful_twin,False,twin,clear,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,43456|budget_gap|omission_zero,43456,unearned,budget_gap,2,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,43456|budget_gap|truthful_twin,43456,unearned,budget_gap,2,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,43456|none|omission_not_provided,43456,unearned,none,1,omission_not_provided,True,not_provided,ambiguous,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,43456|none|truthful_twin,43456,unearned,none,1,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,43456|budget_gap|omission_not_provided,43456,unearned,budget_gap,2,omission_not_provided,True,not_provided,ambiguous,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,43456|budget_gap|truthful_twin,43456,unearned,budget_gap,2,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,43456|budget_gap|omission_not_provided,43456,unearned,budget_gap,2,omission_not_provided,True,not_provided,ambiguous,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,43456|net_deposits|omission_zero,43456,unearned,net_deposits,3,omission_zero,True,$0,ambiguous,True,['unearned'],1,1.0,1.0,,,"unearned: Recurring ACH credit deposits of $3,491 on 09-05 and 10-05 are unexplained income not reported as $0 unearned.",{'unearned': 0.9}
+deepseek-v4-flash,43456|wage_match|omission_zero,43456,unearned,wage_match,4,omission_zero,True,$0,ambiguous,True,['unearned'],1,1.0,1.0,,,"unearned: Agency cross-match (IEVS/SSA) shows recent monthly benefit payments for a household member, contradicting the reported $0 unearned income.",{'unearned': 0.8}
+deepseek-v4-flash,43456|net_deposits|omission_not_provided,43456,unearned,net_deposits,3,omission_not_provided,True,not_provided,ambiguous,True,"['earned', 'unearned']",2,1.0,1.0,,,"earned: Recurring $3,491.00 ACH credit deposits on 09-05 and 10-05 contradict reported $0 earned income.; unearned: Recurring $3,491.00 ACH credit deposits are unexplained income not reported in the blank unearned group.","{'earned': 0.7, 'unearned': 0.7}"
+qwen3.5-397b,43456|net_deposits|truthful_twin,43456,unearned,net_deposits,3,truthful_twin,False,twin,ambiguous,True,['unearned'],1,,,1.0,1.0,"unearned: Bank records show $156.78 ACH credit electronic transfer that could represent unearned income, contradicting $0 claim",{'unearned': 0.65}
+qwen3.5-397b,43456|wage_match|omission_zero,43456,unearned,wage_match,4,omission_zero,True,$0,ambiguous,True,['unearned'],1,1.0,1.0,,,"unearned: Agency cross-match lead shows external benefit records with recent monthly benefit payments for a household member, contradicting the $0 unearned income claim.",{'unearned': 0.9}
+deepseek-v4-flash,43456|wage_match|omission_not_provided,43456,unearned,wage_match,4,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,"unearned: Agency cross-match (IEVS/SSA) shows recent monthly benefit payments for a household member, contradicting the 'not provided' unearned income response.",{'unearned': 0.8}
+qwen3.5-397b,43456|wage_match|omission_not_provided,43456,unearned,wage_match,4,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,"unearned: Agency cross-match lead shows recent monthly benefit payments for a household member, contradicting the 'not provided' status on the application.",{'unearned': 0.9}
+deepseek-v4-flash,43456|net_deposits|truthful_twin,43456,unearned,net_deposits,3,truthful_twin,False,twin,ambiguous,True,['unearned'],1,,,1.0,1.0,unearned: Bank shows an unexplained $156.78 ACH credit (10/31) while unearned income is reported as $0; deposit could be income and warrants review.,{'unearned': 0.5}
+qwen3.5-397b,43456|net_deposits|omission_zero,43456,unearned,net_deposits,3,omission_zero,True,$0,ambiguous,True,['earned'],1,0.0,1.0,,,"earned: Two identical monthly ACH electronic deposits of $3,491 (9/5 and 10/5) strongly suggest unreported payroll income despite $0 earned income claim and 0 pay stubs returned.",{'earned': 0.9}
+deepseek-v4-flash,41978|none|omission_zero,41978,unearned,none,1,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,43456|wage_match|truthful_twin,43456,unearned,wage_match,4,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,41978|none|omission_not_provided,41978,unearned,none,1,omission_not_provided,True,not_provided,ambiguous,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,43456|wage_match|truthful_twin,43456,unearned,wage_match,4,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,41978|none|truthful_twin,41978,unearned,none,1,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,43456|net_deposits|omission_not_provided,43456,unearned,net_deposits,3,omission_not_provided,True,not_provided,ambiguous,True,['earned'],1,0.0,1.0,,,"earned: Two monthly ACH electronic deposits of $3,491 each (9/5 and 10/5) strongly suggest regular earned income contradicting the $0 claim",{'earned': 0.85}
+deepseek-v4-flash,41978|budget_gap|omission_not_provided,41978,unearned,budget_gap,2,omission_not_provided,True,not_provided,ambiguous,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,41978|budget_gap|omission_zero,41978,unearned,budget_gap,2,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,41978|budget_gap|omission_zero,41978,unearned,budget_gap,2,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,41978|budget_gap|truthful_twin,41978,unearned,budget_gap,2,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,41978|net_deposits|omission_zero,41978,unearned,net_deposits,3,omission_zero,True,$0,ambiguous,True,['earned'],1,0.0,1.0,,,"earned: Recurring monthly ACH credit deposits of $1,039.00 (Sep 3 and Oct 3) contradict the reported $0 earned income.",{'earned': 0.9}
+qwen3.5-397b,41978|budget_gap|truthful_twin,41978,unearned,budget_gap,2,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,41978|none|omission_not_provided,41978,unearned,none,1,omission_not_provided,True,not_provided,ambiguous,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,41978|none|truthful_twin,41978,unearned,none,1,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,41978|none|omission_zero,41978,unearned,none,1,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,41978|net_deposits|omission_zero,41978,unearned,net_deposits,3,omission_zero,True,$0,ambiguous,True,['unearned'],1,1.0,1.0,,,"unearned: Two recurring monthly ACH credit deposits of $1,039.00 each contradict the $0 unearned income claim",{'unearned': 0.9}
+deepseek-v4-flash,41978|wage_match|omission_zero,41978,unearned,wage_match,4,omission_zero,True,$0,ambiguous,True,['unearned'],1,1.0,1.0,,,"unearned: Agency cross-match (IEVS/SSA) shows recent monthly benefit payments for a household member, contradicting the reported $0 unearned income.",{'unearned': 0.9}
+qwen3.5-397b,41978|budget_gap|omission_not_provided,41978,unearned,budget_gap,2,omission_not_provided,True,not_provided,ambiguous,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,41978|net_deposits|truthful_twin,41978,unearned,net_deposits,3,truthful_twin,False,twin,ambiguous,True,['unearned'],1,,,1.0,1.0,"unearned: Bank records show an unexplained $243.14 ACH credit electronic transfer on 2026-10-19, contradicting the reported $0 unearned income.",{'unearned': 0.6}
+deepseek-v4-flash,41978|wage_match|omission_not_provided,41978,unearned,wage_match,4,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,"unearned: Agency cross-match (IEVS/SSA) shows recent monthly benefit payments for a household member, but the application left unearned income not provided.",{'unearned': 0.8}
+qwen3.5-397b,41978|wage_match|omission_not_provided,41978,unearned,wage_match,4,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,"unearned: Agency cross-match lead indicates external benefit payments for household member, but unearned income was not provided on application.",{'unearned': 0.9}
+qwen3.5-397b,28066|none|truthful_twin,28066,unearned,none,1,truthful_twin,False,twin,clear,True,"['earned', 'shelter', 'utilities']",3,,,1.0,1.0,"earned: Reported $382 monthly earned income does not match pay stub evidence showing biweekly gross pay of $177.67, which would yield approximately $355 (2 paychecks) or $533 (3 paychecks) per month; shelter: Reported $0 shelter costs is unusual and unsupported; no rent/mortgage payments visible in bank records but no explanation provided for zero housing expense; utilities: Reported $0 utilities with no supporting documentation; while utilities could be included in rent, this claim lacks verification","{'earned': 0.7, 'shelter': 0.6, 'utilities': 0.5}"
+deepseek-v4-flash,41978|wage_match|truthful_twin,41978,unearned,wage_match,4,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,41978|net_deposits|omission_not_provided,41978,unearned,net_deposits,3,omission_not_provided,True,not_provided,ambiguous,True,"['earned', 'unearned']",2,1.0,1.0,,,"unearned: Recurring $1,039 ACH credit deposits on 09/03 and 10/03 are unexplained income contradicting 'not provided'.; earned: Recurring $1,039 ACH credit deposits could be wages, conflicting with reported $0 earned income despite no pay stubs.","{'unearned': 0.8, 'earned': 0.4}"
+qwen3.5-397b,41978|net_deposits|truthful_twin,41978,unearned,net_deposits,3,truthful_twin,False,twin,ambiguous,True,['unearned'],1,,,1.0,1.0,unearned: ACH credit of $243.14 in bank records appears to be unreported unearned income,{'unearned': 0.75}
+qwen3.5-397b,41978|wage_match|omission_zero,41978,unearned,wage_match,4,omission_zero,True,$0,ambiguous,True,['unearned'],1,1.0,1.0,,,"unearned: Agency cross-match (IEVS/SSA) shows recent monthly benefit payments for a household member, contradicting the $0 unearned income claim.",{'unearned': 0.9}
+deepseek-v4-flash,34791|none|omission_zero,34791,unearned,none,1,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,34791|none|omission_not_provided,34791,unearned,none,1,omission_not_provided,True,not_provided,ambiguous,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,34791|none|truthful_twin,34791,unearned,none,1,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,34791|budget_gap|omission_zero,34791,unearned,budget_gap,2,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,34791|budget_gap|omission_not_provided,34791,unearned,budget_gap,2,omission_not_provided,True,not_provided,ambiguous,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,34791|budget_gap|omission_zero,34791,unearned,budget_gap,2,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,41978|wage_match|truthful_twin,41978,unearned,wage_match,4,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,34791|none|omission_not_provided,34791,unearned,none,1,omission_not_provided,True,not_provided,ambiguous,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,41978|net_deposits|omission_not_provided,41978,unearned,net_deposits,3,omission_not_provided,True,not_provided,ambiguous,True,"['earned', 'unearned']",2,1.0,1.0,,,"earned: Recurring ACH deposits could represent unreported wages despite 0 pay stubs from payroll connector; unearned: Two recurring $1,039 monthly ACH credits suggest unreported benefit income not disclosed on application","{'earned': 0.4, 'unearned': 0.75}"
+qwen3.5-397b,34791|none|truthful_twin,34791,unearned,none,1,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,34791|none|omission_zero,34791,unearned,none,1,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,34791|budget_gap|truthful_twin,34791,unearned,budget_gap,2,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,34791|budget_gap|omission_not_provided,34791,unearned,budget_gap,2,omission_not_provided,True,not_provided,ambiguous,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,34791|budget_gap|truthful_twin,34791,unearned,budget_gap,2,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,34791|net_deposits|truthful_twin,34791,unearned,net_deposits,3,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,34791|wage_match|omission_zero,34791,unearned,wage_match,4,omission_zero,True,$0,ambiguous,True,['unearned'],1,1.0,1.0,,,"unearned: Agency cross-match lead shows recent monthly benefit payments for a household member, contradicting the reported $0 unearned income.",{'unearned': 0.85}
+deepseek-v4-flash,34791|net_deposits|omission_not_provided,34791,unearned,net_deposits,3,omission_not_provided,True,not_provided,ambiguous,True,['earned'],1,0.0,1.0,,,"earned: Two recurring $1,572 ACH electronic deposits (09/05 and 10/05) contradict the reported $0 earned income.",{'earned': 0.9}
+qwen3.5-397b,34791|net_deposits|omission_zero,34791,unearned,net_deposits,3,omission_zero,True,$0,ambiguous,True,['earned'],1,0.0,1.0,,,"earned: Two recurring monthly ACH CREDIT ELECTRONIC DEPOSIT transactions of $1,572 each (Sept 5 and Oct 5) strongly suggest unreported earned income despite $0 reported",{'earned': 0.9}
+deepseek-v4-flash,34791|wage_match|omission_not_provided,34791,unearned,wage_match,4,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,"unearned: Reported as not provided, but agency cross-match lead (IEVS/SSA) shows recent monthly benefit payments for a household member, indicating likely omitted unearned income.",{'unearned': 0.8}
+qwen3.5-397b,34791|wage_match|omission_zero,34791,unearned,wage_match,4,omission_zero,True,$0,ambiguous,True,['unearned'],1,1.0,1.0,,,"unearned: Agency cross-match lead shows recent monthly benefit payments for a household member, contradicting the $0 unearned income claim.",{'unearned': 0.85}
+deepseek-v4-flash,34791|wage_match|truthful_twin,34791,unearned,wage_match,4,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,34791|net_deposits|omission_not_provided,34791,unearned,net_deposits,3,omission_not_provided,True,not_provided,ambiguous,True,['earned'],1,0.0,1.0,,,"earned: Two recurring monthly ACH CREDIT ELECTRONIC DEPOSIT transactions of $1,572.00 each (Sept 5 and Oct 5) contradict the $0 earned income claim.",{'earned': 0.85}
+qwen3.5-397b,34791|wage_match|omission_not_provided,34791,unearned,wage_match,4,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,"unearned: Agency cross-match lead shows recent monthly benefit payments for household member, but unearned income reported as not provided",{'unearned': 0.9}
+deepseek-v4-flash,30269|none|omission_zero,30269,unearned,none,1,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,34791|net_deposits|omission_zero,34791,unearned,net_deposits,3,omission_zero,True,$0,ambiguous,True,"['earned', 'unearned']",2,1.0,1.0,,,"earned: Recurring $1,572 ACH credit deposits on 09/05 and 10/05 contradict the reported $0 earned income, and no pay stubs or documents explain them.; unearned: The recurring $1,572 deposits are unexplained and could be unearned income, contradicting the reported $0 unearned income.","{'earned': 0.9, 'unearned': 0.6}"
+deepseek-v4-flash,30269|none|truthful_twin,30269,unearned,none,1,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,30269|none|omission_not_provided,30269,unearned,none,1,omission_not_provided,True,not_provided,ambiguous,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,30269|budget_gap|omission_zero,30269,unearned,budget_gap,2,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+deepseek-v4-flash,30269|budget_gap|omission_not_provided,30269,unearned,budget_gap,2,omission_not_provided,True,not_provided,ambiguous,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,34791|wage_match|truthful_twin,34791,unearned,wage_match,4,truthful_twin,False,twin,ambiguous,True,"['shelter', 'utilities']",2,,,1.0,0.0,"shelter: Reported $0 shelter costs is unusual and warrants verification of living arrangement.; utilities: Reported $0 utilities is unusual and warrants verification, especially combined with $0 shelter costs.","{'shelter': 0.5, 'utilities': 0.5}"
+qwen3.5-397b,30269|none|truthful_twin,30269,unearned,none,1,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,30269|none|omission_zero,30269,unearned,none,1,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,34791|net_deposits|truthful_twin,34791,unearned,net_deposits,3,truthful_twin,False,twin,ambiguous,True,['unearned'],1,,,1.0,1.0,unearned: Unexplained $51.07 ACH credit in bank records not reported as unearned income.,{'unearned': 0.35}
+qwen3.5-397b,30269|none|omission_not_provided,30269,unearned,none,1,omission_not_provided,True,not_provided,ambiguous,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,30269|budget_gap|omission_zero,30269,unearned,budget_gap,2,omission_zero,True,$0,ambiguous,True,[],0,0.0,0.0,,,,{}
+qwen3.5-397b,30269|budget_gap|truthful_twin,30269,unearned,budget_gap,2,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,30269|budget_gap|truthful_twin,30269,unearned,budget_gap,2,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+deepseek-v4-flash,30269|net_deposits|omission_zero,30269,unearned,net_deposits,3,omission_zero,True,$0,ambiguous,True,"['earned', 'unearned']",2,1.0,1.0,,,"earned: Recurring ACH electronic deposits ($797 and $461 monthly) total ~$1,258/month but earned income reported as $0.; unearned: Recurring ACH electronic deposits ($797 and $461 monthly) total ~$1,258/month but unearned income reported as $0.","{'earned': 0.7, 'unearned': 0.7}"
+deepseek-v4-flash,30269|net_deposits|omission_not_provided,30269,unearned,net_deposits,3,omission_not_provided,True,not_provided,ambiguous,True,"['earned', 'unearned']",2,1.0,1.0,,,"earned: Recurring ACH deposits of $797 and $461 appear monthly (Sep and Oct) yet earned income is reported as $0.; unearned: Unearned income is not provided but recurring ACH deposits ($797, $461) are unexplained income sources in the bank records.","{'earned': 0.8, 'unearned': 0.7}"
+deepseek-v4-flash,30269|wage_match|omission_zero,30269,unearned,wage_match,4,omission_zero,True,$0,ambiguous,True,['unearned'],1,1.0,1.0,,,"unearned: IEVS/SSA cross-match shows recent monthly benefit payments for a household member, but the application reports $0 unearned income.",{'unearned': 0.85}
+qwen3.5-397b,30269|budget_gap|omission_not_provided,30269,unearned,budget_gap,2,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,"unearned: Monthly housing and utility costs ($1,267) exceed reported income ($0 earned, unearned not provided), suggesting possible unreported income sources",{'unearned': 0.6}
+deepseek-v4-flash,30269|net_deposits|truthful_twin,30269,unearned,net_deposits,3,truthful_twin,False,twin,ambiguous,True,['unearned'],1,,,1.0,1.0,unearned: Bank shows a $212.32 ACH credit deposit (2026-09-02) with no income reported and no explanation in the file.,{'unearned': 0.6}
+qwen3.5-397b,30269|wage_match|omission_zero,30269,unearned,wage_match,4,omission_zero,True,$0,ambiguous,True,['unearned'],1,1.0,1.0,,,"unearned: Agency cross-match lead indicates external benefit records show recent monthly benefit payments for a household member, contradicting the $0 unearned income claim.",{'unearned': 0.9}
+deepseek-v4-flash,30269|wage_match|omission_not_provided,30269,unearned,wage_match,4,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,"unearned: Agency cross-match (IEVS/SSA) shows recent monthly benefit payments for a household member, but unearned income was left not provided.",{'unearned': 0.85}
+qwen3.5-397b,30269|wage_match|omission_not_provided,30269,unearned,wage_match,4,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,"unearned: Agency cross-match lead shows recent monthly benefit payments for a household member, but unearned income was reported as 'not provided'.",{'unearned': 0.85}
+qwen3.5-397b,30269|net_deposits|omission_zero,30269,unearned,net_deposits,3,omission_zero,True,$0,ambiguous,True,['unearned'],1,1.0,1.0,,,"unearned: Recurring ACH CREDIT ELECTRONIC DEPOSIT transactions ($797 on 1st of each month, $461 mid-month) suggest unreported unearned income sources contradicting $0 claim",{'unearned': 0.85}
+deepseek-v4-flash,30269|wage_match|truthful_twin,30269,unearned,wage_match,4,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}
+qwen3.5-397b,30269|net_deposits|truthful_twin,30269,unearned,net_deposits,3,truthful_twin,False,twin,ambiguous,True,['unearned'],1,,,1.0,1.0,unearned: Unexplained $212.32 ACH credit deposit in bank records contradicts $0 unearned income report,{'unearned': 0.55}
+qwen3.5-397b,30269|net_deposits|omission_not_provided,30269,unearned,net_deposits,3,omission_not_provided,True,not_provided,ambiguous,True,['unearned'],1,1.0,1.0,,,unearned: Recurring ACH electronic deposits ($797 and $461 appearing twice each over 2 months) suggest unreported income sources not captured in application,{'unearned': 0.85}
+qwen3.5-397b,30269|wage_match|truthful_twin,30269,unearned,wage_match,4,truthful_twin,False,twin,ambiguous,True,[],0,,,0.0,0.0,,{}

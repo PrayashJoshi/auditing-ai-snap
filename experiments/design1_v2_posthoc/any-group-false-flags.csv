@@ -1,0 +1,7 @@
+reader,any_flag_k,n_valid,any_flag_rate,groups_flagged
+deepseek-v4-flash,1,45,0.022222222222222223,utilities 1
+qwen3.5-397b,9,48,0.1875,utilities 8; earned 1
+gemma-4-31b-it,36,47,0.7659574468085106,utilities 27; earned 10; unearned 3
+glm-5.3-flash,3,44,0.06818181818181818,unearned 3; earned 2
+gemma-4-26b-a4b-it,48,48,1.0,utilities 38; earned 15; unearned 11; shelter 5
+qwen3.8-27b,42,48,0.875,utilities 42

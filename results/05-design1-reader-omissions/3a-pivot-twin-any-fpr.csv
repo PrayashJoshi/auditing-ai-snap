@@ -1,0 +1,5 @@
+trace_level,frozen_checker,checker_plus_2_rules,deepseek-v4-flash,qwen3.5-397b
+none,0.0,0.0,0.0,0.0833
+budget_gap,0.0,0.0,0.0,0.0
+net_deposits,0.0,0.0,0.3333,0.3333
+wage_match,0.0,0.0,0.0,0.3333

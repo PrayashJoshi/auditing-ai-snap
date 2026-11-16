@@ -1,0 +1,4 @@
+item,value
+"false-flag rate for 80% precision at 80% recall, prevalence 0.46% (known rebuilt omissions among $0 filings)",0.0009242515571629496
+"false-flag rate for 80% precision at 80% recall, prevalence 2.47% (all-cause upper bracket)",0.00506510817184456
+"Wilson 95% upper bound, 0 flags in 48 negatives",0.07410012966611748

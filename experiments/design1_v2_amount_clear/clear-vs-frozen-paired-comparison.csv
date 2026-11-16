@@ -1,0 +1,10 @@
+reader,flag,compare_cell,compare_repeat,n_pairs,k_compare,rate_compare,k_this,rate_this,difference,b,c,mcnemar_p
+deepseek-v4-flash,target_flag,zero_stray/stray_clear,1,48,0,0.0,0,0.0,0.0,0,0,1.0
+deepseek-v4-flash,income_flag,zero_stray/stray_clear,1,48,0,0.0,0,0.0,0.0,0,0,1.0
+deepseek-v4-flash,any_flag,zero_stray/stray_clear,1,48,1,0.020833333333333332,1,0.020833333333333332,0.0,1,1,1.0
+qwen3.5-397b,target_flag,zero_stray/stray_clear,1,48,1,0.020833333333333332,0,0.0,-0.020833333333333332,1,0,1.0
+qwen3.5-397b,income_flag,zero_stray/stray_clear,1,48,1,0.020833333333333332,1,0.020833333333333332,0.0,1,1,1.0
+qwen3.5-397b,any_flag,zero_stray/stray_clear,1,48,6,0.125,8,0.16666666666666666,0.04166666666666666,1,3,0.625
+gemma-4-31b-it,target_flag,zero_stray/stray_clear,1,48,0,0.0,0,0.0,0.0,0,0,1.0
+gemma-4-31b-it,income_flag,zero_stray/stray_clear,1,48,1,0.020833333333333332,1,0.020833333333333332,0.0,0,0,1.0
+gemma-4-31b-it,any_flag,zero_stray/stray_clear,1,48,17,0.3541666666666667,18,0.375,0.020833333333333315,1,2,1.0

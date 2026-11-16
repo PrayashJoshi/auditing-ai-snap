@@ -1,0 +1,10 @@
+reader,flag,compare_cell,compare_repeat,n_pairs,k_compare,rate_compare,k_this,rate_this,difference,b,c,mcnemar_p
+deepseek-v4-flash,target_flag,zero_stray/stray_ambiguous,1,48,24,0.5,35,0.7291666666666666,0.22916666666666663,3,14,0.012725830078125
+deepseek-v4-flash,income_flag,zero_stray/stray_ambiguous,1,48,34,0.7083333333333334,47,0.9791666666666666,0.27083333333333326,0,13,0.000244140625
+deepseek-v4-flash,any_flag,zero_stray/stray_ambiguous,1,48,34,0.7083333333333334,47,0.9791666666666666,0.27083333333333326,0,13,0.000244140625
+qwen3.5-397b,target_flag,zero_stray/stray_ambiguous,1,48,21,0.4375,31,0.6458333333333334,0.20833333333333337,3,13,0.021270751953125
+qwen3.5-397b,income_flag,zero_stray/stray_ambiguous,1,48,32,0.6666666666666666,39,0.8125,0.14583333333333337,3,10,0.09228515625
+qwen3.5-397b,any_flag,zero_stray/stray_ambiguous,1,48,35,0.7291666666666666,45,0.9375,0.20833333333333337,1,11,0.00634765625
+gemma-4-31b-it,target_flag,zero_stray/stray_ambiguous,1,48,21,0.4375,36,0.75,0.3125,0,15,6.103515625e-05
+gemma-4-31b-it,income_flag,zero_stray/stray_ambiguous,1,48,38,0.7916666666666666,48,1.0,0.20833333333333337,0,10,0.001953125
+gemma-4-31b-it,any_flag,zero_stray/stray_ambiguous,1,48,44,0.9166666666666666,48,1.0,0.08333333333333337,0,4,0.125

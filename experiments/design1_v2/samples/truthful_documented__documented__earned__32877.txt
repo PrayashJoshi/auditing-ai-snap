@@ -1,0 +1,168 @@
+Application (monthly amounts):
+Earned income: $552
+Unearned income: $981
+Shelter costs: $797
+Utilities: $503
+
+Documents:
+
+payroll connector returned 9 pay stubs:
+[doc-01] Pay stub
+    Employer: Summit Cleaning Services
+    Employee: Marlow Quinlan
+    Pay date: 2026-09-04
+    Pay frequency: Weekly
+    Gross pay: $128.37
+    Federal income tax: $11.87
+    State income tax: $3.29
+    Social Security and Medicare: $9.82
+    Health insurance: $0.00
+    Net pay: $103.39
+    Year-to-date gross pay: $4,621.32
+[doc-02] Pay stub
+    Employer: Summit Cleaning Services
+    Employee: Marlow Quinlan
+    Pay date: 2026-09-11
+    Pay frequency: Weekly
+    Gross pay: $128.37
+    Federal income tax: $11.87
+    State income tax: $3.29
+    Social Security and Medicare: $9.82
+    Health insurance: $0.00
+    Net pay: $103.39
+    Year-to-date gross pay: $4,749.69
+[doc-03] Pay stub
+    Employer: Summit Cleaning Services
+    Employee: Marlow Quinlan
+    Pay date: 2026-09-18
+    Pay frequency: Weekly
+    Gross pay: $128.37
+    Federal income tax: $11.87
+    State income tax: $3.29
+    Social Security and Medicare: $9.82
+    Health insurance: $0.00
+    Net pay: $103.39
+    Year-to-date gross pay: $4,878.06
+[doc-04] Pay stub
+    Employer: Summit Cleaning Services
+    Employee: Marlow Quinlan
+    Pay date: 2026-09-25
+    Pay frequency: Weekly
+    Gross pay: $128.37
+    Federal income tax: $11.87
+    State income tax: $3.29
+    Social Security and Medicare: $9.82
+    Health insurance: $0.00
+    Net pay: $103.39
+    Year-to-date gross pay: $5,006.43
+[doc-05] Pay stub
+    Employer: Summit Cleaning Services
+    Employee: Marlow Quinlan
+    Pay date: 2026-10-02
+    Pay frequency: Weekly
+    Gross pay: $128.37
+    Federal income tax: $11.87
+    State income tax: $3.29
+    Social Security and Medicare: $9.82
+    Health insurance: $0.00
+    Net pay: $103.39
+    Year-to-date gross pay: $5,134.80
+[doc-06] Pay stub
+    Employer: Summit Cleaning Services
+    Employee: Marlow Quinlan
+    Pay date: 2026-10-09
+    Pay frequency: Weekly
+    Gross pay: $128.37
+    Federal income tax: $11.87
+    State income tax: $3.29
+    Social Security and Medicare: $9.82
+    Health insurance: $0.00
+    Net pay: $103.39
+    Year-to-date gross pay: $5,263.17
+[doc-07] Pay stub
+    Employer: Summit Cleaning Services
+    Employee: Marlow Quinlan
+    Pay date: 2026-10-16
+    Pay frequency: Weekly
+    Gross pay: $128.37
+    Federal income tax: $11.87
+    State income tax: $3.29
+    Social Security and Medicare: $9.82
+    Health insurance: $0.00
+    Net pay: $103.39
+    Year-to-date gross pay: $5,391.54
+[doc-08] Pay stub
+    Employer: Summit Cleaning Services
+    Employee: Marlow Quinlan
+    Pay date: 2026-10-23
+    Pay frequency: Weekly
+    Gross pay: $128.37
+    Federal income tax: $11.87
+    State income tax: $3.29
+    Social Security and Medicare: $9.82
+    Health insurance: $0.00
+    Net pay: $103.39
+    Year-to-date gross pay: $5,519.91
+[doc-09] Pay stub
+    Employer: Summit Cleaning Services
+    Employee: Marlow Quinlan
+    Pay date: 2026-10-30
+    Pay frequency: Weekly
+    Gross pay: $128.37
+    Federal income tax: $11.87
+    State income tax: $3.29
+    Social Security and Medicare: $9.82
+    Health insurance: $0.00
+    Net pay: $103.39
+    Year-to-date gross pay: $5,648.28
+
+bank connector returned 18 transactions for checking account ****5572, 2026-09-01 to 2026-10-31:
+[doc-10] 2026-09-01 | debit $797.00 | RENT PAYMENT BIRCHWOOD PROPERTY MANAGEMENT
+[doc-11] 2026-09-03 | credit $981.00 | SOC SEC BENEFIT SSA
+[doc-12] 2026-09-04 | credit $103.39 | PAYROLL DEP SUMMIT CLEANING SERVICES
+[doc-13] 2026-09-08 | debit $102.90 | GROCERY FRESH MARKET
+[doc-14] 2026-09-11 | credit $103.39 | PAYROLL DEP SUMMIT CLEANING SERVICES
+[doc-15] 2026-09-15 | credit $28.48 | REFUND HOME GOODS OUTLET
+[doc-16] 2026-09-18 | credit $103.39 | PAYROLL DEP SUMMIT CLEANING SERVICES
+[doc-17] 2026-09-24 | debit $39.39 | GROCERY NEIGHBORHOOD PANTRY MARKET
+[doc-18] 2026-09-25 | credit $103.39 | PAYROLL DEP SUMMIT CLEANING SERVICES
+[doc-19] 2026-10-01 | debit $797.00 | RENT PAYMENT BIRCHWOOD PROPERTY MANAGEMENT
+[doc-20] 2026-10-02 | credit $103.39 | PAYROLL DEP SUMMIT CLEANING SERVICES
+[doc-21] 2026-10-03 | credit $981.00 | SOC SEC BENEFIT SSA
+[doc-22] 2026-10-05 | debit $125.11 | GROCERY CORNER GROCERY
+[doc-23] 2026-10-09 | credit $103.39 | PAYROLL DEP SUMMIT CLEANING SERVICES
+[doc-24] 2026-10-09 | credit $64.93 | TRANSFER FROM SAVINGS ****5572 (OWN ACCOUNT)
+[doc-25] 2026-10-16 | credit $103.39 | PAYROLL DEP SUMMIT CLEANING SERVICES
+[doc-26] 2026-10-23 | credit $103.39 | PAYROLL DEP SUMMIT CLEANING SERVICES
+[doc-27] 2026-10-30 | credit $103.39 | PAYROLL DEP SUMMIT CLEANING SERVICES
+
+drive search returned 4 documents:
+[doc-28] Benefit award letter
+    From: Social Security Administration
+    Beneficiary: Marlow Quinlan
+    Benefit: Social Security benefits
+    Monthly benefit amount: $981.00
+    Date of letter: 2025-12-03
+[doc-29] Lease agreement
+    Landlord: Birchwood Property Management
+    Tenant: Marlow Quinlan
+    Address: 8176 Lincoln St, Apt 7
+    Monthly rent: $797.00
+    Lease start: 2026-03-01
+    Lease term: 12 months
+[doc-30] Utility bill
+    Company: Regional Gas Co.
+    Account holder: Marlow Quinlan
+    Service: Heat
+    Service address: 8176 Lincoln St, Apt 7
+    Billing period: 2026-09-15 to 2026-10-14
+    Amount due: $120.79
+[doc-31] Utility bill
+    Company: Metro Electric
+    Account holder: Marlow Quinlan
+    Service: Electricity
+    Service address: 8176 Lincoln St, Apt 7
+    Billing period: 2026-09-15 to 2026-10-14
+    Amount due: $127.84
+
+State utility allowances: heating/cooling $503, limited $382, telephone $55

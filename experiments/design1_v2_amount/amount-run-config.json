@@ -1,0 +1,32 @@
+{
+ "stage": "main",
+ "models": [
+  "deepseek-v4-flash",
+  "qwen3.5-397b",
+  "gemma-4-31b-it"
+ ],
+ "repeats": [
+  1
+ ],
+ "tag": "design1v2amount",
+ "max_output_tokens": 8192,
+ "concurrency": 8,
+ "temperature": 0,
+ "instructions_sha": "faa22e9fc6f7b58e",
+ "tool_sha": "d7bf54860554aac4",
+ "inputs_sha256": "9b84d77162ba9e75d1e49e969e2d1d656b6142f54dd816388ac55c54b0737839",
+ "amount_inputs_sha256": "e0dac1fc12643c2da8acd9fe05a7b765974682b831080175ab1b219f24841f7e",
+ "runner_sha256": "d78c9ada79a1c99efe9097f84063bfe4266005db2ac23cb9c4e3528807ff14d1",
+ "builder_sha256": "85486a40e9aefd5dd48601da620be55a062c09b3aaf86c5ae35cb76efdb44d51",
+ "frozen_runner_sha256": "2432b253a1c2283677772946d872bc27e9f9dbf6d6d396b12cf7f8921c2f42b5",
+ "compare_with": {
+  "evidence_state": "stray_ambiguous",
+  "repeat": 1,
+  "results": "design1_v2/results.jsonl",
+  "main_rate": "flag on either income group, paired by household",
+  "also_reported": [
+   "target-group flag",
+   "earned/unearned split"
+  ]
+ }
+}

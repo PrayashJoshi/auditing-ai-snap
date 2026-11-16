@@ -1,0 +1,13 @@
+item,value
+omissions (definition),185
+omissions: not buildable,0
+negative pool (before build filter),31201
+negative pool: not buildable,180
+pool omission / earned,122
+pool truthful_documented / earned,7654
+pool zero_rent / earned,13668
+pool zero_stray / earned,23367
+pool omission / unearned,63
+pool truthful_documented / unearned,18789
+pool zero_rent / unearned,4849
+pool zero_stray / unearned,12232

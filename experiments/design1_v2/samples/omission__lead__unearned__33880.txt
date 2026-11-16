@@ -1,0 +1,22 @@
+Application (monthly amounts):
+Earned income: $0
+Unearned income: $0
+Shelter costs: $0
+Utilities: $0
+
+Documents:
+
+payroll connector returned 0 pay stubs.
+
+bank connector returned 5 transactions for checking account ****4993, 2026-09-01 to 2026-10-31:
+[doc-01] 2026-09-07 | credit $130.28 | TRANSFER FROM SAVINGS ****4993 (OWN ACCOUNT)
+[doc-02] 2026-09-19 | debit $54.63 | GROCERY NEIGHBORHOOD PANTRY MARKET
+[doc-03] 2026-10-03 | debit $112.70 | GROCERY NEIGHBORHOOD PANTRY MARKET
+[doc-04] 2026-10-06 | credit $34.19 | REFUND HOME GOODS OUTLET
+[doc-05] 2026-10-24 | debit $68.14 | GROCERY FRESH MARKET
+
+drive search returned 0 documents.
+
+Agency cross-match lead (IEVS/SSA): external benefit records show recent monthly benefit payments for a household member.
+
+State utility allowances: heating/cooling $560, limited $356, telephone $91
