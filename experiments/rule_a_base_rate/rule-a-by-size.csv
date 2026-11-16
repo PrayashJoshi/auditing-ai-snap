@@ -1,0 +1,25 @@
+year,size_column,household_size,definition,variant,weighting,n,k,share,wilson_lo,wilson_hi,n_eff,interval
+2024,FSUSIZE,1,rent_only,with_zero_group,unweighted,26787,1193.0,0.044536528913278826,0.04213084140262569,0.04707283152022892,26787.0,"Wilson 95%, n = number of households"
+2024,FSUSIZE,1,rent_only,with_zero_group,FYWGT-weighted,26787,,0.051615736012765895,0.04743904759078475,0.05613848184634471,9950.863328468911,Wilson 95% with Kish effective n = (sum w)^2 / sum w^2
+2024,FSUSIZE,2,rent_only,with_zero_group,unweighted,7078,542.0,0.07657530375812377,0.07060745665694101,0.08300251401894124,7078.0,"Wilson 95%, n = number of households"
+2024,FSUSIZE,2,rent_only,with_zero_group,FYWGT-weighted,7078,,0.08566662582208015,0.07569243317853881,0.09681747397438194,2701.5291158183177,Wilson 95% with Kish effective n = (sum w)^2 / sum w^2
+2024,FSUSIZE,3,rent_only,with_zero_group,unweighted,4608,400.0,0.08680555555555555,0.0790166394614518,0.09528281683994641,4608.0,"Wilson 95%, n = number of households"
+2024,FSUSIZE,3,rent_only,with_zero_group,FYWGT-weighted,4608,,0.09690492796248788,0.08418856391663704,0.11130859983345925,1831.5949648161732,Wilson 95% with Kish effective n = (sum w)^2 / sum w^2
+2024,FSUSIZE,4,rent_only,with_zero_group,unweighted,3181,233.0,0.07324740647595096,0.0646988966166199,0.0828253883111047,3181.0,"Wilson 95%, n = number of households"
+2024,FSUSIZE,4,rent_only,with_zero_group,FYWGT-weighted,3181,,0.08475385623672226,0.07051845666239397,0.10154896558115882,1242.5115303708708,Wilson 95% with Kish effective n = (sum w)^2 / sum w^2
+2024,FSUSIZE,5,rent_only,with_zero_group,unweighted,1781,128.0,0.07186973610331275,0.06077390640496428,0.08480846873348657,1781.0,"Wilson 95%, n = number of households"
+2024,FSUSIZE,5,rent_only,with_zero_group,FYWGT-weighted,1781,,0.083111764855819,0.06433996930828484,0.10673563673186462,656.2713999683704,Wilson 95% with Kish effective n = (sum w)^2 / sum w^2
+2024,FSUSIZE,6+,rent_only,with_zero_group,unweighted,1456,89.0,0.061126373626373624,0.04993818657488428,0.07462428404270686,1456.0,"Wilson 95%, n = number of households"
+2024,FSUSIZE,6+,rent_only,with_zero_group,FYWGT-weighted,1456,,0.06819119025221321,0.04897153124089737,0.09420671266165437,484.3307317847402,Wilson 95% with Kish effective n = (sum w)^2 / sum w^2
+2024,FSUSIZE,1,rent_plus_sim_bills,with_zero_group,unweighted,26787,2734.0,0.10206443424048979,0.0984959880311286,0.10574699803675128,26787.0,"Wilson 95%, n = number of households"
+2024,FSUSIZE,1,rent_plus_sim_bills,with_zero_group,FYWGT-weighted,26787,,0.1245966687637215,0.11825221065366939,0.13123085850698826,9950.863328468911,Wilson 95% with Kish effective n = (sum w)^2 / sum w^2
+2024,FSUSIZE,2,rent_plus_sim_bills,with_zero_group,unweighted,7078,1016.0,0.1435433738344165,0.1355682549019391,0.1519052038952751,7078.0,"Wilson 95%, n = number of households"
+2024,FSUSIZE,2,rent_plus_sim_bills,with_zero_group,FYWGT-weighted,7078,,0.15743485356760223,0.14418846201943822,0.1716540877390735,2701.5291158183177,Wilson 95% with Kish effective n = (sum w)^2 / sum w^2
+2024,FSUSIZE,3,rent_plus_sim_bills,with_zero_group,unweighted,4608,765.0,0.166015625,0.15555120397553981,0.1770364342848866,4608.0,"Wilson 95%, n = number of households"
+2024,FSUSIZE,3,rent_plus_sim_bills,with_zero_group,FYWGT-weighted,4608,,0.17416339068223752,0.15748177272964736,0.19220892176289844,1831.5949648161732,Wilson 95% with Kish effective n = (sum w)^2 / sum w^2
+2024,FSUSIZE,4,rent_plus_sim_bills,with_zero_group,unweighted,3181,440.0,0.1383212826155297,0.1267595345783764,0.15075552237141893,3181.0,"Wilson 95%, n = number of households"
+2024,FSUSIZE,4,rent_plus_sim_bills,with_zero_group,FYWGT-weighted,3181,,0.15402871223162587,0.13502630921469697,0.1751637926948805,1242.5115303708708,Wilson 95% with Kish effective n = (sum w)^2 / sum w^2
+2024,FSUSIZE,5,rent_plus_sim_bills,with_zero_group,unweighted,1781,233.0,0.1308253790005615,0.11595577773419266,0.14728410640158626,1781.0,"Wilson 95%, n = number of households"
+2024,FSUSIZE,5,rent_plus_sim_bills,with_zero_group,FYWGT-weighted,1781,,0.12792926166381485,0.10452263476165145,0.15566634327739126,656.2713999683704,Wilson 95% with Kish effective n = (sum w)^2 / sum w^2
+2024,FSUSIZE,6+,rent_plus_sim_bills,with_zero_group,unweighted,1456,169.0,0.11607142857142858,0.1006195825152389,0.13354383074803722,1456.0,"Wilson 95%, n = number of households"
+2024,FSUSIZE,6+,rent_plus_sim_bills,with_zero_group,FYWGT-weighted,1456,,0.13914892704248125,0.11115553592724972,0.17282143943436898,484.3307317847402,Wilson 95% with Kish effective n = (sum w)^2 / sum w^2

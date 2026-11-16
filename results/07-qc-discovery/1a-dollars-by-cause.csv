@@ -1,0 +1,7 @@
+cause class,variances,households,weighted_dollars,share of weighted error dollars,share of the class's dollars QC found from the case record
+agency,4382,3331,237134252.0,0.5007,0.5962
+"client-caused, other",2229,1848,122928805.0,0.2595,0.1009
+client-caused unreported income,1033,984,105838433.0,0.2235,0.085
+other (99),133,121,6705745.0,0.0142,0.4466
+not required to be reported (26),115,101,1029014.0,0.0022,0.2318
+no cause code,2,2,11939.0,0.0,0.0
